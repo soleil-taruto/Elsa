@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games
+{
+	public static class Effects
+	{
+		public static IEnumerable<bool> PlayerDead(double x, double y)
+		{
+			foreach (DDScene scene in DDSceneUtils.Create(40))
+			{
+				DDDraw.SetAlpha(0.8);
+				DDDraw.DrawBegin(Ground.I.Picture2.D_PLAYERDIE_00[scene.Numer / 4], x, y);
+				DDDraw.DrawZoom(1.0 + 2.0 * scene.Rate);
+				DDDraw.Reset();
+
+				yield return true;
+			}
+		}
+	}
+}

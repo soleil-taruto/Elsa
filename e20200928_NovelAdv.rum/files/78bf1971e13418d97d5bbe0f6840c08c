@@ -1,0 +1,45 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Charlotte.Tools
+{
+	public static class LongTools
+	{
+
+
+
+
+
+
+
+
+
+
+
+
+
+		public static long ToRange(long value, long minval, long maxval)
+		{
+			return Math.Max(minval, Math.Min(maxval, value));
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+}

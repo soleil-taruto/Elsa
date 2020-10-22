@@ -1,0 +1,153 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.Commons;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games.Surfaces
+{
+	/// <summary>
+	/// からい氏
+	/// </summary>
+	public class Surface_からい : Surface
+	{
+		private double Draw_Rnd = DDUtils.Random.Real2() * Math.PI * 2.0;
+
+		public enum Chara_t
+		{
+			結月ゆかり, // 右向き
+			東北ずん子, // 正対
+			弦巻マキ, // 左向き
+		}
+
+		private Chara_t Chara = Chara_t.結月ゆかり;
+
+		public enum Mode_t
+		{
+			普,
+			泣,
+			喜,
+			怒,
+		}
+
+		private Mode_t Mode = Mode_t.普;
+
+		private DDPicture[,] ImageTable = new DDPicture[,]
+		{
+			// 結月ゆかり (右向き)
+			{
+				Ground.I.Picture.結月ゆかり16, // 普
+				Ground.I.Picture.結月ゆかり02, // 泣
+				Ground.I.Picture.結月ゆかり03, // 喜
+				Ground.I.Picture.結月ゆかり01, // 怒
+			},
+			// 東北ずん子 (正対)
+			{
+				Ground.I.Picture.東北ずん子04, // 普
+				Ground.I.Picture.東北ずん子03, // 泣
+				Ground.I.Picture.東北ずん子01, // 喜
+				Ground.I.Picture.東北ずん子01, // 怒
+			},
+			// 弦巻マキ (左向き)
+			{
+				Ground.I.Picture.弦巻マキ02, // 普
+				Ground.I.Picture.弦巻マキ03, // 泣
+				Ground.I.Picture.弦巻マキ06, // 喜 (服が違う)
+				Ground.I.Picture.弦巻マキ01, // 怒
+			},
+		};
+
+		public override void Draw()
+		{
+			this.Draw(1.0);
+		}
+
+		private void Draw(double a)
+		{
+			double R = this.Draw_Rnd;
+
+			DDDraw.SetAlpha(a);
+			DDDraw.DrawBegin(this.ImageTable[(int)this.Chara, (int)this.Mode], this.X, this.Y + Math.Sin(DDEngine.ProcFrame / 67.0 + R) * 2.0);
+			DDDraw.DrawZoom(0.5);
+			DDDraw.DrawEnd();
+			DDDraw.Reset();
+		}
+
+		protected override void Invoke_02(string command, params string[] arguments)
+		{
+			int c = 0;
+
+			if (command == "Chara")
+			{
+				string charaName = arguments[c++];
+				int chara = SCommon.IndexOf(Enum.GetNames(typeof(Chara_t)), charaName);
+
+				if (chara == -1)
+					throw new DDError("Bad chara: " + charaName);
+
+				this.Chara = (Chara_t)chara;
+			}
+			else if (command == "Mode")
+			{
+				string modeName = arguments[c++];
+				int mode = SCommon.IndexOf(Enum.GetNames(typeof(Mode_t)), modeName);
+
+				if (mode == -1)
+					throw new DDError("Bad mode: " + modeName);
+
+				this.Mode = (Mode_t)mode;
+			}
+			else if (command == "フェードイン")
+			{
+				this.Act.Add(SCommon.Supplier(this.フェードイン()));
+			}
+			else if (command == "フェードアウト")
+			{
+				this.Act.Add(SCommon.Supplier(this.フェードアウト()));
+				//this.RemoveMe(); // del, SurfaceEL 廃止のため
+			}
+			else
+			{
+				throw new DDError();
+			}
+		}
+
+		private IEnumerable<bool> フェードイン()
+		{
+			foreach (DDScene scene in DDSceneUtils.Create(10))
+			{
+				this.Draw(scene.Rate);
+
+				yield return true;
+			}
+		}
+
+		private IEnumerable<bool> フェードアウト()
+		{
+			foreach (DDScene scene in DDSceneUtils.Create(10))
+			{
+				this.Draw(1.0 - scene.Rate);
+
+				yield return true;
+			}
+		}
+
+		protected override string[] Serialize_02()
+		{
+			return new string[]
+			{
+				"" + (int)this.Chara,
+				"" + (int)this.Mode,
+			};
+		}
+
+		protected override void Deserialize_02(string[] lines)
+		{
+			int c = 0;
+
+			this.Chara = (Chara_t)int.Parse(lines[c++]);
+			this.Mode = (Mode_t)int.Parse(lines[c++]);
+		}
+	}
+}

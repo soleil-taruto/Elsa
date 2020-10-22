@@ -1,0 +1,159 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.Commons;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games.Surfaces
+{
+	public class Surface_ゆかりHead : Surface
+	{
+		private DDPicture[] Images = new DDPicture[]
+		{
+			Ground.I.Picture.未確認飛行ゆかりん_あたま0000,
+			Ground.I.Picture.未確認飛行ゆかりん_あたま0001,
+			Ground.I.Picture.未確認飛行ゆかりん_あたま0002,
+			Ground.I.Picture.未確認飛行ゆかりん_あたま0003,
+			Ground.I.Picture.未確認飛行ゆかりん_あたま0004,
+		};
+
+		// HACK: 状態を構造体に維持しないとスクリプトで問題になる。
+
+		private struct StatusInfo
+		{
+			public int ImageIndex; // 0 ～ (Images.Length - 1)
+			public double RotMag;
+			public double Zoom_X;
+		}
+
+		private StatusInfo Status = new StatusInfo();
+
+		public Surface_ゆかりHead()
+		{
+			this.Status.ImageIndex = 0;
+			this.Status.RotMag = 0.0;
+			this.Status.Zoom_X = 1.0;
+		}
+
+		public override void Draw()
+		{
+			this.Draw(this.Status, this.X, this.Y);
+		}
+
+		private void Draw(StatusInfo status, double x, double y)
+		{
+			DDDraw.DrawBegin(this.Images[status.ImageIndex], x, y);
+			DDDraw.DrawSlide(0.0, 250.0);
+			DDDraw.DrawZoom(0.25);
+			DDDraw.DrawRotate(DDEngine.ProcFrame * status.RotMag);
+			DDDraw.DrawZoom_X(status.Zoom_X);
+			DDDraw.DrawEnd();
+		}
+
+		protected override void Invoke_02(string command, params string[] arguments)
+		{
+			int c = 0;
+
+			if (command == "画像")
+			{
+				int index = int.Parse(arguments[c++]);
+
+				if (index < 0 || this.Images.Length <= index)
+					throw new DDError("Bad index: " + index);
+
+				this.Status.ImageIndex = index;
+			}
+			else if (command == "RotMag")
+			{
+				this.Status.RotMag = double.Parse(arguments[c++]);
+			}
+			else if (command == "Zoom_X")
+			{
+				this.Status.Zoom_X = double.Parse(arguments[c++]);
+			}
+			else if (command == "スマッシュ")
+			{
+				double startX = this.X;
+				double startY = this.Y;
+				double destX = double.Parse(arguments[c++]);
+				double destY = double.Parse(arguments[c++]);
+				int frame = int.Parse(arguments[c++]);
+
+				this.X = SCommon.ToInt(destX);
+				this.Y = SCommon.ToInt(destY);
+
+				this.Act.Add(SCommon.Supplier(this.スマッシュ(this.Status, startX, startY, destX, destY, frame)));
+			}
+			else if (command == "跳ねる")
+			{
+				double startX = this.X;
+				double startY = this.Y;
+				double destX = double.Parse(arguments[c++]);
+				double destY = double.Parse(arguments[c++]);
+				double hi = double.Parse(arguments[c++]);
+				int frame = int.Parse(arguments[c++]);
+
+				this.X = SCommon.ToInt(destX);
+				this.Y = SCommon.ToInt(destY);
+
+				this.Act.Add(SCommon.Supplier(this.跳ねる(this.Status, startX, startY, destX, destY, hi, frame)));
+			}
+			else if (command == "待ち")
+			{
+				double x = this.X;
+				double y = this.Y;
+				int frame = int.Parse(arguments[c++]);
+
+				this.Act.Add(SCommon.Supplier(this.待ち(this.Status, x, y, frame)));
+			}
+			else
+			{
+				throw new DDError();
+			}
+		}
+
+		private IEnumerable<bool> スマッシュ(StatusInfo status, double startX, double startY, double destX, double destY, int frame)
+		{
+			foreach (DDScene scene in DDSceneUtils.Create(frame))
+			{
+				this.Draw(
+					status,
+					DDUtils.AToBRate(startX, destX, scene.Rate),
+					DDUtils.AToBRate(startY, destY, scene.Rate)
+					);
+
+				yield return true;
+			}
+		}
+
+		private IEnumerable<bool> 跳ねる(StatusInfo status, double startX, double startY, double destX, double destY, double hi, int frame)
+		{
+			foreach (DDScene scene in DDSceneUtils.Create(frame))
+			{
+				this.Draw(
+					status,
+					DDUtils.AToBRate(startX, destX, scene.Rate),
+					DDUtils.AToBRate(startY, destY, scene.Rate) - DDUtils.Parabola(scene.Rate) * hi
+					);
+
+				yield return true;
+			}
+		}
+
+		private IEnumerable<bool> 待ち(StatusInfo status, double x, double y, int frame)
+		{
+			foreach (DDScene scene in DDSceneUtils.Create(frame))
+			{
+				this.Draw(status, x, y);
+
+				yield return true;
+			}
+		}
+
+		protected override string[] Serialize_02()
+		{
+			return base.Serialize_02();
+		}
+	}
+}

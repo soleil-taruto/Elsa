@@ -1,0 +1,41 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.Tools;
+
+namespace Charlotte.Common
+{
+	public static class DDMain2
+	{
+		public static void Perform(Action routine)
+		{
+			List<Exception> errors = new List<Exception>();
+
+			try
+			{
+				DDMain.GameStart();
+
+				try
+				{
+					routine();
+				}
+				catch (DDCoffeeBreak)
+				{ }
+				catch (Exception e)
+				{
+					errors.Add(e);
+				}
+			}
+			catch (Exception e)
+			{
+				errors.Add(e);
+			}
+
+			DDMain.GameEnd(errors);
+
+			if (1 <= errors.Count)
+				throw new AggregateException("Has some errors.", errors);
+		}
+	}
+}

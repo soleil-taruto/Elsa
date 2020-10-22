@@ -1,0 +1,16 @@
+doc
+G4NovelAdv
+G4NovelAdv\G4NovelAdv
+G4NovelAdv\G4NovelAdv\Common
+G4NovelAdv\G4NovelAdv\Common\MaskGZDataUtils
+G4NovelAdv\G4NovelAdv\Common\Options
+G4NovelAdv\G4NovelAdv\Games
+G4NovelAdv\G4NovelAdv\Games\Surfaces
+G4NovelAdv\G4NovelAdv\Properties
+G4NovelAdv\G4NovelAdv\Tests
+G4NovelAdv\G4NovelAdv\Tests\Games
+out
+res
+res\Etoile
+res\Etoile\G4NovelAdv
+res\Etoile\G4NovelAdv\Scenario

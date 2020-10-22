@@ -1,0 +1,210 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.IO;
+using System.Security.Cryptography;
+
+namespace Charlotte.Tools
+{
+	public static class SecurityTools
+	{
+		public static RandomUnit CRandom = new RandomUnit(new CSPRandomNumberGenerator());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		public class CSPRandomNumberGenerator : RandomUnit.IRandomNumberGenerator
+		{
+			private RandomNumberGenerator Rng = new RNGCryptoServiceProvider();
+			private byte[] Cache = new byte[4096];
+
+			public byte[] GetBlock()
+			{
+				this.Rng.GetBytes(this.Cache);
+				return this.Cache;
+			}
+
+			public void Dispose()
+			{
+				if (this.Rng != null)
+				{
+					this.Rng.Dispose();
+					this.Rng = null;
+				}
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+}

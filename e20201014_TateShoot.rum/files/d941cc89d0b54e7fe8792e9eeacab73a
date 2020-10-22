@@ -1,0 +1,86 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games.Enemies
+{
+	public class Enemy_0003 : Enemy
+	{
+		public EnemyCommon.FairyInfo Fairy;
+		public int ShotType;
+		public int DropItemMode;
+		public double TargetX;
+		public double TargetY;
+		public int EvacuateFrame;
+		public double EvacuateXAdd;
+		public double EvacuateYAdd;
+
+		// <---- prm
+
+		private Enemy_0003()
+		{ }
+
+		public static Enemy_0003 Create(double x, double y, int hp, int transFrame, int fairyKind, int shotType, int dropItemType, double targetX, double targetY, int evacuateFrame, double evacuateXAdd, double evacuateYAdd)
+		{
+			Enemy_0003 enemy = new Enemy_0003()
+			{
+				X = x,
+				Y = y,
+				Kind = Kind_e.ENEMY,
+				HP = hp,
+				TransFrame = transFrame,
+				Fairy = new EnemyCommon.FairyInfo()
+				{
+					//Enemy = enemy, // 後で、
+					Kind = fairyKind,
+				},
+				ShotType = shotType,
+				DropItemMode = dropItemType,
+				TargetX = targetX,
+				TargetY = targetY,
+				EvacuateFrame = evacuateFrame,
+				EvacuateXAdd = evacuateXAdd,
+				EvacuateYAdd = evacuateYAdd,
+			};
+
+			enemy.Fairy.Enemy = enemy;
+
+			return enemy;
+		}
+
+		protected override IEnumerable<bool> E_Draw()
+		{
+			for (int frame = 0; ; frame++)
+			{
+				const double AR = 0.99;
+				const double ER = 1.01;
+
+				if (frame < this.EvacuateFrame)
+				{
+					DDUtils.Approach(ref this.X, this.TargetX, AR);
+					DDUtils.Approach(ref this.Y, this.TargetY, AR);
+				}
+				else
+				{
+
+					this.X += this.EvacuateXAdd;
+					this.Y += this.EvacuateYAdd;
+
+					this.EvacuateXAdd *= ER;
+					this.EvacuateXAdd *= ER;
+				}
+
+				EnemyCommon.Shot(this, this.ShotType);
+
+				yield return EnemyCommon.FairyDraw(this.Fairy);
+			}
+		}
+
+		public override void Killed()
+		{
+			EnemyCommon.Killed(this, this.DropItemMode);
+		}
+	}
+}

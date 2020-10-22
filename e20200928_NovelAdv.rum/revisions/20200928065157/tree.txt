@@ -1,0 +1,15 @@
+doc
+Elsa20200001
+Elsa20200001\Elsa20200001
+Elsa20200001\Elsa20200001\Common
+Elsa20200001\Elsa20200001\Common\MaskGZDataUtils
+Elsa20200001\Elsa20200001\Common\Options
+Elsa20200001\Elsa20200001\Games
+Elsa20200001\Elsa20200001\Games\Surfaces
+Elsa20200001\Elsa20200001\Properties
+Elsa20200001\Elsa20200001\Tests
+Elsa20200001\Elsa20200001\Tests\Games
+out
+res
+res\e20200928_NovelAdv
+res\e20200928_NovelAdv\Scenario

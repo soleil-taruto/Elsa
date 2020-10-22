@@ -1,0 +1,271 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.IO;
+
+namespace Charlotte.Tools
+{
+	public static class BinTools
+	{
+		public static byte[] EMPTY = new byte[0];
+
+		public static int Comp(byte a, byte b)
+		{
+			if (a < b)
+				return -1;
+
+			if (a > b)
+				return 1;
+
+			return 0;
+		}
+
+		public static int Comp(byte[] a, byte[] b)
+		{
+			return ArrayTools.Comp(a, b, Comp);
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		public static byte[] GetSubBytes(byte[] src, int offset, int size)
+		{
+			byte[] dest = new byte[size];
+			Array.Copy(src, offset, dest, 0, size);
+			return dest;
+		}
+
+		public static byte[] ToBytes(int value)
+		{
+			return ToBytes((uint)value);
+		}
+
+
+
+
+
+
+		public static int ToInt(byte[] src, int index = 0)
+		{
+			return (int)ToUInt(src, index);
+		}
+
+		public static byte[] ToBytes(uint value)
+		{
+			byte[] dest = new byte[4];
+			ToBytes(value, dest);
+			return dest;
+		}
+
+		public static void ToBytes(uint value, byte[] dest, int index = 0)
+		{
+			dest[index + 0] = (byte)((value >> 0) & 0xff);
+			dest[index + 1] = (byte)((value >> 8) & 0xff);
+			dest[index + 2] = (byte)((value >> 16) & 0xff);
+			dest[index + 3] = (byte)((value >> 24) & 0xff);
+		}
+
+		public static uint ToUInt(byte[] src, int index = 0)
+		{
+			return
+				((uint)src[index + 0] << 0) |
+				((uint)src[index + 1] << 8) |
+				((uint)src[index + 2] << 16) |
+				((uint)src[index + 3] << 24);
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		/// <summary>
+		/// <para>バイト列を再分割可能なように連結する。</para>
+		/// <para>再分割するには BinTools.Split を使用すること。</para>
+		/// <para>例：{ BYTE_ARR_1, BYTE_ARR_2, BYTE_ARR_3 } -> SIZE(BYTE_ARR_1) + BYTE_ARR_1 + SIZE(BYTE_ARR_2) + BYTE_ARR_2 + SIZE(BYTE_ARR_3) + BYTE_ARR_3</para>
+		/// <para>SIZE(b) は BinTools.ToBytes(b.Length) である。</para>
+		/// </summary>
+		/// <param name="src">バイト列の引数配列</param>
+		/// <returns>連結したバイト列</returns>
+		public static byte[] SplittableJoin(params byte[][] src)
+		{
+			int offset = 0;
+
+			foreach (byte[] block in src)
+				offset += 4 + block.Length;
+
+			byte[] dest = new byte[offset];
+			offset = 0;
+
+			foreach (byte[] block in src)
+			{
+				Array.Copy(ToBytes(block.Length), 0, dest, offset, 4);
+				offset += 4;
+				Array.Copy(block, 0, dest, offset, block.Length);
+				offset += block.Length;
+			}
+			return dest;
+		}
+
+		/// <summary>
+		/// バイト列を再分割する。
+		/// </summary>
+		/// <param name="src">連結したバイト列</param>
+		/// <returns>再分割したバイト列の配列</returns>
+		public static byte[][] Split(byte[] src)
+		{
+			List<byte[]> dest = new List<byte[]>();
+
+			for (int offset = 0; offset < src.Length; )
+			{
+				int size = ToInt(src, offset);
+				offset += 4;
+				dest.Add(GetSubBytes(src, offset, size));
+				offset += size;
+			}
+			return dest.ToArray();
+		}
+	}
+}

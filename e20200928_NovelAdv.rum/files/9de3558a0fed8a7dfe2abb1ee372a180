@@ -1,0 +1,195 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Security.Cryptography;
+
+namespace Charlotte.Tools
+{
+	public class RandomUnit : IDisposable
+	{
+		public interface IRandomNumberGenerator : IDisposable
+		{
+			byte[] GetBlock();
+		}
+
+		private IRandomNumberGenerator Rng;
+
+		public RandomUnit(IRandomNumberGenerator rng)
+		{
+			this.Rng = rng;
+		}
+
+		public void Dispose()
+		{
+			if (this.Rng != null)
+			{
+				this.Rng.Dispose();
+				this.Rng = null;
+			}
+		}
+
+		private byte[] Cache = BinTools.EMPTY;
+		private int RIndex = 0;
+
+		public byte GetByte()
+		{
+			if (this.Cache.Length <= this.RIndex)
+			{
+				this.Cache = this.Rng.GetBlock();
+				this.RIndex = 0;
+			}
+			return this.Cache[this.RIndex++];
+		}
+
+		public byte[] GetBytes(int length)
+		{
+			byte[] dest = new byte[length];
+
+			for (int index = 0; index < length; index++)
+				dest[index] = this.GetByte();
+
+			return dest;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		public uint GetUInt()
+		{
+			byte[] r = GetBytes(4);
+
+			return
+				((uint)r[0] << 0) |
+				((uint)r[1] << 8) |
+				((uint)r[2] << 16) |
+				((uint)r[3] << 24);
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+}

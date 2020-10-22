@@ -1,0 +1,315 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Charlotte.Tools
+{
+	public static class EnumerableTools
+	{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		/// <summary>
+		/// <para>列挙の列挙(2次元列挙)を列挙(1次元列挙)に変換する。</para>
+		/// <para>例：{{ A, B, C }, { D, E, D }, { G, H, I }} -> { A, B, C, D, E, F, G, H, I }</para>
+		/// </summary>
+		/// <typeparam name="T">要素の型</typeparam>
+		/// <param name="src">列挙の列挙(2次元列挙)</param>
+		/// <returns>列挙(1次元列挙)</returns>
+		public static IEnumerable<T> Linearize<T>(IEnumerable<IEnumerable<T>> src)
+		{
+			foreach (IEnumerable<T> part in src)
+				foreach (T element in part)
+					yield return element;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		public static IEnumerable<T> Sort<T>(IEnumerable<T> src, Comparison<T> comp)
+		{
+			T[] arr = src.ToArray();
+			Array.Sort(arr, comp);
+			return arr;
+		}
+
+		/// <summary>
+		/// 列挙をゲッターメソッドでラップします。
+		/// 例：{ A, B, C } -> 呼び出し毎に右の順で戻り値を返す { A, B, C, default(T), default(T), default(T), ... }
+		/// </summary>
+		/// <typeparam name="T">要素の型</typeparam>
+		/// <param name="src">列挙</param>
+		/// <returns>ゲッターメソッド</returns>
+		public static Func<T> Supplier<T>(IEnumerable<T> src)
+		{
+			IEnumerator<T> reader = src.GetEnumerator();
+
+			return () =>
+			{
+				if (reader != null)
+				{
+					if (reader.MoveNext())
+						return reader.Current;
+
+					reader.Dispose();
+					reader = null;
+				}
+				return default(T);
+			};
+		}
+	}
+}

@@ -1,0 +1,38 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games
+{
+	public static class Effects
+	{
+		public static IEnumerable<bool> PlayerDead()
+		{
+			foreach (DDScene scene in DDSceneUtils.Create(20))
+			{
+
+			}
+
+			CEE.EndPicId = D_PLAYERDIE_00_END | DTP;
+			CEE.PicIdFrmPerInc = 4;
+			//				CEE.BlendAddOn = 1;
+			AddCommonEffect(
+				GDc.EP,
+				0,
+				D_PLAYERDIE_00 | DTP,
+				GDc.Player.X,
+				GDc.Player.Y,
+				0.0,
+				1.0,
+				0.8,
+				0.0,
+				-0.002,
+				0.0,
+				0.05
+				);
+			CEE_Reset();
+		}
+	}
+}

@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Charlotte.Games.Enemies
+{
+	public abstract class Enemy
+	{
+		public int HP; // 0 == 無敵
+		public double X;
+		public double Y;
+
+		/// <summary>
+		/// 生存中は真を返すこと。
+		/// 偽を返すと、この敵は消滅する。
+		/// </summary>
+		/// <returns>この敵は生存しているか</returns>
+		public abstract IEnumerable<bool> Draw();
+	}
+}

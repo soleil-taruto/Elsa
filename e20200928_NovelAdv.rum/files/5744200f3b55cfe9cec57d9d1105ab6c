@@ -1,0 +1,66 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Charlotte.Common.MaskGZDataUtils
+{
+	public class MaskGZDataEng
+	{
+		private void MaskSignature(byte[] data)
+		{
+			if (2 <= data.Length)
+			{
+				data[0] ^= 0x1f ^ 0x44; // 'D'
+				data[1] ^= 0x8b ^ 0x33; // '3'
+			}
+		}
+
+		private uint X;
+
+		private uint Rand()
+		{
+			// Xorshift-32
+
+			this.X ^= this.X << 13;
+			this.X ^= this.X >> 17;
+			this.X ^= this.X << 5;
+
+			return this.X;
+		}
+
+		private void Shuffle(int[] values)
+		{
+			for (int index = values.Length; 2 <= index; index--)
+			{
+				int a = index - 1;
+				int b = (int)(Rand() % (uint)index);
+
+				int tmp = values[a];
+				values[a] = values[b];
+				values[b] = tmp;
+			}
+		}
+
+		public void Transpose(byte[] data, uint seed = 1999123123)
+		{
+			this.MaskSignature(data);
+
+			int[] swapIdxLst = Enumerable.Range(1, data.Length / 2).ToArray();
+
+			this.X = seed;
+			this.Shuffle(swapIdxLst);
+
+			for (int index = 0; index < swapIdxLst.Length; index++)
+			{
+				int a = index;
+				int b = data.Length - swapIdxLst[index];
+
+				byte tmp = data[a];
+				data[a] = data[b];
+				data[b] = tmp;
+			}
+			this.MaskSignature(data);
+		}
+	}
+}

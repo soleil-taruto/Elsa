@@ -1,0 +1,108 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.IO;
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.Drawing.Drawing2D;
+using System.Drawing.Text;
+
+namespace Charlotte.Tools
+{
+	public class Canvas2
+	{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		// memo: g.DrawString() の x, y は、描画した文字列の左上の座標っぽい。余白が入るので文字本体は座標より少し離れる。
+
+		// xRate == -0.5 ==> 中央に寄ってくれる。
+		// yRate == -0.5 ==> 多少ズレる。多分上下にある余白のせい。メイリオでは上にズレる。多分フォントに依る。
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+}

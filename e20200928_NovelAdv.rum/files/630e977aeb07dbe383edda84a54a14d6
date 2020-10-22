@@ -1,0 +1,54 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Drawing;
+
+namespace Charlotte.Tools
+{
+	/// <summary>
+	/// <para>アルファ値を含む色を表す。</para>
+	/// <para>各色は 0 ～ 255 を想定する。</para>
+	/// <para>R を -1 にすることによって無効な色を示す。</para>
+	/// </summary>
+	public struct I4Color
+	{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+}

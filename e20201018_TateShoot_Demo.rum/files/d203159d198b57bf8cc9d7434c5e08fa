@@ -1,0 +1,38 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games.Enemies.鍵山雛s
+{
+	public class Enemy_鍵山雛 : Enemy
+	{
+		public Enemy_鍵山雛()
+		{
+			this.Kind = Kind_e.ENEMY;
+			this.HP = 0;
+			this.TransFrame = 0;
+		}
+
+		protected override IEnumerable<bool> E_Draw()
+		{
+			for (; ; )
+			{
+				DDUtils.Approach(ref this.X, Consts.FIELD_W / 2 + Math.Sin(DDEngine.ProcFrame / 57.0) * 3.0, 0.91);
+				DDUtils.Approach(ref this.Y, Consts.FIELD_H / 7 + Math.Sin(DDEngine.ProcFrame / 53.0) * 5.0, 0.97);
+
+				DDDraw.DrawCenter(Ground.I.Picture2.D_HINA, this.X, this.Y);
+
+				// 当たり判定無し
+
+				yield return true;
+			}
+		}
+
+		public override void Killed()
+		{
+			throw new NotImplementedException();
+		}
+	}
+}

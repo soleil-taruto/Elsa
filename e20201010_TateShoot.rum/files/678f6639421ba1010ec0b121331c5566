@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Charlotte.Games.Enemies
+{
+	public class Enemy_0001 : Enemy
+	{
+		public Enemy_0001()
+		{
+			this.HP = 1;
+		}
+
+		public override IEnumerable<bool> Draw()
+		{
+			for (; ; )
+			{
+				yield return true; // TODO
+			}
+		}
+
+		public override void Killed()
+		{
+			throw null; // TODO
+		}
+	}
+}

@@ -1,0 +1,41 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.Commons;
+using Charlotte.Games.Walls;
+using Charlotte.Games.Enemies;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games.Scripts
+{
+	public class Script_テスト0001 : Script
+	{
+		protected override IEnumerable<bool> E_EachFrame()
+		{
+			Game.I.Walls.Add(new Wall_0001());
+
+			for (; ; )
+			{
+				if (DDUtils.Random.Real2() < 0.01)
+				{
+					Game.I.Enemies.Add(Enemy_0001.Create(
+						DDUtils.Random.GetInt(Consts.FIELD_W),
+						-100.0,
+						1,
+						30,
+						0,
+						100,
+						11,
+						3.0,
+						1,
+						200.0,
+						0.9
+						));
+				}
+
+				yield return true;
+			}
+		}
+	}
+}

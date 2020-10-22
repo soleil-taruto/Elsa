@@ -1,0 +1,53 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Charlotte.Games
+{
+	/// <summary>
+	/// <para>シナリオのコマンドで使う定数文字列</para>
+	/// <para>あまり意味無い。廃止予定</para>
+	/// </summary>
+	public static class ScenarioWords
+	{
+		// -- 共通 - Surface.Invoke 内で処理
+
+		public const string COMMAND_移動 = "移動";
+		public const string COMMAND_X = "X";
+		public const string COMMAND_Y = "Y";
+		public const string COMMAND_Z = "Z";
+		public const string COMMAND_End = "End";
+
+		// -- 個別 - Surface_*.Invoke_02 内で処理
+
+		public const string COMMAND_Chara = "Chara";
+		public const string COMMAND_Mode = "Mode";
+
+		public const string COMMAND_画像 = "画像";
+		public const string COMMAND_Slide = "Slide";
+
+		public const string COMMAND_位置 = "位置";
+
+		public const string COMMAND_再生 = "再生";
+		public const string COMMAND_停止 = "停止";
+
+		// 選択肢
+		public const string COMMAND_選択肢 = "選択肢";
+		public const string COMMAND_分岐先 = "分岐先";
+		public const string COMMAND_Fire = "Fire";
+
+		// 登場エフェクト
+		public const string COMMAND_フェードイン = "フェードイン";
+		public const string COMMAND_跳ねて登場 = "跳ねて登場";
+
+		// 退場エフェクト
+		public const string COMMAND_フェードアウト = "フェードアウト";
+
+		// エフェクト
+		public const string COMMAND_揺れ = "揺れ";
+		public const string COMMAND_跳び = "跳び";
+
+		public const string ARGUMENT_None = "None";
+	}
+}

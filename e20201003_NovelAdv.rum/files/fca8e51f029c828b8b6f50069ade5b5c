@@ -1,0 +1,119 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.GameCommons;
+using Charlotte.Commons;
+using System.IO;
+using Charlotte.GameCommons.Options;
+
+namespace Charlotte.Games.Surfaces
+{
+	/// <summary>
+	/// 旧テストシナリオ用の音楽
+	/// </summary>
+	public class Surface_旧テシ音楽 : Surface
+	{
+		private string MusicName = ScenarioWords.ARGUMENT_None; // ScenarioWords.ARGUMENT_None == 停止, ロード時に必要
+
+		public override void Draw()
+		{
+			// noop
+		}
+
+		protected override void Invoke_02(string command, params string[] arguments)
+		{
+			if (command == ScenarioWords.COMMAND_再生)
+			{
+				string name = arguments[0];
+
+				this.MusicName = name;
+				this.Play();
+			}
+			else if (command == ScenarioWords.COMMAND_停止)
+			{
+				this.MusicName = ScenarioWords.ARGUMENT_None;
+				this.Play();
+			}
+			else
+			{
+				throw new DDError();
+			}
+		}
+
+		private void Play()
+		{
+			if (this.MusicName == ScenarioWords.ARGUMENT_None)
+				DDMusicUtils.Fade();
+			else
+				DDMusicUtils.Play(GetMusicManager().GetMusic(this.MusicName));
+		}
+
+		protected override string[] Serialize_02()
+		{
+			return new string[]
+			{
+				this.MusicName,
+			};
+		}
+
+		protected override void Deserialize_02(string[] lines)
+		{
+			int c = 0;
+
+			this.MusicName = lines[c++];
+			this.Play();
+		}
+
+		private class MusicManager
+		{
+			private Dictionary<string, DDMusic> Table = SCommon.CreateDictionaryIgnoreCase<DDMusic>();
+
+			public MusicManager()
+			{
+				foreach (string file in DDResource.GetFiles())
+				{
+					if (
+						SCommon.StartsWithIgnoreCase(file, @"e20200928_NovelAdv\MusMus\MusMus-BGM-") &&
+						SCommon.EndsWithIgnoreCase(file, ".mp3")
+						)
+					{
+						string name = Path.GetFileNameWithoutExtension(file);
+
+						{
+							const string PTN = "MusMus-BGM-";
+
+							if (!SCommon.StartsWithIgnoreCase(name, PTN))
+								throw new DDError("Bad name: " + name);
+
+							name = name.Substring(PTN.Length);
+						}
+
+						if (this.Table.ContainsKey(name))
+							throw new DDError("Bad name: " + name);
+
+						this.Table.Add(name, DDCResource.GetMusic(file));
+					}
+				}
+			}
+
+			public DDMusic GetMusic(string name)
+			{
+				if (this.Table.ContainsKey(name) == false)
+					throw new DDError("Bad name: " + name);
+
+				return this.Table[name];
+			}
+		}
+
+		private static MusicManager S_MusicManager = null;
+
+		private static MusicManager GetMusicManager()
+		{
+			if (S_MusicManager == null)
+				S_MusicManager = new MusicManager();
+
+			return S_MusicManager;
+		}
+	}
+}

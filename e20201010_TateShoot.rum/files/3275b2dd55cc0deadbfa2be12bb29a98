@@ -1,0 +1,53 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using DxLibDLL;
+using Charlotte.Commons;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games
+{
+	public class Game : IDisposable
+	{
+		public int Seed;
+		public int Zanki;
+		public int ZanBomb;
+		public long HiScore;
+		public long Score;
+
+		private string ScriptFile;
+
+		// <---- prm
+
+		public int ScriptRecordStartPos;
+
+		private struct PlayerInputInfo
+		{
+			public bool Dir2;
+			public bool Dir4;
+			public bool Dir6;
+			public bool Dir8;
+			public bool Slow;
+			public bool Shot;
+			public bool Bomb;
+		}
+
+		public static Game I;
+
+		public Game()
+		{
+			I = this;
+		}
+
+		public void Dispose()
+		{
+			I = null;
+		}
+
+		public void Perform()
+		{
+			// TODO
+		}
+	}
+}

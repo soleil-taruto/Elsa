@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Charlotte.Games.Enemies
+{
+	public abstract class Enemy
+	{
+		public int HP; // 0 == 無敵
+		public double X;
+		public double Y;
+
+		public abstract void Draw();
+	}
+}

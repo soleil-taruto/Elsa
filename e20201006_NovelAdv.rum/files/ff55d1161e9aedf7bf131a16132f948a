@@ -1,0 +1,411 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.Commons;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games.Surfaces
+{
+	/// <summary>
+	/// からい氏
+	/// </summary>
+	public class Surface_からい : Surface
+	{
+		public double Draw_Rnd = DDUtils.Random.Real2() * Math.PI * 2.0;
+
+		public enum Chara_t
+		{
+			結月ゆかり, // 右向き
+			東北ずん子, // 正対
+			弦巻マキ, // 左向き
+		}
+
+		private Chara_t Chara = Chara_t.結月ゆかり;
+
+		public enum Mode_t
+		{
+			普,
+			泣,
+			喜,
+			怒,
+		}
+
+		private Mode_t Mode = Mode_t.普;
+
+		private DDPicture[,] ImageTable = new DDPicture[,]
+		{
+			// 結月ゆかり (右向き)
+			{
+				Ground.I.Picture.結月ゆかり16, // 普
+				Ground.I.Picture.結月ゆかり02, // 泣
+				Ground.I.Picture.結月ゆかり03, // 喜
+				Ground.I.Picture.結月ゆかり01, // 怒
+			},
+			// 東北ずん子 (正対)
+			{
+				Ground.I.Picture.東北ずん子04, // 普
+				Ground.I.Picture.東北ずん子03, // 泣
+				Ground.I.Picture.東北ずん子01, // 喜
+				Ground.I.Picture.東北ずん子02, // 怒
+			},
+			// 弦巻マキ (左向き)
+			{
+				Ground.I.Picture.弦巻マキ02, // 普
+				Ground.I.Picture.弦巻マキ03, // 泣
+				Ground.I.Picture.弦巻マキ06, // 喜 (服が違う)
+				Ground.I.Picture.弦巻マキ01, // 怒
+			},
+		};
+
+		public double A = 1.0;
+		public double Zoom = 1.0;
+
+		// ◆◆◆ このサーフェスは Status 方式ではないので１つのページで１つのコマンドしか使用出来ない。
+
+		public override void Draw()
+		{
+			this.Draw(this.A);
+		}
+
+		private void Draw(double a)
+		{
+			this.Draw(a, this.Mode);
+		}
+
+		private void Draw(double a, Mode_t mode)
+		{
+			this.Draw(a, mode, this.X, this.Y);
+		}
+
+		private void Draw(double a, Mode_t mode, double x, double y)
+		{
+			double R = this.Draw_Rnd;
+
+			DDDraw.SetAlpha(a);
+			DDDraw.DrawBegin(this.ImageTable[(int)this.Chara, (int)mode], x, y + Math.Sin(DDEngine.ProcFrame / 67.0 + R) * 2.0);
+			DDDraw.DrawZoom(0.5 * this.Zoom);
+			DDDraw.DrawEnd();
+			DDDraw.Reset();
+		}
+
+		protected override void Invoke_02(string command, params string[] arguments)
+		{
+			int c = 0;
+
+			if (command == "Chara")
+			{
+				string charaName = arguments[c++];
+				int chara = SCommon.IndexOf(Enum.GetNames(typeof(Chara_t)), charaName);
+
+				if (chara == -1)
+					throw new DDError("Bad chara: " + charaName);
+
+				this.Chara = (Chara_t)chara;
+			}
+			else if (command == "Mode")
+			{
+				string modeName = arguments[c++];
+				int mode = SCommon.IndexOf(Enum.GetNames(typeof(Mode_t)), modeName);
+
+				if (mode == -1)
+					throw new DDError("Bad mode: " + modeName);
+
+				this.Mode = (Mode_t)mode;
+			}
+			else if (command == "フェードイン")
+			{
+				this.Act.Add(SCommon.Supplier(this.フェードイン()));
+				this.A = 1.0;
+			}
+			else if (command == "フェードアウト")
+			{
+				this.Act.Add(SCommon.Supplier(this.フェードアウト()));
+				this.A = 0.0;
+			}
+			else if (command == "フェード効果でモード変更")
+			{
+				string modeName = arguments[c++];
+				int mode = SCommon.IndexOf(Enum.GetNames(typeof(Mode_t)), modeName);
+
+				if (mode == -1)
+					throw new DDError("Bad mode: " + modeName);
+
+				int waitFrame = int.Parse(arguments[c++]);
+
+				this.Act.Add(SCommon.Supplier(this.フェード効果でモード変更(this.Mode, (Mode_t)mode, waitFrame)));
+				this.Mode = (Mode_t)mode;
+			}
+			else if (command == "遅延モード変更")
+			{
+				string modeName = arguments[c++];
+				int mode = SCommon.IndexOf(Enum.GetNames(typeof(Mode_t)), modeName);
+
+				if (mode == -1)
+					throw new DDError("Bad mode: " + modeName);
+
+				int waitFrame = int.Parse(arguments[c++]);
+
+				this.Act.Add(SCommon.Supplier(this.KeepMode(this.Mode, waitFrame)));
+				this.Mode = (Mode_t)mode;
+			}
+			else if (command == "スライド")
+			{
+				double startX = this.X;
+				double startY = this.Y;
+				double destX = double.Parse(arguments[c++]);
+				double destY = double.Parse(arguments[c++]);
+				int waitFrame = int.Parse(arguments[c++]);
+
+				this.Act.Add(SCommon.Supplier(this.スライド(startX, startY, destX, destY, waitFrame)));
+				this.X = SCommon.ToInt(destX);
+				this.Y = SCommon.ToInt(destY);
+			}
+			else if (command == "等速スライド")
+			{
+				double startX = this.X;
+				double startY = this.Y;
+				double destX = double.Parse(arguments[c++]);
+				double destY = double.Parse(arguments[c++]);
+				int waitFrame = int.Parse(arguments[c++]);
+
+				this.Act.Add(SCommon.Supplier(this.等速スライド(startX, startY, destX, destY, waitFrame)));
+				this.X = SCommon.ToInt(destX);
+				this.Y = SCommon.ToInt(destY);
+			}
+			else if (command == "吸い寄せスライド")
+			{
+				double startX = this.X;
+				double startY = this.Y;
+				double destX = double.Parse(arguments[c++]);
+				double destY = double.Parse(arguments[c++]);
+				int waitFrame = int.Parse(arguments[c++]);
+
+				this.Act.Add(SCommon.Supplier(this.吸い寄せスライド(startX, startY, destX, destY, waitFrame)));
+				this.X = SCommon.ToInt(destX);
+				this.Y = SCommon.ToInt(destY);
+			}
+			else if (command == "ブルブル")
+			{
+				double yureHaba = double.Parse(arguments[c++]);
+
+				this.Act.Add(SCommon.Supplier(this.ブルブル(yureHaba)));
+			}
+			else if (command == "回り込み")
+			{
+				// HACK: アクション中に this.Z を変更するイレギュラーな動作あり！！！
+
+				double xYure = double.Parse(arguments[c++]);
+				int destZ = int.Parse(arguments[c++]);
+
+				this.Act.Add(SCommon.Supplier(this.回り込み(destZ, xYure)));
+			}
+			else if (command == "歓喜")
+			{
+				this.Act.Add(SCommon.Supplier(this.歓喜()));
+			}
+			else if (command == "A")
+			{
+				this.A = double.Parse(arguments[c++]);
+			}
+			else if (command == "Zoom")
+			{
+				this.Zoom = double.Parse(arguments[c++]);
+			}
+			else
+			{
+				throw new DDError();
+			}
+		}
+
+		private IEnumerable<bool> KeepMode(Mode_t mode, int frame)
+		{
+			for (int c = 0; c < frame; c++)
+			{
+				this.Draw(1.0, mode);
+				yield return true;
+			}
+		}
+
+		private IEnumerable<bool> フェードイン()
+		{
+			foreach (DDScene scene in DDSceneUtils.Create(10))
+			{
+				this.Draw(scene.Rate);
+
+				yield return true;
+			}
+		}
+
+		private IEnumerable<bool> フェードアウト()
+		{
+			foreach (DDScene scene in DDSceneUtils.Create(10))
+			{
+				this.Draw(1.0 - scene.Rate);
+
+				yield return true;
+			}
+		}
+
+		private IEnumerable<bool> フェード効果でモード変更(Mode_t startMode, Mode_t destMode, int waitFrame)
+		{
+			for (int c = 0; c < waitFrame; c++)
+			{
+				this.Draw(1.0, startMode);
+				yield return true;
+			}
+			foreach (DDScene scene in DDSceneUtils.Create(30))
+			{
+				this.Draw(DDUtils.Parabola(scene.Rate * 0.5 + 0.5), startMode);
+				this.Draw(DDUtils.Parabola(scene.Rate * 0.5 + 0.0), destMode);
+				yield return true;
+			}
+		}
+
+		private IEnumerable<bool> スライド(double startX, double startY, double destX, double destY, int waitFrame)
+		{
+			for (int c = 0; c < waitFrame; c++)
+			{
+				this.Draw(1.0, this.Mode, startX, startY);
+				yield return true;
+			}
+			foreach (DDScene scene in DDSceneUtils.Create(30))
+			{
+				this.Draw(
+					1.0,
+					this.Mode,
+					DDUtils.AToBRate(startX, destX, DDUtils.SCurve(scene.Rate)),
+					DDUtils.AToBRate(startY, destY, DDUtils.SCurve(scene.Rate))
+					);
+				yield return true;
+			}
+		}
+
+		private IEnumerable<bool> 等速スライド(double startX, double startY, double destX, double destY, int waitFrame)
+		{
+			for (int c = 0; c < waitFrame; c++)
+			{
+				this.Draw(1.0, this.Mode, startX, startY);
+				yield return true;
+			}
+			foreach (DDScene scene in DDSceneUtils.Create(60)) // ちょっと長めに
+			{
+				this.Draw(
+					1.0,
+					this.Mode,
+					DDUtils.AToBRate(startX, destX, scene.Rate),
+					DDUtils.AToBRate(startY, destY, scene.Rate)
+					);
+				yield return true;
+			}
+		}
+
+		private IEnumerable<bool> 吸い寄せスライド(double currX, double currY, double destX, double destY, int waitFrame)
+		{
+			for (int c = 0; c < waitFrame; c++)
+			{
+				this.Draw(1.0, this.Mode, currX, currY);
+				yield return true;
+			}
+			foreach (DDScene scene in DDSceneUtils.Create(30))
+			{
+				DDUtils.Approach(ref currX, destX, 0.8);
+				DDUtils.Approach(ref currY, destY, 0.8);
+
+				this.Draw(1.0, this.Mode, currX, currY);
+				yield return true;
+			}
+		}
+
+		private IEnumerable<bool> ブルブル(double yureHaba)
+		{
+			foreach (DDScene scene in DDSceneUtils.Create(30))
+			{
+				this.Draw(
+					1.0,
+					this.Mode,
+					this.X + (DDUtils.Random.Real() - 0.5) * (1.0 - scene.Rate) * yureHaba,
+					this.Y + (DDUtils.Random.Real() - 0.5) * (1.0 - scene.Rate) * yureHaba
+					);
+				yield return true;
+			}
+		}
+
+		private IEnumerable<bool> 回り込み(int destZ, double xYure)
+		{
+			foreach (DDScene scene in DDSceneUtils.Create(20))
+			{
+				this.Draw(
+					1.0,
+					this.Mode,
+					this.X + DDUtils.SinCurve(scene.Rate * 0.5) * xYure,
+					this.Y
+					);
+				yield return true;
+			}
+
+			// HACK: アクション中に this.Z を変更するのはイレギュラーな動作！！！
+
+			this.Z = destZ;
+
+			foreach (DDScene scene in DDSceneUtils.Create(20))
+			{
+				this.Draw(
+					1.0,
+					this.Mode,
+					this.X + DDUtils.SinCurve(scene.Rate * 0.5 + 0.5) * xYure,
+					this.Y
+					);
+				yield return true;
+			}
+		}
+
+		private IEnumerable<bool> 歓喜()
+		{
+			return SCommon.Concat(new IEnumerable<bool>[]
+			{
+				this.歓喜Sub(-1.0, rate => rate),
+				this.歓喜Sub(-1.0, rate => 1.0-rate),
+				this.歓喜Sub(1.0, rate => 1.0-rate),
+				this.歓喜Sub(1.0, rate => rate),
+			});
+		}
+
+		private IEnumerable<bool> 歓喜Sub(double ra, Func<double, double> getRate)
+		{
+			const double R = 10.0;
+
+			foreach (DDScene scene in DDSceneUtils.Create(10))
+			{
+				double x = Math.Cos(getRate(scene.Rate) * Math.PI) * R + ra * R;
+				double y = Math.Sin(getRate(scene.Rate) * Math.PI) * -R;
+
+				this.Draw(1.0, this.Mode, this.X + x, this.Y + y);
+
+				yield return true;
+			}
+			Ground.I.SE.Poka01.Play();
+		}
+
+		protected override string[] Serialize_02()
+		{
+			return new string[]
+			{
+				"" + (int)this.Chara,
+				"" + (int)this.Mode,
+				this.A.ToString("F9"),
+				this.Zoom.ToString("F9"),
+			};
+		}
+
+		protected override void Deserialize_02(string[] lines)
+		{
+			int c = 0;
+
+			this.Chara = (Chara_t)int.Parse(lines[c++]);
+			this.Mode = (Mode_t)int.Parse(lines[c++]);
+			this.A = double.Parse(lines[c++]);
+			this.Zoom = double.Parse(lines[c++]);
+		}
+	}
+}

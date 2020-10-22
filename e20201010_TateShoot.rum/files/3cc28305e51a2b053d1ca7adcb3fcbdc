@@ -1,0 +1,112 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.Commons;
+using Charlotte.GameCommons;
+using Charlotte.GameCommons.Options;
+using Charlotte.Games.Shots;
+
+namespace Charlotte.Games
+{
+	/// <summary>
+	/// プレイヤーに関する情報と機能
+	/// 唯一のインスタンスを Game.I.Player に保持する。
+	/// </summary>
+	public class Player
+	{
+		public double X; // 0.0 ～ FIELD_W
+		public double Y; // 0.0 ～ FIELD_H
+		public double LastX; // 前フレームの X
+		public double LastY; // 前フレームの Y
+		public int XMoveFrame; // <0 == 左移動中, 0 == 左右移動ナシ, 0< == 右移動中
+		public int YMoveFrame; // <0 == 上移動中, 0 == 上下移動ナシ, 0< == 下移動中
+		public double XMoveRate; // 左移動中 <-- 0.0 ～ 1.0 --> 右移動中
+		public double YMoveRate; // 上移動中 <-- 0.0 ～ 1.0 --> 下移動中
+		public int SlowFrame; // <0 == 高速移動中, 0 == 初期値, 0< == 低速移動中
+		public int ShotFrame; // <0 == 無ショット, 0 == 初期値, 0< == ショット中
+		public double SlowRate; // 高速移動中 <-- 0.0 ～ 1.0 --> 低速移動中
+		public double ShotRate; // 無ショット <-- 0.0 ～ 1.0 --> ショット中, パワーアップ時 0.0 にリセットする。
+		public int Power; // 0 ～ PLAYERPOWER_MAX
+		public int BornFrame; // 0 == 無効, 0< == 登場中
+		public int DeadFrame; // 0 == 無効, 0< == 死亡中
+		public int BombFrame; // 0 == 無効, 0< == ボム使用中
+		public double BornFollowX; // 登場中に X に追従
+		public double BornFollowY; // 登場中に Y に追従
+
+		/// <summary>
+		/// プレイヤーの状態を初期化する。
+		/// 以下の場合
+		/// -- ステージ開始時
+		/// -- 死亡からの残機消費してリスポーンした時
+		/// </summary>
+		public void Reset()
+		{
+			this.X = Consts.FIELD_W * 0.5;
+			this.Y = Consts.FIELD_H * 0.8;
+			this.LastX = this.X;
+			this.LastY = this.Y;
+			this.XMoveFrame = 0;
+			this.YMoveFrame = 0;
+			this.XMoveRate = 0.0;
+			this.YMoveRate = 0.0;
+			this.SlowFrame = 0;
+			this.ShotFrame = 0;
+			this.SlowRate = 0.0;
+			this.ShotRate = 0.0;
+			this.Power = 0;
+			this.BornFrame = 1; // 登場するために 1 を設定する。
+			this.DeadFrame = 0;
+			this.BombFrame = 0;
+			this.BornFollowX = Consts.FIELD_W * 0.5;
+			this.BornFollowY = Consts.FIELD_H * 1.2;
+		}
+
+		/// <summary>
+		/// 描画
+		/// </summary>
+		public void Draw()
+		{
+			// TODO
+		}
+
+		/// <summary>
+		/// ショット実行
+		/// </summary>
+		public void Shot()
+		{
+			// TODO
+		}
+
+		/// <summary>
+		/// ボム使用
+		/// </summary>
+		public void Bomb()
+		{
+			Game.I.Shots.Add(new Shot_0001());
+		}
+
+		/// <summary>
+		/// 当たり判定を配置する。
+		/// 処理すべきこと：
+		/// Game.I.PlayerCrashes への追加
+		/// Game.I.GrazeCrashes への追加
+		/// </summary>
+		public void Put当たり判定()
+		{
+			const double GRAZE_R = 10.0;
+
+			foreach (DDScene scene in DDSceneUtils.Create(5))
+			{
+				D2Point pt = DDUtils.AToBRate(
+					new D2Point(this.X, this.Y),
+					new D2Point(this.LastX, this.LastY),
+					scene.Rate
+					);
+
+				Game.I.PlayerCrashes.Add(DDCrashUtils.Point(pt));
+				Game.I.GrazeCrashes.Add(DDCrashUtils.Circle(pt, GRAZE_R));
+			}
+		}
+	}
+}

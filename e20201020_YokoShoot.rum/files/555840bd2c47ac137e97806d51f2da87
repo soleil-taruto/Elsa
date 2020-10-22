@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games
+{
+	public static class Effects
+	{
+		public static IEnumerable<bool> PlayerDead(double x, double y)
+		{
+			foreach (DDScene scene in DDSceneUtils.Create(Consts.PLAYER_DEAD_FRAME_MAX))
+			{
+				DDDraw.SetAlpha(0.5);
+				DDDraw.DrawBegin(Ground.I.Picture.Player, x, y);
+				DDDraw.DrawRotate(scene.Rate * 5.0);
+				DDDraw.DrawZoom(1.0 + scene.Rate * 5.0);
+				DDDraw.DrawEnd();
+				DDDraw.Reset();
+
+				yield return true;
+			}
+		}
+	}
+}

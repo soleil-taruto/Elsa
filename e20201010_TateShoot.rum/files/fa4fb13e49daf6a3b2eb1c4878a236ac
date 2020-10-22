@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using DxLibDLL;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games.Walls
+{
+	public class Wall_0001 : Wall
+	{
+		protected override IEnumerable<bool> E_Draw()
+		{
+			for (; ; )
+			{
+				DX.ClearDrawScreen();
+
+				yield return true;
+			}
+		}
+	}
+}

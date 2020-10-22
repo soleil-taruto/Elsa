@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Charlotte.Games.Shots
+{
+	/// <summary>
+	/// プレイヤーのショット
+	/// </summary>
+	public abstract class Shot
+	{
+		/// <summary>
+		/// 真を返し続けること。
+		/// 偽を返すと、このショットは消滅する。
+		/// </summary>
+		/// <returns>このショットは生存しているか</returns>
+		public abstract IEnumerable<bool> Draw();
+	}
+}

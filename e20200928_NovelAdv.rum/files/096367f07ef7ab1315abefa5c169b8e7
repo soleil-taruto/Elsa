@@ -1,0 +1,106 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Charlotte.Tools
+{
+	public struct D4Rect
+	{
+		public double L;
+		public double T;
+		public double W;
+		public double H;
+
+
+
+
+
+		public D4Rect(double l, double t, double w, double h)
+		{
+			this.L = l;
+			this.T = t;
+			this.W = w;
+			this.H = h;
+		}
+
+
+
+
+
+
+		public double R
+		{
+			get
+			{
+				return this.L + this.W;
+			}
+		}
+
+		public double B
+		{
+			get
+			{
+				return this.T + this.H;
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		public D2Size Size
+		{
+			get
+			{
+				return new D2Size(this.W, this.H);
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+	}
+}

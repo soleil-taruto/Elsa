@@ -1,0 +1,217 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.IO;
+using Charlotte.Commons;
+using Charlotte.GameCommons;
+using Charlotte.GameCommons.Options;
+
+namespace Charlotte.Games.Surfaces
+{
+	public class Surface_わたおきば : Surface
+	{
+		private string CharaName = ScenarioWords.ARGUMENT_None; // ScenarioWords.ARGUMENT_None == キャラ無し, ロード時に必要
+		private DDPicture Chara = null; // CharaName と連動する。
+		private int CharaPos = 2; // { 0 ～ 4 } == { 左端, 左から2番目, 中央, 右から2番目, 右端 }
+
+		public override void Draw()
+		{
+			this.Draw(new D2Point());
+		}
+
+		private void Draw(D2Point slide)
+		{
+			if (this.CharaName == ScenarioWords.ARGUMENT_None)
+				return;
+
+			DDDraw.DrawBegin(this.Chara, this.X, this.Y);
+			DDDraw.DrawZoom(0.8);
+			DDDraw.DrawSlide(slide.X, slide.Y);
+			DDDraw.DrawEnd();
+		}
+
+		private void UpdateXY()
+		{
+			double[] xs = new double[]
+			{
+				(DDConsts.Screen_W / 8) * 1,
+				(DDConsts.Screen_W / 8) * 3,
+				DDConsts.Screen_W / 2,
+				(DDConsts.Screen_W / 8) * 5,
+				(DDConsts.Screen_W / 8) * 7,
+			};
+
+			double x = xs[this.CharaPos];
+			double y = this.Chara == null ? Surface.DEFAULT_Y : this.Chara.Get_H() * 0.4;
+
+			this.X = SCommon.ToInt(x);
+			this.Y = SCommon.ToInt(y);
+		}
+
+		protected override void Invoke_02(string command, params string[] arguments)
+		{
+			if (command == ScenarioWords.COMMAND_Chara)
+			{
+				string charaName = arguments[0];
+
+				this.CharaName = charaName;
+				this.Chara = GetPictureManager().GetPicture(charaName);
+				this.UpdateXY();
+			}
+			else if (command == ScenarioWords.COMMAND_位置)
+			{
+				this.CharaPos = int.Parse(arguments[0]);
+				this.UpdateXY();
+			}
+			else if (command == ScenarioWords.COMMAND_揺れ)
+			{
+				this.Act.Add(SCommon.Supplier(this.揺れ()));
+			}
+			else if (command == ScenarioWords.COMMAND_跳び)
+			{
+				this.Act.Add(SCommon.Supplier(this.跳び()));
+			}
+			else
+			{
+				throw new DDError();
+			}
+		}
+
+		private IEnumerable<bool> 揺れ()
+		{
+			Ground.I.SE.Hit01.Play();
+
+			double r = 10.0;
+
+			for (int c = 0; c < 30; c++)
+			{
+				double rad = DDUtils.Random.Real() * Math.PI * 2.0;
+
+				double x = Math.Cos(rad) * r;
+				double y = Math.Sin(rad) * r;
+
+				this.Draw(new D2Point(x, y));
+
+				r *= 0.97;
+
+				yield return true;
+			}
+		}
+
+		private IEnumerable<bool> 跳び()
+		{
+			const double R = 10.0;
+
+			foreach (DDScene scene in DDSceneUtils.Create(10))
+			{
+				double x = Math.Cos(scene.Rate * Math.PI) * R - R;
+				double y = Math.Sin(scene.Rate * Math.PI) * -R;
+
+				this.Draw(new D2Point(x, y));
+
+				yield return true;
+			}
+			Ground.I.SE.Poka01.Play();
+			foreach (DDScene scene in DDSceneUtils.Create(10))
+			{
+				double invRate = 1.0 - scene.Rate;
+
+				double x = Math.Cos(invRate * Math.PI) * R - R;
+				double y = Math.Sin(invRate * Math.PI) * -R;
+
+				this.Draw(new D2Point(x, y));
+
+				yield return true;
+			}
+			Ground.I.SE.Poka01.Play();
+			foreach (DDScene scene in DDSceneUtils.Create(10))
+			{
+				double invRate = 1.0 - scene.Rate;
+
+				double x = Math.Cos(invRate * Math.PI) * R + R;
+				double y = Math.Sin(invRate * Math.PI) * -R;
+
+				this.Draw(new D2Point(x, y));
+
+				yield return true;
+			}
+			Ground.I.SE.Poka01.Play();
+			foreach (DDScene scene in DDSceneUtils.Create(10))
+			{
+				double x = Math.Cos(scene.Rate * Math.PI) * R + R;
+				double y = Math.Sin(scene.Rate * Math.PI) * -R;
+
+				this.Draw(new D2Point(x, y));
+
+				yield return true;
+			}
+			Ground.I.SE.Poka01.Play();
+		}
+
+		protected override string[] Serialize_02()
+		{
+			return new string[]
+			{
+				this.CharaName,
+				this.CharaPos.ToString(),
+			};
+		}
+
+		protected override void Deserialize_02(string[] lines)
+		{
+			int c = 0;
+
+			this.CharaName = lines[c++];
+			this.Chara = GetPictureManager().GetPicture(this.CharaName);
+			this.CharaPos = int.Parse(lines[c++]);
+			this.UpdateXY();
+		}
+
+		private class PictureManager
+		{
+			private Dictionary<string, DDPicture> Table = SCommon.CreateDictionaryIgnoreCase<DDPicture>();
+
+			public PictureManager()
+			{
+				foreach (string file in DDResource.GetFiles())
+				{
+					if (
+						SCommon.StartsWithIgnoreCase(file, @"e20200928_NovelAdv\わたおきば\josei_") &&  // 今のところ josei_* しか無い。
+						//SCommon.StartsWithIgnoreCase(file, @"e20200928_NovelAdv\わたおきば\") &&
+						SCommon.EndsWithIgnoreCase(file, ".png")
+						)
+					{
+						string name = Path.GetFileNameWithoutExtension(file);
+
+						if (this.Table.ContainsKey(name))
+							throw new DDError("Bad name: " + name);
+
+						this.Table.Add(name, DDPictureLoaders.Standard(file));
+					}
+				}
+			}
+
+			public DDPicture GetPicture(string name)
+			{
+				if (name == ScenarioWords.ARGUMENT_None)
+					return null;
+
+				if (this.Table.ContainsKey(name) == false)
+					throw new DDError("Bad name: " + name);
+
+				return this.Table[name];
+			}
+		}
+
+		private static PictureManager S_PictureManager = null;
+
+		private static PictureManager GetPictureManager()
+		{
+			if (S_PictureManager == null)
+				S_PictureManager = new PictureManager();
+
+			return S_PictureManager;
+		}
+	}
+}

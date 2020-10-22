@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Charlotte.Games.Scripts
+{
+	/// <summary>
+	/// スクリプト
+	/// </summary>
+	public abstract class Script
+	{
+		/// <summary>
+		/// 真を返し続けること。
+		/// 偽を返すと、このスクリプトを終了する。
+		/// </summary>
+		/// <returns>このスクリプトを継続する</returns>
+		public abstract IEnumerable<bool> EachFrame();
+	}
+}

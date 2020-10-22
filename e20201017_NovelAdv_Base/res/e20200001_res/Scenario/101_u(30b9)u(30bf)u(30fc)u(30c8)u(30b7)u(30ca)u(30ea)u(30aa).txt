@@ -1,0 +1,6 @@
+/
+これはスタートシナリオです。
+
+!MessageWindow = MessageWindow
+!SystemButtons = SystemButtons
+!System = System

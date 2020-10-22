@@ -1,0 +1,34 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.Commons;
+
+namespace Charlotte.Games.Surfaces
+{
+	public class Surface_MessageWindow : Surface
+	{
+		/// <summary>
+		/// メッセージ
+		/// 2行
+		/// </summary>
+		public string[] Messages = new string[]
+		{
+			"",
+			"",
+		};
+
+		public void MessageUpdated()
+		{
+			// TODO
+		}
+
+		public override IEnumerable<bool> E_Draw()
+		{
+			for (; ; )
+			{
+				yield return true; // TODO
+			}
+		}
+	}
+}

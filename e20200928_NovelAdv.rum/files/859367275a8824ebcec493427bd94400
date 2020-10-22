@@ -1,0 +1,123 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.IO;
+using Charlotte.Commons;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games.Surfaces
+{
+	/// <summary>
+	/// 旧テストシナリオ用の背景
+	/// </summary>
+	public class Surface_旧テシ背景 : Surface
+	{
+		private string WallPicName = ScenarioWords.ARGUMENT_None; // ScenarioWords.ARGUMENT_None == キャラ無し, ロード時に必要
+		private DDPicture WallPic;
+
+		public override void Draw()
+		{
+			if (this.WallPicName == ScenarioWords.ARGUMENT_None)
+			{
+				//DDCurtain.DrawCurtain(); // 不要
+				return;
+			}
+			DDDraw.DrawRect(
+				this.WallPic,
+				DDUtils.AdjustRectExterior(this.WallPic.GetSize().ToD2Size(), new D4Rect(0, 0, DDConsts.Screen_W, DDConsts.Screen_H))
+				);
+		}
+
+		protected override void Invoke_02(string command, params string[] arguments)
+		{
+			if (command == ScenarioWords.COMMAND_画像)
+			{
+				string wallPicName = arguments[0];
+
+				this.WallPicName = wallPicName;
+				this.WallPic = GetPictureManager().GetPicture(wallPicName);
+			}
+			else
+			{
+				throw new DDError();
+			}
+		}
+
+		protected override string[] Serialize_02()
+		{
+			return new string[]
+			{
+				this.WallPicName,
+			};
+		}
+
+		protected override void Deserialize_02(string[] lines)
+		{
+			int c = 0;
+
+			this.WallPicName = lines[c++];
+			this.WallPic = GetPictureManager().GetPicture(this.WallPicName);
+		}
+
+		private class PictureManager
+		{
+			private Dictionary<string, DDPicture> Table = SCommon.CreateDictionaryIgnoreCase<DDPicture>();
+
+			public PictureManager()
+			{
+				foreach (string file in DDResource.GetFiles())
+				{
+					if (SCommon.StartsWithIgnoreCase(file, @"e20200928_NovelAdv\背景\きまぐれアフター\BG"))
+					{
+						string name = Path.GetFileNameWithoutExtension(file);
+
+						{
+							const string PTN = "BG";
+
+							if (!SCommon.StartsWithIgnoreCase(name, PTN))
+								throw new DDError("Bad name: " + name);
+
+							name = name.Substring(PTN.Length);
+						}
+
+						{
+							const string PTN = "_80";
+
+							if (!SCommon.EndsWithIgnoreCase(name, PTN))
+								throw new DDError("Bad name: " + name);
+
+							name = name.Substring(PTN.Length);
+						}
+
+						if (this.Table.ContainsKey(name))
+							throw new DDError("Bad name: " + name);
+
+						this.Table.Add(name, DDPictureLoaders.Standard(file));
+					}
+				}
+			}
+
+			public DDPicture GetPicture(string name)
+			{
+				if (name == ScenarioWords.ARGUMENT_None)
+					return null;
+
+				if (this.Table.ContainsKey(name) == false)
+					throw new DDError("Bad name: " + name);
+
+				return this.Table[name];
+			}
+		}
+
+		private static PictureManager S_PictureManager = null;
+
+		private static PictureManager GetPictureManager()
+		{
+			if (S_PictureManager == null)
+				S_PictureManager = new PictureManager();
+
+			return S_PictureManager;
+		}
+	}
+}

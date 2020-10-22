@@ -1,0 +1,51 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games.Surfaces
+{
+	/// <summary>
+	/// システム・ゲームの処理に関わる命令群
+	/// </summary>
+	public class Surface_System : Surface
+	{
+		public override void Draw()
+		{
+			// noop
+		}
+
+		protected override void Invoke_02(string command, params string[] arguments)
+		{
+			int c = 0;
+
+			if (command == "Swap")
+			{
+				string name1 = arguments[c++];
+				string name2 = arguments[c++];
+
+				foreach (Surface surface in Game.I.Status.Surfaces)
+				{
+					if (surface.InstanceName == name1)
+						surface.InstanceName = name2;
+					else if (surface.InstanceName == name2)
+						surface.InstanceName = name1;
+				}
+			}
+			else if (command == "WhileAct")
+			{
+				while (Game.I.Status.Surfaces.Any(v => v.Act.Count != 0))
+				{
+					Game.I.DrawSurfaces();
+					DDEngine.EachFrame();
+				}
+				DDEngine.FreezeInput(Game.WHEEL_INPUT_SLEEP);
+			}
+			else
+			{
+				throw new DDError();
+			}
+		}
+	}
+}

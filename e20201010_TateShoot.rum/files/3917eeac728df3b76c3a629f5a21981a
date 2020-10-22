@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Charlotte.Games.Walls
+{
+	/// <summary>
+	/// 壁紙
+	/// </summary>
+	public abstract class Wall
+	{
+		/// <summary>
+		/// この壁紙によって画面全体が描画されたことを示す。
+		/// 真である場合、この壁紙の裏側の壁紙を終了するかもしれない。
+		/// よって真をセットしてから偽をセットし直すこをは想定していない。
+		/// </summary>
+		public bool Filled = false;
+
+		/// <summary>
+		/// 真を返し続けること。
+		/// 偽を返すと、この壁紙を終了する。
+		/// </summary>
+		/// <returns>この壁紙を継続する</returns>
+		public abstract IEnumerable<bool> Draw();
+	}
+}

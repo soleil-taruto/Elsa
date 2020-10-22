@@ -1,0 +1,46 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games.Enemies
+{
+	/// <summary>
+	/// 敵
+	/// </summary>
+	public abstract class Enemy
+	{
+		public enum Kind_e
+		{
+			ENEMY, // 敵
+			TAMA, // 敵の弾
+			ITEM, // アイテム
+		}
+
+		public Kind_e Kind;
+
+		/// <summary>
+		/// 敵の体力
+		/// 各サブクラスではコンストラクタで「デフォルトの体力」を設定すること。
+		/// 0 == 無敵
+		/// </summary>
+		public int HP;
+
+		public double X;
+		public double Y;
+
+		/// <summary>
+		/// 真を返し続けること。
+		/// 偽を返すと、この敵は消滅する。
+		/// </summary>
+		/// <returns>この敵は生存しているか</returns>
+		public abstract IEnumerable<bool> Draw();
+
+		/// <summary>
+		/// 撃破された時に呼び出される。
+		/// 爆死のエフェクトを生成したり、ドロップアイテムを出現させたりして下さい。
+		/// </summary>
+		public abstract void Killed();
+	}
+}

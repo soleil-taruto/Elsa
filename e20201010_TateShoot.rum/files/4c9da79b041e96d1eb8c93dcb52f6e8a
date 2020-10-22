@@ -1,0 +1,48 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.Commons;
+using Charlotte.Games.Walls;
+using Charlotte.Games.Enemies;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games.Scripts
+{
+	public class Script_テスト0001 : Script
+	{
+		protected override IEnumerable<bool> E_EachFrame()
+		{
+			Game.I.Walls.Add(new Wall_Dark());
+
+			for (; ; )
+			{
+				Game.I.Walls.Add(new Wall_1001());
+				Game.I.Walls.Add(new Wall_1002());
+
+				for (int c = 0; c < 60; c++)
+					yield return true;
+
+				Game.I.Enemies.Add(Enemy_0001.Create(40.0, -50.0, 1, 10, 0, 100, 2, 4.0, 1, 250.0, 0.97));
+				Game.I.Enemies.Add(Enemy_0001.Create(40.0, -100.0, 1, 10, 0, 100, 2, 4.0, 1, 250.0, 0.97));
+				Game.I.Enemies.Add(Enemy_0001.Create(40.0, -150.0, 1, 10, 0, 100, 2, 4.0, 1, 250.0, 0.97));
+				Game.I.Enemies.Add(Enemy_0001.Create(40.0, -200.0, 1, 10, 0, 100, 2, 4.0, 1, 250.0, 0.97));
+				Game.I.Enemies.Add(Enemy_0001.Create(40.0, -250.0, 1, 10, 0, 100, 2, 4.0, 1, 250.0, 0.97));
+
+				for (int c = 0; c < 60; c++)
+					yield return true;
+
+				Game.I.Enemies.Add(Enemy_0001.Create(440.0, -50.0, 1, 10, 0, 100, 2, 4.0, -1, 350.0, 0.97));
+				Game.I.Enemies.Add(Enemy_0001.Create(440.0, -100.0, 1, 10, 0, 100, 2, 4.0, -1, 350.0, 0.97));
+				Game.I.Enemies.Add(Enemy_0001.Create(440.0, -150.0, 1, 10, 0, 100, 2, 4.0, -1, 350.0, 0.97));
+				Game.I.Enemies.Add(Enemy_0001.Create(440.0, -200.0, 1, 10, 0, 100, 2, 4.0, -1, 350.0, 0.97));
+				Game.I.Enemies.Add(Enemy_0001.Create(440.0, -250.0, 1, 10, 0, 100, 2, 4.0, -1, 350.0, 0.97));
+
+				for (int c = 0; c < 180; c++)
+					yield return true;
+
+				// TODO TODO TODO TODO TODO
+			}
+		}
+	}
+}

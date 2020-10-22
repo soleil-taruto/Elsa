@@ -1,0 +1,43 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.Commons;
+using Charlotte.Games.Enemies;
+using Charlotte.Games.Shots;
+
+namespace Charlotte.GameCommons.Options
+{
+	public struct DDCrash
+	{
+		// アプリ固有 >
+
+		public Enemy OwnerEnemy;
+		public Shot OwnerShot;
+
+		public DDCrash ChangeOwner(Enemy enemy)
+		{
+			this.OwnerEnemy = enemy;
+			return this;
+		}
+
+		public DDCrash ChangeOwner(Shot shot)
+		{
+			this.OwnerShot = shot;
+			return this;
+		}
+
+		// < アプリ固有
+
+		public DDCrashUtils.Kind_e Kind;
+		public D2Point Pt;
+		public double R;
+		public D4Rect Rect;
+		public DDCrash[] Crashes;
+
+		public bool IsCrashed(DDCrash other)
+		{
+			return DDCrashUtils.IsCrashed(this, other);
+		}
+	}
+}

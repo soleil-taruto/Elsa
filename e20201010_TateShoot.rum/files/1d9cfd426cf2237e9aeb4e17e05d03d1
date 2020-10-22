@@ -1,0 +1,35 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games.Enemies
+{
+	public static class EnemyCreator
+	{
+		public static Enemy Create(string typeName, int x = Consts.FIELD_W / 2, int y = -200, int hp = -1)
+		{
+			Enemy enemy;
+
+			// typeName はクラス名 Enemy_<typeName> と対応する。難読化するのでリフレクションにすることは出来ない。
+
+			switch (typeName)
+			{
+				case "0001": enemy = new Enemy_0001(); break;
+
+				// 新しい敵をここへ追加..
+
+				default:
+					throw new DDError("不明なタイプ名：" + typeName);
+			}
+			enemy.X = x;
+			enemy.Y = y;
+
+			if (hp != -1)
+				enemy.HP = hp;
+
+			return enemy;
+		}
+	}
+}

@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Charlotte.Games.Enemies
+{
+	public class Enemy_0001 : Enemy
+	{
+		public override IEnumerable<bool> Draw()
+		{
+			// TODO
+			yield return true;
+		}
+	}
+}

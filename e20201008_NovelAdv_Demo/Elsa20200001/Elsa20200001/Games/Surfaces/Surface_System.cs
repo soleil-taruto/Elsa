@@ -1,0 +1,78 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.GameCommons;
+using Charlotte.Commons;
+
+namespace Charlotte.Games.Surfaces
+{
+	/// <summary>
+	/// システム・ゲームの処理に関わる命令群
+	/// </summary>
+	public class Surface_System : Surface
+	{
+		public override void Draw()
+		{
+			// noop
+		}
+
+		private double? 暫定_からいDraw_Rnd = null; // テンポラリに付きシリアライズ不要
+
+		protected override void Invoke_02(string command, params string[] arguments)
+		{
+			int c = 0;
+
+			if (command == "Swap")
+			{
+				string name1 = arguments[c++];
+				string name2 = arguments[c++];
+
+				foreach (Surface surface in Game.I.Status.Surfaces)
+				{
+					if (surface.InstanceName == name1)
+						surface.InstanceName = name2;
+					else if (surface.InstanceName == name2)
+						surface.InstanceName = name1;
+				}
+			}
+			else if (command == "WhileAct")
+			{
+				while (Game.I.Status.Surfaces.Any(v => v.Act.Count != 0))
+				{
+					Game.I.DrawSurfaces();
+					DDEngine.EachFrame();
+				}
+				DDEngine.FreezeInput(Game.WHEEL_INPUT_SLEEP);
+			}
+			else if (command == "暫定_SaveからいDraw_Rnd") // 暫定コマンド
+			{
+				string instanceName = arguments[c++];
+
+				this.暫定_からいDraw_Rnd = ((Surface_からい)Game.I.Status.GetSurface(instanceName)).Draw_Rnd;
+			}
+			else if (command == "暫定_Save結月ゆかりDraw_Rnd") // 暫定コマンド
+			{
+				string instanceName = arguments[c++];
+
+				this.暫定_からいDraw_Rnd = ((Surface_結月ゆかり)Game.I.Status.GetSurface(instanceName)).Draw_Rnd;
+			}
+			else if (command == "暫定_LoadからいDraw_Rnd") // 暫定コマンド
+			{
+				string instanceName = arguments[c++];
+
+				((Surface_からい)Game.I.Status.GetSurface(instanceName)).Draw_Rnd = this.暫定_からいDraw_Rnd.Value;
+			}
+			else if (command == "暫定_Load結月ゆかりDraw_Rnd") // 暫定コマンド
+			{
+				string instanceName = arguments[c++];
+
+				((Surface_結月ゆかり)Game.I.Status.GetSurface(instanceName)).Draw_Rnd = this.暫定_からいDraw_Rnd.Value;
+			}
+			else
+			{
+				throw new DDError();
+			}
+		}
+	}
+}

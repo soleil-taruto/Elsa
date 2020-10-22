@@ -1,0 +1,40 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.Commons;
+using Charlotte.GameCommons;
+using Charlotte.GameCommons.Options;
+
+namespace Charlotte.Games.Shots
+{
+	/// <summary>
+	/// 通常弾
+	/// </summary>
+	public class Shot_通常0001 : Shot
+	{
+		public Shot_通常0001(double x, double y)
+			: base(x, y, 1)
+		{ }
+
+		public override IEnumerable<bool> E_Draw()
+		{
+			for (; ; )
+			{
+				// 移動
+				this.X += 10;
+
+				// 描画
+				DDDraw.DrawCenter(Ground.I.Picture.Shot0001, this.X, this.Y);
+
+				// 当たり判定設置
+				this.Crash = DDCrashUtils.Circle(new D2Point(this.X, this.Y), 16.0);
+
+				// 消滅
+				this.DeadFlag = DDUtils.IsOutOfScreen(new D2Point(this.X, this.Y), 16.0);
+
+				yield return true;
+			}
+		}
+	}
+}

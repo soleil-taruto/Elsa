@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Charlotte.Games.Surfaces
+{
+	public class Surface_System : Surface
+	{
+		public override void Draw()
+		{
+			// noop
+		}
+
+		protected override void Invoke_02(string command, params string[] arguments)
+		{
+			if (command == "イベントのみ")
+			{
+				while (Game.I.Status.Surfaces.Any(v => v.Act.Count != 0))
+				{
+					Game.I.DrawSurfaces();
+					Game.I.DrawMessageWindow();
+				}
+			}
+		}
+	}
+}

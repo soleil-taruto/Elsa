@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Charlotte.Games.Enemies
+{
+	public class Enemy_BigJackOLantern : Enemy
+	{
+		protected override IEnumerable<bool> E_Draw()
+		{
+			throw new NotImplementedException();
+		}
+
+		public override void Killed()
+		{
+			throw new NotImplementedException();
+		}
+	}
+}

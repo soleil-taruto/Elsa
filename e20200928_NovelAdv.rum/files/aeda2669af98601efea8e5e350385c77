@@ -1,0 +1,134 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.IO;
+using Charlotte.Commons;
+using Charlotte.GameCommons;
+using Charlotte.GameCommons.Options;
+
+namespace Charlotte.Games.Surfaces
+{
+	public class Surface_わたおきば : Surface
+	{
+		private string CharaName = ScenarioWords.ARGUMENT_None; // ScenarioWords.ARGUMENT_None == キャラ無し, ロード時に必要
+		private DDPicture Chara;
+
+		public override void Draw()
+		{
+			this.Draw(new D2Point());
+		}
+
+		private void Draw(D2Point slide)
+		{
+			if (this.CharaName == ScenarioWords.ARGUMENT_None)
+				return;
+
+			DDDraw.DrawBegin(this.Chara, this.X, this.Y);
+			DDDraw.DrawZoom(0.8);
+			DDDraw.DrawSlide(slide.X, slide.Y);
+			DDDraw.DrawEnd();
+		}
+
+		protected override void Invoke_02(string command, params string[] arguments)
+		{
+			if (command == ScenarioWords.COMMAND_Chara)
+			{
+				string charaName = arguments[0];
+
+				this.CharaName = charaName;
+				this.Chara = GetPictureManager().GetPicture(charaName);
+			}
+			else if (command == ScenarioWords.COMMAND_位置)
+			{
+				int value = int.Parse(arguments[0]);
+
+				double[] xs = new double[]
+				{
+					(DDConsts.Screen_W / 8) * 1,
+					(DDConsts.Screen_W / 8) * 3,
+					DDConsts.Screen_W / 2,
+					(DDConsts.Screen_W / 8) * 5,
+					(DDConsts.Screen_W / 8) * 7,
+				};
+
+				double x = xs[value];
+				double y = this.Chara == null ? Surface.DEFAULT_Y : this.Chara.Get_H() * 0.4;
+
+				this.X = SCommon.ToInt(x);
+				this.Y = SCommon.ToInt(y);
+			}
+			else if (command == ScenarioWords.COMMAND_揺れ)
+			{
+				throw null; // TODO
+			}
+			else if (command == ScenarioWords.COMMAND_跳び)
+			{
+				throw null; // TODO
+			}
+			else
+			{
+				throw new DDError();
+			}
+		}
+
+		protected override string[] Serialize_02()
+		{
+			return new string[]
+			{
+				this.CharaName,
+			};
+		}
+
+		protected override void Deserialize_02(string[] lines)
+		{
+			int c = 0;
+
+			this.CharaName = lines[c++];
+			this.Chara = GetPictureManager().GetPicture(this.CharaName);
+		}
+
+		private class PictureManager
+		{
+			private Dictionary<string, DDPicture> Table = SCommon.CreateDictionaryIgnoreCase<DDPicture>();
+
+			public PictureManager()
+			{
+				foreach (string file in DDResource.GetFiles())
+				{
+					if (SCommon.StartsWithIgnoreCase(file, @"e20200928_NovelAdv\わたおきば\josei_")) // 今のところ josei_* しか無い。
+					//if (SCommon.StartsWithIgnoreCase(file, @"e20200928_NovelAdv\わたおきば\"))
+					{
+						string name = Path.GetFileNameWithoutExtension(file);
+
+						if (this.Table.ContainsKey(name))
+							throw new DDError("Bad name: " + name);
+
+						this.Table.Add(name, DDPictureLoaders.Standard(file));
+					}
+				}
+			}
+
+			public DDPicture GetPicture(string name)
+			{
+				if (name == ScenarioWords.ARGUMENT_None)
+					return null;
+
+				if (this.Table.ContainsKey(name) == false)
+					throw new DDError("Bad name: " + name);
+
+				return this.Table[name];
+			}
+		}
+
+		private static PictureManager S_PictureManager = null;
+
+		private static PictureManager GetPictureManager()
+		{
+			if (S_PictureManager == null)
+				S_PictureManager = new PictureManager();
+
+			return S_PictureManager;
+		}
+	}
+}

@@ -1,0 +1,212 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.IO;
+using System.Windows.Forms;
+using System.Reflection;
+
+namespace Charlotte.Tools
+{
+	public static class ExtraTools
+	{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		public static T DesertElement<T>(List<T> list, int index)
+		{
+			T ret = list[index];
+			list.RemoveAt(index);
+			return ret;
+		}
+
+		public static T UnaddElement<T>(List<T> list)
+		{
+			return DesertElement(list, list.Count - 1);
+		}
+
+		public static T FastDesertElement<T>(List<T> list, int index)
+		{
+			T ret = UnaddElement(list);
+
+			if (index < list.Count)
+			{
+				T ret2 = list[index];
+				list[index] = ret;
+				ret = ret2;
+			}
+			return ret;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+}

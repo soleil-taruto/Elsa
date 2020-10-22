@@ -1,0 +1,156 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.GameCommons;
+using Charlotte.Commons;
+
+namespace Charlotte.Games.Surfaces
+{
+	/// <summary>
+	/// <para>からい氏</para>
+	/// <para>結月ゆかり</para>
+	/// <para>やや右向き</para>
+	/// </summary>
+	public class Surface_結月ゆかり : Surface
+	{
+		public double Draw_Rnd = DDUtils.Random.Real2() * Math.PI * 2.0;
+
+		private DDPicture[] Images = new DDPicture[]
+		{
+			Ground.I.Picture.結月ゆかり01, // 0 - コーヒー
+			Ground.I.Picture.結月ゆかり02, // 1 - 汗マキ
+			Ground.I.Picture.結月ゆかり03, // 2 - 笑マキ
+			Ground.I.Picture.結月ゆかり04, // 3 - 魔術
+			Ground.I.Picture.結月ゆかり05, // 4 - マキ肉
+			Ground.I.Picture.結月ゆかり11, // 5 - 殺
+			Ground.I.Picture.結月ゆかり12, // 6 - 寝
+			Ground.I.Picture.結月ゆかり13, // 7 - リボン
+			Ground.I.Picture.結月ゆかり14, // 8 - 刀
+			Ground.I.Picture.結月ゆかり15, // 9 - 塗
+			Ground.I.Picture.結月ゆかり16, // 10 - 普通
+		};
+
+		private int Mode = MODE_DEFAULT; // 0 - (Images.Length - 1)
+		private double Rot = 0.0;
+
+		public const int MODE_DEFAULT = 10;
+
+		// ◆◆◆ このサーフェスは Status 方式なので１つのページで複数のコマンドを組み合わせられる。
+
+		private struct StatusInfo
+		{
+			public double X;
+			public double Y;
+			public int Mode;
+			public double Rot;
+		}
+
+		private StatusInfo GetStatus()
+		{
+			return new StatusInfo()
+			{
+				X = (double)this.X,
+				Y = (double)this.Y,
+				Mode = this.Mode,
+				Rot = this.Rot,
+			};
+		}
+
+		public override void Draw()
+		{
+			this.Draw(this.GetStatus());
+		}
+
+		private void Draw(StatusInfo status)
+		{
+			DDDraw.DrawBegin(this.Images[status.Mode], status.X, status.Y + Math.Sin(DDEngine.ProcFrame / 67.0 + this.Draw_Rnd) * 2.0);
+			DDDraw.DrawZoom(0.5);
+			DDDraw.DrawRotate(status.Rot);
+			DDDraw.DrawEnd();
+		}
+
+		protected override void Invoke_02(string command, params string[] arguments)
+		{
+			int c = 0;
+
+			if (command == "Mode")
+			{
+				int mode = int.Parse(arguments[c++]);
+
+				if (mode < 0 || this.Images.Length <= mode)
+					throw new DDError("Bad mode: " + mode);
+
+				this.Mode = mode;
+			}
+			else if (command == "Rot")
+			{
+				this.Rot = double.Parse(arguments[c++]);
+			}
+			else if (command == "跳ねる")
+			{
+				StatusInfo status = this.GetStatus();
+				double destX = double.Parse(arguments[c++]);
+				double destY = double.Parse(arguments[c++]);
+				double hi = double.Parse(arguments[c++]);
+				int frame = int.Parse(arguments[c++]);
+
+				this.X = SCommon.ToInt(destX);
+				this.Y = SCommon.ToInt(destY);
+
+				this.Act.Add(SCommon.Supplier(this.跳ねる(status, destX, destY, hi, frame)));
+			}
+			else if (command == "待ち")
+			{
+				StatusInfo status = this.GetStatus();
+				int frame = int.Parse(arguments[c++]);
+
+				this.Act.Add(SCommon.Supplier(this.待ち(status, frame)));
+			}
+			else
+			{
+				throw new DDError();
+			}
+		}
+
+		private IEnumerable<bool> 跳ねる(StatusInfo status, double destX, double destY, double hi, int frame)
+		{
+			foreach (DDScene scene in DDSceneUtils.Create(frame))
+			{
+				StatusInfo tmp = status;
+
+				tmp.X = DDUtils.AToBRate(status.X, destX, scene.Rate);
+				tmp.Y = DDUtils.AToBRate(status.Y, destY, scene.Rate) - DDUtils.Parabola(scene.Rate) * hi;
+
+				this.Draw(tmp);
+				yield return true;
+			}
+		}
+
+		private IEnumerable<bool> 待ち(StatusInfo status, int frame)
+		{
+			foreach (DDScene scene in DDSceneUtils.Create(frame))
+			{
+				this.Draw(status);
+				yield return true;
+			}
+		}
+
+		protected override string[] Serialize_02()
+		{
+			return new string[]
+			{
+				this.Mode.ToString(),
+				this.Rot.ToString("F9"),
+			};
+		}
+
+		protected override void Deserialize_02(string[] lines)
+		{
+			int c = 0;
+
+			this.Mode = int.Parse(lines[c++]);
+			this.Rot = double.Parse(lines[c++]);
+		}
+	}
+}
