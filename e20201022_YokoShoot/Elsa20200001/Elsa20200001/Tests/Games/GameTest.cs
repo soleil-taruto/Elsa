@@ -30,7 +30,7 @@ namespace Charlotte.Tests.Games
 		{
 			Script script;
 
-			// ---- chooese one ----
+			// ---- choose one ----
 
 			//script = new Script_Bボス0001テスト();
 			//script = new Script_テスト0001();

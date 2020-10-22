@@ -29,7 +29,7 @@ namespace Charlotte.Games.Scripts
 		/// -- 必要に応じて Game.I.Walls へ追加
 		/// -- 必要に応じて Game.I.Enemies へ追加
 		/// </summary>
-		/// <returns>[列挙]このスクリプトを継続するか</returns>
+		/// <returns>列挙：このスクリプトを継続するか</returns>
 		protected abstract IEnumerable<bool> E_EachFrame();
 	}
 }

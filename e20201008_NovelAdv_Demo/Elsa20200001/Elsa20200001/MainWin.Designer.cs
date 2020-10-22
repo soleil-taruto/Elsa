@@ -10,7 +10,7 @@
 		/// <summary>
 		/// 使用中のリソースをすべてクリーンアップします。
 		/// </summary>
-		/// <param name="disposing">マネージド リソースを破棄する場合は true を指定し、その他の場合は false を指定します。</param>
+		/// <param name="disposing">マネージ リソースが破棄される場合 true、破棄されない場合は false です。</param>
 		protected override void Dispose(bool disposing)
 		{
 			if (disposing && (components != null))
@@ -43,6 +43,7 @@
 			this.MaximizeBox = false;
 			this.MinimizeBox = false;
 			this.Name = "MainWin";
+			this.ShowInTaskbar = false;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
 			this.Text = "Elsa20200001";
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainWin_FormClosing);
@@ -54,6 +55,7 @@
 		}
 
 		#endregion
+
 	}
 }
 

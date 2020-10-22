@@ -42,7 +42,7 @@ namespace Charlotte.Games.Walls
 		/// -- 描画
 		/// -- 必要に応じて FilledFlag を設定する。
 		/// </summary>
-		/// <returns>[列挙]常に真を返すこと</returns>
+		/// <returns>列挙：常に真を返すこと</returns>
 		public abstract IEnumerable<bool> E_Draw();
 	}
 }
