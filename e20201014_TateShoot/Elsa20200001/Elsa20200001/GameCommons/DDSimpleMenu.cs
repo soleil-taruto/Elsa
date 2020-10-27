@@ -471,16 +471,8 @@ namespace Charlotte.GameCommons
 					pulse();
 				}
 
-				DDCurtain.DrawCurtain();
+				this.DrawWall();
 
-				if (this.WallColor != null)
-					DX.DrawBox(0, 0, DDConsts.Screen_W, DDConsts.Screen_H, DDUtils.GetColor(this.WallColor.Value), 1);
-
-				if (this.WallPicture != null)
-				{
-					this.DrawWallPicture();
-					DDCurtain.DrawCurtain(this.WallCurtain);
-				}
 				if (this.Color != null)
 					DDPrint.SetColor(this.Color.Value);
 

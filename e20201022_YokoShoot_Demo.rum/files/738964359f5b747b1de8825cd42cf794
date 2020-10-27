@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.Commons;
+
+namespace Charlotte.GameCommons
+{
+	public abstract class DDTask
+	{
+		public bool Execute()
+		{
+			return this.Task();
+		}
+
+		private Func<bool> _task = null;
+
+		public Func<bool> Task
+		{
+			get
+			{
+				if (_task == null)
+					_task = SCommon.Supplier(this.E_Task());
+
+				return _task;
+			}
+		}
+
+		public abstract IEnumerable<bool> E_Task();
+	}
+}

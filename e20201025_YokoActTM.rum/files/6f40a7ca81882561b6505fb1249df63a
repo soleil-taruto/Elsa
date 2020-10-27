@@ -1,0 +1,77 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.Commons;
+using Charlotte.GameCommons;
+using Charlotte.GameCommons.Options;
+using Charlotte.Games.Tiles;
+
+namespace Charlotte.Games
+{
+	public class Map
+	{
+		private string MapFile;
+		private MapCell[,] Table; // 添字：[x,y]
+		private int W;
+		private int H;
+		private string WallName;
+
+		public Map(string mapFile)
+		{
+			this.MapFile = mapFile;
+			this.Load();
+		}
+
+		private void Load()
+		{
+			string[] lines = SCommon.TextToLines(Encoding.UTF8.GetString(DDResource.Load(this.MapFile)));
+			int c = 0;
+
+			int w = int.Parse(lines[c++]);
+			int h = int.Parse(lines[c++]);
+
+			if (w < 1 || SCommon.IMAX < w) throw new DDError();
+			if (h < 1 || SCommon.IMAX < h) throw new DDError();
+
+			this.Table = new MapCell[w, h];
+
+			for (int x = 0; x < w; x++)
+			{
+				for (int y = 0; y < h; y++)
+				{
+					MapCell cell = this.Table[x, y];
+
+					if (c < lines.Length)
+					{
+						string[] tokens = SCommon.Tokenize(lines[c++], "\t");
+						int d = 0;
+
+						cell.TileName = Common.GetElement(tokens, d++, Consts.TILE_NONE);
+						cell.Tile = TileCreator.Create(cell.TileName);
+						cell.EnemyName = Common.GetElement(tokens, d++, Consts.ENEMY_NONE);
+
+						this.Table[x, y] = cell;
+					}
+					else
+					{
+						cell.TileName = Consts.TILE_NONE;
+						cell.Tile = TileCreator.Create(cell.TileName);
+						cell.EnemyName = Consts.ENEMY_NONE;
+					}
+					this.Table[x, y] = cell;
+				}
+			}
+			this.W = w;
+			this.H = h;
+			this.WallName = Common.GetElement(lines, c++, Consts.WALL_DEFAULT);
+		}
+
+		public void Save()
+		{
+			// TODO
+		}
+
+		// TODO
+	}
+}

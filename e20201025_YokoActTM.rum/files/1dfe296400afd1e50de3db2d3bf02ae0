@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Charlotte.Games.Walls
+{
+	public static class WallCreator
+	{
+		public static Wall Create(string name)
+		{
+			Wall wall;
+
+			switch (name)
+			{
+				case Consts.WALL_DEFAULT: wall = new Wall_Dark(); break;
+
+				// 新しい壁紙をここへ追加..
+
+				default:
+					throw null; // never
+			}
+			return wall;
+		}
+	}
+}

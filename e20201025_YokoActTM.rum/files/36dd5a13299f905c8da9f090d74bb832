@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games.Enemies
+{
+	public static class EnemyCreator
+	{
+		public static Enemy Create(string name, double x, double y)
+		{
+			if (name == Consts.ENEMY_NONE)
+				return null;
+
+			throw null; // TODO
+		}
+	}
+}
