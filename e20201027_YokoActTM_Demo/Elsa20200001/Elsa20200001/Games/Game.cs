@@ -90,16 +90,7 @@ namespace Charlotte.Games
 					}
 				}
 
-				{
-					double targCamX = this.Player.X - DDConsts.Screen_W / 2 + (this.CamSlideX * DDConsts.Screen_W / 3);
-					double targCamY = this.Player.Y - DDConsts.Screen_H / 2 + (this.CamSlideY * DDConsts.Screen_H / 3);
-
-					DDUtils.ToRange(ref targCamX, 0.0, this.Map.W * Consts.TILE_W - DDConsts.Screen_W);
-					DDUtils.ToRange(ref targCamY, 0.0, this.Map.H * Consts.TILE_H - DDConsts.Screen_H);
-
-					DDUtils.Approach(ref DDGround.Camera.X, targCamX, 0.8);
-					DDUtils.Approach(ref DDGround.Camera.Y, targCamY, 0.8);
-				}
+				this.カメラ位置調整(false);
 
 				DDUtils.ToRange(ref DDGround.Camera.X, 0.0, this.Map.W * Consts.TILE_W - DDConsts.Screen_W);
 				DDUtils.ToRange(ref DDGround.Camera.Y, 0.0, this.Map.H * Consts.TILE_H - DDConsts.Screen_H);
@@ -429,16 +420,11 @@ namespace Charlotte.Games
 						this.Player.AirborneFrame++;
 				}
 
-				if (this.Frame == 0) // 画面遷移時の微妙なカメラ位置ズレ解消
+				// 画面遷移時の微妙なカメラ位置ズレ解消
+				// -- スタート地点(入場地点)が地面と接していると、最初のフレームでプレイヤーは上に押し出されてカメラの初期位置とズレてしまう。
+				if (this.Frame == 0)
 				{
-					DDGround.Camera.X = this.Player.X - DDConsts.Screen_W / 2.0;
-					DDGround.Camera.Y = this.Player.Y - DDConsts.Screen_H / 2.0;
-
-					DDUtils.ToRange(ref DDGround.Camera.X, 0.0, this.Map.W * Consts.TILE_W - DDConsts.Screen_W);
-					DDUtils.ToRange(ref DDGround.Camera.Y, 0.0, this.Map.H * Consts.TILE_H - DDConsts.Screen_H);
-
-					DDGround.ICamera.X = SCommon.ToInt(DDGround.Camera.X);
-					DDGround.ICamera.Y = SCommon.ToInt(DDGround.Camera.Y);
+					this.カメラ位置調整(true);
 				}
 
 				if (1 <= this.Player.AttackFrame)
@@ -639,6 +625,21 @@ namespace Charlotte.Games
 				this.Status.HP = this.Player.HP;
 				this.Status.FacingLeft = this.Player.FacingLeft;
 			}
+		}
+
+		private void カメラ位置調整(bool 一瞬で)
+		{
+			double targCamX = this.Player.X - DDConsts.Screen_W / 2 + (this.CamSlideX * DDConsts.Screen_W / 3);
+			double targCamY = this.Player.Y - DDConsts.Screen_H / 2 + (this.CamSlideY * DDConsts.Screen_H / 3);
+
+			DDUtils.ToRange(ref targCamX, 0.0, this.Map.W * Consts.TILE_W - DDConsts.Screen_W);
+			DDUtils.ToRange(ref targCamY, 0.0, this.Map.H * Consts.TILE_H - DDConsts.Screen_H);
+
+			if (this.Map.H * Consts.TILE_H - DDConsts.Screen_H < Consts.TILE_H) // ? カメラの縦の可動域が1タイルより狭い場合
+				targCamY = this.Map.H * Consts.TILE_H / 2; // 中心に合わせる。
+
+			DDUtils.Approach(ref DDGround.Camera.X, targCamX, 一瞬で ? 0.0 : 0.8);
+			DDUtils.Approach(ref DDGround.Camera.Y, targCamY, 一瞬で ? 0.0 : 0.8);
 		}
 
 		private void Edit()
