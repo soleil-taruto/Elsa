@@ -21,4 +21,4 @@ COPY /B Elsa20200001\Elsa20200001\bin\Release\DxLibDotNet.dll out
 C:\Factory\Tools\xcp.exe doc out
 COPY /B AUTHORS out
 
-C:\Factory\SubTools\zip.exe /PE- /RVE- %* /G out e20200003_dat_Base
+C:\Factory\SubTools\zip.exe /PE- /RVE- %* /G out e20201017_NovelAdv
