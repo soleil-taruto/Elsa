@@ -11,9 +11,9 @@ namespace Charlotte
 	{
 		//public DDPicture Dummy = DDPictureLoaders.Standard("Dummy.png");
 
-		public DDPicture Copyright = DDPictureLoaders.Standard(@"e20201027_YokoActTM\Logo\Copyright.png");
+		public DDPicture Copyright = DDPictureLoaders.Standard(@"e20200003_dat\Logo\Copyright.png");
 
-		public DDPicture Player = DDPictureLoaders.BgTrans(@"e20201027_YokoActTM\pata2-magic\free_pochitto.png"); // プレイヤー画像 大元
+		public DDPicture Player = DDPictureLoaders.BgTrans(@"e20200003_dat\pata2-magic\free_pochitto.png"); // プレイヤー画像 大元
 
 		// ---- プレイヤー画像 ここから
 
@@ -81,16 +81,16 @@ namespace Charlotte
 			// ---- プレイヤー画像 ここまで
 		}
 
-		public DDPicture Tile_None = DDPictureLoaders.Standard(@"e20201027_YokoActTM\Tile\Tile_None.png");
-		public DDPicture Tile_B0001 = DDPictureLoaders.Standard(@"e20201027_YokoActTM\Tile\Tile_B0001.png");
-		public DDPicture Tile_B0002 = DDPictureLoaders.Standard(@"e20201027_YokoActTM\Tile\Tile_B0002.png");
-		public DDPicture Tile_B0003 = DDPictureLoaders.Standard(@"e20201027_YokoActTM\Tile\Tile_B0003.png");
-		public DDPicture Tile_B0004 = DDPictureLoaders.Standard(@"e20201027_YokoActTM\Tile\Tile_B0004.png");
+		public DDPicture Tile_None = DDPictureLoaders.Standard(@"e20200003_dat\Tile\Tile_None.png");
+		public DDPicture Tile_B0001 = DDPictureLoaders.Standard(@"e20200003_dat\Tile\Tile_B0001.png");
+		public DDPicture Tile_B0002 = DDPictureLoaders.Standard(@"e20200003_dat\Tile\Tile_B0002.png");
+		public DDPicture Tile_B0003 = DDPictureLoaders.Standard(@"e20200003_dat\Tile\Tile_B0003.png");
+		public DDPicture Tile_B0004 = DDPictureLoaders.Standard(@"e20200003_dat\Tile\Tile_B0004.png");
 
-		public DDPicture Wall_B0001 = DDPictureLoaders.Standard(@"e20201027_YokoActTM\Wall\Wall_B0001.jpg");
-		public DDPicture Wall_B0002 = DDPictureLoaders.Standard(@"e20201027_YokoActTM\Wall\Wall_B0002.jpg");
-		public DDPicture Wall_B0003 = DDPictureLoaders.Standard(@"e20201027_YokoActTM\Wall\Wall_B0003.jpg");
-		public DDPicture Wall_B0004 = DDPictureLoaders.Standard(@"e20201027_YokoActTM\Wall\Wall_B0004.jpg");
-		public DDPicture Wall_B0005 = DDPictureLoaders.Standard(@"e20201027_YokoActTM\Wall\Wall_B0005.jpg");
+		public DDPicture Wall_B0001 = DDPictureLoaders.Standard(@"e20200003_dat\Wall\Wall_B0001.jpg");
+		public DDPicture Wall_B0002 = DDPictureLoaders.Standard(@"e20200003_dat\Wall\Wall_B0002.jpg");
+		public DDPicture Wall_B0003 = DDPictureLoaders.Standard(@"e20200003_dat\Wall\Wall_B0003.jpg");
+		public DDPicture Wall_B0004 = DDPictureLoaders.Standard(@"e20200003_dat\Wall\Wall_B0004.jpg");
+		public DDPicture Wall_B0005 = DDPictureLoaders.Standard(@"e20200003_dat\Wall\Wall_B0005.jpg");
 	}
 }

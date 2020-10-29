@@ -1,4 +1,0 @@
-CALL qq
-cx **
-CALL DebugRelease.bat /B
-C:\Dev\wb\t20201016_Tools\UpdatingCopy.exe out C:\be\Web\DocRoot\Elsa\e20201009_NovelAdv_Base

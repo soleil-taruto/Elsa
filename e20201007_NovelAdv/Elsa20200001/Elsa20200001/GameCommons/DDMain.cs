@@ -128,9 +128,9 @@ namespace Charlotte.GameCommons
 
 			// Font
 			{
-				//DDFontRegister.Add(@"e20201007_NovelAdv\Font\Genkai-Mincho-font\genkai-mincho.ttf");
-				//DDFontRegister.Add(@"e20201007_NovelAdv\Font\riitf\RiiT_F.otf");
-				DDFontRegister.Add(@"e20201007_NovelAdv\Font\K Gothic\K Gothic.ttf");
+				//DDFontRegister.Add(@"e20200003_dat\Font\Genkai-Mincho-font\genkai-mincho.ttf");
+				//DDFontRegister.Add(@"e20200003_dat\Font\riitf\RiiT_F.otf");
+				DDFontRegister.Add(@"e20200003_dat\Font\K Gothic\K Gothic.ttf");
 			}
 
 			Ground.I = new Ground();

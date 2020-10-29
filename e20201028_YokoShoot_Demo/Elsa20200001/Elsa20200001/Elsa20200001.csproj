@@ -160,7 +160,6 @@
     <Compile Include="Games\Player.cs" />
     <Compile Include="Games\Scripts\Script.cs" />
     <Compile Include="Games\Scripts\Script_Bボス0001テスト.cs" />
-    <Compile Include="Games\Scripts\Script_ステージ01.cs" />
     <Compile Include="Games\Scripts\Script_ダミー0001.cs" />
     <Compile Include="Games\Scripts\Script_テスト0001.cs" />
     <Compile Include="Games\Scripts\Script_テスト0002.cs" />

@@ -1,5 +1,0 @@
-CALL qq
-cx **
-CALL Release.bat /B
-C:\Dev\wb\t20201016_Tools\UpdatingCopy.exe out C:\be\Web\DocRoot\Elsa\e20201008_NovelAdv_Demo
-START /B /WAIT /DC:\be\Web CMD /C Deploy.bat

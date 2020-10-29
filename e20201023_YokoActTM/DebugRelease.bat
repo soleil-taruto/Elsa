@@ -2,12 +2,9 @@ C:\Factory\Tools\RDMD.exe /RC out
 
 MD out\Data
 MD out\Data\Elsa
-MD out\Data\Elsa\e20200002_General
-MD out\Data\Elsa\e20201023_YokoActTM
 MD out\Data\res
 
-ROBOCOPY C:\Dat\Elsa\e20200002_General out\Data\Elsa\e20200002_General /MIR
-ROBOCOPY C:\Dat\Elsa\e20201023_YokoActTM out\Data\Elsa\e20201023_YokoActTM /MIR
+ROBOCOPY dat out\Data\Elsa /MIR
 ROBOCOPY res out\Data\res /MIR
 
 C:\Factory\SubTools\CallConfuserCLI.exe Elsa20200001\Elsa20200001\bin\Release\Elsa20200001.exe out\Elsa20200001.exe
@@ -19,4 +16,4 @@ COPY /B Elsa20200001\Elsa20200001\bin\Release\DxLibDotNet.dll out
 C:\Factory\Tools\xcp.exe doc out
 COPY /B AUTHORS out
 
-C:\Factory\SubTools\zip.exe /PE- /RVE- %* /G out e20201023_YokoActTM
+C:\Factory\SubTools\zip.exe /PE- /RVE- %* /G out e20200003_dat

@@ -12,7 +12,7 @@ namespace Charlotte.GameCommons
 		public const string SaveDataFile = "SaveData.dat";
 		public const string ResourceFile_01 = "Resource.dat";
 		public const string ResourceFile_02 = "res.dat";
-		public const string ResourceDir_01 = @"C:\Dat\Elsa";
+		public const string ResourceDir_01 = @"..\..\..\..\dat";
 		public const string ResourceDir_02 = @"..\..\..\..\res";
 		public const string UserDatStringsFile = "Properties.dat";
 

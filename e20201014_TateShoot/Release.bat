@@ -1,9 +1,7 @@
 C:\Factory\Tools\RDMD.exe /RC out
 
 C:\Factory\SubTools\makeDDResourceFile.exe ^
-	C:\Dat\Elsa ^
-	/SD e20200002_General ^
-	/SD e20201014_TateShoot ^
+	dat ^
 	out\Resource.dat ^
 	Tools\MaskGZData.exe
 
@@ -21,4 +19,4 @@ COPY /B Elsa20200001\Elsa20200001\bin\Release\DxLibDotNet.dll out
 C:\Factory\Tools\xcp.exe doc out
 COPY /B AUTHORS out
 
-C:\Factory\SubTools\zip.exe /PE- /RVE- %* /G out e20201014_TateShoot
+C:\Factory\SubTools\zip.exe /PE- /RVE- %* /G out e20200003_dat

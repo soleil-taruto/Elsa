@@ -1,8 +1,0 @@
-/
-これはダミーシナリオです。
-
-!MessageWindow = MessageWindow
-!MessageWindow Z 60001
-!SystemButtons = SystemButtons
-!SystemButtons Z 60002
-!System = System
