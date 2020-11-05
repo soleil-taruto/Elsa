@@ -1,0 +1,49 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.GameCommons;
+using Charlotte.Commons;
+using Charlotte.Games.Enemies;
+using Charlotte.Games.Shots;
+
+namespace Charlotte.Games
+{
+	/// <summary>
+	/// プレイヤーに関する情報と機能
+	/// 唯一のインスタンスを Game.I.Player に保持する。
+	/// </summary>
+	public class Player
+	{
+		public double X;
+		public double Y;
+		public double YSpeed;
+		public int FaceDirection; // プレイヤーが向いている方向 { 2, 4, 6, 8 } == { 下, 左, 右, 上 }
+		public int MoveFrame;
+		public bool MoveSlow; // ? 低速移動
+		public int JumpFrame;
+		public bool TouchGround;
+		public int AirborneFrame;
+		public int ShagamiFrame;
+		public int AttackFrame;
+		public int DeadFrame = 0; // 0 == 無効, 1～ == 死亡中
+		public int DamageFrame = 0; // 0 == 無効, 1～ == ダメージ中
+		public int InvincibleFrame = 0; // 0 == 無効, 1～ == 無敵期間中
+		public int HP = 1;
+
+		public void Draw()
+		{
+			throw null; // TODO
+		}
+
+		public void Attack()
+		{
+			// 将来的に武器毎にコードが実装され、メソッドがでかくなると思われる。
+
+			if (this.AttackFrame % 6 == 1)
+			{
+				throw null; // TODO
+			}
+		}
+	}
+}

@@ -57,7 +57,7 @@ namespace Charlotte.Games
 					picture = Ground.I.Picture.PlayerDash[(DDEngine.ProcFrame / 5) % 2];
 				}
 			}
-			if (this.TouchGround == false)
+			if (!this.TouchGround)
 			{
 				picture = Ground.I.Picture.PlayerJump[0];
 			}

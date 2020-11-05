@@ -7,10 +7,13 @@ using Charlotte.GameCommons;
 
 namespace Charlotte.Games.Enemies
 {
+	/// <summary>
+	/// テスト用_敵
+	/// </summary>
 	public class Enemy_B0001 : Enemy
 	{
 		public Enemy_B0001(double x, double y)
-			: base(x, y, 0, 0)
+			: base(x, y, 0, 0, false)
 		{ }
 
 		private D2Point Speed = new D2Point();

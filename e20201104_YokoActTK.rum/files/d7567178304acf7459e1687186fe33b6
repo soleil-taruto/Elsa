@@ -1,0 +1,48 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.Commons;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Tests
+{
+	public class Test0001
+	{
+		public void Test01()
+		{
+			DDPicture[][] motions = new DDPicture[][]
+			{
+				Ground.I.Picture2.さやか死亡,
+				Ground.I.Picture2.さやか接地攻撃,
+				Ground.I.Picture2.さやか走り,
+				Ground.I.Picture2.さやか滞空攻撃,
+				Ground.I.Picture2.さやか滞空攻撃_突き,
+				Ground.I.Picture2.さやか被弾,
+				Ground.I.Picture2.さやか立ち,
+			};
+
+			DDEngine.FreezeInput();
+
+			int motionIndex = 0;
+
+			for (int frame = 0; ; frame++)
+			{
+				if (DDInput.DIR_8.IsPound())
+					motionIndex--;
+
+				if (DDInput.DIR_2.IsPound())
+					motionIndex++;
+
+				motionIndex += motions.Length;
+				motionIndex %= motions.Length;
+
+				DDCurtain.DrawCurtain();
+
+				DDDraw.DrawCenter(motions[motionIndex][(frame / 3) % motions[motionIndex].Length], DDConsts.Screen_W, DDConsts.Screen_H);
+
+				DDEngine.EachFrame();
+			}
+		}
+	}
+}

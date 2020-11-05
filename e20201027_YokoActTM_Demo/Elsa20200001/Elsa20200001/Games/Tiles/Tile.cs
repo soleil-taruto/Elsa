@@ -16,7 +16,7 @@ namespace Charlotte.Games.Tiles
 		/// <summary>
 		/// このタイルを描画する。
 		/// タイルが画面内に入り込んだときのみ実行される。
-		/// 座標はタイルの中心座標
+		/// 座標はタイルの中心座標 且つ 画面の座標(画面左上を0,0とする)
 		/// -- マップセルを埋めるには LTWH (x - Consts.TILE_W / 2, y - Consts.TILE_H / 2, Consts.TILE_W, Consts.TILE_H) の領域に描画すれば良い。
 		/// </summary>
 		/// <param name="x">タイルの中心座標(X軸)</param>

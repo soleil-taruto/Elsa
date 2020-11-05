@@ -16,6 +16,9 @@ namespace Charlotte.Games.Enemies
 	{
 		// Game.I.ReloadEnemies() からロードされた場合、初期位置として「配置されたマップセルの中心座標」が与えられる。
 
+		// this.X, this.Y はマップの座標(マップの左上を0,0とする)
+		// -- 描画する際は DDGround.ICamera.X, DDGround.ICamera.Y をそれぞれ減じること。
+
 		public double X;
 		public double Y;
 
@@ -32,12 +35,19 @@ namespace Charlotte.Games.Enemies
 		/// </summary>
 		public int AttackPoint;
 
-		public Enemy(double x, double y, int hp, int attackPoint)
+		/// <summary>
+		/// 自機に当たると消滅する。
+		/// -- 敵弾を想定する。
+		/// </summary>
+		public bool 自機に当たると消滅する;
+
+		public Enemy(double x, double y, int hp, int attackPoint, bool 自機に当たると消滅する)
 		{
 			this.X = x;
 			this.Y = y;
 			this.HP = hp;
 			this.AttackPoint = attackPoint;
+			this.自機に当たると消滅する = 自機に当たると消滅する;
 		}
 
 		/// <summary>
@@ -91,6 +101,7 @@ namespace Charlotte.Games.Enemies
 
 		/// <summary>
 		/// 被弾した。
+		/// 体力の減少などは呼び出し側でやっている。
 		/// </summary>
 		/// <param name="shot">この敵が被弾したプレイヤーの弾</param>
 		public virtual void Damaged(Shot shot)
@@ -100,6 +111,7 @@ namespace Charlotte.Games.Enemies
 
 		/// <summary>
 		/// 撃破されて消滅した。
+		/// 死亡フラグ立てなどは呼び出し側でやっている。
 		/// </summary>
 		public virtual void Killed()
 		{

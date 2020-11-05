@@ -29,11 +29,15 @@ namespace Charlotte.Games.Walls
 
 		/// <summary>
 		/// マップにおける画面の位置(X位置_レート)
+		/// -- 0.0 == 画面の左側がマップの左側と重なっている。
+		/// -- 1.0 == 画面の右側がマップの右側と重なっている。
 		/// </summary>
 		protected double DrawXRate;
 
 		/// <summary>
 		/// マップにおける画面の位置(Y位置_レート)
+		/// -- 0.0 == 画面の上側がマップの上側と重なっている。
+		/// -- 1.0 == 画面の下側がマップの下側と重なっている。
 		/// </summary>
 		protected double DrawYRate;
 

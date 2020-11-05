@@ -16,6 +16,8 @@ namespace Charlotte.LevelEditors
 	{
 		#region ALT_F4 抑止
 
+		public bool XPressed = false;
+
 		[SecurityPermission(SecurityAction.LinkDemand, Flags = SecurityPermissionFlag.UnmanagedCode)]
 		protected override void WndProc(ref Message m)
 		{
@@ -23,8 +25,10 @@ namespace Charlotte.LevelEditors
 			const long SC_CLOSE = 0xF060L;
 
 			if (m.Msg == WM_SYSCOMMAND && (m.WParam.ToInt64() & 0xFFF0L) == SC_CLOSE)
+			{
+				this.XPressed = true;
 				return;
-
+			}
 			base.WndProc(ref m);
 		}
 

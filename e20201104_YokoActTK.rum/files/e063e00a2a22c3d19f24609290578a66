@@ -1,0 +1,32 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.Commons;
+using Charlotte.GameCommons;
+
+namespace Charlotte
+{
+	public class ResourcePicture2
+	{
+		//public DDPicture[] Dummy = DDDerivations.GetAnimation(Ground.I.Picture.Dummy, 0, 0, 25, 25, 2, 2).ToArray();
+
+		/*
+		public DDPicture[] ほむらシールド = DDDerivations.GetAnimation_YX(Ground.I.Picture.ほむらシールド, 0, 0, 132, 138, 8, 1, 133, 139).ToArray();
+		public DDPicture[] ほむらバズーカ = DDDerivations.GetAnimation_YX(Ground.I.Picture.ほむらバズーカ, 0, 0, 132, 138, 8, 1, 133, 139).ToArray();
+		public DDPicture[] ほむら死亡 = DDDerivations.GetAnimation_YX(Ground.I.Picture.ほむら死亡, 0, 0, 132, 138, 8, 1, 133, 139).ToArray();
+		public DDPicture[] ほむら滞空攻撃 = DDDerivations.GetAnimation_YX(Ground.I.Picture.ほむら滞空攻撃, 0, 0, 132, 138, 8, 1, 133, 139).ToArray();
+		public DDPicture[] ほむら立ち = DDDerivations.GetAnimation_YX(Ground.I.Picture.ほむら立ち, 0, 0, 132, 138, 8, 1, 133, 139).ToArray();
+		public DDPicture[] ほむら被弾 = DDDerivations.GetAnimation_YX(Ground.I.Picture.ほむら被弾, 0, 0, 132, 138, 8, 1, 133, 139).ToArray();
+		public DDPicture[] ほむら走り = DDDerivations.GetAnimation_YX(Ground.I.Picture.ほむら走り, 0, 0, 132, 138, 8, 1, 133, 139).ToArray();
+		 * */
+
+		public DDPicture[] さやか死亡 = DDDerivations.GetAnimation_YX(Ground.I.Picture.さやか死亡, 0, 0, 164, 140, 5, 2, 165, 140).ToArray();
+		public DDPicture[] さやか接地攻撃 = DDDerivations.GetAnimation_YX(Ground.I.Picture.さやか接地攻撃, 0, 0, 182, 134, 4, 3, 183, 135).ToArray();
+		public DDPicture[] さやか走り = DDDerivations.GetAnimation_YX(Ground.I.Picture.さやか走り, 0, 0, 132, 138, 8, 1, 133, 139).ToArray();
+		public DDPicture[] さやか滞空攻撃 = DDDerivations.GetAnimation_YX(Ground.I.Picture.さやか滞空攻撃, 0, 0, 130, 142, 6, 1, 131, 143).ToArray();
+		public DDPicture[] さやか滞空攻撃_突き = DDDerivations.GetAnimation_YX(Ground.I.Picture.さやか滞空攻撃_突き, 0, 0, 190, 136, 4, 3, 191, 137).ToArray();
+		public DDPicture[] さやか被弾 = DDDerivations.GetAnimation_YX(Ground.I.Picture.さやか被弾, 0, 0, 134, 154, 5, 1, 134, 155).ToArray();
+		public DDPicture[] さやか立ち = DDDerivations.GetAnimation_YX(Ground.I.Picture.さやか立ち, 0, 0, 120, 172, 10, 1, 121, 173).ToArray();
+	}
+}

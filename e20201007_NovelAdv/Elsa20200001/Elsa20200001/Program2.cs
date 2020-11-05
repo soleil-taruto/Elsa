@@ -32,7 +32,7 @@ namespace Charlotte
 
 		private void Main4()
 		{
-			if (ProcMain.ArgsReader.ArgIs("/D-19791231-96")) // 引数は適当な文字列
+			if (ProcMain.ArgsReader.ArgIs("//D")) // 引数は適当な文字列
 			{
 				Main4_Debug();
 			}

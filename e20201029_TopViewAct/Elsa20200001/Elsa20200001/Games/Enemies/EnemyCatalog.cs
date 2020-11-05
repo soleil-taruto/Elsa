@@ -22,6 +22,7 @@ namespace Charlotte.Games.Enemies
 		}
 
 		// Creator 用
+		// -- 初期値は適当な値
 		private static double X = 300.0;
 		private static double Y = 300.0;
 
@@ -46,12 +47,10 @@ namespace Charlotte.Games.Enemies
 
 		public static Enemy Create(string name, double x, double y)
 		{
-			ProcMain.WriteLog(name);
-
 			X = x;
 			Y = y;
 
-			return Tiles.First(enemy => enemy.Name == name).Creator();
+			return SCommon.FirstOrDie(Tiles, enemy => enemy.Name == name, () => new DDError(name)).Creator();
 		}
 	}
 }

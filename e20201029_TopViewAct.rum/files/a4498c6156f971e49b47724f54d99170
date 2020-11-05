@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Charlotte.Games.Tiles
+{
+	public abstract class Tile_水辺系 : Tile
+	{
+		public override void Draw(double x, double y)
+		{
+			// TODO
+		}
+	}
+}

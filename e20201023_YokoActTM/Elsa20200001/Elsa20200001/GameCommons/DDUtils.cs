@@ -193,7 +193,7 @@ namespace Charlotte.GameCommons
 		}
 
 		/// <summary>
-		/// 良く使っていた古い関数
+		/// よく使っていた古い関数
 		/// 始点から終点へ指定速度で向かう場合の(単位時間の)移動量を返す。
 		/// </summary>
 		/// <param name="x">始点X</param>
