@@ -5,6 +5,10 @@ using System.Text;
 
 namespace Charlotte.Games.Tiles
 {
+	/// <summary>
+	/// タイル
+	/// マップセルの視覚的・物理的な構成要素
+	/// </summary>
 	public abstract class Tile
 	{
 		/// <summary>

@@ -7,6 +7,9 @@ using Charlotte.Commons;
 
 namespace Charlotte.Games.Enemies
 {
+	/// <summary>
+	/// 敵のカタログ
+	/// </summary>
 	public static class EnemyCatalog
 	{
 		private class EnemyInfo

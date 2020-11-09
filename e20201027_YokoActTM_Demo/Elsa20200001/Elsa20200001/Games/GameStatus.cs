@@ -22,7 +22,7 @@ namespace Charlotte.Games
 		/// <summary>
 		/// プレイヤーのHP
 		/// </summary>
-		public int HP = 10;
+		public int StartHP = 10;
 
 		/// <summary>
 		/// スタート地点の Direction 値
@@ -37,7 +37,7 @@ namespace Charlotte.Games
 		/// <summary>
 		/// プレイヤーが左を向いているか
 		/// </summary>
-		public bool FacingLeft = false;
+		public bool StartFacingLeft = false;
 
 		/// <summary>
 		/// 最後のマップを退場した方向

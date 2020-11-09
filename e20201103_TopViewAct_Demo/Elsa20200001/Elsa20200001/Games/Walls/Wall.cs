@@ -6,6 +6,9 @@ using Charlotte.Commons;
 
 namespace Charlotte.Games.Walls
 {
+	/// <summary>
+	/// 壁紙
+	/// </summary>
 	public abstract class Wall
 	{
 		private Func<bool> _draw = null;

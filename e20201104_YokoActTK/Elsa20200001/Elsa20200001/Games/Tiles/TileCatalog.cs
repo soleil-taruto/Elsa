@@ -7,6 +7,9 @@ using Charlotte.GameCommons;
 
 namespace Charlotte.Games.Tiles
 {
+	/// <summary>
+	/// タイルのカタログ
+	/// </summary>
 	public static class TileCatalog
 	{
 		private class TileInfo

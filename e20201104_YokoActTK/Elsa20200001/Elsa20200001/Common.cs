@@ -10,7 +10,9 @@ namespace Charlotte
 {
 	public static class Common
 	{
+		// ==================
 		// ==== Map 関連 ====
+		// ==================
 
 		public const string MAP_FILE_PREFIX = @"e20200001_res\World\Map\";
 		public const string MAP_FILE_SUFFIX = ".txt";
@@ -95,7 +97,9 @@ namespace Charlotte
 			}
 		}
 
-		// ====
+		// ===========================
+		// ==== Map 関連 (ここまで) ====
+		// ===========================
 
 		public static T GetElement<T>(T[] arr, int index, T defval)
 		{

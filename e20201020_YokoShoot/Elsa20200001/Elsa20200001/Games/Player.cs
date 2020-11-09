@@ -27,7 +27,7 @@ namespace Charlotte.Games
 
 		public int BornFrame = 0; // 0 == 無効, 0< == 登場中
 		public int DeadFrame = 0; // 0 == 無効, 0< == 死亡中
-		public int InvincibleFrame = 0; // 0 == 無効, 0< == 無敵期間中
+		public int InvincibleFrame = 0; // 0 == 無効, 0< == 無敵時間中
 
 		public void Draw()
 		{

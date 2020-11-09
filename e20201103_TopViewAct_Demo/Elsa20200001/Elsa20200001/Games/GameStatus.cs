@@ -22,7 +22,7 @@ namespace Charlotte.Games
 		/// <summary>
 		/// プレイヤーのHP
 		/// </summary>
-		public int HP = 10;
+		public int StartHP = 10;
 
 		/// <summary>
 		/// スタート地点の Direction 値
@@ -41,7 +41,7 @@ namespace Charlotte.Games
 		/// 6 == 右
 		/// 8 == 上
 		/// </summary>
-		public int FaceDirection = 2;
+		public int StartFaceDirection = 2;
 
 		/// <summary>
 		/// 最後のマップを退場した方向
@@ -53,7 +53,7 @@ namespace Charlotte.Games
 		/// </summary>
 		public int ExitDirection = 5;
 
-		public Player.武器_e 選択武器 = Player.武器_e.NORMAL;
+		public Player.武器_e Start選択武器 = Player.武器_e.NORMAL;
 
 		// <---- prm
 	}

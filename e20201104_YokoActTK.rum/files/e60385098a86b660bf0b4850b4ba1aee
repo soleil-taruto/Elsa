@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games.Attacks
+{
+	public class Attack_ほむら滞空攻撃 : Attack
+	{
+		public override IEnumerable<bool> E_Task()
+		{
+			throw null; // TODO
+		}
+	}
+}

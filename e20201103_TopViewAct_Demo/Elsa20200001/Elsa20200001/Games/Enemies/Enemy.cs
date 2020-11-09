@@ -19,6 +19,8 @@ namespace Charlotte.Games.Enemies
 		// this.X, this.Y はマップの座標(マップの左上を0,0とする)
 		// -- 描画する際は DDGround.ICamera.X, DDGround.ICamera.Y をそれぞれ減じること。
 
+		// this.X, this.Y の Game.I.ReloadEnemies() によってセットされる初期位置はマップセルの中央である。
+
 		public double X;
 		public double Y;
 
