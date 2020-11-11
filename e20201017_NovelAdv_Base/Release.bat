@@ -1,9 +1,8 @@
 C:\Factory\Tools\RDMD.exe /RC out
+C:\Factory\Tools\RDMD.exe /RM tmp
 
 C:\Factory\SubTools\makeDDResourceFile.exe ^
-	C:\Dat\Elsa ^
-	/SD e20200002_General ^
-	/SD e20200003_dat ^
+	dat ^
 	out\Resource.dat ^
 	Tools\MaskGZData.exe
 
@@ -12,8 +11,8 @@ C:\Factory\SubTools\makeDDResourceFile.exe ^
 	out\res.dat ^
 	Tools\MaskGZData.exe
 
-C:\Factory\SubTools\CallConfuserCLI.exe Elsa20200001\Elsa20200001\bin\Release\Elsa20200001.exe out\Elsa20200001.exe
-rem COPY /B Elsa20200001\Elsa20200001\bin\Release\Elsa20200001.exe out
+rem C:\app\Rico\ConfuserElsa.exe Elsa20200001\Elsa20200001.sln tmp
+COPY /B Elsa20200001\Elsa20200001\bin\Release\Elsa20200001.exe out
 COPY /B Elsa20200001\Elsa20200001\bin\Release\DxLib.dll out
 COPY /B Elsa20200001\Elsa20200001\bin\Release\DxLib_x64.dll out
 COPY /B Elsa20200001\Elsa20200001\bin\Release\DxLibDotNet.dll out
