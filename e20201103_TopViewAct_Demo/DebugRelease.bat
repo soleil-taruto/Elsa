@@ -8,7 +8,7 @@ MD out\Data\res
 ROBOCOPY dat out\Data\Elsa /MIR
 ROBOCOPY res out\Data\res /MIR
 
-C:\app\Rico\ConfuserElsa.exe Elsa20200001\Elsa20200001.sln tmp
+CALL Confuse.bat
 COPY /B Elsa20200001\Elsa20200001\bin\Release\Elsa20200001.exe out
 COPY /B Elsa20200001\Elsa20200001\bin\Release\DxLib.dll out
 COPY /B Elsa20200001\Elsa20200001\bin\Release\DxLib_x64.dll out
