@@ -23,6 +23,7 @@ namespace Charlotte.Games
 		public int W;
 		public int H;
 		public string WallName;
+		public string MusicName;
 
 		private void Load()
 		{
@@ -71,7 +72,8 @@ namespace Charlotte.Games
 			}
 			this.W = w;
 			this.H = h;
-			this.WallName = Common.GetElement(lines, c++, Consts.WALL_DEFAULT);
+			this.WallName = Common.GetElement(lines, c++, Consts.NAME_DEFAULT);
+			this.MusicName = Common.GetElement(lines, c++, Consts.NAME_DEFAULT);
 		}
 
 		public void Save()
@@ -95,6 +97,9 @@ namespace Charlotte.Games
 			lines.Add("");
 			lines.Add("; WallName");
 			lines.Add(this.WallName);
+			lines.Add("");
+			lines.Add("; MusicName");
+			lines.Add(this.MusicName);
 
 			DDResource.Save(this.MapFile, SCommon.ENCODING_SJIS.GetBytes(SCommon.LinesToText(lines.ToArray())));
 		}

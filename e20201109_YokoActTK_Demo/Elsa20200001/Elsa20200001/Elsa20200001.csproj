@@ -168,6 +168,7 @@
     <Compile Include="Games\Logo.cs" />
     <Compile Include="Games\Map.cs" />
     <Compile Include="Games\MapCell.cs" />
+    <Compile Include="Games\MusicCollection.cs" />
     <Compile Include="Games\PlayerTracer.cs" />
     <Compile Include="Games\Shots\Shot_さやか接地攻撃.cs" />
     <Compile Include="Games\Shots\Shot_ほむらシールド.cs" />

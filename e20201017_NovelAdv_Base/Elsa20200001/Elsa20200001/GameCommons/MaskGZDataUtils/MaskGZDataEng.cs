@@ -43,13 +43,13 @@ namespace Charlotte.GameCommons.MaskGZDataUtils
 			}
 		}
 
-		private void Transpose(byte[] data, uint seed)
+		private void Transpose(byte[] data, string seed)
 		{
 			this.MaskSignature(data);
 
 			int[] swapIdxLst = Enumerable.Range(1, data.Length / 2).ToArray();
 
-			this.X = seed;
+			this.X = uint.Parse(seed);
 			this.Shuffle(swapIdxLst);
 
 			for (int index = 0; index < swapIdxLst.Length; index++)
@@ -66,7 +66,7 @@ namespace Charlotte.GameCommons.MaskGZDataUtils
 
 		public void Transpose(byte[] data)
 		{
-			this.Transpose(data, 2020092807);
+			this.Transpose(data, "2020092807"); // 難読化貢献のため seed を文字列化しておく
 		}
 	}
 }

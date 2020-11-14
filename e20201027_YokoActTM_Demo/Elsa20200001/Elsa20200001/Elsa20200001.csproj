@@ -158,10 +158,14 @@
     <Compile Include="Games\Logo.cs" />
     <Compile Include="Games\Map.cs" />
     <Compile Include="Games\MapCell.cs" />
+    <Compile Include="Games\MusicCollection.cs" />
+    <Compile Include="Games\Shots\Shot_FireBall.cs" />
+    <Compile Include="Games\Shots\Shot_Laser.cs" />
+    <Compile Include="Games\Shots\Shot_WaveBeam.cs" />
     <Compile Include="Games\WorldGame.cs" />
     <Compile Include="Games\Player.cs" />
     <Compile Include="Games\Shots\Shot.cs" />
-    <Compile Include="Games\Shots\Shot_B0001.cs" />
+    <Compile Include="Games\Shots\Shot_Normal.cs" />
     <Compile Include="Games\Tiles\Tile.cs" />
     <Compile Include="Games\Tiles\TileCatalog.cs" />
     <Compile Include="Games\Tiles\Tile_B0001.cs" />

@@ -39,7 +39,7 @@
 　●画像
 
 　　First Seed Material
-　　http://www.tekepon.net/fsm/
+	https://refmap.wixsite.com/fsm-material/
 
 　　きまぐれアフター
 　　http://www5d.biglobe.ne.jp/~gakai/
@@ -57,6 +57,6 @@
 
 　●ＳＥ
 
-　　フリー音楽素材 Senses Circuit
-　　http://www.senses-circuit.com/
+　　小森平
+　　https://taira-komori.jpn.org
 
