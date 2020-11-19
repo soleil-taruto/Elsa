@@ -64,6 +64,7 @@ namespace Charlotte.GameCommons
 			this.CheckIndex(index);
 
 			this.Inner.RemoveAt(index);
+			this.Count--;
 		}
 
 		public void FastRemoveAt(int index)
