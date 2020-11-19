@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games.DungeonDesigns
+{
+	public class DungeonDesign_Dark : DungeonDesign
+	{
+		public override DDPicture GetWallPicture()
+		{
+			return DDGround.GeneralResource.Dummy;
+		}
+
+		public override DDPicture GetGatePicture()
+		{
+			return DDGround.GeneralResource.Dummy;
+		}
+
+		public override DDPicture GetBackgroundPicture()
+		{
+			return DDGround.GeneralResource.Dummy;
+		}
+	}
+}

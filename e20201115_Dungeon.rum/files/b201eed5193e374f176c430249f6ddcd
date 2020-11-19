@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using DxLibDLL;
+using Charlotte.Commons;
+using Charlotte.GameCommons;
+using Charlotte.GameCommons.Options;
+
+namespace Charlotte.Games
+{
+	public class Game : IDisposable
+	{
+		public Map Map;
+		public GameStatus Status;
+
+		// <---- prm
+
+		public static Game I;
+
+		public Game()
+		{
+			I = this;
+		}
+
+		public void Dispose()
+		{
+			I = null;
+		}
+
+		public void Perform()
+		{
+			throw null; // TODO
+		}
+	}
+}

@@ -1,0 +1,32 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games.DungeonDesigns
+{
+	public static class DungeonDesignCreator
+	{
+		public static DungeonDesign Create(string name)
+		{
+			if (name == Consts.NAME_DEFAULT)
+				return new DungeonDesign_Dark();
+
+			DungeonDesign dd;
+
+			switch (name)
+			{
+				//case Consts.WALL_DEFAULT: wall = new Wall_Dark(); break; // 難読化のため、ここに書けない。
+				case "Dark": dd = new DungeonDesign_Dark(); break;
+				case "Simple": dd = new DungeonDesign_Simple(); break;
+
+				// 新しい壁紙をここへ追加..
+
+				default:
+					throw new DDError("name: " + name);
+			}
+			return dd;
+		}
+	}
+}

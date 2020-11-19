@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.Commons;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games.DungeonDesigns
+{
+	/// <summary>
+	/// ダンジョンのレイアウト
+	/// </summary>
+	public abstract class DungeonDesign
+	{
+		public abstract DDPicture GetWallPicture();
+		public abstract DDPicture GetGatePicture();
+		public abstract DDPicture GetBackgroundPicture();
+	}
+}
