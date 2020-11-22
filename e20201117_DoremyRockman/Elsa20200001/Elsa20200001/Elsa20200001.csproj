@@ -149,6 +149,7 @@
     <Compile Include="GameCommons\Options\DDSlideUtils.cs" />
     <Compile Include="Games\Attacks\Attack.cs" />
     <Compile Include="Games\Attacks\AttackCommon.cs" />
+    <Compile Include="Games\Attacks\Attack_Ladder.cs" />
     <Compile Include="Games\Attacks\Attack_Sliding.cs" />
     <Compile Include="Games\Attacks\Attack_Telepo.cs" />
     <Compile Include="Games\Effects.cs" />
@@ -166,6 +167,7 @@
     <Compile Include="Games\MapCell.cs" />
     <Compile Include="Games\MusicCollection.cs" />
     <Compile Include="Games\Shots\Shot_Normal.cs" />
+    <Compile Include="Games\Tiles\Tile_Ladder.cs" />
     <Compile Include="Games\WorldGame.cs" />
     <Compile Include="Games\Player.cs" />
     <Compile Include="Games\Shots\Shot.cs" />

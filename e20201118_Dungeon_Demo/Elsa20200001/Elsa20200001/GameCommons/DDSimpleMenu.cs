@@ -53,7 +53,7 @@ namespace Charlotte.GameCommons
 			}
 		}
 
-		public int Perform(string title, string[] items, int selectIndex)
+		public int Perform(string title, string[] items, int selectIndex, bool ポーズボタンでメニュー終了 = false)
 		{
 			DDCurtain.SetCurtain();
 			DDEngine.FreezeInput();
@@ -86,15 +86,11 @@ namespace Charlotte.GameCommons
 					}
 				}
 
-				// アプリ固有 >
-
-				if (DDInput.PAUSE.GetInput() == 1)
+				if (ポーズボタンでメニュー終了 && DDInput.PAUSE.GetInput() == 1)
 				{
 					selectIndex = items.Length - 1;
 					break;
 				}
-
-				// < アプリ固有
 
 				bool chgsel = false;
 
