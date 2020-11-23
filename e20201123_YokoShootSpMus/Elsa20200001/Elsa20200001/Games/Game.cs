@@ -1,0 +1,388 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.Commons;
+using Charlotte.GameCommons;
+using Charlotte.GameCommons.Options;
+using Charlotte.Games.Enemies;
+using Charlotte.Games.Scripts;
+using Charlotte.Games.Scripts.ダミーs;
+using Charlotte.Games.Shots;
+using Charlotte.Games.Walls;
+
+namespace Charlotte.Games
+{
+	public class Game : IDisposable
+	{
+		public Script Script = new Script_ダミー0001(); // 軽量なダミー初期オブジェクト
+		public GameStatus Status = new GameStatus();   // 軽量なダミー初期オブジェクト
+
+		// <---- prm
+
+		public static Game I;
+
+		public Game()
+		{
+			I = this;
+		}
+
+		public void Dispose()
+		{
+			I = null;
+		}
+
+		public Player Player = new Player();
+		public int Frame;
+
+		public void Perform()
+		{
+			DDUtils.SetMouseDispMode(false);
+
+			DDUtils.Random = new DDRandom(1u); // 電源パターン確保のため
+
+			this.Player.X = DDConsts.Screen_W / 4;
+			this.Player.Y = DDConsts.Screen_H / 2;
+
+			this.Player.BornFrame = 1;
+
+			DDCurtain.SetCurtain(0, -1.0);
+			DDCurtain.SetCurtain(20);
+
+			DDEngine.FreezeInput();
+
+			for (this.Frame = 0; ; this.Frame++)
+			{
+				if (!this.Script.EachFrame())
+					break;
+
+				if (1 <= DDInput.PAUSE.GetInput() && 10 < this.Frame) // ポーズ
+				{
+					this.Pause();
+				}
+
+				// プレイヤー行動
+				{
+					bool bornOrDead = 1 <= this.Player.BornFrame || 1 <= this.Player.DeadFrame;
+					bool dead = 1 <= this.Player.DeadFrame;
+					double xa = 0.0;
+					double ya = 0.0;
+
+#if true
+					xa = DDMouse.MoveX * 0.1;
+					ya = DDMouse.MoveY * 0.1;
+#else // old
+					if (!dead && 1 <= DDInput.DIR_4.GetInput()) // 左移動
+					{
+						xa = -1.0;
+					}
+					if (!dead && 1 <= DDInput.DIR_6.GetInput()) // 右移動
+					{
+						xa = 1.0;
+					}
+					if (!dead && 1 <= DDInput.DIR_8.GetInput()) // 上移動
+					{
+						ya = -1.0;
+					}
+					if (!dead && 1 <= DDInput.DIR_2.GetInput()) // 下移動
+					{
+						ya = 1.0;
+					}
+#endif
+
+					double speed;
+
+					if (1 <= DDInput.A.GetInput()) // 低速ボタン押下中
+					{
+						speed = (double)this.Player.SpeedLevel;
+					}
+					else
+					{
+						speed = (double)(this.Player.SpeedLevel * 2);
+					}
+
+					this.Player.X += xa * speed;
+					this.Player.Y += ya * speed;
+
+					DDUtils.ToRange(ref this.Player.X, 0.0, DDConsts.Screen_W);
+					DDUtils.ToRange(ref this.Player.Y, 0.0, DDConsts.Screen_H);
+
+					if (!bornOrDead && 1 <= DDMouse.L.GetInput()) // 攻撃ボタン押下中
+					//if (!bornOrDead && 1 <= DDInput.B.GetInput()) // 攻撃ボタン押下中 // old
+					{
+						this.Player.Shoot();
+					}
+
+					if (DDInput.C.GetInput() == 1)
+					{
+						this.Player.SpeedLevel--;
+					}
+					if (DDInput.D.GetInput() == 1)
+					{
+						this.Player.SpeedLevel++;
+					}
+					DDUtils.ToRange(ref this.Player.SpeedLevel, Player.SPEED_LEVEL_MIN, Player.SPEED_LEVEL_MAX);
+				}
+
+			startBorn:
+				if (1 <= this.Player.BornFrame) // プレイヤー登場中の処理
+				{
+					int frame = this.Player.BornFrame - 1;
+
+					if (Consts.PLAYER_BORN_FRAME_MAX < frame)
+					{
+						this.Player.BornFrame = 0;
+						this.Player.InvincibleFrame = 1;
+						goto endBorn;
+					}
+					this.Player.BornFrame++;
+
+					// ----
+
+					double rate = (double)frame / Consts.PLAYER_BORN_FRAME_MAX;
+
+					if (frame == 0) // init
+					{
+						this.Player.Born_X = -50.0;
+						this.Player.Born_Y = DDConsts.Screen_H / 2.0;
+					}
+					DDUtils.Approach(ref this.Player.Born_X, this.Player.X, 0.9 - 0.3 * rate);
+					DDUtils.Approach(ref this.Player.Born_Y, this.Player.Y, 0.9 - 0.3 * rate);
+				}
+			endBorn:
+
+				//startDead:
+				if (1 <= this.Player.DeadFrame) // プレイヤー死亡中の処理
+				{
+					int frame = this.Player.DeadFrame - 1;
+
+					if (Consts.PLAYER_DEAD_FRAME_MAX < frame)
+					{
+						this.Player.DeadFrame = 0;
+
+						if (this.Status.Zanki <= 0) // ? 残機不足
+							break;
+
+						this.Status.Zanki--;
+						this.Player.BornFrame = 1;
+						goto startBorn;
+					}
+					this.Player.DeadFrame++;
+
+					// ----
+
+					if (frame == 0) // init
+					{
+						DDMain.KeepMainScreen();
+
+						foreach (DDScene scene in DDSceneUtils.Create(20))
+						{
+							DDDraw.DrawSimple(DDGround.KeptMainScreen.ToPicture(), 0, 0);
+
+							DDDraw.SetAlpha(0.3 + scene.Rate * 0.3);
+							DDDraw.SetBright(1.0, 0.0, 0.0);
+							DDDraw.DrawRect(DDGround.GeneralResource.WhiteBox, new D4Rect(0, 0, DDConsts.Screen_W, DDConsts.Screen_H));
+							DDDraw.Reset();
+
+							DDEngine.EachFrame();
+						}
+						DDGround.EL.Add(SCommon.Supplier(Effects.PlayerDead(this.Player.X, this.Player.Y)));
+					}
+				}
+				//endDead:
+
+				//startInvincible:
+				if (1 <= this.Player.InvincibleFrame) // プレイヤー無敵時間中の処理
+				{
+					int frame = this.Player.InvincibleFrame - 1;
+
+					if (Consts.PLAYER_INVINCIBLE_FRAME_MAX < frame)
+					{
+						this.Player.InvincibleFrame = 0;
+						goto endInvincible;
+					}
+					this.Player.InvincibleFrame++;
+
+					// ----
+
+					// noop
+				}
+			endInvincible:
+
+				DDCrash plCrash = DDCrashUtils.Point(new D2Point(this.Player.X, this.Player.Y));
+
+				// ====
+				// 描画ここから
+				// ====
+
+				foreach (Wall wall in this.Walls.Iterate())
+					wall.Draw();
+
+				this.Player.Draw();
+
+				foreach (Enemy enemy in this.Enemies.Iterate())
+				{
+					enemy.Crash = DDCrashUtils.None(); // reset
+					enemy.Draw();
+				}
+				foreach (Shot shot in this.Shots.Iterate())
+				{
+					shot.Crash = DDCrashUtils.None(); // reset
+					shot.Draw();
+				}
+
+				DDPrint.SetBorder(new I3Color(64, 64, 64));
+				DDPrint.SetPrint();
+				DDPrint.Print(string.Format("ZANKI={0}, SPEED_LEVEL={1}", this.Status.Zanki, this.Player.SpeedLevel));
+				DDPrint.Reset();
+
+				if (1 <= DDInput.R.GetInput()) // 当たり判定表示(チート)
+				{
+					DDCurtain.DrawCurtain(-0.7);
+
+					const double A = 0.7;
+
+					DDCrashView.Draw(new DDCrash[] { plCrash }, new I3Color(255, 0, 0), 1.0);
+					DDCrashView.Draw(this.Enemies.Iterate().Select(v => v.Crash), new I3Color(255, 255, 255), A);
+					DDCrashView.Draw(this.Shots.Iterate().Select(v => v.Crash), new I3Color(0, 255, 255), A);
+				}
+
+				// ====
+				// 描画ここまで
+				// ====
+
+				// ====
+				// 当たり判定ここから
+				// ====
+
+				foreach (Enemy enemy in this.Enemies.Iterate())
+				{
+					if (
+						1 <= enemy.HP && // ? 敵：生存 && 無敵ではない
+						!DDUtils.IsOutOfScreen(new D2Point(enemy.X, enemy.Y)) // ? 画面内の敵である。
+						)
+					{
+						foreach (Shot shot in this.Shots.Iterate())
+						{
+							// 衝突判定：敵 x 自弾
+							if (
+								!shot.DeadFlag && // ? 自弾：生存
+								DDCrashUtils.IsCrashed(enemy.Crash, shot.Crash) // ? 衝突
+								)
+							{
+								// ★ 敵_被弾ここから
+
+								shot.DeadFlag = true;
+								shot.Killed();
+
+								enemy.HP -= shot.AttackPoint;
+
+								if (1 <= enemy.HP) // ? まだ生存している。
+								{
+									enemy.Damaged();
+								}
+								else // ? 撃破した。
+								{
+									enemy.DeadFlag = true; // HP = -1;
+									enemy.Killed();
+								}
+
+								// ★ 敵_被弾ここまで
+							}
+						}
+					}
+
+					// 衝突判定：敵 x 自機
+					if (
+						this.Player.BornFrame == 0 && // ? プレイヤー登場中ではない。
+						this.Player.DeadFrame == 0 && // ? プレイヤー死亡中ではない。
+						this.Player.InvincibleFrame == 0 && // ? プレイヤー無敵時間中ではない。
+						!enemy.DeadFlag && // ? 敵：生存
+						!DDUtils.IsOutOfScreen(new D2Point(enemy.X, enemy.Y)) && // ? 画面内の敵である。
+						DDCrashUtils.IsCrashed(enemy.Crash, plCrash) // ? 衝突
+						)
+					{
+						// ★ 自機_被弾ここから
+
+						this.Player.DeadFrame = 1;
+
+						// ★ 自機_被弾ここまで
+					}
+				}
+
+				// ====
+				// 当たり判定ここまで
+				// ====
+
+				for (int index = 1; index < this.Walls.Count; index++)
+					if (this.Walls[index].FilledFlag)
+						this.Walls[index - 1].DeadFlag = true;
+
+				// ゴミ回収 -- あまりにもスクリーンから離れすぎている敵・自弾の死亡フラグを立てる。
+				{
+					foreach (Enemy enemy in this.Enemies.Iterate())
+						if (this.IsProbablyEvacuated(enemy.X, enemy.Y))
+							enemy.DeadFlag = true;
+
+					foreach (Shot shot in this.Shots.Iterate())
+						if (this.IsProbablyEvacuated(shot.X, shot.Y))
+							shot.DeadFlag = true;
+				}
+
+				this.Walls.RemoveAll(v => v.DeadFlag);
+				this.Enemies.RemoveAll(v => v.DeadFlag);
+				this.Shots.RemoveAll(v => v.DeadFlag);
+
+				DDEngine.EachFrame();
+			}
+
+			DDUtils.SetMouseDispMode(true);
+		}
+
+		// Walls:
+		// 壁紙リスト
+		// 壁紙の重ね合わせ, FilledFlag == true によって、それより下の(古い)壁紙が除去される方式
+
+		public DDList<Wall> Walls = new DDList<Wall>();
+		public DDList<Enemy> Enemies = new DDList<Enemy>();
+		public DDList<Shot> Shots = new DDList<Shot>();
+
+		private void Pause()
+		{
+			DDMain.KeepMainScreen();
+
+			bool pauseBtnRel = false;
+
+			for (; ; )
+			{
+				if (DDInput.PAUSE.GetInput() == -1 && pauseBtnRel)
+					break;
+
+				if (DDInput.PAUSE.GetInput() == 0)
+					pauseBtnRel = true;
+
+				DDDraw.DrawSimple(DDGround.KeptMainScreen.ToPicture(), 0, 0);
+				DDCurtain.DrawCurtain(-0.5);
+
+				DDEngine.EachFrame();
+			}
+			DDEngine.FreezeInput();
+		}
+
+		/// <summary>
+		/// スクリーンから離れすぎているか
+		/// 退場と見なして良いか
+		/// </summary>
+		/// <param name="x">X_座標</param>
+		/// <param name="y">Y_座標</param>
+		/// <returns></returns>
+		private bool IsProbablyEvacuated(double x, double y)
+		{
+			const int MGN_SCREEN_NUM = 3;
+
+			return
+				x < -DDConsts.Screen_W * MGN_SCREEN_NUM || DDConsts.Screen_W * (1 + MGN_SCREEN_NUM) < x ||
+				y < -DDConsts.Screen_H * MGN_SCREEN_NUM || DDConsts.Screen_H * (1 + MGN_SCREEN_NUM) < y;
+		}
+	}
+}
