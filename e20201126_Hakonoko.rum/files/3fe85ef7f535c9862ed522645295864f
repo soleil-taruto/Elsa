@@ -1,0 +1,94 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.GameCommons;
+using Charlotte.GameCommons.Options;
+
+namespace Charlotte.Games
+{
+	public class MapCell
+	{
+		public enum Kind_e
+		{
+			EMPTY,
+			START,
+			GOAL,
+			WALL,
+			DEATH,
+			ARKANOID_1,
+			ARKANOID_2,
+			ARKANOID_3,
+			ARKANOID_4,
+			ARKANOID_6,
+			ARKANOID_7,
+			ARKANOID_8,
+			ARKANOID_9,
+			COOKIE_時計回り_1,
+			COOKIE_時計回り_2,
+			COOKIE_時計回り_3,
+			COOKIE_時計回り_4,
+			COOKIE_時計回り_6,
+			COOKIE_時計回り_7,
+			COOKIE_時計回り_8,
+			COOKIE_時計回り_9,
+			COOKIE_反時計回り_1,
+			COOKIE_反時計回り_2,
+			COOKIE_反時計回り_3,
+			COOKIE_反時計回り_4,
+			COOKIE_反時計回り_6,
+			COOKIE_反時計回り_7,
+			COOKIE_反時計回り_8,
+			COOKIE_反時計回り_9,
+			PATA_L,
+			PATA_L_SLOW,
+			PATA_L_FAST,
+			PATA_R,
+			PATA_R_SLOW,
+			PATA_R_FAST,
+		}
+
+		public string[] Kine_e_Names = new string[]
+		{
+			"空間",
+			"スタート地点",
+			"ゴール地点",
+			"壁",
+			"即死壁",
+			"アルカノイド_初期進行方向=左下",
+			"アルカノイド_初期進行方向=下",
+			"アルカノイド_初期進行方向=右下",
+			"アルカノイド_初期進行方向=左",
+			"アルカノイド_初期進行方向=右",
+			"アルカノイド_初期進行方向=左上",
+			"アルカノイド_初期進行方向=上",
+			"アルカノイド_初期進行方向=右上",
+			"クッキー_時計回り_初期位置=左下",
+			"クッキー_時計回り_初期位置=下",
+			"クッキー_時計回り_初期位置=右下",
+			"クッキー_時計回り_初期位置=左",
+			"クッキー_時計回り_初期位置=右",
+			"クッキー_時計回り_初期位置=左上",
+			"クッキー_時計回り_初期位置=上",
+			"クッキー_時計回り_初期位置=右上",
+			"クッキー_反時計回り_初期位置=左下",
+			"クッキー_反時計回り_初期位置=下",
+			"クッキー_反時計回り_初期位置=右下",
+			"クッキー_反時計回り_初期位置=左",
+			"クッキー_反時計回り_初期位置=右",
+			"クッキー_反時計回り_初期位置=左上",
+			"クッキー_反時計回り_初期位置=上",
+			"クッキー_反時計回り_初期位置=右上",
+			"パタパタ_初期進行方向=左",
+			"パタパタ_初期進行方向=左_低速",
+			"パタパタ_初期進行方向=左_高速",
+			"パタパタ_初期進行方向=右",
+			"パタパタ_初期進行方向=右_低速",
+			"パタパタ_初期進行方向=右_高速",
+		};
+
+		public Kind_e Kind;
+
+		// <---- prm
+	}
+}

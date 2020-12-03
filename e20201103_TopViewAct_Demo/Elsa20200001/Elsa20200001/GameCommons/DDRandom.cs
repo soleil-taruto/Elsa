@@ -88,7 +88,7 @@ namespace Charlotte.GameCommons
 			return this.GetInt(maxval - minval + 1) + minval;
 		}
 
-		public void Shffle<T>(T[] arr)
+		public void Shuffle<T>(T[] arr)
 		{
 			for (int index = arr.Length; 2 <= index; index--)
 				SCommon.Swap(arr, this.GetInt(index), index - 1);

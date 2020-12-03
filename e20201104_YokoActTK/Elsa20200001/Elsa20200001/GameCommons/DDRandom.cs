@@ -83,7 +83,7 @@ namespace Charlotte.GameCommons
 			return (int)this.GetUInt((uint)modulo);
 		}
 
-		public void Shffle<T>(T[] arr)
+		public void Shuffle<T>(T[] arr)
 		{
 			for (int index = arr.Length; 2 <= index; index--)
 				SCommon.Swap(arr, this.GetInt(index), index - 1);

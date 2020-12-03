@@ -1,0 +1,173 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.GameCommons;
+using Charlotte.Games.Shots;
+using Charlotte.Commons;
+using Charlotte.Games.Enemies;
+using DxLibDLL;
+
+namespace Charlotte.Games.Attacks
+{
+	public class Attack_ほむらシールド : Attack
+	{
+		public override bool IsInvincibleMode()
+		{
+			return false;
+		}
+
+		private static DDSubScreen WorkScreen_R = new DDSubScreen(DDConsts.Screen_W, DDConsts.Screen_H);
+		private static DDSubScreen WorkScreen_G = new DDSubScreen(DDConsts.Screen_W, DDConsts.Screen_H);
+		private static DDSubScreen WorkScreen_B = new DDSubScreen(DDConsts.Screen_W, DDConsts.Screen_H);
+
+		protected override IEnumerable<bool> E_Draw()
+		{
+			if (Game.I.Shots.Iterate().Any(v => v is Shot_ほむらシールド)) // 2つ同時は変になる。
+				goto endFunc;
+
+			PlayerTracer.MomentInfo[] moments = PlayerTracer.GetMoments();
+
+			if (moments.Length == 0) // ? 記録無し -> 発動無効！
+				goto endFunc;
+
+#if false // 発動モーション無し
+			for (int frame = 0; ; frame++)
+			{
+				int koma = frame / 6;
+
+				if (Ground.I.Picture2.ほむらシールド.Length <= koma)
+					break;
+
+				if (frame == 4 * 6)
+					this.カットイン();
+
+				double xZoom = Game.I.Player.FacingLeft ? -1.0 : 1.0;
+
+				DDDraw.SetTaskList(Game.I.Player.Draw_EL);
+				DDDraw.DrawBegin(
+					Ground.I.Picture2.ほむらシールド[koma],
+					Game.I.Player.X - DDGround.ICamera.X - 8.0 * xZoom,
+					Game.I.Player.Y - DDGround.ICamera.Y + 2.0
+					);
+				DDDraw.DrawZoom_X(xZoom);
+				DDDraw.DrawEnd();
+				DDDraw.Reset();
+
+				yield return true;
+			}
+#endif
+			for (int index = moments.Length - 1; 0 <= index; index--)
+			{
+				if (DDInput.C.GetInput() <= 0) // ? 特殊攻撃ボタンを離した。
+				{
+					moments = moments.Skip(index).ToArray(); // ここから再生するので、ここ以前を切り捨てる。
+					break;
+				}
+
+				Game.I.Player.X = moments[index].X;
+				Game.I.Player.Y = moments[index].Y;
+
+				Game.I.カメラ位置調整(false);
+				Game.I.DrawWall();
+				Game.I.DrawMap();
+
+				foreach (Enemy enemy in moments[index].Enemies)
+					enemy.DrawOnly();
+
+				foreach (Action motion in moments[index].Motions)
+				{
+					DDTaskList draw_el_bk = Game.I.Player.Draw_EL;
+
+					Game.I.Player.Draw_EL = new DDTaskList();
+
+					motion();
+
+					Game.I.Player.Draw_EL.ExecuteAllTask();
+					Game.I.Player.Draw_EL = draw_el_bk;
+				}
+
+				// ★ モノクロ化
+				{
+					DX.GraphBlend(
+						WorkScreen_R.GetHandle(),
+						DDGround.MainScreen.GetHandle(),
+						255,
+						DX.DX_GRAPH_BLEND_RGBA_SELECT_MIX,
+						DX.DX_RGBA_SELECT_BLEND_R,
+						DX.DX_RGBA_SELECT_BLEND_R,
+						DX.DX_RGBA_SELECT_BLEND_R,
+						DX.DX_RGBA_SELECT_SRC_A
+						);
+
+					DX.GraphBlend(
+						WorkScreen_G.GetHandle(),
+						DDGround.MainScreen.GetHandle(),
+						255,
+						DX.DX_GRAPH_BLEND_RGBA_SELECT_MIX,
+						DX.DX_RGBA_SELECT_BLEND_G,
+						DX.DX_RGBA_SELECT_BLEND_G,
+						DX.DX_RGBA_SELECT_BLEND_G,
+						DX.DX_RGBA_SELECT_SRC_A
+						);
+
+					DX.GraphBlend(
+						WorkScreen_B.GetHandle(),
+						DDGround.MainScreen.GetHandle(),
+						255,
+						DX.DX_GRAPH_BLEND_RGBA_SELECT_MIX,
+						DX.DX_RGBA_SELECT_BLEND_B,
+						DX.DX_RGBA_SELECT_BLEND_B,
+						DX.DX_RGBA_SELECT_BLEND_B,
+						DX.DX_RGBA_SELECT_SRC_A
+						);
+
+					DDDraw.DrawSimple(WorkScreen_R.ToPicture(), 0, 0);
+					DDDraw.SetAlpha(0.5);
+					DDDraw.DrawSimple(WorkScreen_G.ToPicture(), 0, 0);
+					DDDraw.SetAlpha(0.333);
+					DDDraw.DrawSimple(WorkScreen_B.ToPicture(), 0, 0);
+					DDDraw.Reset();
+				}
+
+				DDEngine.EachFrame();
+			}
+
+			Game.I.Shots.Add(new Shot_ほむらシールド()
+			{
+				Moments = moments,
+			});
+
+			// 自弾の描画の前に敵の描画が行われるので [Shot_ほむらシールド] による敵の巻き戻しより前に
+			// ほむらシールド発動前の敵が描画されてしまう。
+			// --> ここでクリアしておく
+			Game.I.Enemies.Clear();
+
+		endFunc:
+			yield return false;
+		}
+
+		private void カットイン()
+		{
+			DDMain.KeepMainScreen();
+
+			foreach (DDScene scene in DDSceneUtils.Create(40))
+			{
+				DDDraw.DrawSimple(DDGround.KeptMainScreen.ToPicture(), 0, 0);
+
+				DDDraw.SetBright(0, 0, 0);
+				DDDraw.SetAlpha(1.0 - scene.Rate);
+				DDDraw.DrawBegin(
+					DDGround.GeneralResource.WhiteCircle,
+					Game.I.Player.X - DDGround.ICamera.X,
+					Game.I.Player.Y - DDGround.ICamera.Y
+					);
+				DDDraw.DrawZoom(0.3 + 20.0 * scene.Rate);
+				DDDraw.DrawEnd();
+				DDDraw.Reset();
+
+				DDEngine.EachFrame();
+			}
+		}
+	}
+}

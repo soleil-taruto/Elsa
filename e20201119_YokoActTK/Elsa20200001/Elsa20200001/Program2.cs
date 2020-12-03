@@ -53,9 +53,9 @@ namespace Charlotte
 			//new GameTest().Test01();
 			//new GameTest().Test02();
 			//new GameTest().Test03(); // 開始マップ名を選択
-			//new WorldGameTest().Test01();
-			//new WorldGameTest().Test02();
-			//new WorldGameTest().Test03(); // 開始マップ名を選択
+			//new WorldGameMasterTest().Test01();
+			//new WorldGameMasterTest().Test02();
+			//new WorldGameMasterTest().Test03(); // 開始マップ名を選択
 
 			// ----
 		}

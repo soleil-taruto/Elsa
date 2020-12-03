@@ -1,0 +1,77 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.Commons;
+using Charlotte.Games;
+
+namespace Charlotte
+{
+	public static class Common
+	{
+		// ==================
+		// ==== Map 関連 ====
+		// ==================
+
+		/// <summary>
+		/// マップの(ドット単位の)座標からマップセルの座標を得る。
+		/// </summary>
+		/// <param name="pt">マップの(ドット単位の)座標</param>
+		/// <returns>マップセルの座標</returns>
+		public static I2Point ToTablePoint(D2Point pt)
+		{
+			return ToTablePoint(pt.X, pt.Y);
+		}
+
+		/// <summary>
+		/// マップの(ドット単位の)座標からマップセルの座標を得る。
+		/// </summary>
+		/// <param name="x">マップの(ドット単位の)X_座標</param>
+		/// <param name="y">マップの(ドット単位の)Y_座標</param>
+		/// <returns>マップセルの座標</returns>
+		public static I2Point ToTablePoint(double x, double y)
+		{
+			return new I2Point(
+				(int)(x / Consts.TILE_W),
+				(int)(y / Consts.TILE_H)
+				);
+		}
+
+		private static MapCell _defaultMapCell = null;
+
+		/// <summary>
+		/// デフォルトのマップセル
+		/// マップ外を埋め尽くすマップセル
+		/// </summary>
+		public static MapCell DefaultMapCell
+		{
+			get
+			{
+				if (_defaultMapCell == null)
+				{
+					_defaultMapCell = new MapCell()
+					{
+						Kind = MapCell.Kind_e.WALL,
+					};
+				}
+				return _defaultMapCell;
+			}
+		}
+
+		// ===========================
+		// ==== Map 関連 (ここまで) ====
+		// ===========================
+
+		public static T GetElement<T>(T[] arr, int index, T defval)
+		{
+			if (index < arr.Length)
+			{
+				return arr[index];
+			}
+			else
+			{
+				return defval;
+			}
+		}
+	}
+}

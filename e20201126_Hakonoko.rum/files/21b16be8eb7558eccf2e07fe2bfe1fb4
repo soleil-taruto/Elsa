@@ -1,0 +1,161 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.GameCommons;
+using Charlotte.GameCommons.Options;
+using Charlotte.Commons;
+
+namespace Charlotte.Games
+{
+	public class MapCell
+	{
+		public enum Kind_e
+		{
+			EMPTY,
+			START,
+			GOAL,
+			WALL,
+			DEATH,
+			ARKANOID_1,
+			ARKANOID_2,
+			ARKANOID_3,
+			ARKANOID_4,
+			ARKANOID_6,
+			ARKANOID_7,
+			ARKANOID_8,
+			ARKANOID_9,
+			COOKIE_時計回り_1,
+			COOKIE_時計回り_2,
+			COOKIE_時計回り_3,
+			COOKIE_時計回り_4,
+			COOKIE_時計回り_6,
+			COOKIE_時計回り_7,
+			COOKIE_時計回り_8,
+			COOKIE_時計回り_9,
+			COOKIE_反時計回り_1,
+			COOKIE_反時計回り_2,
+			COOKIE_反時計回り_3,
+			COOKIE_反時計回り_4,
+			COOKIE_反時計回り_6,
+			COOKIE_反時計回り_7,
+			COOKIE_反時計回り_8,
+			COOKIE_反時計回り_9,
+			PATA_L,
+			PATA_L_SLOW,
+			PATA_L_FAST,
+			PATA_R,
+			PATA_R_SLOW,
+			PATA_R_FAST,
+		}
+
+		public static string[] Kine_e_Names = new string[]
+		{
+			"空間",
+			"スタート地点",
+			"ゴール地点",
+			"壁",
+			"即死する壁",
+			"アルカノイド_初期進行方向=左下",
+			"アルカノイド_初期進行方向=下",
+			"アルカノイド_初期進行方向=右下",
+			"アルカノイド_初期進行方向=左",
+			"アルカノイド_初期進行方向=右",
+			"アルカノイド_初期進行方向=左上",
+			"アルカノイド_初期進行方向=上",
+			"アルカノイド_初期進行方向=右上",
+			"クッキー_時計回り_初期位置=左下",
+			"クッキー_時計回り_初期位置=下",
+			"クッキー_時計回り_初期位置=右下",
+			"クッキー_時計回り_初期位置=左",
+			"クッキー_時計回り_初期位置=右",
+			"クッキー_時計回り_初期位置=左上",
+			"クッキー_時計回り_初期位置=上",
+			"クッキー_時計回り_初期位置=右上",
+			"クッキー_反時計回り_初期位置=左下",
+			"クッキー_反時計回り_初期位置=下",
+			"クッキー_反時計回り_初期位置=右下",
+			"クッキー_反時計回り_初期位置=左",
+			"クッキー_反時計回り_初期位置=右",
+			"クッキー_反時計回り_初期位置=左上",
+			"クッキー_反時計回り_初期位置=上",
+			"クッキー_反時計回り_初期位置=右上",
+			"パタパタ_初期進行方向=左",
+			"パタパタ_初期進行方向=左_低速",
+			"パタパタ_初期進行方向=左_高速",
+			"パタパタ_初期進行方向=右",
+			"パタパタ_初期進行方向=右_低速",
+			"パタパタ_初期進行方向=右_高速",
+		};
+
+		public static I3Color[] Kind_e_Colors = new I3Color[]
+		{
+			new I3Color(   0,   0,   0 ), // 空間
+			new I3Color( 255, 255, 255 ), // スタート地点
+			new I3Color(   0, 162, 232 ), // ゴール地点
+			new I3Color( 255, 242,   0 ), // 壁
+			new I3Color( 237,  28,  36 ), // 即死する壁
+			new I3Color(  63,  72, 207 ), // 青い箱 1
+			new I3Color(  63,  72, 206 ), // 青い箱 2
+			new I3Color(  63,  72, 205 ), // 青い箱 3
+			new I3Color(  63,  72, 208 ), // 青い箱 4
+			new I3Color(  63,  72, 204 ), // 青い箱 6
+			new I3Color(  63,  72, 209 ), // 青い箱 7
+			new I3Color(  63,  72, 210 ), // 青い箱 8
+			new I3Color(  63,  72, 211 ), // 青い箱 9
+			new I3Color(  34, 177,  79 ), // 緑の箱 T1
+			new I3Color(  34, 177,  78 ), // 緑の箱 T2
+			new I3Color(  34, 177,  77 ), // 緑の箱 T3
+			new I3Color(  34, 177,  80 ), // 緑の箱 T4
+			new I3Color(  34, 177,  76 ), // 緑の箱 T6
+			new I3Color(  34, 177,  81 ), // 緑の箱 T7
+			new I3Color(  34, 177,  82 ), // 緑の箱 T8
+			new I3Color(  34, 177,  83 ), // 緑の箱 T9
+			new I3Color(  34, 177,  87 ), // 緑の箱 H1
+			new I3Color(  34, 177,  86 ), // 緑の箱 H2
+			new I3Color(  34, 177,  85 ), // 緑の箱 H3
+			new I3Color(  34, 177,  88 ), // 緑の箱 H4
+			new I3Color(  34, 177,  84 ), // 緑の箱 H6
+			new I3Color(  34, 177,  89 ), // 緑の箱 H7
+			new I3Color(  34, 177,  90 ), // 緑の箱 H8
+			new I3Color(  34, 177,  91 ), // 緑の箱 H9
+			new I3Color( 255, 174, 201 ), // 赤い箱 L
+			new I3Color( 255, 174, 202 ), // 赤い箱 LS
+			new I3Color( 255, 174, 203 ), // 赤い箱 LF
+			new I3Color( 255, 174, 204 ), // 赤い箱 R
+			new I3Color( 255, 174, 205 ), // 赤い箱 RS
+			new I3Color( 255, 174, 206 ), // 赤い箱 RF
+		};
+
+		public Kind_e Kind;
+
+		// <---- prm
+
+		public bool IsCookie()
+		{
+			return SCommon.IsRange((int)this.Kind, (int)Kind_e.COOKIE_時計回り_1, (int)Kind_e.COOKIE_反時計回り_9);
+		}
+
+		/// <summary>
+		/// プレイヤーにとっての壁かどうか判定する。
+		/// </summary>
+		/// <returns>プレイヤーにとっての壁か</returns>
+		public bool IsWall()
+		{
+			return
+				this.Kind == Kind_e.WALL ||
+				this.IsCookie();
+		}
+
+		/// <summary>
+		/// 敵にとっての壁かどうか判定する。
+		/// </summary>
+		/// <returns>敵にとっての壁か</returns>
+		internal bool IsEnemyWall()
+		{
+			return
+				this.IsWall() ||
+				this.Kind == Kind_e.DEATH;
+		}
+	}
+}

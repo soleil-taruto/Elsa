@@ -1,0 +1,43 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using DxLibDLL;
+using Charlotte.GameCommons;
+using Charlotte.Commons;
+
+namespace Charlotte.Games.Designs
+{
+	public class Design_0001 : Design
+	{
+		public override void DrawWall()
+		{
+			DX.DrawBox(0, 0, DDConsts.Screen_W, DDConsts.Screen_H, DX.GetColor(0, 0, 0), 1);
+		}
+
+		public override void DrawTile(MapCell cell, int cell_x, int cell_y, double draw_x, double draw_y)
+		{
+			if (cell.Kind == MapCell.Kind_e.WALL || cell.IsCookie())
+			{
+				if ((cell_x + cell_y) % 2 == 0)
+					DDDraw.SetBright(new I3Color(128, 192, 255));
+				else
+					DDDraw.SetBright(new I3Color(100, 150, 200));
+
+				DDDraw.DrawBegin(DDGround.GeneralResource.WhiteBox, draw_x, draw_y);
+				DDDraw.DrawSetSize(Consts.TILE_W, Consts.TILE_H);
+				DDDraw.DrawEnd();
+				DDDraw.Reset();
+
+				if (cell.IsCookie())
+				{
+					DDDraw.SetBright(new I3Color(200, 230, 255));
+					DDDraw.DrawBegin(DDGround.GeneralResource.WhiteBox, draw_x, draw_y);
+					DDDraw.DrawSetSize(Consts.TILE_W / 2, Consts.TILE_H / 2);
+					DDDraw.DrawEnd();
+					DDDraw.Reset();
+				}
+			}
+		}
+	}
+}

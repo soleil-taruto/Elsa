@@ -1,0 +1,107 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.Commons;
+using Charlotte.GameCommons;
+using Charlotte.GameCommons.Options;
+
+namespace Charlotte.Games.Enemies
+{
+	/// <summary>
+	/// 敵
+	/// アルカノイド
+	/// </summary>
+	public class Enemy_Arkanoid : Enemy
+	{
+		public int XAddSign;
+		public int YAddSign;
+
+		public Enemy_Arkanoid(D2Point pos, int initDirection)
+			: base(pos)
+		{
+			int xa;
+			int ya;
+
+			switch (initDirection)
+			{
+				case 4: xa = -1; ya = 0; break;
+				case 6: xa = 1; ya = 0; break;
+				case 8: xa = 0; ya = -1; break;
+				case 2: xa = 0; ya = 1; break;
+
+				case 1: xa = -1; ya = 1; break;
+				case 7: xa = -1; ya = -1; break;
+				case 3: xa = 1; ya = 1; break;
+				case 9: xa = 1; ya = -1; break;
+
+				default:
+					throw null; // never
+			}
+			this.XAddSign = xa;
+			this.YAddSign = ya;
+		}
+
+		public override IEnumerable<bool> E_Draw()
+		{
+			const double SPEED = 3.25;
+			const double NANAME_SPEED = 2.5;
+
+			double speed;
+
+			if (this.XAddSign * this.YAddSign == 0)
+				speed = SPEED;
+			else
+				speed = NANAME_SPEED;
+
+			for (; ; )
+			{
+				this.X += speed * this.XAddSign;
+				this.Y += speed * this.YAddSign;
+
+				// 跳ね返り
+				{
+					const double R = 15.5;
+					bool bounced = false;
+
+					if (Game.I.Map.GetCell(Common.ToTablePoint(this.X - R, this.Y)).IsWall())
+					{
+						this.XAddSign = 1;
+						bounced = true;
+					}
+					else if (Game.I.Map.GetCell(Common.ToTablePoint(this.X + R, this.Y)).IsWall())
+					{
+						this.XAddSign = -1;
+						bounced = true;
+					}
+					else if (Game.I.Map.GetCell(Common.ToTablePoint(this.X, this.Y - R)).IsWall())
+					{
+						this.YAddSign = 1;
+						bounced = true;
+					}
+					else if (Game.I.Map.GetCell(Common.ToTablePoint(this.X, this.Y + R)).IsWall())
+					{
+						this.YAddSign = -1;
+						bounced = true;
+					}
+
+					if (bounced)
+					{
+						this.X = (int)(this.X / Consts.TILE_W) * Consts.TILE_W + Consts.TILE_W / 2;
+						this.Y = (int)(this.Y / Consts.TILE_H) * Consts.TILE_H + Consts.TILE_H / 2;
+					}
+				}
+
+				DDDraw.SetBright(new I3Color(32, 32, 192));
+				DDDraw.DrawBegin(DDGround.GeneralResource.WhiteBox, SCommon.ToInt(this.X - DDGround.ICamera.X), SCommon.ToInt(this.Y - DDGround.ICamera.Y));
+				DDDraw.DrawSetSize(Consts.TILE_W, Consts.TILE_H);
+				DDDraw.DrawEnd();
+				DDDraw.Reset();
+
+				this.Crash = DDCrashUtils.Rect_CenterSize(new D2Point(this.X, this.Y), new D2Size(Consts.TILE_W, Consts.TILE_H));
+
+				yield return true;
+			}
+		}
+	}
+}

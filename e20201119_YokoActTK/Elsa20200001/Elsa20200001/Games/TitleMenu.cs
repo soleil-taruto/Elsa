@@ -60,15 +60,15 @@ namespace Charlotte.Games
 						{
 							this.LeaveTitleMenu();
 
-							using (new WorldGame())
+							using (new WorldGameMaster())
 							{
-								WorldGame.I.World = new World()
+								WorldGameMaster.I.World = new World()
 								{
 									StartMapName = "t0001", // 仮？
 								};
 
-								WorldGame.I.Status = new GameStatus();
-								WorldGame.I.Perform();
+								WorldGameMaster.I.Status = new GameStatus();
+								WorldGameMaster.I.Perform();
 							}
 							this.ReturnTitleMenu();
 						}
@@ -78,19 +78,19 @@ namespace Charlotte.Games
 						{
 							this.LeaveTitleMenu();
 
-							using (new WorldGame())
+							using (new WorldGameMaster())
 							{
-								WorldGame.I.World = new World()
+								WorldGameMaster.I.World = new World()
 								{
 									StartMapName = "t0001", // 仮？
 								};
 
-								WorldGame.I.Status = new GameStatus()
+								WorldGameMaster.I.Status = new GameStatus()
 								{
 									StartChara = Player.Chara_e.SAYAKA,
 								};
 
-								WorldGame.I.Perform();
+								WorldGameMaster.I.Perform();
 							}
 							this.ReturnTitleMenu();
 						}

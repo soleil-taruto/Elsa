@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Charlotte.Games.Designs
+{
+	public abstract class Design
+	{
+		public abstract void DrawWall();
+		public abstract void DrawTile(MapCell cell, int cell_x, int cell_y, double draw_x, double draw_y);
+	}
+}

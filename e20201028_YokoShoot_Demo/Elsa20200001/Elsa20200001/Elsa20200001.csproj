@@ -161,8 +161,11 @@
     <Compile Include="Games\Player.cs" />
     <Compile Include="Games\Scripts\Script.cs" />
     <Compile Include="Games\Scripts\ScriptCommon.cs" />
+    <Compile Include="Games\Scripts\Script_ステージ0002.cs" />
+    <Compile Include="Games\Scripts\Script_ステージ0003.cs" />
     <Compile Include="Games\Scripts\テストs\Script_Bボス0001テスト.cs" />
     <Compile Include="Games\Scripts\ダミーs\Script_ダミー0001.cs" />
+    <Compile Include="Games\Scripts\テストs\Script_テスト0004.cs" />
     <Compile Include="Games\Scripts\テストs\Script_テスト0001.cs" />
     <Compile Include="Games\Scripts\テストs\Script_テスト0002.cs" />
     <Compile Include="Games\Scripts\テストs\Script_テスト0003.cs" />

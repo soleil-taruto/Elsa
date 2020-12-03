@@ -176,7 +176,7 @@
     <Compile Include="Games\Shots\Shot_ほむら滞空攻撃.cs" />
     <Compile Include="Games\Shots\Shot_さやか滞空攻撃.cs" />
     <Compile Include="Games\Shots\Shot_さやか突き.cs" />
-    <Compile Include="Games\WorldGame.cs" />
+    <Compile Include="Games\WorldGameMaster.cs" />
     <Compile Include="Games\Player.cs" />
     <Compile Include="Games\Shots\Shot.cs" />
     <Compile Include="Games\Shots\Shot_B0001.cs" />
@@ -216,7 +216,7 @@
     <Compile Include="ResourceSE.cs" />
     <Compile Include="Tests\Games\GameTest.cs" />
     <Compile Include="Tests\Games\TitleMenuTest.cs" />
-    <Compile Include="Tests\Games\WorldGameTest.cs" />
+    <Compile Include="Tests\Games\WorldGameMasterTest.cs" />
     <Compile Include="Tests\Test0001.cs" />
     <EmbeddedResource Include="LevelEditors\LevelEditorDlg.resx">
       <DependentUpon>LevelEditorDlg.cs</DependentUpon>

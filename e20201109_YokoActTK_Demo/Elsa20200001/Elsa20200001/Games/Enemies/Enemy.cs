@@ -103,6 +103,8 @@ namespace Charlotte.Games.Enemies
 		/// <summary>
 		/// 撃破されて消滅した。
 		/// 死亡フラグ立てなどは呼び出し側でやっている。
+		/// 注意：本メソッドを複数回実行しないように注意すること！
+		/// -- DeadFlag == true の敵を { DeadFlag = true; Killed(); } してしまわないように！
 		/// </summary>
 		public virtual void Killed()
 		{

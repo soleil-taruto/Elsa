@@ -165,6 +165,7 @@
     <Compile Include="Games\Scripts\Script_テスト0002.cs" />
     <Compile Include="Games\Scripts\Script_テスト0003.cs" />
     <Compile Include="Games\Scripts\Script_壁紙テスト0001.cs" />
+    <Compile Include="Games\Scripts\Script_テスト1001.cs" />
     <Compile Include="Games\Shots\Shot.cs" />
     <Compile Include="Games\Shots\Shot_B0001.cs" />
     <Compile Include="Games\TitleMenu.cs" />

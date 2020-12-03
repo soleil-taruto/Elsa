@@ -149,7 +149,7 @@ namespace Charlotte.Games.Surfaces
 					{
 						int[] ps = Enumerable.Range(0, DARK_BOX_X_NUM * DARK_BOX_Y_NUM).ToArray();
 
-						DDUtils.Random.Shffle(ps);
+						DDUtils.Random.Shuffle(ps);
 
 						for (int index = 0; index < ps.Length; index++)
 						{

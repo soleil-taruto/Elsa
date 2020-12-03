@@ -20,21 +20,21 @@ namespace Charlotte.Games
 
 		public double X;
 		public double Y;
-		public double Born_X;
-		public double Born_Y;
+		public double Reborn_X;
+		public double Reborn_Y;
 
 		public int SpeedLevel = SPEED_LEVEL_DEF;
 
-		public int BornFrame = 0; // 0 == 無効, 0< == 登場中
 		public int DeadFrame = 0; // 0 == 無効, 0< == 死亡中
+		public int RebornFrame = 0; // 0 == 無効, 0< == 登場中
 		public int InvincibleFrame = 0; // 0 == 無効, 0< == 無敵時間中
 
 		public void Draw()
 		{
-			if (1 <= this.BornFrame)
+			if (1 <= this.RebornFrame)
 			{
 				DDDraw.SetAlpha(0.5);
-				DDDraw.DrawCenter(Ground.I.Picture.Player, this.Born_X, this.Born_Y);
+				DDDraw.DrawCenter(Ground.I.Picture.Player, this.Reborn_X, this.Reborn_Y);
 				DDDraw.Reset();
 
 				return;

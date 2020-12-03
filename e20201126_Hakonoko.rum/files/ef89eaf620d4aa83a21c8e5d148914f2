@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using DxLibDLL;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games.Designs
+{
+	public class Design_0001 : Design
+	{
+		public override void DrawWall()
+		{
+			DX.DrawBox(0, 0, DDConsts.Screen_W, DDConsts.Screen_H, DX.GetColor(0, 0, 0), 1);
+		}
+
+		public override void DrawMapCell(MapCell cell, double x, double y)
+		{
+			if (cell.Kind == MapCell.Kind_e.WALL)
+			{
+				DDDraw.DrawBegin(DDGround.GeneralResource.WhiteBox, x, y);
+				DDDraw.DrawSetSize(Consts.TILE_W, Consts.TILE_H);
+				DDDraw.DrawEnd();
+			}
+		}
+	}
+}

@@ -1,0 +1,190 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.Commons;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games.Enemies
+{
+	/// <summary>
+	/// 敵
+	/// アルカノイド
+	/// </summary>
+	public class Enemy_Arkanoid : Enemy
+	{
+		public int XAddSign;
+		public int YAddSign;
+
+		public Enemy_Arkanoid(double x, double y, int initDirection)
+			: base(x, y, 0, 0, false)
+		{
+			int xa;
+			int ya;
+
+			switch (initDirection)
+			{
+				case 4: xa = -1; ya = 0; break;
+				case 6: xa = 1; ya = 0; break;
+				case 8: xa = 0; ya = -1; break;
+				case 2: xa = 0; ya = 1; break;
+
+				case 1: xa = -1; ya = 1; break;
+				case 7: xa = -1; ya = -1; break;
+				case 3: xa = 1; ya = 1; break;
+				case 9: xa = 1; ya = -1; break;
+
+				default:
+					throw null; // never
+			}
+			this.XAddSign = xa;
+			this.YAddSign = ya;
+		}
+
+		public override IEnumerable<bool> E_Draw()
+		{
+			const double SPEED = 3.2;
+			const double NANAME_SPEED = 2.5;
+
+			double speed = SPEED;
+
+			if (this.XAddSign != 0 && this.YAddSign != 0)
+				speed = NANAME_SPEED;
+
+			this.X += speed * this.XAddSign;
+			this.Y += speed * this.YAddSign;
+
+
+
+			if (
+				fc.LT != NULL &&
+				fc.RT != NULL &&
+				fc.LB != NULL &&
+				fc.RB != NULL
+				)
+			{
+				int ltw = IsEnemyWall(fc.LT);
+				int rtw = IsEnemyWall(fc.RT);
+				int lbw = IsEnemyWall(fc.LB);
+				int rbw = IsEnemyWall(fc.RB);
+
+				const fPInt_t hcrng = (CELLSIZE / 2) * IDENOM;
+
+				if (i->u.Arkanoid.XAddSign && i->u.Arkanoid.YAddSign)
+				{
+					FourCell_t fc_orig = fc;
+
+					if (i->u.Arkanoid.XAddSign == -1) HTurn(fc);
+					if (i->u.Arkanoid.YAddSign == -1) VTurn(fc);
+
+					// fc == 右下へ向かっている。
+
+					int xHanSign = 1;
+					int yHanSign = 1;
+
+					switch (
+						(IsEnemyWall(fc.LT) ? 1 : 0) |
+						(IsEnemyWall(fc.RT) ? 2 : 0) |
+						(IsEnemyWall(fc.LB) ? 4 : 0) |
+						(IsEnemyWall(fc.RB) ? 8 : 0)
+						)
+					{
+						case 0: // []
+						case 1: // [7]
+						case 3: // [79]
+						case 5: // [17]
+						case 7: // [179]
+						case 9: // [37]
+						case 11: // [379]
+						case 13: // [137]
+						case 15: // [1379]
+							break;
+
+						case 2: // [9]
+							if (fc.Y < fc.X + hcrng) xHanSign *= -1;
+							break;
+
+						case 4: // [1]
+							if (fc.X < fc.Y + hcrng) yHanSign *= -1;
+							break;
+
+						case 8: // [3]
+							{
+								fPInt_t subXY = fc.X - fc.Y;
+								const fPInt_t BORDER = 4 * IDENOM;
+
+								if (subXY < -BORDER) // ? 左下方向に大きくずれている。
+								{
+									xHanSign *= -1;
+									break;
+								}
+								if (BORDER < subXY) // ? 右上方向に大きくずれている。
+								{
+									yHanSign *= -1;
+									break;
+								}
+							}
+						// fall through
+
+						case 6: // [19]
+						case 14: // [139]
+							xHanSign *= -1;
+							yHanSign *= -1;
+							break;
+
+						case 10: // [39]
+							xHanSign *= -1;
+							break;
+
+						case 12: // [13]
+							yHanSign *= -1;
+							break;
+
+						default:
+							error();
+					}
+					fc = fc_orig;
+
+					if (xHanSign == -1)
+					{
+						i->u.Arkanoid.XAddSign *= -1;
+					}
+					if (yHanSign == -1)
+					{
+						i->u.Arkanoid.YAddSign *= -1;
+					}
+					if (xHanSign == -1 || yHanSign == -1)
+					{
+						/*
+							苦肉の策orz
+							跳ね返るときセルの正位置に矯正する。
+							案外これで正解なのかも...
+						*/
+
+						i->X /= CELLSIZE * IDENOM;
+						i->X *= CELLSIZE * IDENOM;
+						i->X += (CELLSIZE / 2) * IDENOM;
+
+						i->Y /= CELLSIZE * IDENOM;
+						i->Y *= CELLSIZE * IDENOM;
+						i->Y += (CELLSIZE / 2) * IDENOM;
+					}
+				}
+				else
+				{
+					if (
+						i->u.Arkanoid.XAddSign == -1 && (ltw || lbw && fc.Y != -hcrng) ||
+						i->u.Arkanoid.XAddSign == 1 && (rtw || rbw && fc.Y != -hcrng)
+						)
+						i->u.Arkanoid.XAddSign *= -1;
+
+					if (
+						i->u.Arkanoid.YAddSign == -1 && (ltw || rtw && fc.X != -hcrng) ||
+						i->u.Arkanoid.YAddSign == 1 && (lbw || rbw && fc.X != -hcrng)
+						)
+						i->u.Arkanoid.YAddSign *= -1;
+				}
+			}
+		}
+	}
+}
