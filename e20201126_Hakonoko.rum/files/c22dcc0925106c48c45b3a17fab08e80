@@ -7,7 +7,7 @@ using Charlotte.GameCommons;
 
 namespace Charlotte.Games
 {
-	public static class プレイヤー位置矯正処理
+	public static class 自機位置矯正処理
 	{
 		private static Predicate<MapCell> IsWall;
 		private static int IX;
@@ -111,7 +111,7 @@ namespace Charlotte.Games
 						{
 							bool 強制上昇 = 1 <= DDInput.A.GetInput();
 
-							if (A2.RelativePoint.X < (強制上昇 ? -8 : A2.RelativePoint.Y))
+							if (A2.RelativePoint.X < (強制上昇 ? (-16 + 20) : A2.RelativePoint.Y))
 							{
 								A2.RelativePoint.X = -16;
 							}
