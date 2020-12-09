@@ -1,0 +1,44 @@
+dat
+dat\e20200002_General
+dat\e20200002_General\General
+dat\e20200003_dat
+dat\e20200003_dat\Game
+dat\e20200003_dat\Logo
+dat\e20200003_dat\Novel
+dat\e20200003_dat\Novel\Font
+dat\e20200003_dat\Novel\Font\K Gothic
+dat\e20200003_dat\Novel\フリー素材
+dat\e20200003_dat\Novel\フリー素材\からい
+dat\e20200003_dat\Novel\フリー素材\からい\ゆかマキ制服
+dat\e20200003_dat\Novel\フリー素材\空想曲線
+dat\e20200003_dat\Novel\フリー素材\空想曲線\Messageframe_29
+dat\e20200003_dat\Novel\フリー素材\空想曲線\Messageframe_29\material
+dat\e20200003_dat\Novel\フリー素材\空想曲線\Messageframe_29\material\01 message
+dat\e20200003_dat\Novel\フリー素材\空想曲線\Messageframe_29\material\02 button
+dat\e20200003_dat\Novel\フリー素材\空想曲線\Messageframe_29\material\03 system_button
+dat\e20200003_dat\テスト用
+doc
+Elsa20200001
+Elsa20200001\Elsa20200001
+Elsa20200001\Elsa20200001\Commons
+Elsa20200001\Elsa20200001\GameCommons
+Elsa20200001\Elsa20200001\GameCommons\MaskGZDataUtils
+Elsa20200001\Elsa20200001\GameCommons\Options
+Elsa20200001\Elsa20200001\Games
+Elsa20200001\Elsa20200001\Games\Designs
+Elsa20200001\Elsa20200001\Games\Enemies
+Elsa20200001\Elsa20200001\LevelEditors
+Elsa20200001\Elsa20200001\Novels
+Elsa20200001\Elsa20200001\Novels\Surfaces
+Elsa20200001\Elsa20200001\Properties
+Elsa20200001\Elsa20200001\Tests
+Elsa20200001\Elsa20200001\Tests\Games
+Elsa20200001\Elsa20200001\Tests\Novels
+out
+res
+res\e20200001_res
+res\e20200001_res\Map
+res\e20200001_res\Scenario
+res\e20200001_res\Scenario\Include
+tmp
+Tools

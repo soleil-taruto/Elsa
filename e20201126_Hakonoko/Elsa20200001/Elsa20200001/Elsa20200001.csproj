@@ -164,7 +164,7 @@
     <Compile Include="Games\TitleMenu.cs" />
     <Compile Include="Games\GameMaster.cs" />
     <Compile Include="Games\波紋効果_Manager.cs" />
-    <Compile Include="Games\自機位置矯正処理.cs" />
+    <Compile Include="Games\自機位置調整.cs" />
     <Compile Include="Games\波紋効果.cs" />
     <Compile Include="Ground.cs" />
     <Compile Include="LevelEditors\LevelEditor.cs" />
@@ -180,7 +180,6 @@
     <Compile Include="MainWin.Designer.cs">
       <DependentUpon>MainWin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Novels\Dummy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Program2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
