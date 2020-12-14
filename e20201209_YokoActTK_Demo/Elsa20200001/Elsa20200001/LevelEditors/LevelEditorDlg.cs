@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Security.Permissions;
+using Charlotte.Commons;
 using Charlotte.Games.Tiles;
 using Charlotte.Games.Enemies;
 
@@ -71,6 +72,26 @@ namespace Charlotte.LevelEditors
 		public string GetEnemy()
 		{
 			return EnemyCatalog.GetNames()[this.Enemy.SelectedIndex];
+		}
+
+		public void SetTile(string tileName)
+		{
+			int index = SCommon.IndexOf(TileCatalog.GetNames(), tileName);
+
+			if (index == -1)
+				index = 0; // 2bs
+
+			this.Tile.SelectedIndex = index;
+		}
+
+		public void SetEnemy(string enemyName)
+		{
+			int index = SCommon.IndexOf(EnemyCatalog.GetNames(), enemyName);
+
+			if (index == -1)
+				index = 0; // 2bs
+
+			this.Enemy.SelectedIndex = index;
 		}
 
 		public bool IsShowTile()
