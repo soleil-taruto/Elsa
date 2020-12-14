@@ -1,0 +1,76 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.GameCommons;
+using Charlotte.Commons;
+using Charlotte.Games.Tiles;
+
+namespace Charlotte.Games.Enemies.神奈子s
+{
+	/// <summary>
+	/// 神奈子
+	/// 登場
+	/// </summary>
+	public class Enemy_神奈子0001 : Enemy
+	{
+		public Enemy_神奈子0001(double x, double y)
+			: base(x, y, 0, 0, false)
+		{ }
+
+		public override IEnumerable<bool> E_Draw()
+		{
+			Func<bool> f_閉鎖 = SCommon.Supplier(this.E_閉鎖());
+
+			double curr_x = this.X;
+			double curr_y = -100.0;
+
+			for (; ; )
+			{
+				f_閉鎖();
+
+				DDUtils.Approach(ref curr_x, this.X, 0.9);
+				DDUtils.Approach(ref curr_y, this.Y, 0.9);
+
+				bool facingLeft = Game.I.Player.X < curr_x;
+
+				DDDraw.DrawBegin(Ground.I.Picture2.Enemy_神奈子[0], curr_x, curr_y);
+				DDDraw.DrawZoom_X(facingLeft ? 1 : -1);
+				DDDraw.DrawEnd();
+
+				// 当たり判定無し
+
+				yield return true;
+			}
+		}
+
+		private IEnumerable<bool> E_閉鎖()
+		{
+			Game.I.UserInputDisabled = true;
+
+			for (int x = 0; x < Game.I.Map.W; x++)
+			{
+				this.閉鎖(x, 0);
+				this.閉鎖(x, Game.I.Map.H - 1);
+
+				yield return true;
+			}
+			for (int y = 0; y < Game.I.Map.H; y++)
+			{
+				this.閉鎖(0, y);
+				this.閉鎖(Game.I.Map.W - 1, 0);
+
+				yield return true;
+			}
+			Game.I.UserInputDisabled = false;
+		}
+
+		private void 閉鎖(int x, int y)
+		{
+			MapCell cell = Game.I.Map.GetCell(x, y);
+
+			if (cell.Tile is Tile_None)
+				cell.Tile = new Tile_ボス部屋Shutter();
+		}
+	}
+}

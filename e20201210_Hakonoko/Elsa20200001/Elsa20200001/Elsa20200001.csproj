@@ -164,7 +164,7 @@
     <Compile Include="Games\MapCell.cs" />
     <Compile Include="Games\Player.cs" />
     <Compile Include="Games\TitleMenu.cs" />
-    <Compile Include="Games\GameMaster.cs" />
+    <Compile Include="GameProgressMasters\GameProgressMaster.cs" />
     <Compile Include="Games\自機位置調整.cs" />
     <Compile Include="Games\波紋効果.cs" />
     <Compile Include="Ground.cs" />

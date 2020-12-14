@@ -25,7 +25,7 @@ namespace Charlotte.Games
 		public string WallName;
 		public string MusicName;
 
-		private void Load()
+		public void Load()
 		{
 			string[] lines = SCommon.TextToLines(SCommon.ENCODING_SJIS.GetString(DDResource.Load(this.MapFile)));
 			int c = 0;

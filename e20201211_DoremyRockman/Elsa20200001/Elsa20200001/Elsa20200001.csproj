@@ -168,7 +168,6 @@
     <Compile Include="Games\Map.cs" />
     <Compile Include="Games\MapCell.cs" />
     <Compile Include="Games\MusicCollection.cs" />
-    <Compile Include="Games\Shots\Shot_Normal.cs" />
     <Compile Include="Games\Tiles\Tile_Ladder.cs" />
     <Compile Include="Games\Tiles\Tile_Space.cs" />
     <Compile Include="Games\Walls\Wall_None.cs" />
@@ -176,6 +175,7 @@
     <Compile Include="Games\Player.cs" />
     <Compile Include="Games\Shots\Shot.cs" />
     <Compile Include="Games\Shots\Shot_B0001.cs" />
+    <Compile Include="Games\Shots\Shot_Normal.cs" />
     <Compile Include="Games\Tiles\Tile.cs" />
     <Compile Include="Games\Tiles\TileCatalog.cs" />
     <Compile Include="Games\Tiles\Tile_B0001.cs" />
@@ -189,7 +189,7 @@
     <Compile Include="Games\Walls\Wall_Dark.cs" />
     <Compile Include="Games\Walls\Wall_Simple.cs" />
     <Compile Include="Games\World.cs" />
-    <Compile Include="Games\WorldGameNovelMaster.cs" />
+    <Compile Include="GameProgressMasters\GameProgressMaster.cs" />
     <Compile Include="Games\マップ移動.cs" />
     <Compile Include="Ground.cs" />
     <Compile Include="LevelEditors\LevelEditor.cs" />

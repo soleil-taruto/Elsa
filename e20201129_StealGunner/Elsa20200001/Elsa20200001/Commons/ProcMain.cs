@@ -14,7 +14,7 @@ namespace Charlotte.Commons
 {
 	public static class ProcMain
 	{
-		public const string APP_IDENT = "{4493a33b-a1e3-4238-9b04-9d6bbff103f0}"; // アプリ毎に変更する。
+		public const string APP_IDENT = "{29d4b5fd-cdad-4b75-a821-99eb3856f5ea}"; // アプリ毎に変更する。
 		public const string APP_TITLE = "Elsa20200001";
 
 		public static string SelfFile;

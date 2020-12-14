@@ -10,13 +10,14 @@ namespace Charlotte.Games.Enemies
 {
 	/// <summary>
 	/// 敵
-	/// プレイヤーに撃破されない(自弾に当たらない)敵を作る場合 HP == 0 にすること。
-	/// -- アイテム・敵弾など
-	/// プレイヤーに当たらない敵を作る場合 E_Draw において Crash を設定しないこと。
-	/// -- アイテムなど
 	/// </summary>
 	public abstract class Enemy
 	{
+		// プレイヤーに撃破されない(自弾に当たらない)敵を作る場合 HP == 0 にすること。
+		// -- アイテム・敵弾など
+		// プレイヤーに当たらない敵を作る場合 E_Draw において Crash を設定しないこと。
+		// -- アイテムなど
+
 		public double X;
 		public double Y;
 
