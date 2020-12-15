@@ -47,7 +47,7 @@ namespace Charlotte.Novels.Surfaces
 
 					for (int index = 0; index < dispLines.Length; index++)
 					{
-						DDFontUtils.DrawString(20, 450 + index * 30, dispLines[index], DDFontUtils.GetFont("Kゴシック", 16), false, new I3Color(110, 100, 90));
+						DDFontUtils.DrawString(10, 450 + index * 30, dispLines[index], DDFontUtils.GetFont("Kゴシック", 16), false, new I3Color(110, 100, 90));
 					}
 				}
 
