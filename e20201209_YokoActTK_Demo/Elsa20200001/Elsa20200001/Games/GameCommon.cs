@@ -78,6 +78,8 @@ namespace Charlotte.Games
 		/// <summary>
 		/// デフォルトのマップセル
 		/// マップ外を埋め尽くすマップセル
+		/// デフォルトのマップセルは複数設置し得るため
+		/// -- cell の判定には cell == DefaultMapCell ではなく cell.IsDefault を使用すること。
 		/// </summary>
 		public static MapCell DefaultMapCell
 		{

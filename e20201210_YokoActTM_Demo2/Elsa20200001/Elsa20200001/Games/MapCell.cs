@@ -15,5 +15,16 @@ namespace Charlotte.Games
 		public string EnemyName;
 
 		// <---- prm
+
+		/// <summary>
+		/// このマップセルは「デフォルトのマップセル」か
+		/// </summary>
+		public bool IsDefault
+		{
+			get
+			{
+				return this == GameCommon.DefaultMapCell;
+			}
+		}
 	}
 }

@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Charlotte.Games.Enemies.ルーミアs
+{
+	/// <summary>
+	/// ルーミア
+	/// 掛け合い用
+	/// </summary>
+	public class Enemy_ルーミア : Enemy
+	{
+		public Enemy_ルーミア()
+			: base(-20.0, -20.0, Kind_e.ENEMY, 0, 0) // 掛け合い用なので、無敵
+		{ }
+
+		protected override IEnumerable<bool> E_Draw()
+		{
+			throw null; // TODO
+		}
+
+		public override void Killed()
+		{
+			throw null; // never
+		}
+	}
+}

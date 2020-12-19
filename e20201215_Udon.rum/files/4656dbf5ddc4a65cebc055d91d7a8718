@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Charlotte.Games.Scripts
+{
+	public class Script_ステージ_01 : Script
+	{
+		protected override IEnumerable<bool> E_EachFrame()
+		{
+			throw new NotImplementedException();
+		}
+	}
+}

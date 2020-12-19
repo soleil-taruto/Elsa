@@ -12,7 +12,7 @@ C:\Factory\SubTools\makeDDResourceFile.exe ^
 	Tools\MaskGZData.exe
 
 CALL Confuse.bat
-COPY /B Elsa20200001\Elsa20200001\bin\Release\Elsa20200001.exe out
+COPY /B Elsa20200001\Elsa20200001\bin\Release\Elsa20200001.exe out\Game.exe
 COPY /B Elsa20200001\Elsa20200001\bin\Release\DxLib.dll out
 COPY /B Elsa20200001\Elsa20200001\bin\Release\DxLib_x64.dll out
 COPY /B Elsa20200001\Elsa20200001\bin\Release\DxLibDotNet.dll out
@@ -20,4 +20,4 @@ COPY /B Elsa20200001\Elsa20200001\bin\Release\DxLibDotNet.dll out
 C:\Factory\Tools\xcp.exe doc out
 COPY /B AUTHORS out
 
-C:\Factory\SubTools\zip.exe /PE- /RVE- %* /G out e20201206_YokoActTM
+C:\Factory\SubTools\zip.exe /PE- /RVE- %* /G out YokoActTM

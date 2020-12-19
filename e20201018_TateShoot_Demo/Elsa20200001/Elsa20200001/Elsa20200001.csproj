@@ -171,7 +171,7 @@
     <Compile Include="Games\Scripts\Script_ダミー0001.cs" />
     <Compile Include="Games\Scripts\Script_テスト0001.cs" />
     <Compile Include="Games\Scripts\Script_テスト0002.cs" />
-    <Compile Include="Games\Scripts\Script_メイン0001.cs" />
+    <Compile Include="Games\Scripts\Script_サンプルゲーム用メイン0001.cs" />
     <Compile Include="Games\Scripts\Script_鍵山雛テスト0001.cs" />
     <Compile Include="Games\Scripts\Script_鍵山雛テスト0002.cs" />
     <Compile Include="Games\Scripts\Script_鍵山雛通しテスト0001.cs" />

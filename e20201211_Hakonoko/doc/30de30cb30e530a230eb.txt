@@ -8,7 +8,7 @@
 
 ■起動方法
 
-　Elsa20200001.exe を実行して下さい。
+　Game.exe を実行して下さい。
 
 
 ■操作方法
@@ -50,4 +50,10 @@
 
 　　小森平
 　　https://taira-komori.jpn.org/
+
+　●フォント
+
+　　(K ゴシック)
+　　ケイ
+　　https://k-gothic-font.hatenablog.com/
 
