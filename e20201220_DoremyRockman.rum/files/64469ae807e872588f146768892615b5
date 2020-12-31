@@ -1,0 +1,61 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.Commons;
+using Charlotte.GameCommons;
+using Charlotte.GameCommons.Options;
+
+namespace Charlotte.Games.Enemies
+{
+	public class Enemy_Chaser : Enemy
+	{
+		public Enemy_Chaser(double x, double y)
+			: base(x, y, 10, 1, false)
+		{ }
+
+		protected override IEnumerable<bool> E_Draw()
+		{
+			const double CHARA_R = 10.0;
+
+			double ySpeed = 0.0;
+
+			for (int frame = 0; ; frame++)
+			{
+				// 画面外に居るときは休止する。
+				if (DDUtils.IsOutOfCamera(new D2Point(this.X, this.Y)))
+					goto endThisFrame;
+
+				const double GRAVITY = 1.0;
+				const double Y_SPEED_MAX = 10.0;
+
+				this.Y += ySpeed;
+
+				ySpeed += GRAVITY;
+				ySpeed = Math.Min(ySpeed, Y_SPEED_MAX);
+
+				if (frame % 120 == 0)
+				{
+					Game.I.Enemies.Add(Enemy_弾.Create自機狙い(this.X, this.Y, 3.0));
+				}
+
+				// 暫定_描画
+				{
+					DDDraw.DrawBegin(DDGround.GeneralResource.Dummy, this.X, this.Y);
+					DDDraw.DrawRotate(DDEngine.ProcFrame / 10.0);
+					DDDraw.DrawEnd();
+
+					DDPrint.SetPrint((int)this.X, (int)this.Y);
+					DDPrint.SetBorder(new I3Color(0, 0, 0));
+					DDPrint.Print("[チェーサー]");
+					DDPrint.Reset();
+				}
+
+				this.Crash = DDCrashUtils.Circle(new D2Point(this.X, this.Y), CHARA_R);
+
+			endThisFrame:
+				yield return true;
+			}
+		}
+	}
+}

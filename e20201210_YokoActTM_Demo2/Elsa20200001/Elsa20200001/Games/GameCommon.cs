@@ -28,8 +28,10 @@ namespace Charlotte.Games
 
 		/// <summary>
 		/// マップファイル名からマップ名を得る。
+		/// 失敗すると、デフォルトのマップ名を返す。
 		/// </summary>
 		/// <param name="mapFile">マップファイル名</param>
+		/// <param name="defval">デフォルトのマップ名</param>
 		/// <returns>マップ名</returns>
 		public static string GetMapName(string mapFile, string defval)
 		{
@@ -46,7 +48,7 @@ namespace Charlotte.Games
 			if (mapFile == "")
 				return defval;
 
-			return mapFile;
+			return mapFile; // as mapName
 		}
 
 		/// <summary>

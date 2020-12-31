@@ -20,11 +20,7 @@ namespace Charlotte.Tests.Games
 		{
 			using (new WorldGameMaster())
 			{
-				WorldGameMaster.I.World = new World()
-				{
-					StartMapName = "t0001",
-				};
-
+				WorldGameMaster.I.World = new World("t0001");
 				WorldGameMaster.I.Status = new GameStatus();
 				WorldGameMaster.I.Perform();
 			}
@@ -44,11 +40,7 @@ namespace Charlotte.Tests.Games
 
 			using (new WorldGameMaster())
 			{
-				WorldGameMaster.I.World = new World()
-				{
-					StartMapName = startMapName,
-				};
-
+				WorldGameMaster.I.World = new World(startMapName);
 				WorldGameMaster.I.Status = new GameStatus();
 				WorldGameMaster.I.Perform();
 			}

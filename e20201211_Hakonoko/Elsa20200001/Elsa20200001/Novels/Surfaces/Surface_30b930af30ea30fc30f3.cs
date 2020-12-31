@@ -17,7 +17,9 @@ namespace Charlotte.Novels.Surfaces
 
 		public Surface_スクリーン(string typeName, string instanceName)
 			: base(typeName, instanceName)
-		{ }
+		{
+			this.Z = 10000;
+		}
 
 		private struct StatusInfo
 		{
@@ -71,6 +73,10 @@ namespace Charlotte.Novels.Surfaces
 			{
 				this.ImageFile = arguments[c++];
 			}
+			else if (command == "A")
+			{
+				this.A = double.Parse(arguments[c++]);
+			}
 			else if (command == "スライド")
 			{
 				this.SlideRate = double.Parse(arguments[c++]);
@@ -79,10 +85,12 @@ namespace Charlotte.Novels.Surfaces
 			else if (command == "フェードイン")
 			{
 				this.Act.Add(SCommon.Supplier(this.フェードイン(this.GetStatus())));
+				this.A = 1.0;
 			}
 			else if (command == "フェードアウト")
 			{
 				this.Act.Add(SCommon.Supplier(this.フェードアウト(this.GetStatus())));
+				this.A = 0.0;
 			}
 			else
 			{

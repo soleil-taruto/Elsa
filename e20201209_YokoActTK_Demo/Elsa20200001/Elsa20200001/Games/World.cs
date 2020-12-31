@@ -10,14 +10,13 @@ namespace Charlotte.Games
 {
 	public class World
 	{
-		public string StartMapName = "t0001"; // 開始マップ名
-
-		// <---- prm
+		// prm の public string StartMapName; 廃止
+		// -- new XXX() { F = v } によるフィールドの初期化よりコンストラクタの実行が先であるため
 
 		private string[][] MapNameTableRows; // 添字：[y][x]
 		private I2Point CurrPoint;
 
-		public World()
+		public World(string startMapName)
 		{
 			using (WorkingDir wd = new WorkingDir())
 			{
@@ -30,7 +29,7 @@ namespace Charlotte.Games
 					this.MapNameTableRows = reader.ReadToEnd();
 				}
 			}
-			this.CurrPoint = this.GetPoint(this.StartMapName);
+			this.CurrPoint = this.GetPoint(startMapName);
 		}
 
 		private I2Point GetPoint(string mapName)

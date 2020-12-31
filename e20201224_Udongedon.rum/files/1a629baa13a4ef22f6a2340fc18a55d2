@@ -1,0 +1,129 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using DxLibDLL;
+using Charlotte.Commons;
+using Charlotte.GameCommons;
+using Charlotte.Games;
+using Charlotte.Tests;
+using Charlotte.Tests.Games;
+
+namespace Charlotte
+{
+	public class Program2
+	{
+		public void Main2()
+		{
+			try
+			{
+				Main3();
+			}
+			catch (Exception e)
+			{
+				ProcMain.WriteLog(e);
+			}
+		}
+
+		private void Main3()
+		{
+			DDMain2.Perform(Main4);
+		}
+
+		private void Main4()
+		{
+			// *.INIT
+			{
+				// アプリ固有 >
+
+				RippleEffect.INIT();
+				画面分割.INIT();
+				画面分割_Effect.INIT();
+
+				// < アプリ固有
+			}
+
+			#region Charge To DDTouch
+
+			// アプリ固有 >
+
+			DDTouch.Add(TitleMenu.TouchWallDrawerResources);
+			DDTouch.Add(Ground.I.Picture.P_KOAKUMA_P1);
+			DDTouch.Add(Ground.I.Picture.P_KOAKUMA_P3);
+			DDTouch.Add(Ground.I.Picture.P_KOAKUMA_TACHIE_00);
+			DDTouch.Add(Ground.I.Picture.P_KOAKUMA_TACHIE_01);
+			DDTouch.Add(Ground.I.Picture.P_KOAKUMA_TACHIE_02);
+			DDTouch.Add(Ground.I.Picture.P_KOAKUMA_TACHIE_03);
+			DDTouch.Add(Ground.I.Picture.P_KOAKUMA_TACHIE_04);
+			DDTouch.Add(Ground.I.Picture.P_KOAKUMA_TACHIE_05);
+			DDTouch.Add(Ground.I.Picture.P_KOAKUMA_TACHIE_06);
+			DDTouch.Add(Ground.I.Picture.P_KOAKUMA_TACHIE_07);
+			DDTouch.Add(Ground.I.Picture.P_KOAKUMA_TACHIE_08);
+			DDTouch.Add(Ground.I.Picture.P_KOAKUMA_WALL_TEXT);
+			DDTouch.Add(Ground.I.Picture.P_KOAKUMA_WALL);
+			DDTouch.Add(Ground.I.Picture.P_ENEMYDIE);
+			DDTouch.Add(Ground.I.Picture.P_ENEMYDIE_ABGR);
+			DDTouch.Add(Ground.I.Picture.P_ENEMYSHOTDIE);
+			DDTouch.Add(Ground.I.Picture.P_PLAYERDIE);
+			DDTouch.Add(Ground.I.Picture.P_PUMPKIN);
+			DDTouch.Add(Ground.I.Picture.P_PUMPKIN_AGRB);
+			DDTouch.Add(Ground.I.Picture.P_TAMA);
+			DDTouch.Add(Ground.I.Picture.P_TAMA_B);
+			DDTouch.Add(Ground.I.Picture.P_BLUETILE_01);
+			DDTouch.Add(Ground.I.Picture.P_BLUETILE_02);
+			DDTouch.Add(Ground.I.Picture.P_BLUETILE_02_REDUCT4);
+			DDTouch.Add(Ground.I.Picture.P_BLUETILE_03);
+			DDTouch.Add(Ground.I.Picture.P_BW_ARMY);
+			DDTouch.Add(Ground.I.Picture.P_BW_NAVY);
+			DDTouch.Add(Ground.I.Picture.P_BW_PUMPKIN);
+			DDTouch.Add(Ground.I.Picture.P_DIGITS_W);
+			DDTouch.Add(Ground.I.Picture.P_DIGITS_DDY);
+			DDTouch.Add(Ground.I.Picture.P_DIGITS_DY);
+			DDTouch.Add(Ground.I.Picture.P_DIGITS_Y);
+			DDTouch.Add(Ground.I.Picture.P_FAIRYETC);
+			DDTouch.Add(Ground.I.Picture.P_MAHOJIN_HAJIKE);
+			DDTouch.Add(Ground.I.Picture.P_FUJINBOSS);
+
+			// < アプリ固有
+
+			#endregion
+
+			//DDTouch.Touch(); // moved -> Logo
+
+			if (ProcMain.ArgsReader.ArgIs("//D")) // 引数は適当な文字列
+			{
+				Main4_Debug();
+			}
+			else
+			{
+				Main4_Release();
+			}
+		}
+
+		private void Main4_Debug()
+		{
+			// ---- choose one ----
+
+			Main4_Release();
+			//new Test0001().Test01();
+			//new TitleMenuTest().Test01();
+			//new GameTest().Test01();
+			//new GameTest().Test02();
+			//new GameTest().Test03(); // スクリプトを選択
+
+			// ----
+		}
+
+		private void Main4_Release()
+		{
+			using (new Logo())
+			{
+				Logo.I.Perform();
+			}
+			using (new TitleMenu())
+			{
+				TitleMenu.I.Perform();
+			}
+		}
+	}
+}

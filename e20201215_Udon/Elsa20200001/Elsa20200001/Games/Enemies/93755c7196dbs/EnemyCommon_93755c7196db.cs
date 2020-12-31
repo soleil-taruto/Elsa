@@ -35,20 +35,20 @@ namespace Charlotte.Games.Enemies.鍵山雛s
 		/// <param name="enemy">鍵山雛</param>
 		public static void DrawStatus(Enemy enemy)
 		{
-			//DDGround.EL.Add(() =>
-			//{
-			//    DDPrint.SetPrint(525, 350, 20);
-			//    DDPrint.SetBorder(new I3Color(192, 0, 0));
-			//    DDPrint.PrintLine("KAGIYAMA-HINA-HP = " + enemy.HP);
-			//    DDPrint.Reset();
+			DDGround.EL.Add(() =>
+			{
+				DDPrint.SetPrint(525, 350, 20);
+				DDPrint.SetBorder(new I3Color(192, 0, 0));
+				DDPrint.PrintLine("KAGIYAMA-HINA-HP = " + enemy.HP);
+				DDPrint.Reset();
 
-			//    DDPrint.SetPrint(SCommon.ToInt(GameConsts.FIELD_L + enemy.X - 8 * 3), DDConsts.Screen_H - 16);
-			//    DDPrint.SetBorder(new I3Color(255, 0, 0));
-			//    DDPrint.Print("<BOSS>");
-			//    DDPrint.Reset();
+				DDPrint.SetPrint(SCommon.ToInt(GameConsts.FIELD_L + enemy.X - 8 * 3), DDConsts.Screen_H - 16);
+				DDPrint.SetBorder(new I3Color(255, 0, 0));
+				DDPrint.Print("<BOSS>");
+				DDPrint.Reset();
 
-			//    return false;
-			//});
+				return false;
+			});
 		}
 	}
 }

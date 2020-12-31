@@ -10,7 +10,7 @@ namespace Charlotte.Games
 {
 	public class World
 	{
-		public string StartMapName = "t0001"; // 開始マップ名
+		public string StartMapName = "t0001"; // 開始マップ名 // BUG: コンストラクタで参照される。prm の設定はコンストラクタの実行後
 
 		// <---- prm
 

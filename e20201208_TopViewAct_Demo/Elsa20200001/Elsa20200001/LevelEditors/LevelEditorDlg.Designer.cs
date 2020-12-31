@@ -30,7 +30,8 @@
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LevelEditorDlg));
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
-			this.Tile = new System.Windows.Forms.ComboBox();
+			this.Tile_R = new System.Windows.Forms.ComboBox();
+			this.Tile_L = new System.Windows.Forms.ComboBox();
 			this.groupBox2 = new System.Windows.Forms.GroupBox();
 			this.Enemy = new System.Windows.Forms.ComboBox();
 			this.ShowTile = new System.Windows.Forms.CheckBox();
@@ -44,34 +45,47 @@
 			// 
 			this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.groupBox1.Controls.Add(this.Tile);
+			this.groupBox1.Controls.Add(this.Tile_R);
+			this.groupBox1.Controls.Add(this.Tile_L);
 			this.groupBox1.Location = new System.Drawing.Point(12, 12);
 			this.groupBox1.Name = "groupBox1";
-			this.groupBox1.Size = new System.Drawing.Size(360, 80);
+			this.groupBox1.Size = new System.Drawing.Size(360, 100);
 			this.groupBox1.TabIndex = 0;
 			this.groupBox1.TabStop = false;
 			this.groupBox1.Text = "タイル";
 			// 
-			// Tile
+			// Tile_R
 			// 
-			this.Tile.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+			this.Tile_R.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.Tile.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.Tile.FormattingEnabled = true;
-			this.Tile.Location = new System.Drawing.Point(6, 26);
-			this.Tile.Name = "Tile";
-			this.Tile.Size = new System.Drawing.Size(348, 28);
-			this.Tile.TabIndex = 0;
-			this.Tile.Click += new System.EventHandler(this.Tile_Click);
+			this.Tile_R.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.Tile_R.FormattingEnabled = true;
+			this.Tile_R.Location = new System.Drawing.Point(6, 60);
+			this.Tile_R.Name = "Tile_R";
+			this.Tile_R.Size = new System.Drawing.Size(348, 28);
+			this.Tile_R.TabIndex = 1;
+			this.Tile_R.Click += new System.EventHandler(this.Tile_R_Click);
+			// 
+			// Tile_L
+			// 
+			this.Tile_L.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.Tile_L.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.Tile_L.FormattingEnabled = true;
+			this.Tile_L.Location = new System.Drawing.Point(6, 26);
+			this.Tile_L.Name = "Tile_L";
+			this.Tile_L.Size = new System.Drawing.Size(348, 28);
+			this.Tile_L.TabIndex = 0;
+			this.Tile_L.Click += new System.EventHandler(this.Tile_L_Click);
 			// 
 			// groupBox2
 			// 
 			this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.groupBox2.Controls.Add(this.Enemy);
-			this.groupBox2.Location = new System.Drawing.Point(12, 98);
+			this.groupBox2.Location = new System.Drawing.Point(12, 118);
 			this.groupBox2.Name = "groupBox2";
-			this.groupBox2.Size = new System.Drawing.Size(360, 80);
+			this.groupBox2.Size = new System.Drawing.Size(360, 70);
 			this.groupBox2.TabIndex = 1;
 			this.groupBox2.TabStop = false;
 			this.groupBox2.Text = "敵 / イベントオブジェクト";
@@ -93,7 +107,7 @@
 			this.ShowTile.AutoSize = true;
 			this.ShowTile.Checked = true;
 			this.ShowTile.CheckState = System.Windows.Forms.CheckState.Checked;
-			this.ShowTile.Location = new System.Drawing.Point(18, 184);
+			this.ShowTile.Location = new System.Drawing.Point(18, 204);
 			this.ShowTile.Name = "ShowTile";
 			this.ShowTile.Size = new System.Drawing.Size(132, 24);
 			this.ShowTile.TabIndex = 2;
@@ -105,7 +119,7 @@
 			this.ShowEnemy.AutoSize = true;
 			this.ShowEnemy.Checked = true;
 			this.ShowEnemy.CheckState = System.Windows.Forms.CheckState.Checked;
-			this.ShowEnemy.Location = new System.Drawing.Point(18, 214);
+			this.ShowEnemy.Location = new System.Drawing.Point(18, 234);
 			this.ShowEnemy.Name = "ShowEnemy";
 			this.ShowEnemy.Size = new System.Drawing.Size(250, 24);
 			this.ShowEnemy.TabIndex = 3;
@@ -117,9 +131,9 @@
 			this.TileEnemySw.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.TileEnemySw.Location = new System.Drawing.Point(12, 244);
+			this.TileEnemySw.Location = new System.Drawing.Point(12, 269);
 			this.TileEnemySw.Name = "TileEnemySw";
-			this.TileEnemySw.Size = new System.Drawing.Size(360, 55);
+			this.TileEnemySw.Size = new System.Drawing.Size(360, 40);
 			this.TileEnemySw.TabIndex = 4;
 			this.TileEnemySw.Text = "準備しています...";
 			this.TileEnemySw.UseVisualStyleBackColor = true;
@@ -129,7 +143,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(384, 311);
+			this.ClientSize = new System.Drawing.Size(384, 321);
 			this.Controls.Add(this.TileEnemySw);
 			this.Controls.Add(this.ShowEnemy);
 			this.Controls.Add(this.ShowTile);
@@ -157,11 +171,12 @@
 		#endregion
 
 		private System.Windows.Forms.GroupBox groupBox1;
-		private System.Windows.Forms.ComboBox Tile;
+		private System.Windows.Forms.ComboBox Tile_L;
 		private System.Windows.Forms.GroupBox groupBox2;
 		private System.Windows.Forms.ComboBox Enemy;
 		private System.Windows.Forms.CheckBox ShowTile;
 		private System.Windows.Forms.CheckBox ShowEnemy;
 		private System.Windows.Forms.Button TileEnemySw;
+		private System.Windows.Forms.ComboBox Tile_R;
 	}
 }

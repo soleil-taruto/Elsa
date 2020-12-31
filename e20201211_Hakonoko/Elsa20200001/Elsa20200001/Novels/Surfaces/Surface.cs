@@ -8,12 +8,11 @@ using Charlotte.GameCommons;
 namespace Charlotte.Novels.Surfaces
 {
 	/// <summary>
-	/// <para>現在登場中のキャラクタやオブジェクトの状態を保持する。</para>
-	/// <para>GameStatus の一部であるため、セーブ・ロード時にこのクラスの内容を保存・再現する。</para>
+	/// 現在登場中のキャラクタやオブジェクトの状態を保持する。
 	/// </summary>
 	public abstract class Surface
 	{
-		public string TypeName; // ロード時に必要だったもの
+		public string TypeName; // ロード時に必要だった_今は不要
 		public string InstanceName;
 
 		public Surface(string typeName, string instanceName)
