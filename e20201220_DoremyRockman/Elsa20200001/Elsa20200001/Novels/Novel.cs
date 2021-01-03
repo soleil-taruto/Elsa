@@ -373,7 +373,8 @@ namespace Charlotte.Novels
 					//DDKey.GetInput(DX.KEY_INPUT_RETURN) == 1 ||
 					DDMouse.L.GetInput() == -1 ||
 					DDMouse.R.GetInput() == -1 ||
-					DDInput.A.GetInput() == 1
+					DDInput.A.GetInput() == 1 ||
+					DDInput.B.GetInput() == 1
 					)
 					break;
 

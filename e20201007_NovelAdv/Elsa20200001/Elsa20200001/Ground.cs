@@ -14,7 +14,7 @@ namespace Charlotte
 		public ResourcePicture Picture = new ResourcePicture();
 		public ResourceSE SE = new ResourceSE();
 
-		// DDSaveLoad.Save/Load でセーブ・ロードする情報はここに保持する。
+		// DDSaveData.Save/Load でセーブ・ロードする情報はここに保持する。
 
 		public int MessageSpeed = GameConsts.MESSAGE_SPEED_DEF;
 		public string[] SaveDataSlots = Enumerable.Range(0, GameConsts.SAVE_DATA_SLOT_NUM).Select(v => (string)null).ToArray(); // { null == セーブデータ無し }

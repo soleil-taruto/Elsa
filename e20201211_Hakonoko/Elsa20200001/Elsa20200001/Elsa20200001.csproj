@@ -90,6 +90,7 @@
     <Compile Include="Commons\SCommon.cs" />
     <Compile Include="Commons\WorkingDir.cs" />
     <Compile Include="Consts.cs" />
+    <Compile Include="GameCommons\DDTouch.cs" />
     <Compile Include="Games\GameCommon.cs" />
     <Compile Include="Games\GameConsts.cs" />
     <Compile Include="GameCommons\DDCoffeeBreak.cs" />

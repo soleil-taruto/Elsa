@@ -1,4 +1,14 @@
 ----
+baseProject
+
+e20201204_NovelAdv_Base2
+e20201205_TateShoot_Base
+e20201210_YokoActTM_Demo2
+e20210101_YokoShoot_Demo2
+e20210102_TopViewAct_Demo2
+e20210103_YokoActTK_Demo2
+
+----
 mainstream
 
 e20201211_Hakonoko

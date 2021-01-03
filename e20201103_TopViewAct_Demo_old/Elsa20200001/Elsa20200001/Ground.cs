@@ -15,7 +15,7 @@ namespace Charlotte
 		public ResourcePicture2 Picture2;
 		public ResourceSE SE = new ResourceSE();
 
-		// DDSaveLoad.Save/Load でセーブ・ロードする情報はここに保持する。
+		// DDSaveData.Save/Load でセーブ・ロードする情報はここに保持する。
 
 		public bool FastReverseMode; // 高速ボタンを「離している」ときに高速になる。
 	}

@@ -40,7 +40,7 @@ namespace Charlotte.Novels.Surfaces
 				// 入力：スキップモード
 				if (
 					1 <= DDKey.GetInput(DX.KEY_INPUT_LCONTROL) ||
-					1 <= DDInput.R.GetInput()
+					1 <= DDInput.L.GetInput()
 					)
 				{
 					Novel.I.SkipMode = true;
