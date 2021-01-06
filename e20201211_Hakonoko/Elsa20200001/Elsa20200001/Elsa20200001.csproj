@@ -165,6 +165,7 @@
     <Compile Include="Games\MapCell.cs" />
     <Compile Include="Games\Player.cs" />
     <Compile Include="GameProgressMasters\GameProgressMaster.cs" />
+    <Compile Include="Games\Snapshot.cs" />
     <Compile Include="Games\TitleMenu.cs" />
     <Compile Include="Games\箱から出る.cs" />
     <Compile Include="Games\自機位置調整.cs" />

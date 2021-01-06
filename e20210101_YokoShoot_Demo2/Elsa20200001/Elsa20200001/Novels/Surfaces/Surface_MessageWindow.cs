@@ -31,23 +31,36 @@ namespace Charlotte.Novels.Surfaces
 				DDDraw.DrawRect(Ground.I.Picture.MessageFrame_Message, 0, DDConsts.Screen_H - h, DDConsts.Screen_W, h);
 				DDDraw.Reset();
 
-				// サブタイトル文字列
+				if (!Hide)
 				{
-					int dispSubtitleLength = Math.Min(Novel.I.DispSubtitleCharCount, Novel.I.CurrPage.Subtitle.Length);
-					string dispSubtitle = Novel.I.CurrPage.Subtitle.Substring(0, dispSubtitleLength);
-
-					DDFontUtils.DrawString(10, 413, dispSubtitle, DDFontUtils.GetFont("Kゴシック", 16));
-				}
-
-				// シナリオのテキスト文字列
-				{
-					int dispTextLength = Math.Min(Novel.I.DispCharCount, Novel.I.CurrPage.Text.Length);
-					string dispText = Novel.I.CurrPage.Text.Substring(0, dispTextLength);
-					string[] dispLines = dispText.Split('\n');
-
-					for (int index = 0; index < dispLines.Length; index++)
+					// サブタイトル文字列
 					{
-						DDFontUtils.DrawString(10, 450 + index * 30, dispLines[index], DDFontUtils.GetFont("Kゴシック", 16), false, new I3Color(110, 100, 90));
+						int dispSubtitleLength = Math.Min(Novel.I.DispSubtitleCharCount, Novel.I.CurrPage.Subtitle.Length);
+						string dispSubtitle = Novel.I.CurrPage.Subtitle.Substring(0, dispSubtitleLength);
+
+						DDFontUtils.DrawString(
+							10,
+							413,
+							dispSubtitle,
+							DDFontUtils.GetFont("Kゴシック", 16)
+							);
+					}
+
+					// シナリオのテキスト文字列
+					{
+						int dispTextLength = Math.Min(Novel.I.DispCharCount, Novel.I.CurrPage.Text.Length);
+						string dispText = Novel.I.CurrPage.Text.Substring(0, dispTextLength);
+						string[] dispLines = dispText.Split('\n');
+
+						for (int index = 0; index < dispLines.Length; index++)
+						{
+							DDFontUtils.DrawString(
+								10,
+								450 + index * 30,
+								dispLines[index],
+								DDFontUtils.GetFont("Kゴシック", 16), false, new I3Color(110, 100, 90)
+								);
+						}
 					}
 				}
 

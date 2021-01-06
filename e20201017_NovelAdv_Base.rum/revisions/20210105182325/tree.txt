@@ -1,0 +1,52 @@
+dat
+dat\e20200002_General
+dat\e20200002_General\General
+dat\e20200003_dat
+dat\e20200003_dat\Font
+dat\e20200003_dat\Font\K Gothic
+dat\e20200003_dat\Logo
+dat\e20200003_dat\フリー素材
+dat\e20200003_dat\フリー素材\K Gothic
+dat\e20200003_dat\フリー素材\からい
+dat\e20200003_dat\フリー素材\からい\ゆかマキ制服
+dat\e20200003_dat\フリー素材\からい\結月ゆかり
+dat\e20200003_dat\フリー素材\からい\東北ずん子
+dat\e20200003_dat\フリー素材\空想曲線
+dat\e20200003_dat\フリー素材\空想曲線\Messageframe_29
+dat\e20200003_dat\フリー素材\空想曲線\Messageframe_29\material
+dat\e20200003_dat\フリー素材\空想曲線\Messageframe_29\material\01 message
+dat\e20200003_dat\フリー素材\空想曲線\Messageframe_29\material\02 button
+dat\e20200003_dat\フリー素材\空想曲線\Messageframe_29\material\03 system_button
+dat\e20200003_dat\フリー素材\結月ゆかりステッカー
+dat\e20200003_dat\フリー素材\小森平
+dat\e20200003_dat\フリー素材\小森平\sfxrse
+dat\e20200003_dat\フリー素材\小森平\sfxrse\01pickup
+dat\e20200003_dat\フリー素材\星屑物語
+dat\e20200003_dat\フリー素材\魔王魂
+dat\e20200003_dat\フリー素材\魔王魂\bgm_maoudamashii_piano
+dat\e20200003_dat\自由参照
+dat\e20200003_dat\自由参照\背景
+dat\e20200003_dat\自由参照\背景\きまぐれアフター
+dat\e20200003_dat\自由参照\背景\つけめん
+dat\e20200003_dat\自由参照\魔王魂
+dat\e20200003_dat\自由参照\魔王魂\bgm_maoudamashii_healing
+dat\e20200003_dat\自由参照\魔王魂\bgm_maoudamashii_orchestra
+dat\e20200003_dat\自由参照\魔王魂\bgm_maoudamashii_piano
+doc
+Elsa20200001
+Elsa20200001\Elsa20200001
+Elsa20200001\Elsa20200001\Commons
+Elsa20200001\Elsa20200001\GameCommons
+Elsa20200001\Elsa20200001\GameCommons\MaskGZDataUtils
+Elsa20200001\Elsa20200001\GameCommons\Options
+Elsa20200001\Elsa20200001\Games
+Elsa20200001\Elsa20200001\Games\Surfaces
+Elsa20200001\Elsa20200001\Properties
+Elsa20200001\Elsa20200001\Tests
+Elsa20200001\Elsa20200001\Tests\Games
+out
+res
+res\e20200001_res
+res\e20200001_res\Scenario
+tmp
+Tools

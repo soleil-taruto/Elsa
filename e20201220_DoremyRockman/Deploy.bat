@@ -5,5 +5,5 @@ cx **
 rem	CALL Release.bat /B
 rem	CALL Release.bat /V 001
 
-Tools\UpdatingCopy.exe out C:\be\Web\DocRoot\Elsa\d20201211_DoremyRockman
-Tools\RunOnBatch.exe C:\be\Web Deploy.bat
+C:\Factory\Elsa\UpdatingCopy.exe out C:\be\Web\DocRoot\Elsa\d20201211_DoremyRockman
+C:\Factory\Elsa\RunOnBatch.exe C:\be\Web Deploy.bat
