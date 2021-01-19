@@ -1,57 +1,57 @@
 ===============================================================================
 
-@DoremyRockman / version $version$
-@@@@@@@@@@@@@@@@@@@@@@@@@@(C) 202x cerulean.charlotte
+ã€€DoremyRockman / version $version$
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€(C) 202x cerulean.charlotte
 
 ===============================================================================
 
 
-¡‹N“®•û–@
+â– èµ·å‹•æ–¹æ³•
 
-@Elsa20200001.exe ‚ðŽÀs‚µ‚Ä‰º‚³‚¢B
-
-
-¡‘€ì•û–@
-
-@ƒJ[ƒ\ƒ‹
-
-@Z@@ƒWƒƒƒ“ƒv / Œˆ’è
-@X@@UŒ‚ / ƒLƒƒƒ“ƒZƒ‹
-@D@@‰æ–ÊƒXƒ‰ƒCƒh
-
-@SPACE@@ƒ|[ƒY / ƒ|[ƒY‰ðœ
-
-@ƒGƒXƒP[ƒvƒL[‚ð‰Ÿ‚·‚ÆA‚¢‚Â‚Å‚àI—¹‚Å‚«‚Ü‚·B
+ã€€Elsa20200001.exe ã‚’å®Ÿè¡Œã—ã¦ä¸‹ã•ã„ã€‚
 
 
-@šƒQ[ƒ€ƒpƒbƒh‚ÌŽg—p‚ð‚¨‚·‚·‚ß‚µ‚Ü‚·B
+â– æ“ä½œæ–¹æ³•
+
+ã€€ã‚«ãƒ¼ã‚½ãƒ«
+
+ã€€Zã€€ã€€ã‚¸ãƒ£ãƒ³ãƒ— / æ±ºå®š
+ã€€Xã€€ã€€æ”»æ’ƒ / ã‚­ãƒ£ãƒ³ã‚»ãƒ«
+ã€€Dã€€ã€€ç”»é¢ã‚¹ãƒ©ã‚¤ãƒ‰
+
+ã€€SPACEã€€ã€€ãƒãƒ¼ã‚º / ãƒãƒ¼ã‚ºè§£é™¤
+
+ã€€ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—ã‚­ãƒ¼ã‚’æŠ¼ã™ã¨ã€ã„ã¤ã§ã‚‚çµ‚äº†ã§ãã¾ã™ã€‚
 
 
-¡‘€ì•û–@(ŠJ”­—p)
-
-@E@@ƒGƒfƒBƒbƒgƒ‚[ƒh
+ã€€â˜…ã‚²ãƒ¼ãƒ ãƒ‘ãƒƒãƒ‰ã®ä½¿ç”¨ã‚’ãŠã™ã™ã‚ã—ã¾ã™ã€‚
 
 
-¡§ì
+â– æ“ä½œæ–¹æ³•(é–‹ç™ºç”¨)
 
-@œƒOƒ‰ƒtƒBƒbƒN
-
-@@ƒtƒ‰ƒ“ƒc ƒJƒtƒJ
-
-@œƒvƒƒOƒ‰ƒ€
-
-@@cerulean.charlotte
+ã€€Eã€€ã€€ã‚¨ãƒ‡ã‚£ãƒƒãƒˆãƒ¢ãƒ¼ãƒ‰
 
 
-¡‘fÞiŒhÌ—ªj
+â– åˆ¶ä½œ
 
-@œ‰¹Šy
+ã€€â—ã‚°ãƒ©ãƒ•ã‚£ãƒƒã‚¯
 
-@@ƒ†[ƒtƒ‹ƒJ
-@@https://wingless-seraph.net/
+ã€€ã€€ãƒ•ãƒ©ãƒ³ãƒ„ ã‚«ãƒ•ã‚«
 
-@œŒø‰Ê‰¹
+ã€€â—ãƒ—ãƒ­ã‚°ãƒ©ãƒ 
 
-@@¬X•½
-@@http://taira-komori.jpn.org/
+ã€€ã€€cerulean.charlotte
+
+
+â– ç´ æï¼ˆæ•¬ç§°ç•¥ï¼‰
+
+ã€€â—éŸ³æ¥½
+
+ã€€ã€€ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«
+ã€€ã€€https://wingless-seraph.net/
+
+ã€€â—åŠ¹æžœéŸ³
+
+ã€€ã€€å°æ£®å¹³
+ã€€ã€€http://taira-komori.jpn.org/
 

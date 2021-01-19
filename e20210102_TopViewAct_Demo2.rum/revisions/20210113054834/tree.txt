@@ -36,26 +36,26 @@ dat\e20200003_dat\Novel
 dat\e20200003_dat\Novel\Font
 dat\e20200003_dat\Novel\Font\K Gothic
 dat\e20200003_dat\Novel\Instagram
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‚©‚ç‚¢
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\01 message
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\02 button
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button
-dat\e20200003_dat\‚«‚Â‚Ë‰¼
-dat\e20200003_dat\‚İ‚é‚Ó‚¡
-dat\e20200003_dat\¬X•½
-dat\e20200003_dat\¬X•½\sfxrse
-dat\e20200003_dat\¬X•½\sfxrse\01pickup
-dat\e20200003_dat\¬X•½\sfxrse\02laser
-dat\e20200003_dat\¬X•½\sfxrse\03explosion
-dat\e20200003_dat\¬X•½\sfxrse\04powerup
-dat\e20200003_dat\¬X•½\sfxrse\05hit
-dat\e20200003_dat\¬X•½\sfxrse\06jump
-dat\e20200003_dat\¬X•½\sfxrse\07blip
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\01 message
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\02 button
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button
+dat\e20200003_dat\ãã¤ã­ä»®
+dat\e20200003_dat\ã¿ã‚‹ãµãƒ
+dat\e20200003_dat\å°æ£®å¹³
+dat\e20200003_dat\å°æ£®å¹³\sfxrse
+dat\e20200003_dat\å°æ£®å¹³\sfxrse\01pickup
+dat\e20200003_dat\å°æ£®å¹³\sfxrse\02laser
+dat\e20200003_dat\å°æ£®å¹³\sfxrse\03explosion
+dat\e20200003_dat\å°æ£®å¹³\sfxrse\04powerup
+dat\e20200003_dat\å°æ£®å¹³\sfxrse\05hit
+dat\e20200003_dat\å°æ£®å¹³\sfxrse\06jump
+dat\e20200003_dat\å°æ£®å¹³\sfxrse\07blip
 doc
 Elsa20200001
 Elsa20200001\Elsa20200001
@@ -65,7 +65,7 @@ Elsa20200001\Elsa20200001\GameCommons\MaskGZDataUtils
 Elsa20200001\Elsa20200001\GameCommons\Options
 Elsa20200001\Elsa20200001\Games
 Elsa20200001\Elsa20200001\Games\Enemies
-Elsa20200001\Elsa20200001\Games\Enemies\_“Şqs
+Elsa20200001\Elsa20200001\Games\Enemies\ç¥å¥ˆå­s
 Elsa20200001\Elsa20200001\Games\Shots
 Elsa20200001\Elsa20200001\Games\Tiles
 Elsa20200001\Elsa20200001\Games\Walls

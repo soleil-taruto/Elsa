@@ -15,8 +15,8 @@ Elsa20200001\Elsa20200001\GameCommons\Options
 Elsa20200001\Elsa20200001\Games
 Elsa20200001\Elsa20200001\Games\Enemies
 Elsa20200001\Elsa20200001\Games\Scripts
-Elsa20200001\Elsa20200001\Games\Scripts\ƒ_ƒ~[s
-Elsa20200001\Elsa20200001\Games\Scripts\ƒeƒXƒgs
+Elsa20200001\Elsa20200001\Games\Scripts\ãƒ€ãƒŸãƒ¼s
+Elsa20200001\Elsa20200001\Games\Scripts\ãƒ†ã‚¹ãƒˆs
 Elsa20200001\Elsa20200001\Games\Shots
 Elsa20200001\Elsa20200001\Games\Walls
 Elsa20200001\Elsa20200001\Properties

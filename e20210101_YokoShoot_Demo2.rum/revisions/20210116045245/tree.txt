@@ -8,23 +8,23 @@ dat\dat\Novel
 dat\dat\Novel\Font
 dat\dat\Novel\Font\K Gothic
 dat\dat\Novel\Instagram
-dat\dat\Novel\ƒtƒŠ[‘fŞ
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‚©‚ç‚¢
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\01 message
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\02 button
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\01 message
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\02 button
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button
 dat\dat\Wall
-dat\dat\ƒ†[ƒtƒ‹ƒJ
-dat\dat\ƒ†[ƒtƒ‹ƒJ\Battle-Conflict_loop
-dat\dat\ƒ†[ƒtƒ‹ƒJ\Battle-Conflict_loop\Assets_for_Unity
-dat\dat\ƒ†[ƒtƒ‹ƒJ\Battle-rapier_loop
-dat\dat\ƒ†[ƒtƒ‹ƒJ\Battle-rapier_loop\Assets_for_Unity
-dat\dat\ƒ†[ƒtƒ‹ƒJ\Battle-Vampire_loop
-dat\dat\ƒ†[ƒtƒ‹ƒJ\Battle-Vampire_loop\Assets_for_Unity
+dat\dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«
+dat\dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Conflict_loop
+dat\dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Conflict_loop\Assets_for_Unity
+dat\dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-rapier_loop
+dat\dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-rapier_loop\Assets_for_Unity
+dat\dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Vampire_loop
+dat\dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Vampire_loop\Assets_for_Unity
 dat\res
 dat\res\Scenario
 dat\res\Scenario\Include

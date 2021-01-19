@@ -1,4 +1,4 @@
-d41d8cd98f00b204e9800998ecf8427e #### e20200843_G4YokoActTM ÄŒ» ver
+d41d8cd98f00b204e9800998ecf8427e #### e20200843_G4YokoActTM èœ€å’²æ¨Ÿ ver
 7992a8c8bb1fe9c863b827335778b5a1 AUTHORS
 aa15088b0dc08af63423a55a16929f82 Clean.bat
 6f07a1a5aa73b75b42d4b6f067a40071 dat\e20200002_General\General\Dummy.png
@@ -22,7 +22,7 @@ a91172900c49969a93c885f8d1e14cb1 dat\e20200003_dat\Wall\Wall_B0005.jpg
 6366689b3a0ad4e6483eb937879f2f2a DebugRelease.bat
 ad358914ef1a612864116ed5320e021b doc\Config.conf
 7f0cfc79746e6fc7569427be9477d4f7 doc\Properties.dat
-9e5f7e148e1d4a9d458ac2ee21547577 doc\ƒ}ƒjƒ…ƒAƒ‹.txt
+9e5f7e148e1d4a9d458ac2ee21547577 doc\ç¹æ§­ãƒ«ç¹ï½¥ç¹§ï½¢ç¹ï½«.txt
 70f5fc115a21c0cbf160a3e4fee712f3 Elsa20200001\Elsa20200001.sln
 c9eae497aadc142ee17d0bbbff9144d8 Elsa20200001\Elsa20200001\Common.cs
 e85e6462992d3c57fdfa792d1926e032 Elsa20200001\Elsa20200001\Commons\ArgsReader.cs
@@ -108,7 +108,7 @@ bc61f069918fec9d1e23002455109511 Elsa20200001\Elsa20200001\GameCommons\Options\D
 e6f11946d8c952427b271e7a23f8ffc3 Elsa20200001\Elsa20200001\Games\Enemies\Enemy.cs
 dacc0a155ab24aebafca258280bb00a7 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_B0001.cs
 ccda6331175ed893953900efa69cf1fd Elsa20200001\Elsa20200001\Games\Enemies\Enemy_B0002.cs
-1df4a61e54a7c9a4f0ea8ff7c6851cc6 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_ƒXƒ^[ƒg’n“_.cs
+1df4a61e54a7c9a4f0ea8ff7c6851cc6 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_ç¹§ï½¹ç¹§ï½¿ç¹ï½¼ç¹äº¥æ…è½¤ï½¹.cs
 c2631e8b90ab436dafbebdcf8670764c Elsa20200001\Elsa20200001\Games\Enemies\EnemyCatalog.cs
 5b84ef8b00ad232b9adf30d05c25880a Elsa20200001\Elsa20200001\Games\Game.cs
 13078afeda5a3d255fc3e023036bfe24 Elsa20200001\Elsa20200001\Games\GameStatus.cs

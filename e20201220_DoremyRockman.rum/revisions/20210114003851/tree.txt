@@ -3,33 +3,33 @@ dat\dat
 dat\dat\Game
 dat\dat\Game\chara_a01
 dat\dat\Game\Tile
-dat\dat\Game\ƒ†[ƒtƒ‹ƒJ
-dat\dat\Game\ƒ†[ƒtƒ‹ƒJ\The-sacred-place_loop
-dat\dat\Game\ƒ†[ƒtƒ‹ƒJ\Voyage_loop
-dat\dat\Game\¬X•½
-dat\dat\Game\¬X•½\sfxrse
-dat\dat\Game\¬X•½\sfxrse\01pickup
-dat\dat\Game\¬X•½\sfxrse\02laser
-dat\dat\Game\¬X•½\sfxrse\03explosion
-dat\dat\Game\¬X•½\sfxrse\04powerup
-dat\dat\Game\¬X•½\sfxrse\05hit
-dat\dat\Game\¬X•½\sfxrse\06jump
-dat\dat\Game\¬X•½\sfxrse\07blip
+dat\dat\Game\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«
+dat\dat\Game\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\The-sacred-place_loop
+dat\dat\Game\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Voyage_loop
+dat\dat\Game\å°æ£®å¹³
+dat\dat\Game\å°æ£®å¹³\sfxrse
+dat\dat\Game\å°æ£®å¹³\sfxrse\01pickup
+dat\dat\Game\å°æ£®å¹³\sfxrse\02laser
+dat\dat\Game\å°æ£®å¹³\sfxrse\03explosion
+dat\dat\Game\å°æ£®å¹³\sfxrse\04powerup
+dat\dat\Game\å°æ£®å¹³\sfxrse\05hit
+dat\dat\Game\å°æ£®å¹³\sfxrse\06jump
+dat\dat\Game\å°æ£®å¹³\sfxrse\07blip
 dat\dat\General
 dat\dat\Logo
 dat\dat\Novel
 dat\dat\Novel\Font
 dat\dat\Novel\Font\K Gothic
-dat\dat\Novel\ƒtƒŠ[‘fŞ
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‚©‚ç‚¢
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\01 message
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\02 button
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button
-dat\dat\ƒeƒXƒg—p
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\01 message
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\02 button
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button
+dat\dat\ãƒ†ã‚¹ãƒˆç”¨
 dat\res
 dat\res\Scenario
 dat\res\Scenario\Include

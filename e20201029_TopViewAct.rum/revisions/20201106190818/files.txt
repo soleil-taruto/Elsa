@@ -1,4 +1,4 @@
-d41d8cd98f00b204e9800998ecf8427e #### Claris ÄŒ» ver
+d41d8cd98f00b204e9800998ecf8427e #### Claris å†ç¾ ver
 7992a8c8bb1fe9c863b827335778b5a1 AUTHORS
 aa15088b0dc08af63423a55a16929f82 Clean.bat
 6f07a1a5aa73b75b42d4b6f067a40071 dat\e20200002_General\General\Dummy.png
@@ -213,7 +213,7 @@ bb2597279c2cb0819c9ff7a5be415869 dat\e20200003_dat\hmix\m2.mp3
 be4b16523fea9fe170579f8832adac80 DebugRelease.bat
 ad358914ef1a612864116ed5320e021b doc\Config.conf
 7f0cfc79746e6fc7569427be9477d4f7 doc\Properties.dat
-d53294c901178514057330bbd4257115 doc\ƒ}ƒjƒ…ƒAƒ‹.txt
+d53294c901178514057330bbd4257115 doc\ãƒãƒ‹ãƒ¥ã‚¢ãƒ«.txt
 70f5fc115a21c0cbf160a3e4fee712f3 Elsa20200001\Elsa20200001.sln
 0e03df0d0d4ec254df0573c15f6287ca Elsa20200001\Elsa20200001\Common.cs
 e85e6462992d3c57fdfa792d1926e032 Elsa20200001\Elsa20200001\Commons\ArgsReader.cs
@@ -300,7 +300,7 @@ b1c6532d574e792185add7efd957448d Elsa20200001\Elsa20200001\Games\Effects.cs
 9a8a13a3bbe6d9ddf4252e84c9fb3128 Elsa20200001\Elsa20200001\Games\Enemies\Enemy.cs
 b3dd3f424e30643a482c0351f404aa3e Elsa20200001\Elsa20200001\Games\Enemies\Enemy_B0001.cs
 821bd61d80ad85c5b59d39fa5a19848d Elsa20200001\Elsa20200001\Games\Enemies\Enemy_B0002.cs
-1fe95a4ce50ec7b250e28657e866d6f0 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_ƒXƒ^[ƒg’n“_.cs
+1fe95a4ce50ec7b250e28657e866d6f0 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_ã‚¹ã‚¿ãƒ¼ãƒˆåœ°ç‚¹.cs
 7a1a08d9a6df8e73765f86a9af6e60ca Elsa20200001\Elsa20200001\Games\Enemies\EnemyCatalog.cs
 7619c8a05725850692fa9c1c38679e89 Elsa20200001\Elsa20200001\Games\Game.cs
 544f26144dbab53fac03ccee23d0ce8d Elsa20200001\Elsa20200001\Games\GameStatus.cs
@@ -319,10 +319,10 @@ d31a24521c3e9091d13e0e13388de6c0 Elsa20200001\Elsa20200001\Games\Shots\Shot_B000
 6e94377b077e0835d61a81cbf480531e Elsa20200001\Elsa20200001\Games\Tiles\Tile_River.cs
 79c33a45b7773837efaed07aa5c78455 Elsa20200001\Elsa20200001\Games\Tiles\Tile_Space.cs
 d1628ad851365deae4b3aec2fc6e6491 Elsa20200001\Elsa20200001\Games\Tiles\Tile_Wall.cs
-119a21ee1790aa0367c948968434c4af Elsa20200001\Elsa20200001\Games\Tiles\Tile_X—Ñ.cs
-08ca0b1f0b3b636c378b9cc63b64ee06 Elsa20200001\Elsa20200001\Games\Tiles\Tile_X—ÑŒn.cs
-8bbedda33fd9fe297738317cce513e2c Elsa20200001\Elsa20200001\Games\Tiles\Tile_…•Ó.cs
-cb2641ba61605e2188fa08d76ea95d83 Elsa20200001\Elsa20200001\Games\Tiles\Tile_…•ÓŒn.cs
+119a21ee1790aa0367c948968434c4af Elsa20200001\Elsa20200001\Games\Tiles\Tile_æ£®æ—.cs
+08ca0b1f0b3b636c378b9cc63b64ee06 Elsa20200001\Elsa20200001\Games\Tiles\Tile_æ£®æ—ç³».cs
+8bbedda33fd9fe297738317cce513e2c Elsa20200001\Elsa20200001\Games\Tiles\Tile_æ°´è¾º.cs
+cb2641ba61605e2188fa08d76ea95d83 Elsa20200001\Elsa20200001\Games\Tiles\Tile_æ°´è¾ºç³».cs
 945262c5ec066860792a32a3c731c471 Elsa20200001\Elsa20200001\Games\Tiles\TileCatalog.cs
 f6913efcebc65f3b490dc6872da840e2 Elsa20200001\Elsa20200001\Games\TitleMenu.cs
 94c8bee5c9e0d5022a21866a836e71e4 Elsa20200001\Elsa20200001\Games\Walls\Wall.cs
@@ -330,7 +330,7 @@ f6913efcebc65f3b490dc6872da840e2 Elsa20200001\Elsa20200001\Games\TitleMenu.cs
 02310bb258b3f5f21fc441a466b3df53 Elsa20200001\Elsa20200001\Games\Walls\WallCreator.cs
 9d9019fb987e21e98839a48387668ca1 Elsa20200001\Elsa20200001\Games\World.cs
 d8ac4e75eba84d363b4d16c3b8acd47e Elsa20200001\Elsa20200001\Games\WorldGame.cs
-6b07c39c24332dab888d9a97ff3ee04f Elsa20200001\Elsa20200001\Games\•ÇƒLƒƒƒ‰ˆ—.cs
+6b07c39c24332dab888d9a97ff3ee04f Elsa20200001\Elsa20200001\Games\å£ã‚­ãƒ£ãƒ©å‡¦ç†.cs
 bfe24a93506e9b71494a209c5a75b905 Elsa20200001\Elsa20200001\Ground.cs
 96fd498a0329105033b67fc41f4b1ff0 Elsa20200001\Elsa20200001\LevelEditors\LevelEditor.cs
 98b02d07a97239b7af3d858c4cb15769 Elsa20200001\Elsa20200001\LevelEditors\LevelEditorDlg.cs

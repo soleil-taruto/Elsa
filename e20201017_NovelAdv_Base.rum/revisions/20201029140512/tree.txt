@@ -5,33 +5,33 @@ dat\e20201017_NovelAdv
 dat\e20201017_NovelAdv\Font
 dat\e20201017_NovelAdv\Font\K Gothic
 dat\e20201017_NovelAdv\Logo
-dat\e20201017_NovelAdv\ƒtƒŠ[‘fŞ
-dat\e20201017_NovelAdv\ƒtƒŠ[‘fŞ\K Gothic
-dat\e20201017_NovelAdv\ƒtƒŠ[‘fŞ\‚©‚ç‚¢
-dat\e20201017_NovelAdv\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•
-dat\e20201017_NovelAdv\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\Œ‹Œ‚ä‚©‚è
-dat\e20201017_NovelAdv\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\“Œ–k‚¸‚ñq
-dat\e20201017_NovelAdv\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü
-dat\e20201017_NovelAdv\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29
-dat\e20201017_NovelAdv\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material
-dat\e20201017_NovelAdv\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\01 message
-dat\e20201017_NovelAdv\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\02 button
-dat\e20201017_NovelAdv\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button
-dat\e20201017_NovelAdv\ƒtƒŠ[‘fŞ\Œ‹Œ‚ä‚©‚èƒXƒeƒbƒJ[
-dat\e20201017_NovelAdv\ƒtƒŠ[‘fŞ\¬X•½
-dat\e20201017_NovelAdv\ƒtƒŠ[‘fŞ\¬X•½\sfxrse
-dat\e20201017_NovelAdv\ƒtƒŠ[‘fŞ\¬X•½\sfxrse\01pickup
-dat\e20201017_NovelAdv\ƒtƒŠ[‘fŞ\¯‹û•¨Œê
-dat\e20201017_NovelAdv\ƒtƒŠ[‘fŞ\–‚‰¤°
-dat\e20201017_NovelAdv\ƒtƒŠ[‘fŞ\–‚‰¤°\bgm_maoudamashii_piano
-dat\e20201017_NovelAdv\©—RQÆ
-dat\e20201017_NovelAdv\©—RQÆ\”wŒi
-dat\e20201017_NovelAdv\©—RQÆ\”wŒi\‚«‚Ü‚®‚êƒAƒtƒ^[
-dat\e20201017_NovelAdv\©—RQÆ\”wŒi\‚Â‚¯‚ß‚ñ
-dat\e20201017_NovelAdv\©—RQÆ\–‚‰¤°
-dat\e20201017_NovelAdv\©—RQÆ\–‚‰¤°\bgm_maoudamashii_healing
-dat\e20201017_NovelAdv\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra
-dat\e20201017_NovelAdv\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano
+dat\e20201017_NovelAdv\ãƒ•ãƒªãƒ¼ç´ æ
+dat\e20201017_NovelAdv\ãƒ•ãƒªãƒ¼ç´ æ\K Gothic
+dat\e20201017_NovelAdv\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„
+dat\e20201017_NovelAdv\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ
+dat\e20201017_NovelAdv\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\çµæœˆã‚†ã‹ã‚Š
+dat\e20201017_NovelAdv\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\æ±åŒ—ãšã‚“å­
+dat\e20201017_NovelAdv\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š
+dat\e20201017_NovelAdv\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29
+dat\e20201017_NovelAdv\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material
+dat\e20201017_NovelAdv\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\01 message
+dat\e20201017_NovelAdv\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\02 button
+dat\e20201017_NovelAdv\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button
+dat\e20201017_NovelAdv\ãƒ•ãƒªãƒ¼ç´ æ\çµæœˆã‚†ã‹ã‚Šã‚¹ãƒ†ãƒƒã‚«ãƒ¼
+dat\e20201017_NovelAdv\ãƒ•ãƒªãƒ¼ç´ æ\å°æ£®å¹³
+dat\e20201017_NovelAdv\ãƒ•ãƒªãƒ¼ç´ æ\å°æ£®å¹³\sfxrse
+dat\e20201017_NovelAdv\ãƒ•ãƒªãƒ¼ç´ æ\å°æ£®å¹³\sfxrse\01pickup
+dat\e20201017_NovelAdv\ãƒ•ãƒªãƒ¼ç´ æ\æ˜Ÿå±‘ç‰©èª
+dat\e20201017_NovelAdv\ãƒ•ãƒªãƒ¼ç´ æ\é­”ç‹é­‚
+dat\e20201017_NovelAdv\ãƒ•ãƒªãƒ¼ç´ æ\é­”ç‹é­‚\bgm_maoudamashii_piano
+dat\e20201017_NovelAdv\è‡ªç”±å‚ç…§
+dat\e20201017_NovelAdv\è‡ªç”±å‚ç…§\èƒŒæ™¯
+dat\e20201017_NovelAdv\è‡ªç”±å‚ç…§\èƒŒæ™¯\ãã¾ãã‚Œã‚¢ãƒ•ã‚¿ãƒ¼
+dat\e20201017_NovelAdv\è‡ªç”±å‚ç…§\èƒŒæ™¯\ã¤ã‘ã‚ã‚“
+dat\e20201017_NovelAdv\è‡ªç”±å‚ç…§\é­”ç‹é­‚
+dat\e20201017_NovelAdv\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_healing
+dat\e20201017_NovelAdv\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra
+dat\e20201017_NovelAdv\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano
 doc
 Elsa20200001
 Elsa20200001\Elsa20200001

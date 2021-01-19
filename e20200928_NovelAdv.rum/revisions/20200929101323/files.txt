@@ -2,7 +2,7 @@
 aa15088b0dc08af63423a55a16929f82 Clean.bat
 ad358914ef1a612864116ed5320e021b doc\Config.conf
 7f0cfc79746e6fc7569427be9477d4f7 doc\Properties.dat
-7eb8507ea6ca3bac810195ca9f071441 doc\ƒ}ƒjƒ…ƒAƒ‹.txt
+7eb8507ea6ca3bac810195ca9f071441 doc\ãƒãƒ‹ãƒ¥ã‚¢ãƒ«.txt
 70f5fc115a21c0cbf160a3e4fee712f3 Elsa20200001\Elsa20200001.sln
 98c27afc38918fd19b7bf83414c44208 Elsa20200001\Elsa20200001\Common\ArgsReader.cs
 519534a917d1f8f15ff1f2814b1f1bac Elsa20200001\Elsa20200001\Common\AttachString.cs
@@ -96,11 +96,11 @@ aedacff38fcbc338679293edf9ca485a Elsa20200001\Elsa20200001\Games\ScenarioWords.c
 28fa9c8fa8653af741129ebfdf969b90 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_Dark.cs
 a67e9eb4dc051ebb7f355befdeda239e Elsa20200001\Elsa20200001\Games\Surfaces\Surface_Smpl0001.cs
 ca03b674298053422d07ab20d104f172 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_UFOYukari.cs
-edcf2885de9cc07c4f3f0467d17d7648 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_‚©‚ç‚¢.cs
-7a3f733a17da3878980dfa0eea7417ab Elsa20200001\Elsa20200001\Games\Surfaces\Surface_Œ‹Œ‚ä‚©‚è.cs
-b4ce83024d638702604a9ba9f75fb984 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_Œ·Šªƒ}ƒL.cs
-9212c4df2c9b7cd7610780e5d3537607 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_“Œ–k‚¸‚ñq.cs
-9a13754c1ad3ded00d7ab3dbd4bebbfa Elsa20200001\Elsa20200001\Games\Surfaces\Surface_”wŒi.cs
+edcf2885de9cc07c4f3f0467d17d7648 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_ã‹ã‚‰ã„.cs
+7a3f733a17da3878980dfa0eea7417ab Elsa20200001\Elsa20200001\Games\Surfaces\Surface_çµæœˆã‚†ã‹ã‚Š.cs
+b4ce83024d638702604a9ba9f75fb984 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_å¼¦å·»ãƒã‚­.cs
+9212c4df2c9b7cd7610780e5d3537607 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_æ±åŒ—ãšã‚“å­.cs
+9a13754c1ad3ded00d7ab3dbd4bebbfa Elsa20200001\Elsa20200001\Games\Surfaces\Surface_èƒŒæ™¯.cs
 c89e11dd61643f2a7c55e1512a03c19b Elsa20200001\Elsa20200001\Games\Surfaces\SurfaceCreator.cs
 f262a728bdba8cfbbeea8f975ee0078d Elsa20200001\Elsa20200001\Games\TitleMenu.cs
 335c7c45f06844d9057374b33be0c3dc Elsa20200001\Elsa20200001\Ground.cs
@@ -122,8 +122,8 @@ ebbcbe52f79f0c1dba9fecec6732f938 Elsa20200001\Elsa20200001\Tests\Games\LogoTest.
 4e03c1c0433c4c92fdd7664f8cdea677 Elsa20200001\Elsa20200001\Tests\Test0001.cs
 c4139adeda70e797ce2dc5dc5faf5b40 LICENSE
 c4686240cb6d4938fb732b726a856959 Release.bat
-3316b09c905bf15b16d4c0b06e2d9980 res\e20200928_NovelAdv\Scenario\001_ƒ_ƒ~[ƒVƒiƒŠƒI.txt
-c023f0315477297d4e3134e54bedb1f1 res\e20200928_NovelAdv\Scenario\101_ƒXƒ^[ƒgƒVƒiƒŠƒI.txt
+3316b09c905bf15b16d4c0b06e2d9980 res\e20200928_NovelAdv\Scenario\001_ãƒ€ãƒŸãƒ¼ã‚·ãƒŠãƒªã‚ª.txt
+c023f0315477297d4e3134e54bedb1f1 res\e20200928_NovelAdv\Scenario\101_ã‚¹ã‚¿ãƒ¼ãƒˆã‚·ãƒŠãƒªã‚ª.txt
 5fcace4925e004db5f6acdfcee4e4ddb res\e20200928_NovelAdv\Scenario\_memo.txt
 b5febb96228cf352080e9c6f55372bcf res\e20200928_NovelAdv\Scenario\Smpl0001.txt
 132a077c14113035d7cbdea4591ede52 res\e20200928_NovelAdv\Scenario\Smpl0002.txt

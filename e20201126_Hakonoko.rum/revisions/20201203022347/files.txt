@@ -8,10 +8,10 @@ b5099a8d5b681001eb64d03f7e9ef2a4 Confuse.bat
 330daf06d89928912ee97240fe3c4646 dat\e20200002_General\General\WhiteCircle.png
 049a2c1a6845299127ca21dea93479c8 dat\e20200003_dat\Logo\Copyright.png
 ed99f9d0430fe2abd1f923e7eb2940a5 DebugRelease.bat
-39c9cf153ec6481ecb04602cd342ff59 Deploy.bat_抑止中.txt
+39c9cf153ec6481ecb04602cd342ff59 Deploy.bat_謚第ｭ｢荳ｭ.txt
 ad358914ef1a612864116ed5320e021b doc\Config.conf
 7f0cfc79746e6fc7569427be9477d4f7 doc\Properties.dat
-69e33816a9fea39603751ca512430c92 doc\マニュアル.txt
+69e33816a9fea39603751ca512430c92 doc\繝槭ル繝･繧｢繝ｫ.txt
 70f5fc115a21c0cbf160a3e4fee712f3 Elsa20200001\Elsa20200001.sln
 4605653c1e19be7620e49cbdf74f12df Elsa20200001\Elsa20200001\Common.cs
 e85e6462992d3c57fdfa792d1926e032 Elsa20200001\Elsa20200001\Commons\ArgsReader.cs
@@ -106,7 +106,7 @@ bd56ad6aef32ee23c2766a4f66a4f8d3 Elsa20200001\Elsa20200001\Games\Logo.cs
 399b0d0d3ba13e4be4970a48b1338b0d Elsa20200001\Elsa20200001\Games\MapCell.cs
 a2ae2ae4b26eb6f1fe3ea0d333846fd0 Elsa20200001\Elsa20200001\Games\Player.cs
 4146207c534e24816aebb03c9b992576 Elsa20200001\Elsa20200001\Games\TitleMenu.cs
-17d457a7253f0492dbc1d68d2d5949bb Elsa20200001\Elsa20200001\Games\壁キャラ処理.cs
+17d457a7253f0492dbc1d68d2d5949bb Elsa20200001\Elsa20200001\Games\螢√く繝｣繝ｩ蜃ｦ逅�.cs
 c532fe14920133c6ebb6157fa2c5d809 Elsa20200001\Elsa20200001\Ground.cs
 f72b66e3c21be54affc206a5ab6a30fb Elsa20200001\Elsa20200001\LevelEditors\LevelEditor.cs
 165cd513a875ca9e2339433331e186ee Elsa20200001\Elsa20200001\LevelEditors\LevelEditorDlg.cs

@@ -8,189 +8,189 @@ b5099a8d5b681001eb64d03f7e9ef2a4 Confuse.bat
 330daf06d89928912ee97240fe3c4646 dat\e20200002_General\General\WhiteCircle.png
 5c8044dfe49667916311571f45aab7c9 dat\e20200003_dat\Font\K Gothic\_source.txt
 3f537e1030a4e641ea5b12d21a0f5b41 dat\e20200003_dat\Font\K Gothic\K Gothic.ttf
-c4491ae086652760fbed7b571c49acbc dat\e20200003_dat\Font\K Gothic\‚Í‚¶‚ß‚É‚¨“Ç‚İ‚­‚¾‚³‚¢.txt
+c4491ae086652760fbed7b571c49acbc dat\e20200003_dat\Font\K Gothic\ã¯ã˜ã‚ã«ãŠèª­ã¿ãã ã•ã„.txt
 a16a7223c0c3386f742fb5ae02fa6b4e dat\e20200003_dat\Logo\Copyright.png
 049a2c1a6845299127ca21dea93479c8 dat\e20200003_dat\Logo\Copyright_orig.png
-5c8044dfe49667916311571f45aab7c9 dat\e20200003_dat\ƒtƒŠ[‘fŞ\K Gothic\_source.txt
-3f537e1030a4e641ea5b12d21a0f5b41 dat\e20200003_dat\ƒtƒŠ[‘fŞ\K Gothic\K Gothic.ttf
-c4491ae086652760fbed7b571c49acbc dat\e20200003_dat\ƒtƒŠ[‘fŞ\K Gothic\‚Í‚¶‚ß‚É‚¨“Ç‚İ‚­‚¾‚³‚¢.txt
-9a06bde705400b30e54e660fbe079365 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\_source.txt
-9755df9380e4c418aa15ad8e82d51a80 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•\maki01.png
-62971c34db9ff7e9f09318ab84e3f884 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•\maki02.png
-10cc2a9d9cfe26f2b380f520fa8afc8d dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•\maki03.png
-f142f1e3e7044c98483a2d4c943035ca dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•\maki04.png
-71884e45b291a492bff3fc0873cb2d9f dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•\maki05.png
-d82ca1e5481d6bc47b12572c189d5e71 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•\maki06.png
-abb98a6dd37bd9ae229449f969a080b0 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•\yukari01.png
-77ab98c5af28c9ada5f3bee33a3774d3 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•\yukari02.png
-f94375437d6ded94b6276dab83e95040 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•\yukari03.png
-a64b62797e7d8210224b718c377245a4 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•\yukari04.png
-d6d023c85a91217259db8e18f9838707 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•\yukari05.png
-2e28280c1be77772a9a436216051c3d3 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\Œ‹Œ‚ä‚©‚è\—§‚¿ŠG1.png
-def78e9b69635007463d06c6ccf696bc dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\Œ‹Œ‚ä‚©‚è\—§‚¿ŠG2.png
-fcdf6416d97fc4ba1889fa1efe82beb9 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\Œ‹Œ‚ä‚©‚è\—§‚¿ŠG3.png
-58d89fb59ff9dcc4c9dd2e55ff5de671 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\Œ‹Œ‚ä‚©‚è\—§‚¿ŠG4.png
-b4531f6dfb6720676a6d627374606b32 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\Œ‹Œ‚ä‚©‚è\—§‚¿ŠG5.png
-4813eaf79289f9fff8381560b825bb0c dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\Œ‹Œ‚ä‚©‚è\—§‚¿ŠG6.png
-44f996e4db966714948fcc3b8ff8952a dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\“Œ–k‚¸‚ñq\zunko01.png
-48f00136fa9fd45c1b9a57fff2ae12ec dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\“Œ–k‚¸‚ñq\zunko02.png
-1773028c047b0d730f5163a7266114c6 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\“Œ–k‚¸‚ñq\zunko03.png
-f29a4c0f46b44ede1ff027f29de5dda5 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\“Œ–k‚¸‚ñq\zunko04.png
-fde0aa5cc2e2350b717c09b7018d6e4d dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\“Œ–k‚¸‚ñq\zunko05.png
-8b25563650e1b3e2893958d082f3bd9d dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\“Œ–k‚¸‚ñq\zunko06.png
-f97bf8a7aa10fddf8e2c414a53f1509c dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\“Œ–k‚¸‚ñq\zunko07.png
-897df8c275d4773c96e69b8a29af0629 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\“Œ–k‚¸‚ñq\zunko08.png
-a3de71f8eeec288268d13cd1478510ac dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\“Œ–k‚¸‚ñq\zunko09.png
-beff5183f80521614006dc91bde39247 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\“Œ–k‚¸‚ñq\zunko10.png
-398ce1b4d1c689b1a9fd45f1dcbc2615 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\“Œ–k‚¸‚ñq\zunko11.png
-2b4a85555831f6a2a5237e56bd802e43 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\_source.txt
-8d8a9a4925838c23d1aad527d13035b9 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\01 message\message.png
-7862380af959a60073451b15cac7638d dat\e20200003_dat\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\02 button\button.png
-4b776b1b0e9a14dc72b5bd34cceb19a5 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\02 button\button2.png
-377b0237bc582e8b04e639b8967d87df dat\e20200003_dat\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\02 button\button3.png
-6328577a9868e01e558cbbd9f72f863a dat\e20200003_dat\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\auto.png
-5237b67354e1e6af8ce2157d54f495a9 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\auto2.png
-eba05009adfd19cf58906e7fadf0ed0d dat\e20200003_dat\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\load.png
-4b6130ac0eba87420d7e521a78870219 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\load2.png
-8f7aca8485ae38736760619a2db9b3c9 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\log.png
-6cfd169f9465d37e8f5c82d2d154e37b dat\e20200003_dat\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\log2.png
-9e939d60f1187034a7f9ba52e4bcbb69 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\menu.png
-a97895b376e4b30062add5315f1cc5e1 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\menu2.png
-da416990c6cb9d6248c3d5380b419e28 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\save.png
-7229d66bf20215b1f12ccc00652edb69 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\save2.png
-f57e5e0fc829e199d0191a66ff1aa809 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\skip.png
-794e6fe3dc0610bf7ff9ecc8be29f8c2 dat\e20200003_dat\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\skip2.png
-8f4d88f58d32d9610d045699c6d8795c dat\e20200003_dat\ƒtƒŠ[‘fŞ\Œ‹Œ‚ä‚©‚èƒXƒeƒbƒJ[\4621344201733342720_1.png
-1751ab9e3ea21f081ba3c3c7efc12389 dat\e20200003_dat\ƒtƒŠ[‘fŞ\Œ‹Œ‚ä‚©‚èƒXƒeƒbƒJ[\4827885262456488968_1.png
-888f571a82f1586b9ccbe6e5d0d29e00 dat\e20200003_dat\ƒtƒŠ[‘fŞ\Œ‹Œ‚ä‚©‚èƒXƒeƒbƒJ[\5908816251893843456_1.png
-626e38c436e88d765b8b4a542a7b5459 dat\e20200003_dat\ƒtƒŠ[‘fŞ\Œ‹Œ‚ä‚©‚èƒXƒeƒbƒJ[\5917819044042375688_1.png
-58894cf871fee36256cc8278ac097c24 dat\e20200003_dat\ƒtƒŠ[‘fŞ\Œ‹Œ‚ä‚©‚èƒXƒeƒbƒJ[\6061915549009478152_1.png
-f75765a01177ef062f29d5ff370c853a dat\e20200003_dat\ƒtƒŠ[‘fŞ\Œ‹Œ‚ä‚©‚èƒXƒeƒbƒJ[\6206035137146126856_1.png
-516523b3f82bfdd71565c9e550abe8c2 dat\e20200003_dat\ƒtƒŠ[‘fŞ\Œ‹Œ‚ä‚©‚èƒXƒeƒbƒJ[\8503377751145710088_1.png
-f8a3224df6cac4b036df5e5cbc65e123 dat\e20200003_dat\ƒtƒŠ[‘fŞ\Œ‹Œ‚ä‚©‚èƒXƒeƒbƒJ[\_source.txt
-df756f499f7c9b304080301ecacdb4ae dat\e20200003_dat\ƒtƒŠ[‘fŞ\¬X•½\_source.txt
-6a7fdf06f4d13e060ec4d9666b940bf7 dat\e20200003_dat\ƒtƒŠ[‘fŞ\¬X•½\sfxrse\01pickup\poka01.mp3
-79ae197ccf952ea8cba9d5254520a72a dat\e20200003_dat\ƒtƒŠ[‘fŞ\¬X•½\sfxrse\01pickup\poka02.mp3
-92f4aa1ba14b896446aee20015b7a95b dat\e20200003_dat\ƒtƒŠ[‘fŞ\¯‹û•¨Œê\82536135_p11.png
-fb540f864460eea002164591c16bf79d dat\e20200003_dat\ƒtƒŠ[‘fŞ\¯‹û•¨Œê\82536135_p2.png
-0c482a6493b7340f4e627433646661c1 dat\e20200003_dat\ƒtƒŠ[‘fŞ\¯‹û•¨Œê\82536135_p4.png
-b4732bacdac828a916ed6a14c5708841 dat\e20200003_dat\ƒtƒŠ[‘fŞ\¯‹û•¨Œê\82536135_p5.png
-cd0e1d0ea669b3ab7e104b7a1e001293 dat\e20200003_dat\ƒtƒŠ[‘fŞ\¯‹û•¨Œê\_source.txt
-c7446273a57983e986a930c347ae847b dat\e20200003_dat\ƒtƒŠ[‘fŞ\–‚‰¤°\_source.txt
-da89f51a8ad160f094c37acbcc836a96 dat\e20200003_dat\ƒtƒŠ[‘fŞ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano_milkeyway.mp3
-9599285d295922617370283d7e6a624e dat\e20200003_dat\©—RQÆ\”wŒi\‚«‚Ü‚®‚êƒAƒtƒ^[\_source.txt
-48701c402ea515885a02845b94b192a9 dat\e20200003_dat\©—RQÆ\”wŒi\‚«‚Ü‚®‚êƒAƒtƒ^[\BG02a_80.jpg
-87f12d2d3a69a3f6be70b32f32b92f5a dat\e20200003_dat\©—RQÆ\”wŒi\‚«‚Ü‚®‚êƒAƒtƒ^[\BG14a_80.jpg
-d2c266aaaf9503bb4c4dfcecdac78217 dat\e20200003_dat\©—RQÆ\”wŒi\‚«‚Ü‚®‚êƒAƒtƒ^[\BG15a_80.jpg
-95046beeef1ca42519d0ac9695cf3816 dat\e20200003_dat\©—RQÆ\”wŒi\‚«‚Ü‚®‚êƒAƒtƒ^[\BG16a_80.jpg
-4f1dcb1c6e9677c50ce3ed4696fa068d dat\e20200003_dat\©—RQÆ\”wŒi\‚«‚Ü‚®‚êƒAƒtƒ^[\BG26a_80.jpg
-a72e46ce17e1aa67625d991dc06a5419 dat\e20200003_dat\©—RQÆ\”wŒi\‚Â‚¯‚ß‚ñ\6602480.jpg
-4f1a7bb0fa06b73ed9a02cd3324a7db9 dat\e20200003_dat\©—RQÆ\”wŒi\‚Â‚¯‚ß‚ñ\6602504.jpg
-e99bc4b3a9c72a9a5412da5f1d9ed6a3 dat\e20200003_dat\©—RQÆ\”wŒi\‚Â‚¯‚ß‚ñ\6602530.jpg
-fb42ffc2e2f8b4fb72c5a90c9d8b387c dat\e20200003_dat\©—RQÆ\”wŒi\‚Â‚¯‚ß‚ñ\_source.txt
-c7446273a57983e986a930c347ae847b dat\e20200003_dat\©—RQÆ\–‚‰¤°\_source.txt
-b0a72a07f876af23ad5ef900ceefa85e dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_healing\bgm_maoudamashii_healing01.mp3
-c4e1ee4d148ad67a1bc55598eaf4ad03 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_healing\bgm_maoudamashii_healing02.mp3
-8e43e71f8cdb3c6876b5704b8607dccd dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_healing\bgm_maoudamashii_healing03.mp3
-865dfcbaea2d5e72ea12df6cd0be0097 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_healing\bgm_maoudamashii_healing04.mp3
-32632ada69d08e0237a7c5d7ba4ac19d dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_healing\bgm_maoudamashii_healing05.mp3
-375ab80d609861b41155fe2e67fa3512 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_healing\bgm_maoudamashii_healing06.mp3
-59e8dfcd59e6804c77cf02d48fe202ae dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_healing\bgm_maoudamashii_healing07.mp3
-2d42667e3b805ad986fc17565af6e53f dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_healing\bgm_maoudamashii_healing08.mp3
-9e8703ce1c97d4915472c3160bcfe536 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_healing\bgm_maoudamashii_healing09.mp3
-a90eca671d7ee781fe91140cc3a68786 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_healing\bgm_maoudamashii_healing10.mp3
-9bfd3ff7dd06db4d3a826e9ba5aacbee dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_healing\bgm_maoudamashii_healing11.mp3
-1e1a6728c5f6c9fbf1962cd605d54a5f dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_healing\bgm_maoudamashii_healing11b.mp3
-979504ee62406acc7a4e8aa63cdb1af5 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_healing\bgm_maoudamashii_healing12.mp3
-c5f224200f94231d71da21620d56b155 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_healing\bgm_maoudamashii_healing12b.mp3
-47d47426d40c1eda844b86bb056ac142 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_healing\bgm_maoudamashii_healing13.mp3
-fc02bbc143fbed19e69551971fcf4b90 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_healing\bgm_maoudamashii_healing14.mp3
-2df9ab8c9afb13ba8858ec6e95c6cc05 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_healing\bgm_maoudamashii_healing14b.mp3
-51542b4b108c4b4520d04e2b184ab1d8 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_healing\bgm_maoudamashii_healing15.mp3
-c27a8ce89e409190556209190a7623c8 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_healing\bgm_maoudamashii_healing16.mp3
-0651ce14797b903e134c5b0a80d9e257 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_healing\bgm_maoudamashii_healing17.mp3
-7fa8933dc763c8c281d387d0f69cdc56 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra01.mp3
-dca50952ee0a5f110fded0c289eaac60 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra01b.mp3
-cf64cc1fcdba927e0a4b6268b83c2793 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra02.mp3
-e07ec97c672363eed4205618811e266f dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra03.mp3
-e69fcbb8f8eca24e00a3a02f23b61034 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra04.mp3
-21727f1b6989700150dd7722b34f702e dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra05.mp3
-49df97a202c9af2f7c762c077b95f8dd dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra06.mp3
-9ac7f357ef23497ed4348b5b1da47185 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra07.mp3
-6eab1d965a19d14c42b1edf376b96c52 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra08.mp3
-43ec068109714c48e8ec06b2ba15b3b9 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra09.mp3
-6dde3aad155f92c2d62c5df63b3cbff3 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra10.mp3
-45073b6c631bef8d0e7cc27140f6c055 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra11.mp3
-eb8f290a62ad14bcc8393a4360f5cc67 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra12.mp3
-366730ded95990c608621542c18f26c1 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra13.mp3
-b52b9c31314d51338775170699d986d1 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra14.mp3
-ba91b8022a1890507d0a228538aa08e5 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra15.mp3
-1983bf49682bc39f9320ad94493e829b dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra16.mp3
-b0d4693fa81d7a2e8f21db1ae94fd2e9 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra17.mp3
-6b828dc15714181616958b4765ecad5a dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra18.mp3
-80bf74249cd84de47ea5da66ae3e23c6 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra19.mp3
-5a1acf70b99c7bf6c7226b6a082db5e2 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra20.mp3
-24e80229426eda392780c73d611847e9 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra21.mp3
-ac779dba60f920c16999284141a09dcf dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra22.mp3
-858686da55fef11b16eb75f97f1f70e4 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra23.mp3
-362953d8df71a41901ce31b4f4fcb58f dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra24.mp3
-d98c0783b546bf7a263d5dc61d1b7cb3 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra25.mp3
-e854f1256dfa1bb6ef59e045c23bd95f dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra26.mp3
-954f4d310d6a2f600b9fb38134bea3a3 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_sinfonia01.mp3
-d9b6c54f2fc0b8987c4e5aac7950bb19 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_sinfonia01_piano.mp3
-5b669e5e809e37407935deeab342d021 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra\bgm_maoudamashii_sinfonia02_piano.mp3
-f3ab793b5a48f45e49d46595ed608c1e dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano01.mp3
-dbe50943b00a60ed4e4b54a4910a96ef dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano02.mp3
-f841c37fafd5c457c90d9596a04db790 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano03.mp3
-a2fff3c07d186f78620a0f643bcc9ca0 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano04.mp3
-c50386b04d60a4a71b306c2b2a892f36 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano05.mp3
-78b20d6c07ff16e4aa7d23200fc3a74d dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano06.mp3
-0b5c7442c54081d9e209d34c0700cbb4 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano07.mp3
-67da7ac2db4941c77aed8d08e9b5511d dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano08.mp3
-7f7967f4305b9ca8acd34cb3b5f0add1 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano09.mp3
-8e61c73e1443ae2ffbe00786fa064d71 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano10.mp3
-509d4775e242d83aded51167b607a6cc dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano11.mp3
-b604fa2dbb6629435d381adacaa7514a dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano12.mp3
-d0510e04f4ca15874b721547f86a8dfa dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano13.mp3
-4aef20b048c30ee28f2f7fd441b96610 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano14.mp3
-f6f7c5287517f15c443960dbdc5d0c1a dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano15.mp3
-9ec4569e5944db4814caf17cd2e389da dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano16.mp3
-029869d4e5d3798c5568dd597978b8a0 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano17.mp3
-407d924aea8f3e65b523044d2a8a0782 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano18.mp3
-2a264d2df5c80eb1456bd6f238aa69e0 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano19.mp3
-a5ea1dfce6b47b394d5f1a44ed8f09b6 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano20.mp3
-f9ab3b48cf1234c35b57ba26e5e01172 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano21.mp3
-83739897034284967e02ec1b4a67c7f0 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano22.mp3
-c974d1955f57553a95c1c71534bcf6a5 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano23.mp3
-fec02c6e0cab0e056d2cf73f5eee01c2 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano24.mp3
-d8c4264408a8406ddbdc9bc4aa5d13d0 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano25.mp3
-4b52c8cf563cb64c562ca00224bace42 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano26.mp3
-0e2ad3293d1fe453b45f83c2a0430f9c dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano27.mp3
-7f5654109377e63b0bde6a7072daa757 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano28.mp3
-f060016af2c36030d21e54966e28d84a dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano29.mp3
-8722f509e3353a34b855eb8d4786d653 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano30.mp3
-93fc500b70a78aef7f073662b7daea5c dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano31.mp3
-6a271991a93727ed126f3c47c870ad5b dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano32.mp3
-a3ee79123705a01e96f6d8d80310e71d dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano33.mp3
-d14de3c625c8079f71aca69b0e780498 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano34.mp3
-c320628d515c736745033e6185a34e12 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano35.mp3
-7d48dd617aad4ac660f495057e4bfd40 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano36.mp3
-b41a00bc5ab33d328ff299617ac8e2d0 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano37.mp3
-939da7a11a398150a5b13c0fe72c0b6c dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano38.mp3
-22e8ea231a3a8125ae4cab63ee1e6668 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano39.mp3
-de59176cc2597a9a6ef6bf5619803307 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano40.mp3
-fa24b3a28849f89c751d23947c9c8be8 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano41.mp3
-ba26da6ca7d954a1d8bd44cdc3c40f43 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano_ahurera.mp3
-bf543408be51a7876c4c664bd860bdf2 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano_calendula.mp3
-f2120e09e86d6f02b13b39c9c8ba83d2 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano_feels_happiness.mp3
-da89f51a8ad160f094c37acbcc836a96 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano_milkeyway.mp3
-1d9f7f840f48cd96efdfeef264c15fd2 dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano_noapusa.mp3
-e182547298fd5944c1627e8c48176fbe dat\e20200003_dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano\bgm_maoudamashii_piano_siroganenokobune.mp3
+5c8044dfe49667916311571f45aab7c9 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\K Gothic\_source.txt
+3f537e1030a4e641ea5b12d21a0f5b41 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\K Gothic\K Gothic.ttf
+c4491ae086652760fbed7b571c49acbc dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\K Gothic\ã¯ã˜ã‚ã«ãŠèª­ã¿ãã ã•ã„.txt
+9a06bde705400b30e54e660fbe079365 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\_source.txt
+9755df9380e4c418aa15ad8e82d51a80 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ\maki01.png
+62971c34db9ff7e9f09318ab84e3f884 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ\maki02.png
+10cc2a9d9cfe26f2b380f520fa8afc8d dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ\maki03.png
+f142f1e3e7044c98483a2d4c943035ca dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ\maki04.png
+71884e45b291a492bff3fc0873cb2d9f dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ\maki05.png
+d82ca1e5481d6bc47b12572c189d5e71 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ\maki06.png
+abb98a6dd37bd9ae229449f969a080b0 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ\yukari01.png
+77ab98c5af28c9ada5f3bee33a3774d3 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ\yukari02.png
+f94375437d6ded94b6276dab83e95040 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ\yukari03.png
+a64b62797e7d8210224b718c377245a4 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ\yukari04.png
+d6d023c85a91217259db8e18f9838707 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ\yukari05.png
+2e28280c1be77772a9a436216051c3d3 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\çµæœˆã‚†ã‹ã‚Š\ç«‹ã¡çµµ1.png
+def78e9b69635007463d06c6ccf696bc dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\çµæœˆã‚†ã‹ã‚Š\ç«‹ã¡çµµ2.png
+fcdf6416d97fc4ba1889fa1efe82beb9 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\çµæœˆã‚†ã‹ã‚Š\ç«‹ã¡çµµ3.png
+58d89fb59ff9dcc4c9dd2e55ff5de671 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\çµæœˆã‚†ã‹ã‚Š\ç«‹ã¡çµµ4.png
+b4531f6dfb6720676a6d627374606b32 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\çµæœˆã‚†ã‹ã‚Š\ç«‹ã¡çµµ5.png
+4813eaf79289f9fff8381560b825bb0c dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\çµæœˆã‚†ã‹ã‚Š\ç«‹ã¡çµµ6.png
+44f996e4db966714948fcc3b8ff8952a dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\æ±åŒ—ãšã‚“å­\zunko01.png
+48f00136fa9fd45c1b9a57fff2ae12ec dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\æ±åŒ—ãšã‚“å­\zunko02.png
+1773028c047b0d730f5163a7266114c6 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\æ±åŒ—ãšã‚“å­\zunko03.png
+f29a4c0f46b44ede1ff027f29de5dda5 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\æ±åŒ—ãšã‚“å­\zunko04.png
+fde0aa5cc2e2350b717c09b7018d6e4d dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\æ±åŒ—ãšã‚“å­\zunko05.png
+8b25563650e1b3e2893958d082f3bd9d dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\æ±åŒ—ãšã‚“å­\zunko06.png
+f97bf8a7aa10fddf8e2c414a53f1509c dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\æ±åŒ—ãšã‚“å­\zunko07.png
+897df8c275d4773c96e69b8a29af0629 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\æ±åŒ—ãšã‚“å­\zunko08.png
+a3de71f8eeec288268d13cd1478510ac dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\æ±åŒ—ãšã‚“å­\zunko09.png
+beff5183f80521614006dc91bde39247 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\æ±åŒ—ãšã‚“å­\zunko10.png
+398ce1b4d1c689b1a9fd45f1dcbc2615 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\æ±åŒ—ãšã‚“å­\zunko11.png
+2b4a85555831f6a2a5237e56bd802e43 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\_source.txt
+8d8a9a4925838c23d1aad527d13035b9 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\01 message\message.png
+7862380af959a60073451b15cac7638d dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\02 button\button.png
+4b776b1b0e9a14dc72b5bd34cceb19a5 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\02 button\button2.png
+377b0237bc582e8b04e639b8967d87df dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\02 button\button3.png
+6328577a9868e01e558cbbd9f72f863a dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\auto.png
+5237b67354e1e6af8ce2157d54f495a9 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\auto2.png
+eba05009adfd19cf58906e7fadf0ed0d dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\load.png
+4b6130ac0eba87420d7e521a78870219 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\load2.png
+8f7aca8485ae38736760619a2db9b3c9 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\log.png
+6cfd169f9465d37e8f5c82d2d154e37b dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\log2.png
+9e939d60f1187034a7f9ba52e4bcbb69 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\menu.png
+a97895b376e4b30062add5315f1cc5e1 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\menu2.png
+da416990c6cb9d6248c3d5380b419e28 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\save.png
+7229d66bf20215b1f12ccc00652edb69 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\save2.png
+f57e5e0fc829e199d0191a66ff1aa809 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\skip.png
+794e6fe3dc0610bf7ff9ecc8be29f8c2 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\skip2.png
+8f4d88f58d32d9610d045699c6d8795c dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\çµæœˆã‚†ã‹ã‚Šã‚¹ãƒ†ãƒƒã‚«ãƒ¼\4621344201733342720_1.png
+1751ab9e3ea21f081ba3c3c7efc12389 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\çµæœˆã‚†ã‹ã‚Šã‚¹ãƒ†ãƒƒã‚«ãƒ¼\4827885262456488968_1.png
+888f571a82f1586b9ccbe6e5d0d29e00 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\çµæœˆã‚†ã‹ã‚Šã‚¹ãƒ†ãƒƒã‚«ãƒ¼\5908816251893843456_1.png
+626e38c436e88d765b8b4a542a7b5459 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\çµæœˆã‚†ã‹ã‚Šã‚¹ãƒ†ãƒƒã‚«ãƒ¼\5917819044042375688_1.png
+58894cf871fee36256cc8278ac097c24 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\çµæœˆã‚†ã‹ã‚Šã‚¹ãƒ†ãƒƒã‚«ãƒ¼\6061915549009478152_1.png
+f75765a01177ef062f29d5ff370c853a dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\çµæœˆã‚†ã‹ã‚Šã‚¹ãƒ†ãƒƒã‚«ãƒ¼\6206035137146126856_1.png
+516523b3f82bfdd71565c9e550abe8c2 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\çµæœˆã‚†ã‹ã‚Šã‚¹ãƒ†ãƒƒã‚«ãƒ¼\8503377751145710088_1.png
+f8a3224df6cac4b036df5e5cbc65e123 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\çµæœˆã‚†ã‹ã‚Šã‚¹ãƒ†ãƒƒã‚«ãƒ¼\_source.txt
+df756f499f7c9b304080301ecacdb4ae dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\å°æ£®å¹³\_source.txt
+6a7fdf06f4d13e060ec4d9666b940bf7 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\å°æ£®å¹³\sfxrse\01pickup\poka01.mp3
+79ae197ccf952ea8cba9d5254520a72a dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\å°æ£®å¹³\sfxrse\01pickup\poka02.mp3
+92f4aa1ba14b896446aee20015b7a95b dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\æ˜Ÿå±‘ç‰©èª\82536135_p11.png
+fb540f864460eea002164591c16bf79d dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\æ˜Ÿå±‘ç‰©èª\82536135_p2.png
+0c482a6493b7340f4e627433646661c1 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\æ˜Ÿå±‘ç‰©èª\82536135_p4.png
+b4732bacdac828a916ed6a14c5708841 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\æ˜Ÿå±‘ç‰©èª\82536135_p5.png
+cd0e1d0ea669b3ab7e104b7a1e001293 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\æ˜Ÿå±‘ç‰©èª\_source.txt
+c7446273a57983e986a930c347ae847b dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\é­”ç‹é­‚\_source.txt
+da89f51a8ad160f094c37acbcc836a96 dat\e20200003_dat\ãƒ•ãƒªãƒ¼ç´ æ\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano_milkeyway.mp3
+9599285d295922617370283d7e6a624e dat\e20200003_dat\è‡ªç”±å‚ç…§\èƒŒæ™¯\ãã¾ãã‚Œã‚¢ãƒ•ã‚¿ãƒ¼\_source.txt
+48701c402ea515885a02845b94b192a9 dat\e20200003_dat\è‡ªç”±å‚ç…§\èƒŒæ™¯\ãã¾ãã‚Œã‚¢ãƒ•ã‚¿ãƒ¼\BG02a_80.jpg
+87f12d2d3a69a3f6be70b32f32b92f5a dat\e20200003_dat\è‡ªç”±å‚ç…§\èƒŒæ™¯\ãã¾ãã‚Œã‚¢ãƒ•ã‚¿ãƒ¼\BG14a_80.jpg
+d2c266aaaf9503bb4c4dfcecdac78217 dat\e20200003_dat\è‡ªç”±å‚ç…§\èƒŒæ™¯\ãã¾ãã‚Œã‚¢ãƒ•ã‚¿ãƒ¼\BG15a_80.jpg
+95046beeef1ca42519d0ac9695cf3816 dat\e20200003_dat\è‡ªç”±å‚ç…§\èƒŒæ™¯\ãã¾ãã‚Œã‚¢ãƒ•ã‚¿ãƒ¼\BG16a_80.jpg
+4f1dcb1c6e9677c50ce3ed4696fa068d dat\e20200003_dat\è‡ªç”±å‚ç…§\èƒŒæ™¯\ãã¾ãã‚Œã‚¢ãƒ•ã‚¿ãƒ¼\BG26a_80.jpg
+a72e46ce17e1aa67625d991dc06a5419 dat\e20200003_dat\è‡ªç”±å‚ç…§\èƒŒæ™¯\ã¤ã‘ã‚ã‚“\6602480.jpg
+4f1a7bb0fa06b73ed9a02cd3324a7db9 dat\e20200003_dat\è‡ªç”±å‚ç…§\èƒŒæ™¯\ã¤ã‘ã‚ã‚“\6602504.jpg
+e99bc4b3a9c72a9a5412da5f1d9ed6a3 dat\e20200003_dat\è‡ªç”±å‚ç…§\èƒŒæ™¯\ã¤ã‘ã‚ã‚“\6602530.jpg
+fb42ffc2e2f8b4fb72c5a90c9d8b387c dat\e20200003_dat\è‡ªç”±å‚ç…§\èƒŒæ™¯\ã¤ã‘ã‚ã‚“\_source.txt
+c7446273a57983e986a930c347ae847b dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\_source.txt
+b0a72a07f876af23ad5ef900ceefa85e dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_healing\bgm_maoudamashii_healing01.mp3
+c4e1ee4d148ad67a1bc55598eaf4ad03 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_healing\bgm_maoudamashii_healing02.mp3
+8e43e71f8cdb3c6876b5704b8607dccd dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_healing\bgm_maoudamashii_healing03.mp3
+865dfcbaea2d5e72ea12df6cd0be0097 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_healing\bgm_maoudamashii_healing04.mp3
+32632ada69d08e0237a7c5d7ba4ac19d dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_healing\bgm_maoudamashii_healing05.mp3
+375ab80d609861b41155fe2e67fa3512 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_healing\bgm_maoudamashii_healing06.mp3
+59e8dfcd59e6804c77cf02d48fe202ae dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_healing\bgm_maoudamashii_healing07.mp3
+2d42667e3b805ad986fc17565af6e53f dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_healing\bgm_maoudamashii_healing08.mp3
+9e8703ce1c97d4915472c3160bcfe536 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_healing\bgm_maoudamashii_healing09.mp3
+a90eca671d7ee781fe91140cc3a68786 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_healing\bgm_maoudamashii_healing10.mp3
+9bfd3ff7dd06db4d3a826e9ba5aacbee dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_healing\bgm_maoudamashii_healing11.mp3
+1e1a6728c5f6c9fbf1962cd605d54a5f dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_healing\bgm_maoudamashii_healing11b.mp3
+979504ee62406acc7a4e8aa63cdb1af5 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_healing\bgm_maoudamashii_healing12.mp3
+c5f224200f94231d71da21620d56b155 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_healing\bgm_maoudamashii_healing12b.mp3
+47d47426d40c1eda844b86bb056ac142 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_healing\bgm_maoudamashii_healing13.mp3
+fc02bbc143fbed19e69551971fcf4b90 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_healing\bgm_maoudamashii_healing14.mp3
+2df9ab8c9afb13ba8858ec6e95c6cc05 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_healing\bgm_maoudamashii_healing14b.mp3
+51542b4b108c4b4520d04e2b184ab1d8 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_healing\bgm_maoudamashii_healing15.mp3
+c27a8ce89e409190556209190a7623c8 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_healing\bgm_maoudamashii_healing16.mp3
+0651ce14797b903e134c5b0a80d9e257 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_healing\bgm_maoudamashii_healing17.mp3
+7fa8933dc763c8c281d387d0f69cdc56 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra01.mp3
+dca50952ee0a5f110fded0c289eaac60 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra01b.mp3
+cf64cc1fcdba927e0a4b6268b83c2793 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra02.mp3
+e07ec97c672363eed4205618811e266f dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra03.mp3
+e69fcbb8f8eca24e00a3a02f23b61034 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra04.mp3
+21727f1b6989700150dd7722b34f702e dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra05.mp3
+49df97a202c9af2f7c762c077b95f8dd dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra06.mp3
+9ac7f357ef23497ed4348b5b1da47185 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra07.mp3
+6eab1d965a19d14c42b1edf376b96c52 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra08.mp3
+43ec068109714c48e8ec06b2ba15b3b9 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra09.mp3
+6dde3aad155f92c2d62c5df63b3cbff3 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra10.mp3
+45073b6c631bef8d0e7cc27140f6c055 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra11.mp3
+eb8f290a62ad14bcc8393a4360f5cc67 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra12.mp3
+366730ded95990c608621542c18f26c1 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra13.mp3
+b52b9c31314d51338775170699d986d1 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra14.mp3
+ba91b8022a1890507d0a228538aa08e5 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra15.mp3
+1983bf49682bc39f9320ad94493e829b dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra16.mp3
+b0d4693fa81d7a2e8f21db1ae94fd2e9 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra17.mp3
+6b828dc15714181616958b4765ecad5a dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra18.mp3
+80bf74249cd84de47ea5da66ae3e23c6 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra19.mp3
+5a1acf70b99c7bf6c7226b6a082db5e2 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra20.mp3
+24e80229426eda392780c73d611847e9 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra21.mp3
+ac779dba60f920c16999284141a09dcf dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra22.mp3
+858686da55fef11b16eb75f97f1f70e4 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra23.mp3
+362953d8df71a41901ce31b4f4fcb58f dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra24.mp3
+d98c0783b546bf7a263d5dc61d1b7cb3 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra25.mp3
+e854f1256dfa1bb6ef59e045c23bd95f dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_orchestra26.mp3
+954f4d310d6a2f600b9fb38134bea3a3 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_sinfonia01.mp3
+d9b6c54f2fc0b8987c4e5aac7950bb19 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_sinfonia01_piano.mp3
+5b669e5e809e37407935deeab342d021 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra\bgm_maoudamashii_sinfonia02_piano.mp3
+f3ab793b5a48f45e49d46595ed608c1e dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano01.mp3
+dbe50943b00a60ed4e4b54a4910a96ef dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano02.mp3
+f841c37fafd5c457c90d9596a04db790 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano03.mp3
+a2fff3c07d186f78620a0f643bcc9ca0 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano04.mp3
+c50386b04d60a4a71b306c2b2a892f36 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano05.mp3
+78b20d6c07ff16e4aa7d23200fc3a74d dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano06.mp3
+0b5c7442c54081d9e209d34c0700cbb4 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano07.mp3
+67da7ac2db4941c77aed8d08e9b5511d dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano08.mp3
+7f7967f4305b9ca8acd34cb3b5f0add1 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano09.mp3
+8e61c73e1443ae2ffbe00786fa064d71 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano10.mp3
+509d4775e242d83aded51167b607a6cc dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano11.mp3
+b604fa2dbb6629435d381adacaa7514a dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano12.mp3
+d0510e04f4ca15874b721547f86a8dfa dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano13.mp3
+4aef20b048c30ee28f2f7fd441b96610 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano14.mp3
+f6f7c5287517f15c443960dbdc5d0c1a dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano15.mp3
+9ec4569e5944db4814caf17cd2e389da dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano16.mp3
+029869d4e5d3798c5568dd597978b8a0 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano17.mp3
+407d924aea8f3e65b523044d2a8a0782 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano18.mp3
+2a264d2df5c80eb1456bd6f238aa69e0 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano19.mp3
+a5ea1dfce6b47b394d5f1a44ed8f09b6 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano20.mp3
+f9ab3b48cf1234c35b57ba26e5e01172 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano21.mp3
+83739897034284967e02ec1b4a67c7f0 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano22.mp3
+c974d1955f57553a95c1c71534bcf6a5 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano23.mp3
+fec02c6e0cab0e056d2cf73f5eee01c2 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano24.mp3
+d8c4264408a8406ddbdc9bc4aa5d13d0 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano25.mp3
+4b52c8cf563cb64c562ca00224bace42 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano26.mp3
+0e2ad3293d1fe453b45f83c2a0430f9c dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano27.mp3
+7f5654109377e63b0bde6a7072daa757 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano28.mp3
+f060016af2c36030d21e54966e28d84a dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano29.mp3
+8722f509e3353a34b855eb8d4786d653 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano30.mp3
+93fc500b70a78aef7f073662b7daea5c dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano31.mp3
+6a271991a93727ed126f3c47c870ad5b dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano32.mp3
+a3ee79123705a01e96f6d8d80310e71d dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano33.mp3
+d14de3c625c8079f71aca69b0e780498 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano34.mp3
+c320628d515c736745033e6185a34e12 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano35.mp3
+7d48dd617aad4ac660f495057e4bfd40 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano36.mp3
+b41a00bc5ab33d328ff299617ac8e2d0 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano37.mp3
+939da7a11a398150a5b13c0fe72c0b6c dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano38.mp3
+22e8ea231a3a8125ae4cab63ee1e6668 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano39.mp3
+de59176cc2597a9a6ef6bf5619803307 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano40.mp3
+fa24b3a28849f89c751d23947c9c8be8 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano41.mp3
+ba26da6ca7d954a1d8bd44cdc3c40f43 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano_ahurera.mp3
+bf543408be51a7876c4c664bd860bdf2 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano_calendula.mp3
+f2120e09e86d6f02b13b39c9c8ba83d2 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano_feels_happiness.mp3
+da89f51a8ad160f094c37acbcc836a96 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano_milkeyway.mp3
+1d9f7f840f48cd96efdfeef264c15fd2 dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano_noapusa.mp3
+e182547298fd5944c1627e8c48176fbe dat\e20200003_dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano\bgm_maoudamashii_piano_siroganenokobune.mp3
 ad2120f9b446a3633a9dfa4619011091 DebugRelease.bat
 4fb1bc6f6fd84ef76956bcb64f789e28 Deploy.bat
 ad358914ef1a612864116ed5320e021b doc\Config.conf
 7f0cfc79746e6fc7569427be9477d4f7 doc\Properties.dat
-d8048326b36595365f5b0f0b2f2912fc doc\ƒ}ƒjƒ…ƒAƒ‹.txt
+d8048326b36595365f5b0f0b2f2912fc doc\ãƒãƒ‹ãƒ¥ã‚¢ãƒ«.txt
 70f5fc115a21c0cbf160a3e4fee712f3 Elsa20200001\Elsa20200001.sln
 9ae54abdbd8bb28cac23998ced61faa9 Elsa20200001\Elsa20200001\Common.cs
 e85e6462992d3c57fdfa792d1926e032 Elsa20200001\Elsa20200001\Commons\ArgsReader.cs
@@ -283,10 +283,10 @@ be1b138c69ba8f35647a9c917018ef0c Elsa20200001\Elsa20200001\Games\Surfaces\Surfac
 728a4609098fba0c2c9680dbff7c68a4 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_Select.cs
 caf5f204849266a108afca360305b5d9 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_System.cs
 3df185864c94b3e7d4e8d3ce97c47cec Elsa20200001\Elsa20200001\Games\Surfaces\Surface_SystemButtons.cs
-da2d135323abef8764f8802f77ed351c Elsa20200001\Elsa20200001\Games\Surfaces\Surface_ƒLƒƒƒ‰ƒNƒ^.cs
-20cf424f87f3461faac4d7275e1e99ac Elsa20200001\Elsa20200001\Games\Surfaces\Surface_ƒXƒNƒŠ[ƒ“.cs
-079cef076cb69384d6dec2262a828705 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_‰¹Šy.cs
-7864f1d399a4bc52059a3f886bdc7761 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_Œø‰Ê‰¹.cs
+da2d135323abef8764f8802f77ed351c Elsa20200001\Elsa20200001\Games\Surfaces\Surface_ã‚­ãƒ£ãƒ©ã‚¯ã‚¿.cs
+20cf424f87f3461faac4d7275e1e99ac Elsa20200001\Elsa20200001\Games\Surfaces\Surface_ã‚¹ã‚¯ãƒªãƒ¼ãƒ³.cs
+079cef076cb69384d6dec2262a828705 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_éŸ³æ¥½.cs
+7864f1d399a4bc52059a3f886bdc7761 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_åŠ¹æœéŸ³.cs
 924031e2086aeef353867f5986e8d95c Elsa20200001\Elsa20200001\Games\Surfaces\SurfaceCreator.cs
 7861f497eb821b5e404eb832f117a37e Elsa20200001\Elsa20200001\Games\TitleMenu.cs
 e8b1e728e9a09f77a916312887f78bc8 Elsa20200001\Elsa20200001\Ground.cs
@@ -308,11 +308,11 @@ c05400edb0a86a652f1b476711e70170 Elsa20200001\Elsa20200001\Tests\Games\TitleMenu
 7be01a0fd742bdeaac6e5009ad2e0b38 Elsa20200001\Elsa20200001\Tests\Test0001.cs
 7b9b19a90c1e142d0a1dd2155fba028d Release.bat
 a3781130fd63868d5ffad8981f461154 res\e20200001_res\DatStrings.txt
-240e462dd44cb3f8d60e4b7d541ead91 res\e20200001_res\Scenario\001_ƒ_ƒ~[ƒVƒiƒŠƒI.txt
-ec895a75dbb22a8888253205f6e608ff res\e20200001_res\Scenario\101_ƒXƒ^[ƒgƒVƒiƒŠƒI.txt
+240e462dd44cb3f8d60e4b7d541ead91 res\e20200001_res\Scenario\001_ãƒ€ãƒŸãƒ¼ã‚·ãƒŠãƒªã‚ª.txt
+ec895a75dbb22a8888253205f6e608ff res\e20200001_res\Scenario\101_ã‚¹ã‚¿ãƒ¼ãƒˆã‚·ãƒŠãƒªã‚ª.txt
 b47ddb47bb614579fd2ce38b6c23ec4f res\e20200001_res\Scenario\_memo.txt
-58a340b4410fa865675ccc986d98be72 res\e20200001_res\Scenario\_ƒLƒƒƒ‰ƒNƒ^ƒT[ƒtƒFƒCƒXà–¾‘.txt
-8a732f3d665d330905e72952d176c541 res\e20200001_res\Scenario\ƒeƒXƒg0001-End.txt
-5854d00fe22effb9b4855e2baa0a834b res\e20200001_res\Scenario\ƒeƒXƒg0001.txt
-bc504228b2ed6c669d4683851b99e615 res\e20200001_res\Scenario\ƒeƒXƒg0002.txt
+58a340b4410fa865675ccc986d98be72 res\e20200001_res\Scenario\_ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ã‚µãƒ¼ãƒ•ã‚§ã‚¤ã‚¹èª¬æ˜æ›¸.txt
+8a732f3d665d330905e72952d176c541 res\e20200001_res\Scenario\ãƒ†ã‚¹ãƒˆ0001-End.txt
+5854d00fe22effb9b4855e2baa0a834b res\e20200001_res\Scenario\ãƒ†ã‚¹ãƒˆ0001.txt
+bc504228b2ed6c669d4683851b99e615 res\e20200001_res\Scenario\ãƒ†ã‚¹ãƒˆ0002.txt
 e88743741244f1f1ca3a90ac04c747c7 Tools\MaskGZData.c

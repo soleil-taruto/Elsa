@@ -14,5 +14,5 @@ out
 res
 res\e20200928_NovelAdv
 res\e20200928_NovelAdv\Scenario
-res\e20200928_NovelAdv\Scenario\旧テストシナリオ
+res\e20200928_NovelAdv\Scenario\譌ｧ繝�繧ｹ繝医す繝翫Μ繧ｪ
 Tools

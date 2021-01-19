@@ -50,8 +50,8 @@ dat\e20200003_dat\Shoot_old_Resource\th_fuuchi-sozai
 dat\e20200003_dat\Shoot_old_Resource\th_fuuchi-sozai\effect
 dat\e20200003_dat\Shoot_old_Resource\th_fuuchi-sozai\img
 dat\e20200003_dat\Shoot_old_Resource\th_fuuchi-sozai\stgframe
-dat\e20200003_dat\‰Ø‰¹3R
-dat\e20200003_dat\¬X•½
+dat\e20200003_dat\é—–ï½¯é«»ï½³3R
+dat\e20200003_dat\èŸ†ä¹—ï½£ï½®èŸ·ï½³
 doc
 Elsa20200001
 Elsa20200001\Elsa20200001
@@ -61,7 +61,7 @@ Elsa20200001\Elsa20200001\GameCommons\MaskGZDataUtils
 Elsa20200001\Elsa20200001\GameCommons\Options
 Elsa20200001\Elsa20200001\Games
 Elsa20200001\Elsa20200001\Games\Enemies
-Elsa20200001\Elsa20200001\Games\Enemies\Œ®R—s
+Elsa20200001\Elsa20200001\Games\Enemies\éª°ï½µè»ï½±é«®å­•
 Elsa20200001\Elsa20200001\Games\Scripts
 Elsa20200001\Elsa20200001\Games\Shots
 Elsa20200001\Elsa20200001\Games\Surfaces
@@ -72,5 +72,5 @@ Elsa20200001\Elsa20200001\Tests\Games
 out
 res
 res\e20200001_res
-res\e20200001_res\Š|‚¯‡‚¢ƒVƒiƒŠƒI
+res\e20200001_res\è¬—å¸™ï¿ èœ·åŒ»ï¼ç¹§ï½·ç¹ç¿«Îœç¹§ï½ª
 Tools

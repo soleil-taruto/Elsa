@@ -3,7 +3,7 @@ aa15088b0dc08af63423a55a16929f82 Clean.bat
 bdd535c01a320cac0c87979e301320f6 DebugRelease.bat
 ad358914ef1a612864116ed5320e021b doc\Config.conf
 7f0cfc79746e6fc7569427be9477d4f7 doc\Properties.dat
-22435d4c1fb249281b4bc7be908cae61 doc\ƒ}ƒjƒ…ƒAƒ‹.txt
+22435d4c1fb249281b4bc7be908cae61 doc\ãƒãƒ‹ãƒ¥ã‚¢ãƒ«.txt
 70f5fc115a21c0cbf160a3e4fee712f3 Elsa20200001\Elsa20200001.sln
 e85e6462992d3c57fdfa792d1926e032 Elsa20200001\Elsa20200001\Commons\ArgsReader.cs
 2f3fa8f1ad556cc80bfae92d5a551ab3 Elsa20200001\Elsa20200001\Commons\AttachString.cs
@@ -99,10 +99,10 @@ fe05d5fa2799dc312b035a2379ece5a9 Elsa20200001\Elsa20200001\Games\Player.cs
 6fe08c5506e8beecf71f87c946b1a599 Elsa20200001\Elsa20200001\Games\Scenario.cs
 4221d36322f7944047e357da056e5b19 Elsa20200001\Elsa20200001\Games\ScenarioCommand.cs
 4710b3111babe5443b6b179209e0aacd Elsa20200001\Elsa20200001\Games\Scripts\Script.cs
-e63d2208c2ecbda67feba0247b817faa Elsa20200001\Elsa20200001\Games\Scripts\Script_ƒ_ƒ~[0001.cs
-6a38ca3765ed69be943973905b10fb1c Elsa20200001\Elsa20200001\Games\Scripts\Script_ƒeƒXƒg0001.cs
-75111ab870778166770233198f3da1c3 Elsa20200001\Elsa20200001\Games\Scripts\Script_ƒeƒXƒg0002.cs
-5053b206e643c73ff163a52186935f12 Elsa20200001\Elsa20200001\Games\Scripts\Script_ƒeƒXƒg0003.cs
+e63d2208c2ecbda67feba0247b817faa Elsa20200001\Elsa20200001\Games\Scripts\Script_ãƒ€ãƒŸãƒ¼0001.cs
+6a38ca3765ed69be943973905b10fb1c Elsa20200001\Elsa20200001\Games\Scripts\Script_ãƒ†ã‚¹ãƒˆ0001.cs
+75111ab870778166770233198f3da1c3 Elsa20200001\Elsa20200001\Games\Scripts\Script_ãƒ†ã‚¹ãƒˆ0002.cs
+5053b206e643c73ff163a52186935f12 Elsa20200001\Elsa20200001\Games\Scripts\Script_ãƒ†ã‚¹ãƒˆ0003.cs
 7c10f1aa6fa9b375d2b836fd24b4dfa1 Elsa20200001\Elsa20200001\Games\Scripts\ScriptCommon.cs
 b312f56bed58a693e5fefff00b780b0f Elsa20200001\Elsa20200001\Games\Shots\Shot.cs
 a00ce35aa1f7dcddcd229bbdd1b0d6f4 Elsa20200001\Elsa20200001\Games\Shots\Shot_Bomb.cs
@@ -112,7 +112,7 @@ e4433beb05c9ee9220b97f56cf0b329f Elsa20200001\Elsa20200001\Games\Shots\Shot_Stro
 10bab13da8b4ba4db9f04c8fa6a931df Elsa20200001\Elsa20200001\Games\Shots\Shot_Wave.cs
 a922a977cad131c173234b5063650498 Elsa20200001\Elsa20200001\Games\Surfaces\Surface.cs
 a4bc4a0307ea88278f565fc9250c5df6 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_MessageWindow.cs
-77a3cea53a7045c5bb22dd8878b038fc Elsa20200001\Elsa20200001\Games\Surfaces\Surface_ƒLƒƒƒ‰ƒNƒ^.cs
+77a3cea53a7045c5bb22dd8878b038fc Elsa20200001\Elsa20200001\Games\Surfaces\Surface_ã‚­ãƒ£ãƒ©ã‚¯ã‚¿.cs
 056197003d702ded9ce426c6de61a451 Elsa20200001\Elsa20200001\Games\Surfaces\SurfaceCreator.cs
 7e8a7371c7df1bc7a30b0df1b1cd7efe Elsa20200001\Elsa20200001\Games\Surfaces\SurfaceManager.cs
 429dfb68acc116f32d1be5b43ebb5998 Elsa20200001\Elsa20200001\Games\TitleMenu.cs
@@ -143,5 +143,5 @@ c05400edb0a86a652f1b476711e70170 Elsa20200001\Elsa20200001\Tests\Games\TitleMenu
 dc360e0e731fdc55bf731fb7af5a2222 Elsa20200001\Elsa20200001\Tests\Test0001.cs
 715afd1e44d0e9b46f234041d3784487 Release.bat
 4f8b1895b613044f0ec3c5b8c4e7274f res\e20200001_res\DatStrings.txt
-520bb586e2296fbf5ac21cd63c5b4564 res\e20200001_res\Š|‚¯‡‚¢ƒVƒiƒŠƒI\¬ˆ«–‚_Œ®R—.txt
+520bb586e2296fbf5ac21cd63c5b4564 res\e20200001_res\æ›ã‘åˆã„ã‚·ãƒŠãƒªã‚ª\å°æ‚ªé­”_éµå±±é››.txt
 e88743741244f1f1ca3a90ac04c747c7 Tools\MaskGZData.c

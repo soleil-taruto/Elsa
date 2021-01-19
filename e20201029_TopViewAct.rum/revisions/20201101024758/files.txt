@@ -211,7 +211,7 @@ bb2597279c2cb0819c9ff7a5be415869 dat\e20200003_dat\hmix\m2.mp3
 be4b16523fea9fe170579f8832adac80 DebugRelease.bat
 ad358914ef1a612864116ed5320e021b doc\Config.conf
 7f0cfc79746e6fc7569427be9477d4f7 doc\Properties.dat
-94d48b671ba62d1060ad3a91ff8ce5d1 doc\ƒ}ƒjƒ…ƒAƒ‹.txt
+94d48b671ba62d1060ad3a91ff8ce5d1 doc\ç¹æ§­ãƒ«ç¹ï½¥ç¹§ï½¢ç¹ï½«.txt
 70f5fc115a21c0cbf160a3e4fee712f3 Elsa20200001\Elsa20200001.sln
 c9eae497aadc142ee17d0bbbff9144d8 Elsa20200001\Elsa20200001\Common.cs
 e85e6462992d3c57fdfa792d1926e032 Elsa20200001\Elsa20200001\Commons\ArgsReader.cs
@@ -297,7 +297,7 @@ bc61f069918fec9d1e23002455109511 Elsa20200001\Elsa20200001\GameCommons\Options\D
 63a91f0dafa27724ab122b6c09a5b71b Elsa20200001\Elsa20200001\Games\Enemies\Enemy.cs
 dacc0a155ab24aebafca258280bb00a7 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_B0001.cs
 8b845448cc75451ec4ae3c5162b6f5fb Elsa20200001\Elsa20200001\Games\Enemies\Enemy_B0002.cs
-85989563f3946ee3de497d29c91b34f2 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_ƒXƒ^[ƒg’n“_.cs
+85989563f3946ee3de497d29c91b34f2 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_ç¹§ï½¹ç¹§ï½¿ç¹ï½¼ç¹äº¥æ…è½¤ï½¹.cs
 c2631e8b90ab436dafbebdcf8670764c Elsa20200001\Elsa20200001\Games\Enemies\EnemyCatalog.cs
 068dedc5d5c77aec9eec70102a2480ae Elsa20200001\Elsa20200001\Games\Game.cs
 9da2c4e4f9c51564d47e464d5b6eab1f Elsa20200001\Elsa20200001\Games\GameStatus.cs
@@ -312,7 +312,7 @@ f98ed26bdc782226b56a4f401ba0f7da Elsa20200001\Elsa20200001\Games\Shots\Shot_B000
 6e94377b077e0835d61a81cbf480531e Elsa20200001\Elsa20200001\Games\Tiles\Tile_River.cs
 79c33a45b7773837efaed07aa5c78455 Elsa20200001\Elsa20200001\Games\Tiles\Tile_Space.cs
 d1628ad851365deae4b3aec2fc6e6491 Elsa20200001\Elsa20200001\Games\Tiles\Tile_Wall.cs
-a4498c6156f971e49b47724f54d99170 Elsa20200001\Elsa20200001\Games\Tiles\Tile_…•ÓŒn.cs
+a4498c6156f971e49b47724f54d99170 Elsa20200001\Elsa20200001\Games\Tiles\Tile_è±Œï½´éœï½ºé‚‰ï½».cs
 655609dc9d7a7fae6ea9e808ff03d642 Elsa20200001\Elsa20200001\Games\Tiles\TileCatalog.cs
 4cb99d1ebea4f028265f108ba0964407 Elsa20200001\Elsa20200001\Games\TitleMenu.cs
 94c8bee5c9e0d5022a21866a836e71e4 Elsa20200001\Elsa20200001\Games\Walls\Wall.cs

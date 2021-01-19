@@ -4,64 +4,64 @@ c1d5f48d6d01b4e98f4d428c732cdb50 Clean.bat
 b5099a8d5b681001eb64d03f7e9ef2a4 Confuse.bat
 5c8044dfe49667916311571f45aab7c9 dat\dat\Font\K Gothic\_source.txt
 3f537e1030a4e641ea5b12d21a0f5b41 dat\dat\Font\K Gothic\K Gothic.ttf
-c4491ae086652760fbed7b571c49acbc dat\dat\Font\K Gothic\‚Í‚¶‚ß‚É‚¨“Ç‚İ‚­‚¾‚³‚¢.txt
+c4491ae086652760fbed7b571c49acbc dat\dat\Font\K Gothic\ã¯ã˜ã‚ã«ãŠèª­ã¿ãã ã•ã„.txt
 6f07a1a5aa73b75b42d4b6f067a40071 dat\dat\General\Dummy.png
 2724eafa0b42c1c35c811fd67fe94759 dat\dat\General\game_app.ico
 923e544a878c41c4cd9902b18d703c57 dat\dat\General\muon.wav
 3d87caf81f9c365e0e935cf7111cec33 dat\dat\General\WhiteBox.png
 330daf06d89928912ee97240fe3c4646 dat\dat\General\WhiteCircle.png
 66b1854541fe2aaf990cdc3e30511d75 dat\dat\Logo\Copyright.png
-db4609ff41bc3504965edad137d0e9e2 dat\dat\‚±‚à‚à.png
-d1d01ba26877341f52e9691f71fddffa dat\dat\ƒŠƒ‹.png
-b4230c37b3fd7a883d626d8352108215 dat\dat\‰¼‚Ì‘fŞ\81388090~1000.png
-181c26185cfcfab9dd00fdf55591ad8e dat\dat\‰¼‚Ì‘fŞ\EEQYl74UEAYFpId~1000.png
-f82d83e016b2b031f58ed1de09512b28 dat\dat\‰¼‚Ì‘fŞ\TitleMenuItem.png
-90f38199543f28470f5ead679ad270bc dat\dat\‰¼‚Ì‘fŞ\‚Í‚Ä‚È.png
-85195bc703a39d0b85160b64855cb633 dat\dat\‰¼‚Ì‘fŞ\ˆÃˆÅ.png
-733fc79546605148fee35c268de1cff4 dat\dat\‰¼‚Ì‘fŞ\b“¹.jpg
-df756f499f7c9b304080301ecacdb4ae dat\dat\‰¼‚Ì‘fŞ\¬X•½\_source.txt
-6a7fdf06f4d13e060ec4d9666b940bf7 dat\dat\‰¼‚Ì‘fŞ\¬X•½\sfxrse\01pickup\poka01.mp3
-79ae197ccf952ea8cba9d5254520a72a dat\dat\‰¼‚Ì‘fŞ\¬X•½\sfxrse\01pickup\poka02.mp3
-d159ef8d93b7f9e0717fd6c53dc3a19e dat\dat\‰¼‚Ì‘fŞ\X.jpg
-fd6407f3379e372953e03cd109a095e6 dat\dat\‰¼‚Ì‘fŞ\X‚Ì“üŒû.jpg
-3f407e17cbe86523e8a09f3390d57860 dat\dat\‰¼‚Ì‘fŞ\“cÉ‚Ì•—Œi.jpg
-83b563805767b7d760d51d4136b5b1a9 dat\dat\‰¼‚Ì‘fŞ\—mŠÙ.png
-1a74f0287dc985ec6202a7f7a6477e4b dat\dat\‰¼‚Ì‘fŞ\—mŠÙ‚Ì’†.png
-2b4a85555831f6a2a5237e56bd802e43 dat\dat\‹ó‘z‹Èü\_source.txt
-8d8a9a4925838c23d1aad527d13035b9 dat\dat\‹ó‘z‹Èü\Messageframe_29\material\01 message\message.png
-7862380af959a60073451b15cac7638d dat\dat\‹ó‘z‹Èü\Messageframe_29\material\02 button\button.png
-4b776b1b0e9a14dc72b5bd34cceb19a5 dat\dat\‹ó‘z‹Èü\Messageframe_29\material\02 button\button2.png
-377b0237bc582e8b04e639b8967d87df dat\dat\‹ó‘z‹Èü\Messageframe_29\material\02 button\button3.png
-6328577a9868e01e558cbbd9f72f863a dat\dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\auto.png
-5237b67354e1e6af8ce2157d54f495a9 dat\dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\auto2.png
-eba05009adfd19cf58906e7fadf0ed0d dat\dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\load.png
-4b6130ac0eba87420d7e521a78870219 dat\dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\load2.png
-8f7aca8485ae38736760619a2db9b3c9 dat\dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\log.png
-6cfd169f9465d37e8f5c82d2d154e37b dat\dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\log2.png
-9e939d60f1187034a7f9ba52e4bcbb69 dat\dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\menu.png
-a97895b376e4b30062add5315f1cc5e1 dat\dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\menu2.png
-da416990c6cb9d6248c3d5380b419e28 dat\dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\save.png
-7229d66bf20215b1f12ccc00652edb69 dat\dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\save2.png
-f57e5e0fc829e199d0191a66ff1aa809 dat\dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\skip.png
-794e6fe3dc0610bf7ff9ecc8be29f8c2 dat\dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\skip2.png
+db4609ff41bc3504965edad137d0e9e2 dat\dat\ã“ã‚‚ã‚‚.png
+d1d01ba26877341f52e9691f71fddffa dat\dat\ãƒªãƒ«.png
+b4230c37b3fd7a883d626d8352108215 dat\dat\ä»®ã®ç´ æ\81388090~1000.png
+181c26185cfcfab9dd00fdf55591ad8e dat\dat\ä»®ã®ç´ æ\EEQYl74UEAYFpId~1000.png
+f82d83e016b2b031f58ed1de09512b28 dat\dat\ä»®ã®ç´ æ\TitleMenuItem.png
+90f38199543f28470f5ead679ad270bc dat\dat\ä»®ã®ç´ æ\ã¯ã¦ãª.png
+85195bc703a39d0b85160b64855cb633 dat\dat\ä»®ã®ç´ æ\æš—é—‡.png
+733fc79546605148fee35c268de1cff4 dat\dat\ä»®ã®ç´ æ\ç£é“.jpg
+df756f499f7c9b304080301ecacdb4ae dat\dat\ä»®ã®ç´ æ\å°æ£®å¹³\_source.txt
+6a7fdf06f4d13e060ec4d9666b940bf7 dat\dat\ä»®ã®ç´ æ\å°æ£®å¹³\sfxrse\01pickup\poka01.mp3
+79ae197ccf952ea8cba9d5254520a72a dat\dat\ä»®ã®ç´ æ\å°æ£®å¹³\sfxrse\01pickup\poka02.mp3
+d159ef8d93b7f9e0717fd6c53dc3a19e dat\dat\ä»®ã®ç´ æ\æ£®.jpg
+fd6407f3379e372953e03cd109a095e6 dat\dat\ä»®ã®ç´ æ\æ£®ã®å…¥å£.jpg
+3f407e17cbe86523e8a09f3390d57860 dat\dat\ä»®ã®ç´ æ\ç”°èˆã®é¢¨æ™¯.jpg
+83b563805767b7d760d51d4136b5b1a9 dat\dat\ä»®ã®ç´ æ\æ´‹é¤¨.png
+1a74f0287dc985ec6202a7f7a6477e4b dat\dat\ä»®ã®ç´ æ\æ´‹é¤¨ã®ä¸­.png
+2b4a85555831f6a2a5237e56bd802e43 dat\dat\ç©ºæƒ³æ›²ç·š\_source.txt
+8d8a9a4925838c23d1aad527d13035b9 dat\dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\01 message\message.png
+7862380af959a60073451b15cac7638d dat\dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\02 button\button.png
+4b776b1b0e9a14dc72b5bd34cceb19a5 dat\dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\02 button\button2.png
+377b0237bc582e8b04e639b8967d87df dat\dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\02 button\button3.png
+6328577a9868e01e558cbbd9f72f863a dat\dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\auto.png
+5237b67354e1e6af8ce2157d54f495a9 dat\dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\auto2.png
+eba05009adfd19cf58906e7fadf0ed0d dat\dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\load.png
+4b6130ac0eba87420d7e521a78870219 dat\dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\load2.png
+8f7aca8485ae38736760619a2db9b3c9 dat\dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\log.png
+6cfd169f9465d37e8f5c82d2d154e37b dat\dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\log2.png
+9e939d60f1187034a7f9ba52e4bcbb69 dat\dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\menu.png
+a97895b376e4b30062add5315f1cc5e1 dat\dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\menu2.png
+da416990c6cb9d6248c3d5380b419e28 dat\dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\save.png
+7229d66bf20215b1f12ccc00652edb69 dat\dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\save2.png
+f57e5e0fc829e199d0191a66ff1aa809 dat\dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\skip.png
+794e6fe3dc0610bf7ff9ecc8be29f8c2 dat\dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\skip2.png
 07f375ac41328f71554b9ebbe2188f54 dat\res\DatStrings.txt
-5354f307aa9d3d90fb5cd59500c8ec30 dat\res\Scenario\0001_ƒXƒ^[ƒgƒVƒiƒŠƒI.txt
+5354f307aa9d3d90fb5cd59500c8ec30 dat\res\Scenario\0001_ã‚¹ã‚¿ãƒ¼ãƒˆã‚·ãƒŠãƒªã‚ª.txt
 34cb8d44d49e40b482143119af94976b dat\res\Scenario\_memo.txt
 32b85464712fce458d898af5baa75fd2 dat\res\Scenario\_memo_Define.txt
 fe46bebf1cbd265d149b0015e2bf972c dat\res\Scenario\_memo_Include.txt
 ab074df2a04a5e1cadb23963a337346a dat\res\Scenario\_memo_Surface.txt
-5354f307aa9d3d90fb5cd59500c8ec30 dat\res\Scenario\_ó—Ìƒf[ƒ^\0001_ƒXƒ^[ƒgƒVƒiƒŠƒI @ 20210112.txt
-221cf752c3d947aa74dcfa223e0520b8 dat\res\Scenario\_ó—Ìƒf[ƒ^\new 17.txt
+5354f307aa9d3d90fb5cd59500c8ec30 dat\res\Scenario\_å—é ˜ãƒ‡ãƒ¼ã‚¿\0001_ã‚¹ã‚¿ãƒ¼ãƒˆã‚·ãƒŠãƒªã‚ª @ 20210112.txt
+221cf752c3d947aa74dcfa223e0520b8 dat\res\Scenario\_å—é ˜ãƒ‡ãƒ¼ã‚¿\new 17.txt
 5977b31a479b1759b90224a88964765f dat\res\Scenario\Include\Common.txt
 a5a3401b3a0a113700df9281bd60fd45 dat\res\Scenario\Include\Define.txt
-9749354d0b1d55ba62b4ee5a652fe884 dat\res\Scenario\Include\”wŒi•ÏX.txt
-636adffc5dc59b98a12ee548824e801f dat\res\Scenario\Include\”wŒi•ÏX2.txt
-744618ef48acfe4823a65236e3d19ae6 dat\res\Scenario\ƒ_ƒ~[ƒVƒiƒŠƒI.txt
+9749354d0b1d55ba62b4ee5a652fe884 dat\res\Scenario\Include\èƒŒæ™¯å¤‰æ›´.txt
+636adffc5dc59b98a12ee548824e801f dat\res\Scenario\Include\èƒŒæ™¯å¤‰æ›´2.txt
+744618ef48acfe4823a65236e3d19ae6 dat\res\Scenario\ãƒ€ãƒŸãƒ¼ã‚·ãƒŠãƒªã‚ª.txt
 8b7a107d8443738839e1cb4f31cd8c2f DebugRelease.bat
 8adc11f6d670156c7c570581ec139bfb Deploy.bat
 d45f7078b44622a543c7bec1653c44ba doc\Config.conf
 7f0cfc79746e6fc7569427be9477d4f7 doc\Properties.dat
-2be29cf17c07d57893569906abadd3cc doc\ƒ}ƒjƒ…ƒAƒ‹.txt
+2be29cf17c07d57893569906abadd3cc doc\ãƒãƒ‹ãƒ¥ã‚¢ãƒ«.txt
 70f5fc115a21c0cbf160a3e4fee712f3 Elsa20200001\Elsa20200001.sln
 9ae54abdbd8bb28cac23998ced61faa9 Elsa20200001\Elsa20200001\Common.cs
 e85e6462992d3c57fdfa792d1926e032 Elsa20200001\Elsa20200001\Commons\ArgsReader.cs
@@ -156,14 +156,14 @@ f0dba5b5558000f71e1423bd56b247c6 Elsa20200001\Elsa20200001\Games\Surfaces\Surfac
 2f95c23242b035fd6bb95efb7f250f84 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_Select.cs
 ebc8cadff9455fac5c055585afc869f1 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_System.cs
 d7bf7b3b3ccc1bb4b7f272ed062919b9 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_SystemButtons.cs
-e2ea69530e2eb72fa8e7bbf3da1951f7 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_ƒLƒƒƒ‰ƒNƒ^.cs
-67a7842fb8eea35bd43aac58b3d2bfee Elsa20200001\Elsa20200001\Games\Surfaces\Surface_ƒXƒNƒŠ[ƒ“.cs
-4efba51751702ba89abd26e2563c9b57 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_‰¹Šy.cs
-d0246c8c62eea1c95b0011bfa817e1f0 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_Œø‰Ê‰¹.cs
+e2ea69530e2eb72fa8e7bbf3da1951f7 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_ã‚­ãƒ£ãƒ©ã‚¯ã‚¿.cs
+67a7842fb8eea35bd43aac58b3d2bfee Elsa20200001\Elsa20200001\Games\Surfaces\Surface_ã‚¹ã‚¯ãƒªãƒ¼ãƒ³.cs
+4efba51751702ba89abd26e2563c9b57 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_éŸ³æ¥½.cs
+d0246c8c62eea1c95b0011bfa817e1f0 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_åŠ¹æœéŸ³.cs
 624e61f7bad46796510c64bbb0d65369 Elsa20200001\Elsa20200001\Games\Surfaces\SurfaceCreator.cs
 b6106f16910893b68bcd283edee8986d Elsa20200001\Elsa20200001\Games\TitleMenu.cs
-fdb4009c308ed6c8b27d1faa4092a60c Elsa20200001\Elsa20200001\Games\‚Ú‚©‚µŒø‰Ê.cs
-60869d4de4b9f48ac5fd58892bb353b9 Elsa20200001\Elsa20200001\Games\b“¹Œø‰Ê.cs
+fdb4009c308ed6c8b27d1faa4092a60c Elsa20200001\Elsa20200001\Games\ã¼ã‹ã—åŠ¹æœ.cs
+60869d4de4b9f48ac5fd58892bb353b9 Elsa20200001\Elsa20200001\Games\ç£é“åŠ¹æœ.cs
 89a8e09809c9ab65e57c564111e6831e Elsa20200001\Elsa20200001\Ground.cs
 7b7231d021ecc67a04af539e98dde3f1 Elsa20200001\Elsa20200001\MainWin.cs
 832803ad2f3cd47988796b9a81b3c7c7 Elsa20200001\Elsa20200001\MainWin.Designer.cs

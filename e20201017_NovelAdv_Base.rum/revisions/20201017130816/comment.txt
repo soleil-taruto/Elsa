@@ -1,1 +1,1 @@
--= UseVirtualSubScreenSize ‚â‚èc‚µ
+-= UseVirtualSubScreenSize ã‚„ã‚Šæ®‹ã—

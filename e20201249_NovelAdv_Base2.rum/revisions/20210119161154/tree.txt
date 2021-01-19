@@ -4,32 +4,32 @@ dat\dat\Font
 dat\dat\Font\K Gothic
 dat\dat\General
 dat\dat\Logo
-dat\dat\ƒtƒŠ[‘fŞ
-dat\dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢
-dat\dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•
-dat\dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\Œ‹Œ‚ä‚©‚è
-dat\dat\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\“Œ–k‚¸‚ñq
-dat\dat\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü
-dat\dat\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29
-dat\dat\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material
-dat\dat\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\01 message
-dat\dat\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\02 button
-dat\dat\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button
-dat\dat\ƒtƒŠ[‘fŞ\Œ‹Œ‚ä‚©‚èƒXƒeƒbƒJ[
-dat\dat\ƒtƒŠ[‘fŞ\¬X•½
-dat\dat\ƒtƒŠ[‘fŞ\¬X•½\sfxrse
-dat\dat\ƒtƒŠ[‘fŞ\¬X•½\sfxrse\01pickup
-dat\dat\ƒtƒŠ[‘fŞ\¯‹û•¨Œê
-dat\dat\ƒtƒŠ[‘fŞ\–‚‰¤°
-dat\dat\ƒtƒŠ[‘fŞ\–‚‰¤°\bgm_maoudamashii_piano
-dat\dat\©—RQÆ
-dat\dat\©—RQÆ\”wŒi
-dat\dat\©—RQÆ\”wŒi\‚«‚Ü‚®‚êƒAƒtƒ^[
-dat\dat\©—RQÆ\”wŒi\‚Â‚¯‚ß‚ñ
-dat\dat\©—RQÆ\–‚‰¤°
-dat\dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_healing
-dat\dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_orchestra
-dat\dat\©—RQÆ\–‚‰¤°\bgm_maoudamashii_piano
+dat\dat\ãƒ•ãƒªãƒ¼ç´ æ
+dat\dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„
+dat\dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ
+dat\dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\çµæœˆã‚†ã‹ã‚Š
+dat\dat\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\æ±åŒ—ãšã‚“å­
+dat\dat\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š
+dat\dat\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29
+dat\dat\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material
+dat\dat\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\01 message
+dat\dat\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\02 button
+dat\dat\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button
+dat\dat\ãƒ•ãƒªãƒ¼ç´ æ\çµæœˆã‚†ã‹ã‚Šã‚¹ãƒ†ãƒƒã‚«ãƒ¼
+dat\dat\ãƒ•ãƒªãƒ¼ç´ æ\å°æ£®å¹³
+dat\dat\ãƒ•ãƒªãƒ¼ç´ æ\å°æ£®å¹³\sfxrse
+dat\dat\ãƒ•ãƒªãƒ¼ç´ æ\å°æ£®å¹³\sfxrse\01pickup
+dat\dat\ãƒ•ãƒªãƒ¼ç´ æ\æ˜Ÿå±‘ç‰©èª
+dat\dat\ãƒ•ãƒªãƒ¼ç´ æ\é­”ç‹é­‚
+dat\dat\ãƒ•ãƒªãƒ¼ç´ æ\é­”ç‹é­‚\bgm_maoudamashii_piano
+dat\dat\è‡ªç”±å‚ç…§
+dat\dat\è‡ªç”±å‚ç…§\èƒŒæ™¯
+dat\dat\è‡ªç”±å‚ç…§\èƒŒæ™¯\ãã¾ãã‚Œã‚¢ãƒ•ã‚¿ãƒ¼
+dat\dat\è‡ªç”±å‚ç…§\èƒŒæ™¯\ã¤ã‘ã‚ã‚“
+dat\dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚
+dat\dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_healing
+dat\dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_orchestra
+dat\dat\è‡ªç”±å‚ç…§\é­”ç‹é­‚\bgm_maoudamashii_piano
 dat\res
 dat\res\Scenario
 dat\res\Scenario\Include

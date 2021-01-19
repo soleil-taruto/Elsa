@@ -1,77 +1,77 @@
 ===============================================================================
 
-@TateShoot / version $version$
-@@@@@@@@@@@@@@@@@@@@@@@@@@(C) 202x cerulean.charlotte
+ã€€TateShoot / version $version$
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€(C) 202x cerulean.charlotte
 
 ===============================================================================
 
 
-¡‹N“®•û–@
+â– èµ·å‹•æ–¹æ³•
 
-@Elsa20200001.exe ‚ğÀs‚µ‚Ä‰º‚³‚¢B
-
-
-¡‘€ì•û–@
-
-@ƒJ[ƒ\ƒ‹
-
-@Z@@’á‘¬ˆÚ“® / Œˆ’è
-@X@@ƒVƒ‡ƒbƒg / ƒLƒƒƒ“ƒZƒ‹
-@C@@ƒ{ƒ€
-@F@@“–‚½‚è”»’è•\¦iƒfƒoƒbƒO—pƒ`[ƒgj
-
-@SPACE@@ƒ|[ƒY / ƒ|[ƒY‰ğœ
-
-@PAGE-UP@@@ƒpƒ[ƒAƒbƒviƒfƒoƒbƒO—pƒ`[ƒgj
-@PAGE-DOWN@@ƒpƒ[ƒ_ƒEƒ“iƒfƒoƒbƒO—pƒ`[ƒgj
-
-@ƒGƒXƒP[ƒvƒL[‚ğ‰Ÿ‚·‚ÆA‚¢‚Â‚Å‚àI—¹‚Å‚«‚Ü‚·B
+ã€€Elsa20200001.exe ã‚’å®Ÿè¡Œã—ã¦ä¸‹ã•ã„ã€‚
 
 
-@šƒQ[ƒ€ƒpƒbƒh‚Ìg—p‚ğ‚¨‚·‚·‚ß‚µ‚Ü‚·B
+â– æ“ä½œæ–¹æ³•
+
+ã€€ã‚«ãƒ¼ã‚½ãƒ«
+
+ã€€Zã€€ã€€ä½é€Ÿç§»å‹• / æ±ºå®š
+ã€€Xã€€ã€€ã‚·ãƒ§ãƒƒãƒˆ / ã‚­ãƒ£ãƒ³ã‚»ãƒ«
+ã€€Cã€€ã€€ãƒœãƒ 
+ã€€Fã€€ã€€å½“ãŸã‚Šåˆ¤å®šè¡¨ç¤ºï¼ˆãƒ‡ãƒãƒƒã‚°ç”¨ãƒãƒ¼ãƒˆï¼‰
+
+ã€€SPACEã€€ã€€ãƒãƒ¼ã‚º / ãƒãƒ¼ã‚ºè§£é™¤
+
+ã€€PAGE-UPã€€ã€€ã€€ãƒ‘ãƒ¯ãƒ¼ã‚¢ãƒƒãƒ—ï¼ˆãƒ‡ãƒãƒƒã‚°ç”¨ãƒãƒ¼ãƒˆï¼‰
+ã€€PAGE-DOWNã€€ã€€ãƒ‘ãƒ¯ãƒ¼ãƒ€ã‚¦ãƒ³ï¼ˆãƒ‡ãƒãƒƒã‚°ç”¨ãƒãƒ¼ãƒˆï¼‰
+
+ã€€ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—ã‚­ãƒ¼ã‚’æŠ¼ã™ã¨ã€ã„ã¤ã§ã‚‚çµ‚äº†ã§ãã¾ã™ã€‚
 
 
-¡‘fŞiŒhÌ—ªj
+ã€€â˜…ã‚²ãƒ¼ãƒ ãƒ‘ãƒƒãƒ‰ã®ä½¿ç”¨ã‚’ãŠã™ã™ã‚ã—ã¾ã™ã€‚
 
-@œ‰æ‘œ
 
-@@ƒŠƒqƒg
-@@http://extramebe.blog114.fc2.com/
+â– ç´ æï¼ˆæ•¬ç§°ç•¥ï¼‰
 
-@@ƒQ[ƒ€ŠJ”­“ú‹L
-@@http://dvdm.blog134.fc2.com/
+ã€€â—ç”»åƒ
 
-@@material world
-@@http://members.jcom.home.ne.jp/hide.mats/index.htm
+ã€€ã€€ãƒªãƒ’ãƒˆ
+ã€€ã€€http://extramebe.blog114.fc2.com/
 
-@@KUU(‹ó—…)
-@@http://rikuura.blog5.fc2.com/page-1.html
+ã€€ã€€ã‚²ãƒ¼ãƒ é–‹ç™ºæ—¥è¨˜
+ã€€ã€€http://dvdm.blog134.fc2.com/
 
-@@‚Ò‚Û‚â
-@@http://piposozai.blog76.fc2.com/
+ã€€ã€€material world
+ã€€ã€€http://members.jcom.home.ne.jp/hide.mats/index.htm
 
-@@run
-@@http://www.pixiv.net/member.php?id=1597341
+ã€€ã€€KUU(ç©ºç¾…)
+ã€€ã€€http://rikuura.blog5.fc2.com/page-1.html
 
-@@speckyboy
-@@http://speckyboy.com/2010/07/28/50-tileable-and-seamless-pattern-sets-500-patterns/
+ã€€ã€€ã´ã½ã‚„
+ã€€ã€€http://piposozai.blog76.fc2.com/
 
-@@–kŠC‚Ìƒk[
-@@http://www.danmakufu.net/?%E5%88%B6%E4%BD%9C%2F%E3%83%AA%E3%83%B3%E3%82%AF#e7f23a00
+ã€€ã€€run
+ã€€ã€€http://www.pixiv.net/member.php?id=1597341
 
-@@KENTARO
-@@http://www.pixiv.net/member.php?id=67804
+ã€€ã€€speckyboy
+ã€€ã€€http://speckyboy.com/2010/07/28/50-tileable-and-seamless-pattern-sets-500-patterns/
 
-@œ‚a‚f‚l
+ã€€ã€€åŒ—æµ·ã®ãƒŒãƒ¼
+ã€€ã€€http://www.danmakufu.net/?%E5%88%B6%E4%BD%9C%2F%E3%83%AA%E3%83%B3%E3%82%AF#e7f23a00
 
-@@ƒtƒŠ[‰¹Šy‘fŞ H/MIX GALLERY
-@@http://www.hmix.net/
+ã€€ã€€KENTARO
+ã€€ã€€http://www.pixiv.net/member.php?id=67804
 
-@@–‚‰¤°
-@@http://maoudamashii.jokersounds.com/
+ã€€â—ï¼¢ï¼§ï¼­
 
- œŒø‰Ê‰¹
+ã€€ã€€ãƒ•ãƒªãƒ¼éŸ³æ¥½ç´ æ H/MIX GALLERY
+ã€€ã€€http://www.hmix.net/
 
-@@Š•’‚Æƒpƒ“ƒP[ƒL
-@@http://beetlepancake.web.fc2.com/
+ã€€ã€€é­”ç‹é­‚
+ã€€ã€€http://maoudamashii.jokersounds.com/
+
+ â—åŠ¹æœéŸ³
+
+ã€€ã€€å…œè™«ã¨ãƒ‘ãƒ³ã‚±ãƒ¼ã‚­
+ã€€ã€€http://beetlepancake.web.fc2.com/
 

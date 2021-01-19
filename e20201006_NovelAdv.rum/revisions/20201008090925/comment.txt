@@ -1,1 +1,1 @@
-+= UseVirtualSubScreenSize ì‹Æ’†, vFontSize “™ ¸”s
++= UseVirtualSubScreenSize ä½œæ¥­ä¸­, vFontSize ç­‰ å¤±æ•—

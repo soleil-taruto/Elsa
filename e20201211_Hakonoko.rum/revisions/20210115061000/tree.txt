@@ -2,14 +2,14 @@ dat
 dat\dat
 dat\dat\Font
 dat\dat\Font\K Gothic
-dat\dat\Font\•°‰ÎƒtƒHƒ“ƒg
+dat\dat\Font\ç„šç«ãƒ•ã‚©ãƒ³ãƒˆ
 dat\dat\General
 dat\dat\Logo
 dat\dat\Novel
-dat\dat\Novel\ƒtƒLƒ_ƒVƒfƒUƒCƒ“
+dat\dat\Novel\ãƒ•ã‚­ãƒ€ã‚·ãƒ‡ã‚¶ã‚¤ãƒ³
 dat\dat\WallPicture
-dat\dat\ƒeƒXƒg—p
-dat\dat\” ‚©‚ço‚é
+dat\dat\ãƒ†ã‚¹ãƒˆç”¨
+dat\dat\ç®±ã‹ã‚‰å‡ºã‚‹
 dat\res
 dat\res\Map
 dat\res\Scenario

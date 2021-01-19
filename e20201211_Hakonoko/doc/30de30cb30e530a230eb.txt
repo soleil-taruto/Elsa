@@ -1,66 +1,66 @@
 ===============================================================================
 
-@Hakonoko / version $version$
-@@@@@@@@@@@@@@@@@@@@@@@@@@(C) 202x cerulean.charlotte
+ã€€Hakonoko / version $version$
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€(C) 202x cerulean.charlotte
 
 ===============================================================================
 
 
-¡‹N“®•û–@
+â– èµ·å‹•æ–¹æ³•
 
-@Game.exe ‚ðŽÀs‚µ‚Ä‰º‚³‚¢B
-
-
-¡‘€ì•û–@
-
-@ƒJ[ƒ\ƒ‹
-
-@Z@@ƒWƒƒƒ“ƒv / Œˆ’è
-@X@@’á‘¬ˆÚ“® / ƒLƒƒƒ“ƒZƒ‹
-@C@@ƒŠƒXƒ|[ƒ“’n“_Ý’u
-@D@@‰æ–ÊƒXƒ‰ƒCƒh / ‰ï˜bƒXƒLƒbƒv
-@F@@‹­§ƒŠƒXƒ|[ƒ“
-
-@SPACE@@ƒ|[ƒY / ƒ|[ƒY‰ðœ
-
-@ƒGƒXƒP[ƒvƒL[‚ð‰Ÿ‚·‚ÆA‚¢‚Â‚Å‚àI—¹‚Å‚«‚Ü‚·B
+ã€€Game.exe ã‚’å®Ÿè¡Œã—ã¦ä¸‹ã•ã„ã€‚
 
 
-@šƒQ[ƒ€ƒpƒbƒh‚ÌŽg—p‚ð‚¨‚·‚·‚ß‚µ‚Ü‚·B
+â– æ“ä½œæ–¹æ³•
 
-@@ƒ^ƒCƒgƒ‹ƒƒjƒ…[‚Ì Ý’è > ƒpƒbƒh‚Ìƒ{ƒ^ƒ“Ý’è ‚æ‚èƒ{ƒ^ƒ“”z’u‚ð•ÏX‚Å‚«‚Ü‚·B
+ã€€ã‚«ãƒ¼ã‚½ãƒ«
+
+ã€€Zã€€ã€€ã‚¸ãƒ£ãƒ³ãƒ— / æ±ºå®š
+ã€€Xã€€ã€€ä½Žé€Ÿç§»å‹• / ã‚­ãƒ£ãƒ³ã‚»ãƒ«
+ã€€Cã€€ã€€ãƒªã‚¹ãƒãƒ¼ãƒ³åœ°ç‚¹è¨­ç½®
+ã€€Dã€€ã€€ç”»é¢ã‚¹ãƒ©ã‚¤ãƒ‰ / ä¼šè©±ã‚¹ã‚­ãƒƒãƒ—
+ã€€Fã€€ã€€å¼·åˆ¶ãƒªã‚¹ãƒãƒ¼ãƒ³
+
+ã€€SPACEã€€ã€€ãƒãƒ¼ã‚º / ãƒãƒ¼ã‚ºè§£é™¤
+
+ã€€ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—ã‚­ãƒ¼ã‚’æŠ¼ã™ã¨ã€ã„ã¤ã§ã‚‚çµ‚äº†ã§ãã¾ã™ã€‚
 
 
-¡§ì
+ã€€â˜…ã‚²ãƒ¼ãƒ ãƒ‘ãƒƒãƒ‰ã®ä½¿ç”¨ã‚’ãŠã™ã™ã‚ã—ã¾ã™ã€‚
 
-@œƒVƒiƒŠƒI
-
-@@eiji
-
-@œƒvƒƒOƒ‰ƒ€
-
-@@cerulean.charlotte
+ã€€ã€€ã‚¿ã‚¤ãƒˆãƒ«ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã® è¨­å®š > ãƒ‘ãƒƒãƒ‰ã®ãƒœã‚¿ãƒ³è¨­å®š ã‚ˆã‚Šãƒœã‚¿ãƒ³é…ç½®ã‚’å¤‰æ›´ã§ãã¾ã™ã€‚
 
 
-¡‘fÞiŒhÌ—ªj
+â– åˆ¶ä½œ
 
-@œ‰æ‘œ
+ã€€â—ã‚·ãƒŠãƒªã‚ª
 
-@@ƒtƒLƒ_ƒVƒfƒUƒCƒ“
-@@https://fukidesign.com/e0165/
+ã€€ã€€eiji
 
-@œŒø‰Ê‰¹
+ã€€â—ãƒ—ãƒ­ã‚°ãƒ©ãƒ 
 
-@@¬X•½
-@@https://taira-komori.jpn.org/
+ã€€ã€€cerulean.charlotte
 
-@œƒtƒHƒ“ƒg
 
-@@(K ƒSƒVƒbƒN)
-@@ƒPƒC
-@@https://k-gothic-font.hatenablog.com/
+â– ç´ æï¼ˆæ•¬ç§°ç•¥ï¼‰
 
-@@(•°‰ÎƒtƒHƒ“ƒg)
-@@ƒtƒHƒ“ƒgƒOƒ‰ƒtƒBƒbƒN
-@@https://fontgraphic.jp/
+ã€€â—ç”»åƒ
+
+ã€€ã€€ãƒ•ã‚­ãƒ€ã‚·ãƒ‡ã‚¶ã‚¤ãƒ³
+ã€€ã€€https://fukidesign.com/e0165/
+
+ã€€â—åŠ¹æžœéŸ³
+
+ã€€ã€€å°æ£®å¹³
+ã€€ã€€https://taira-komori.jpn.org/
+
+ã€€â—ãƒ•ã‚©ãƒ³ãƒˆ
+
+ã€€ã€€(K ã‚´ã‚·ãƒƒã‚¯)
+ã€€ã€€ã‚±ã‚¤
+ã€€ã€€https://k-gothic-font.hatenablog.com/
+
+ã€€ã€€(ç„šç«ãƒ•ã‚©ãƒ³ãƒˆ)
+ã€€ã€€ãƒ•ã‚©ãƒ³ãƒˆã‚°ãƒ©ãƒ•ã‚£ãƒƒã‚¯
+ã€€ã€€https://fontgraphic.jp/
 

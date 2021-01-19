@@ -1,80 +1,80 @@
 ===============================================================================
 
-�@YokoActTK / version $version$
-�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@(C) 202x cerulean.charlotte
+　YokoActTK / version $version$
+　　　　　　　　　　　　　　　　　　　　　　　　　　(C) 202x cerulean.charlotte
 
 ===============================================================================
 
 
-���N�����@
+■起動方法
 
-�@Game.exe �����s���ĉ������B
-
-
-��������@
-
-�@�J�[�\��
-
-�@Z�@�@�W�����v / ����
-�@X�@�@�U�� / �L�����Z��
-�@C�@�@����U��
-�@D�@�@��ʃX���C�h
-�@F�@�@�ᑬ�ړ�
-
-�@SPACE�@�@�|�[�Y / �|�[�Y����
-
-�@�G�X�P�[�v�L�[�������ƁA���ł��I���ł��܂��B
+　Game.exe を実行して下さい。
 
 
-�@���Q�[���p�b�h�̎g�p���������߂��܂��B
+■操作方法
+
+　カーソル
+
+　Z　　ジャンプ / 決定
+　X　　攻撃 / キャンセル
+　C　　特殊攻撃
+　D　　画面スライド
+　F　　低速移動
+
+　SPACE　　ポーズ / ポーズ解除
+
+　エスケープキーを押すと、いつでも終了できます。
 
 
-���v���C���[�L�����N�^�̐؂�ւ�
-
-�@�|�[�Y��ʂ���ł��܂��B
+　★ゲームパッドの使用をおすすめします。
 
 
-���قނ�̓���U���ɂ���
+■プレイヤーキャラクタの切り替え
 
-�@������R�b�Ԏ��R�ɍs���o���܂��B
-�@�R�b�o�߂���Ɣ������i�܂�R�b�O�j�ɖ߂�܂��B
-�@���̂Ƃ��L�^���ꂽ�R�b�Ԃ̍s�����e�ƂȂ��čĐ�����܂��B
-�@����ɂ��Q�l�����ɍs�����邱�Ƃ��ł��܂��B
-
-�@�ǂ��炩�Ƃ����ƃ��b�\�t�@���^�Y�}�H�݂����ȋZ�Ȃ̂ŁA
-�@�J�����p������ꍇ�̓L�����N�^���ǎq�ɒu��������Ǝv���܂��B
+　ポーズ画面からできます。
 
 
-��������@(�J���p)
+■ほむらの特殊攻撃について
 
-�@E�@�@�G�f�B�b�g���[�h
+　発動後３秒間自由に行動出来ます。
+　３秒経過すると発動時（つまり３秒前）に戻ります。
+　このとき記録された３秒間の行動が影となって再生されます。
+　これにより２人同時に行動することができます。
+
+　どちらかというとロッソファンタズマ？みたいな技なので、
+　開発を継続する場合はキャラクタを杏子に置き換えると思います。
 
 
-���f�ށi�h�̗��j
+■操作方法(開発用)
 
-�@���v���C���[�L�����N�^
+　E　　エディットモード
 
-�@�@Konbe
-�@�@https://www.deviantart.com/konbe
 
-�@���摜
+■素材（敬称略）
 
-�@�@���ˁi���j
-�@�@https://seiga.nicovideo.jp/user/illust/13201234
+　●プレイヤーキャラクタ
 
-�@�@��z�Ȑ�
-�@�@https://kopacurve.blog.fc2.com/
+　　Konbe
+　　https://www.deviantart.com/konbe
 
-�@���w�i
+　●画像
 
-�@�@run
-�@�@https://www.pixiv.net/users/1597341
+　　きつね（仮）
+　　https://seiga.nicovideo.jp/user/illust/13201234
 
-�@�����y
+　　空想曲線
+　　https://kopacurve.blog.fc2.com/
 
-�@�@�݂�ӂ�
-�@�@http://commons.nicovideo.jp/material/nc200903
+　●背景
 
-�@�@���[�t���J
-�@�@https://wingless-seraph.net/
+　　run
+　　https://www.pixiv.net/users/1597341
+
+　●音楽
+
+　　みるふぃ
+　　http://commons.nicovideo.jp/material/nc200903
+
+　　ユーフルカ
+　　https://wingless-seraph.net/
 

@@ -9,29 +9,29 @@ b5099a8d5b681001eb64d03f7e9ef2a4 Confuse.bat
 049a2c1a6845299127ca21dea93479c8 dat\e20200003_dat\Logo\Copyright.png
 5c8044dfe49667916311571f45aab7c9 dat\e20200003_dat\Novel\Font\K Gothic\_source.txt
 3f537e1030a4e641ea5b12d21a0f5b41 dat\e20200003_dat\Novel\Font\K Gothic\K Gothic.ttf
-c4491ae086652760fbed7b571c49acbc dat\e20200003_dat\Novel\Font\K Gothic\‚Í‚¶‚ß‚É‚¨“Ç‚İ‚­‚¾‚³‚¢.txt
-329da193e8390f55b50b56a82ce79e94 dat\e20200003_dat\Novel\ƒtƒLƒ_ƒVƒfƒUƒCƒ“\_source.txt
-28b146ace98053e1ba18c4a03dea68da dat\e20200003_dat\Novel\ƒtƒLƒ_ƒVƒfƒUƒCƒ“\e0165_1.png
-8c6d04c5d8d08f29cd9baefe5c0dd4c1 dat\e20200003_dat\Novel\ƒtƒLƒ_ƒVƒfƒUƒCƒ“\e0347_1.png
-901965d1f06ea6a84567f1aec619858f dat\e20200003_dat\Novel\ˆÃ–‹.png
-a4c2d6c4936a40e0947a6c1f1da0e95d dat\e20200003_dat\Novel\­—_“{.png
-577209659695b63e7cc727ea55e1d5b1 dat\e20200003_dat\Novel\­—_•.png
-03d79e0220386afc3646164ff0dd06f9 dat\e20200003_dat\Novel\”wŒi.png
-0bf9128ebf85f2f34c6bfbd01c9bf31d dat\e20200003_dat\Novel\” .png
-dba2ed33b0911666fd3dd43dad43df9c dat\e20200003_dat\ƒ^ƒCƒgƒ‹.png
-1abe557e20f9ad646d9e4e740108ddcf dat\e20200003_dat\ƒ^ƒCƒgƒ‹ƒƒjƒ…[€–Ú_ƒRƒ“ƒeƒjƒ…[.png
-6d26842ab1cb51701db05db3219f8fb5 dat\e20200003_dat\ƒ^ƒCƒgƒ‹ƒƒjƒ…[€–Ú_ƒXƒ^[ƒg.png
-f20aeffa82e2dedfaf7961fe98d1e573 dat\e20200003_dat\ƒ^ƒCƒgƒ‹ƒƒjƒ…[€–Ú_I—¹.png
-1e39a5228ed091b9d3965d7706952a2b dat\e20200003_dat\ƒ^ƒCƒgƒ‹ƒƒjƒ…[€–Ú_İ’è.png
-6852f0d8447d5b36c55a73cd92399dbf dat\e20200003_dat\ƒeƒXƒg—p\IMG_20160000_000040.jpg
-a633dca75cbf8bbb1d39bca2d51f0585 dat\e20200003_dat\” ‚©‚ço‚é\”wŒi.png
-2cc3ce4a4d23b24aa52da55597278b8c dat\e20200003_dat\” ‚©‚ço‚é\” 0001.png
-f879816e5243ecfa829d472dc0bce140 dat\e20200003_dat\” ‚©‚ço‚é\” 0002.png
+c4491ae086652760fbed7b571c49acbc dat\e20200003_dat\Novel\Font\K Gothic\ã¯ã˜ã‚ã«ãŠèª­ã¿ãã ã•ã„.txt
+329da193e8390f55b50b56a82ce79e94 dat\e20200003_dat\Novel\ãƒ•ã‚­ãƒ€ã‚·ãƒ‡ã‚¶ã‚¤ãƒ³\_source.txt
+28b146ace98053e1ba18c4a03dea68da dat\e20200003_dat\Novel\ãƒ•ã‚­ãƒ€ã‚·ãƒ‡ã‚¶ã‚¤ãƒ³\e0165_1.png
+8c6d04c5d8d08f29cd9baefe5c0dd4c1 dat\e20200003_dat\Novel\ãƒ•ã‚­ãƒ€ã‚·ãƒ‡ã‚¶ã‚¤ãƒ³\e0347_1.png
+901965d1f06ea6a84567f1aec619858f dat\e20200003_dat\Novel\æš—å¹•.png
+a4c2d6c4936a40e0947a6c1f1da0e95d dat\e20200003_dat\Novel\å°‘å¥³_æ€’.png
+577209659695b63e7cc727ea55e1d5b1 dat\e20200003_dat\Novel\å°‘å¥³_æ™®.png
+03d79e0220386afc3646164ff0dd06f9 dat\e20200003_dat\Novel\èƒŒæ™¯.png
+0bf9128ebf85f2f34c6bfbd01c9bf31d dat\e20200003_dat\Novel\ç®±.png
+dba2ed33b0911666fd3dd43dad43df9c dat\e20200003_dat\ã‚¿ã‚¤ãƒˆãƒ«.png
+1abe557e20f9ad646d9e4e740108ddcf dat\e20200003_dat\ã‚¿ã‚¤ãƒˆãƒ«ãƒ¡ãƒ‹ãƒ¥ãƒ¼é …ç›®_ã‚³ãƒ³ãƒ†ãƒ‹ãƒ¥ãƒ¼.png
+6d26842ab1cb51701db05db3219f8fb5 dat\e20200003_dat\ã‚¿ã‚¤ãƒˆãƒ«ãƒ¡ãƒ‹ãƒ¥ãƒ¼é …ç›®_ã‚¹ã‚¿ãƒ¼ãƒˆ.png
+f20aeffa82e2dedfaf7961fe98d1e573 dat\e20200003_dat\ã‚¿ã‚¤ãƒˆãƒ«ãƒ¡ãƒ‹ãƒ¥ãƒ¼é …ç›®_çµ‚äº†.png
+1e39a5228ed091b9d3965d7706952a2b dat\e20200003_dat\ã‚¿ã‚¤ãƒˆãƒ«ãƒ¡ãƒ‹ãƒ¥ãƒ¼é …ç›®_è¨­å®š.png
+6852f0d8447d5b36c55a73cd92399dbf dat\e20200003_dat\ãƒ†ã‚¹ãƒˆç”¨\IMG_20160000_000040.jpg
+a633dca75cbf8bbb1d39bca2d51f0585 dat\e20200003_dat\ç®±ã‹ã‚‰å‡ºã‚‹\èƒŒæ™¯.png
+2cc3ce4a4d23b24aa52da55597278b8c dat\e20200003_dat\ç®±ã‹ã‚‰å‡ºã‚‹\ç®±0001.png
+f879816e5243ecfa829d472dc0bce140 dat\e20200003_dat\ç®±ã‹ã‚‰å‡ºã‚‹\ç®±0002.png
 1e0f7dc39cb42958b0eec8258acab250 DebugRelease.bat
 37b13163c8f4ca899e82c4de7471f562 Deploy.bat
 ad358914ef1a612864116ed5320e021b doc\Config.conf
 7f0cfc79746e6fc7569427be9477d4f7 doc\Properties.dat
-9b99f9de68d263d319b4013942561140 doc\ƒ}ƒjƒ…ƒAƒ‹.txt
+9b99f9de68d263d319b4013942561140 doc\ãƒãƒ‹ãƒ¥ã‚¢ãƒ«.txt
 70f5fc115a21c0cbf160a3e4fee712f3 Elsa20200001\Elsa20200001.sln
 2857ba9619db3a702a210e9e78ccf006 Elsa20200001\Elsa20200001\Common.cs
 e85e6462992d3c57fdfa792d1926e032 Elsa20200001\Elsa20200001\Commons\ArgsReader.cs
@@ -131,9 +131,9 @@ fde1cd7b2c58a9c0185d1471ebbf7be7 Elsa20200001\Elsa20200001\Games\Map.cs
 5bea2b4352a930c251266e5b40768743 Elsa20200001\Elsa20200001\Games\MapCell.cs
 ead27ee781ff28f182cec843b25a7ba8 Elsa20200001\Elsa20200001\Games\Player.cs
 e7c162b77e02080aceb14e3bad913a00 Elsa20200001\Elsa20200001\Games\TitleMenu.cs
-6da8686b1dc0bed61226ec2c965929b6 Elsa20200001\Elsa20200001\Games\©‹@ˆÊ’u’²®.cs
-4b63393084c95410a58f5fa8056efa70 Elsa20200001\Elsa20200001\Games\”g–äŒø‰Ê.cs
-156669907a6feb4dd8ab026c1ca4c80b Elsa20200001\Elsa20200001\Games\” ‚©‚ço‚é.cs
+6da8686b1dc0bed61226ec2c965929b6 Elsa20200001\Elsa20200001\Games\è‡ªæ©Ÿä½ç½®èª¿æ•´.cs
+4b63393084c95410a58f5fa8056efa70 Elsa20200001\Elsa20200001\Games\æ³¢ç´‹åŠ¹æœ.cs
+156669907a6feb4dd8ab026c1ca4c80b Elsa20200001\Elsa20200001\Games\ç®±ã‹ã‚‰å‡ºã‚‹.cs
 b512941fb2daf79f4a5ea2fa0326ee8f Elsa20200001\Elsa20200001\Ground.cs
 6e06e958edadef9e638848a60967144b Elsa20200001\Elsa20200001\LevelEditors\LevelEditor.cs
 a7b3e70a004ad94a95f3f950f9e6c1b7 Elsa20200001\Elsa20200001\LevelEditors\LevelEditorDlg.cs
@@ -152,11 +152,11 @@ cc284eb87e7b0f12d85cf632ecf2b9d2 Elsa20200001\Elsa20200001\Novels\ScenarioComman
 30e0625340ffbabafa69956d04cdd2e3 Elsa20200001\Elsa20200001\Novels\ScenarioPage.cs
 d1de8daab47cdb9782c2a87f4e84ad97 Elsa20200001\Elsa20200001\Novels\Surfaces\Surface.cs
 7d21e9b3459c683c1a2c6151d85a3a9d Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_System.cs
-4a40daadfd3d82c7986c79853f608bf6 Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_ƒLƒƒƒ‰ƒNƒ^.cs
-fcc9cfa7c4aaeb5939599c0b21c1e769 Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_ƒXƒNƒŠ[ƒ“.cs
-d260d329d12d1cdd7e318f09950d966b Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_‰¹Šy.cs
-c380fb648478da13e5e46b16b9896cc5 Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_Œø‰Ê‰¹.cs
-943489e66062f6b3985f8ab5a44258ac Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_‚«o‚µ.cs
+4a40daadfd3d82c7986c79853f608bf6 Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_ã‚­ãƒ£ãƒ©ã‚¯ã‚¿.cs
+fcc9cfa7c4aaeb5939599c0b21c1e769 Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_ã‚¹ã‚¯ãƒªãƒ¼ãƒ³.cs
+d260d329d12d1cdd7e318f09950d966b Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_éŸ³æ¥½.cs
+c380fb648478da13e5e46b16b9896cc5 Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_åŠ¹æœéŸ³.cs
+943489e66062f6b3985f8ab5a44258ac Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_å¹ãå‡ºã—.cs
 0ad358529c173253032c92e0588eb4eb Elsa20200001\Elsa20200001\Novels\Surfaces\SurfaceCreator.cs
 6edfb8063526316e86ce88987ac0ba6a Elsa20200001\Elsa20200001\Program.cs
 4e6e5ce99c7fda983af7250d5119ddff Elsa20200001\Elsa20200001\Program2.cs
@@ -171,7 +171,7 @@ ed0a7d0499aa6e8296e6fbd08216361c Elsa20200001\Elsa20200001\ResourcePicture2.cs
 7debb501a469a7c063a0474ecaefde50 Elsa20200001\Elsa20200001\ResourceSE.cs
 4a1de30f0a2d16e45ea8c86a70b27fdc Elsa20200001\Elsa20200001\Tests\Games\GameMasterTest.cs
 c05400edb0a86a652f1b476711e70170 Elsa20200001\Elsa20200001\Tests\Games\TitleMenuTest.cs
-645aadf273d86ff3405cddd3bf2535b6 Elsa20200001\Elsa20200001\Tests\Games\” ‚©‚ço‚éTest.cs
+645aadf273d86ff3405cddd3bf2535b6 Elsa20200001\Elsa20200001\Tests\Games\ç®±ã‹ã‚‰å‡ºã‚‹Test.cs
 0115139e1b1d5e507c2523cc0c1f6162 Elsa20200001\Elsa20200001\Tests\Novels\NovelTest.cs
 043855acc1dbbc6ffdf099aa13dbd564 Elsa20200001\Elsa20200001\Tests\Test0001.cs
 9a5cb497aa0b3e248909a38eee796af6 Release.bat
@@ -186,36 +186,36 @@ e5f842619aca48c99e8425c59cccac33 res\e20200001_res\Map\0005.bmp
 9aaa86f80bd4fb613bb934aec00a5231 res\e20200001_res\Map\0007.bmp
 ac5e5f97553d75e22b496aac73520851 res\e20200001_res\Map\0008.bmp
 897a518890ad3dbdd83b77e563f72fd1 res\e20200001_res\Map\0009.bmp
-744618ef48acfe4823a65236e3d19ae6 res\e20200001_res\Scenario\001_ƒ_ƒ~[ƒVƒiƒŠƒI.txt
+744618ef48acfe4823a65236e3d19ae6 res\e20200001_res\Scenario\001_ãƒ€ãƒŸãƒ¼ã‚·ãƒŠãƒªã‚ª.txt
 eff67f6448f898759935953f4484cb23 res\e20200001_res\Scenario\_memo.txt
-58a340b4410fa865675ccc986d98be72 res\e20200001_res\Scenario\_ƒLƒƒƒ‰ƒNƒ^ƒT[ƒtƒFƒCƒXà–¾‘.txt
+58a340b4410fa865675ccc986d98be72 res\e20200001_res\Scenario\_ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ã‚µãƒ¼ãƒ•ã‚§ã‚¤ã‚¹èª¬æ˜æ›¸.txt
 bde8a8ee9cda6b13e67ce9837f4ecdb9 res\e20200001_res\Scenario\Include\Common.txt
-75c06523f3f99c6fd1866a4bf3570f42 res\e20200001_res\Scenario\Include\‚¢‚Â‚à‚Ìn‚Ü‚è.txt
-0776dc9e50050fcd3e7e9eb4546eff61 res\e20200001_res\Scenario\Include\‚¢‚Â‚à‚ÌI‚í‚è.txt
-3ad7eb53773cdb042d1ec92b7ce05e34 res\e20200001_res\Scenario\Include\ÅŒã‚Ìn‚Ü‚è.txt
-0eafe683c0ddc59b0a7cf8a7902fc5b3 res\e20200001_res\Scenario\Include\­—‚Ìv‚¢I‚í‚è.txt
-df38bc2c977c71c486fffff2ac4f469a res\e20200001_res\Scenario\Include\‚«o‚µ_L.txt
-5014053b382a637f00e058c61ae265be res\e20200001_res\Scenario\Include\‚«o‚µ_R.txt
-8d63f41d4edf8b4947402c94b71ff5a8 res\e20200001_res\Scenario\Include\” ‚Ìv‚¢I‚í‚è.txt
-1080f5bcd5ffbde90fadfd0412c6a73e res\e20200001_res\Scenario\ƒGƒ“ƒfƒBƒ“ƒO0001.txt
-e98cc8247121c566a27bd3c91ba9ff1b res\e20200001_res\Scenario\ƒGƒ“ƒfƒBƒ“ƒO0002.txt
-a7c1acd58b8e3662a2782d3430684c2a res\e20200001_res\Scenario\ƒGƒ“ƒfƒBƒ“ƒO0003.txt
-a1f28266621df66f405d86cbd854bb12 res\e20200001_res\Scenario\ƒXƒe[ƒW0001.txt
-c2851df11eaa17dfbc1eaad2de46aa3c res\e20200001_res\Scenario\ƒXƒe[ƒW0002.txt
-10313cefdbd067e4e0bfa148e96d7191 res\e20200001_res\Scenario\ƒXƒe[ƒW0003.txt
-8304e5e235171626c03bca08272b2d20 res\e20200001_res\Scenario\ƒXƒe[ƒW0004.txt
-a3555a5014c52751dd07e78b77ffaf23 res\e20200001_res\Scenario\ƒXƒe[ƒW0005.txt
-80db763e93f38bf9154266bc21f610d5 res\e20200001_res\Scenario\ƒXƒe[ƒW0006.txt
-ff89dc8d484b8eff8af5aa9e8b73c84c res\e20200001_res\Scenario\ƒXƒe[ƒW0007.txt
-197387033401bb3dc3e7c8620448ba55 res\e20200001_res\Scenario\ƒXƒe[ƒW0008.txt
-bf33194b68540ff7706d286b8bfa6fe3 res\e20200001_res\Scenario\ƒXƒe[ƒW0009.txt
-13cf50e05a30d03fcb9d934454c742c1 res\e20200001_res\Scenario\ƒeƒXƒg0001.txt
-227ef2e1dd7a382984bc2f7991f94a06 res\e20200001_res\Scenario\ƒeƒXƒg0002.txt
-7124e144f0054739fc7b5cbb03234444 res\e20200001_res\Scenario\ƒeƒXƒg0003.txt
-fe9ced9c8640790fde5ee9bdaa77bd4d res\e20200001_res\Scenario\ƒeƒXƒg1001.txt
-02456044cbb2649dc9146c4852e9409a res\e20200001_res\Scenario\ƒeƒXƒg1002.txt
-f73d0efff7ff9f4cd01bc8734e28546a res\e20200001_res\Scenario\ƒeƒXƒg1003.txt
-5bbd2b6154d6ac5124a7d59374437ff8 res\e20200001_res\Scenario\ƒeƒXƒg1004.txt
+75c06523f3f99c6fd1866a4bf3570f42 res\e20200001_res\Scenario\Include\ã„ã¤ã‚‚ã®å§‹ã¾ã‚Š.txt
+0776dc9e50050fcd3e7e9eb4546eff61 res\e20200001_res\Scenario\Include\ã„ã¤ã‚‚ã®çµ‚ã‚ã‚Š.txt
+3ad7eb53773cdb042d1ec92b7ce05e34 res\e20200001_res\Scenario\Include\æœ€å¾Œã®å§‹ã¾ã‚Š.txt
+0eafe683c0ddc59b0a7cf8a7902fc5b3 res\e20200001_res\Scenario\Include\å°‘å¥³ã®æ€ã„çµ‚ã‚ã‚Š.txt
+df38bc2c977c71c486fffff2ac4f469a res\e20200001_res\Scenario\Include\å¹ãå‡ºã—_L.txt
+5014053b382a637f00e058c61ae265be res\e20200001_res\Scenario\Include\å¹ãå‡ºã—_R.txt
+8d63f41d4edf8b4947402c94b71ff5a8 res\e20200001_res\Scenario\Include\ç®±ã®æ€ã„çµ‚ã‚ã‚Š.txt
+1080f5bcd5ffbde90fadfd0412c6a73e res\e20200001_res\Scenario\ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°0001.txt
+e98cc8247121c566a27bd3c91ba9ff1b res\e20200001_res\Scenario\ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°0002.txt
+a7c1acd58b8e3662a2782d3430684c2a res\e20200001_res\Scenario\ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°0003.txt
+a1f28266621df66f405d86cbd854bb12 res\e20200001_res\Scenario\ã‚¹ãƒ†ãƒ¼ã‚¸0001.txt
+c2851df11eaa17dfbc1eaad2de46aa3c res\e20200001_res\Scenario\ã‚¹ãƒ†ãƒ¼ã‚¸0002.txt
+10313cefdbd067e4e0bfa148e96d7191 res\e20200001_res\Scenario\ã‚¹ãƒ†ãƒ¼ã‚¸0003.txt
+8304e5e235171626c03bca08272b2d20 res\e20200001_res\Scenario\ã‚¹ãƒ†ãƒ¼ã‚¸0004.txt
+a3555a5014c52751dd07e78b77ffaf23 res\e20200001_res\Scenario\ã‚¹ãƒ†ãƒ¼ã‚¸0005.txt
+80db763e93f38bf9154266bc21f610d5 res\e20200001_res\Scenario\ã‚¹ãƒ†ãƒ¼ã‚¸0006.txt
+ff89dc8d484b8eff8af5aa9e8b73c84c res\e20200001_res\Scenario\ã‚¹ãƒ†ãƒ¼ã‚¸0007.txt
+197387033401bb3dc3e7c8620448ba55 res\e20200001_res\Scenario\ã‚¹ãƒ†ãƒ¼ã‚¸0008.txt
+bf33194b68540ff7706d286b8bfa6fe3 res\e20200001_res\Scenario\ã‚¹ãƒ†ãƒ¼ã‚¸0009.txt
+13cf50e05a30d03fcb9d934454c742c1 res\e20200001_res\Scenario\ãƒ†ã‚¹ãƒˆ0001.txt
+227ef2e1dd7a382984bc2f7991f94a06 res\e20200001_res\Scenario\ãƒ†ã‚¹ãƒˆ0002.txt
+7124e144f0054739fc7b5cbb03234444 res\e20200001_res\Scenario\ãƒ†ã‚¹ãƒˆ0003.txt
+fe9ced9c8640790fde5ee9bdaa77bd4d res\e20200001_res\Scenario\ãƒ†ã‚¹ãƒˆ1001.txt
+02456044cbb2649dc9146c4852e9409a res\e20200001_res\Scenario\ãƒ†ã‚¹ãƒˆ1002.txt
+f73d0efff7ff9f4cd01bc8734e28546a res\e20200001_res\Scenario\ãƒ†ã‚¹ãƒˆ1003.txt
+5bbd2b6154d6ac5124a7d59374437ff8 res\e20200001_res\Scenario\ãƒ†ã‚¹ãƒˆ1004.txt
 c7131729d5273be1f4cfaf1185d17772 Tools\MaskGZData.c
 e18416ac6b02af2bbf1dc1db0ecbe4c4 Tools\RunOnBatch.c
 ced699c19e90a4769dfe8a09226cd6e5 Tools\UpdatingCopy.c

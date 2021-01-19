@@ -7,12 +7,12 @@ b5099a8d5b681001eb64d03f7e9ef2a4 Confuse.bat
 3d87caf81f9c365e0e935cf7111cec33 dat\e20200002_General\General\WhiteBox.png
 330daf06d89928912ee97240fe3c4646 dat\e20200002_General\General\WhiteCircle.png
 049a2c1a6845299127ca21dea93479c8 dat\e20200003_dat\Logo\Copyright.png
-6852f0d8447d5b36c55a73cd92399dbf dat\e20200003_dat\ƒeƒXƒg—p\IMG_20160000_000040.jpg
+6852f0d8447d5b36c55a73cd92399dbf dat\e20200003_dat\ãƒ†ã‚¹ãƒˆç”¨\IMG_20160000_000040.jpg
 ed99f9d0430fe2abd1f923e7eb2940a5 DebugRelease.bat
 00ae59ba42fd40fd5e7ae7121b96feba Deploy.bat
 ad358914ef1a612864116ed5320e021b doc\Config.conf
 7f0cfc79746e6fc7569427be9477d4f7 doc\Properties.dat
-69e33816a9fea39603751ca512430c92 doc\ƒ}ƒjƒ…ƒAƒ‹.txt
+69e33816a9fea39603751ca512430c92 doc\ãƒãƒ‹ãƒ¥ã‚¢ãƒ«.txt
 70f5fc115a21c0cbf160a3e4fee712f3 Elsa20200001\Elsa20200001.sln
 4605653c1e19be7620e49cbdf74f12df Elsa20200001\Elsa20200001\Common.cs
 e85e6462992d3c57fdfa792d1926e032 Elsa20200001\Elsa20200001\Commons\ArgsReader.cs
@@ -110,9 +110,9 @@ bd56ad6aef32ee23c2766a4f66a4f8d3 Elsa20200001\Elsa20200001\Games\Logo.cs
 7e3fd2b6bc82515bb5ef41a30431c61e Elsa20200001\Elsa20200001\Games\MapCell.cs
 a2ae2ae4b26eb6f1fe3ea0d333846fd0 Elsa20200001\Elsa20200001\Games\Player.cs
 293056b418d3dd866675c5b183e12b5a Elsa20200001\Elsa20200001\Games\TitleMenu.cs
-c22dcc0925106c48c45b3a17fab08e80 Elsa20200001\Elsa20200001\Games\©‹@ˆÊ’u‹¸³ˆ—.cs
-879c0627a707b8003b78e5ede8104e6c Elsa20200001\Elsa20200001\Games\”g–äŒø‰Ê.cs
-74f5ea27d826e72ca27d7eacdbcf5a00 Elsa20200001\Elsa20200001\Games\”g–äŒø‰Ê_Manager.cs
+c22dcc0925106c48c45b3a17fab08e80 Elsa20200001\Elsa20200001\Games\è‡ªæ©Ÿä½ç½®çŸ¯æ­£å‡¦ç†.cs
+879c0627a707b8003b78e5ede8104e6c Elsa20200001\Elsa20200001\Games\æ³¢ç´‹åŠ¹æœ.cs
+74f5ea27d826e72ca27d7eacdbcf5a00 Elsa20200001\Elsa20200001\Games\æ³¢ç´‹åŠ¹æœ_Manager.cs
 c532fe14920133c6ebb6157fa2c5d809 Elsa20200001\Elsa20200001\Ground.cs
 72aba59fb5aba31c2e40af243b2d2808 Elsa20200001\Elsa20200001\LevelEditors\LevelEditor.cs
 165cd513a875ca9e2339433331e186ee Elsa20200001\Elsa20200001\LevelEditors\LevelEditorDlg.cs

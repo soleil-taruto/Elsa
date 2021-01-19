@@ -8,18 +8,18 @@ b5099a8d5b681001eb64d03f7e9ef2a4 Confuse.bat
 330daf06d89928912ee97240fe3c4646 dat\e20200002_General\General\WhiteCircle.png
 5c8044dfe49667916311571f45aab7c9 dat\e20200003_dat\Font\K Gothic\_source.txt
 3f537e1030a4e641ea5b12d21a0f5b41 dat\e20200003_dat\Font\K Gothic\K Gothic.ttf
-c4491ae086652760fbed7b571c49acbc dat\e20200003_dat\Font\K Gothic\‚Í‚¶‚ß‚É‚¨“Ç‚İ‚­‚¾‚³‚¢.txt
+c4491ae086652760fbed7b571c49acbc dat\e20200003_dat\Font\K Gothic\ã¯ã˜ã‚ã«ãŠèª­ã¿ãã ã•ã„.txt
 66b1854541fe2aaf990cdc3e30511d75 dat\e20200003_dat\Logo\Copyright.png
-db4609ff41bc3504965edad137d0e9e2 dat\e20200003_dat\‚±‚à‚à.png
-d1d01ba26877341f52e9691f71fddffa dat\e20200003_dat\ƒŠƒ‹.png
-b4230c37b3fd7a883d626d8352108215 dat\e20200003_dat\‰¼‚Ì‘fŞ\81388090~1000.png
-181c26185cfcfab9dd00fdf55591ad8e dat\e20200003_dat\‰¼‚Ì‘fŞ\EEQYl74UEAYFpId~1000.png
-f82d83e016b2b031f58ed1de09512b28 dat\e20200003_dat\‰¼‚Ì‘fŞ\TitleMenuItem.png
+db4609ff41bc3504965edad137d0e9e2 dat\e20200003_dat\ã“ã‚‚ã‚‚.png
+d1d01ba26877341f52e9691f71fddffa dat\e20200003_dat\ãƒªãƒ«.png
+b4230c37b3fd7a883d626d8352108215 dat\e20200003_dat\ä»®ã®ç´ æ\81388090~1000.png
+181c26185cfcfab9dd00fdf55591ad8e dat\e20200003_dat\ä»®ã®ç´ æ\EEQYl74UEAYFpId~1000.png
+f82d83e016b2b031f58ed1de09512b28 dat\e20200003_dat\ä»®ã®ç´ æ\TitleMenuItem.png
 7228cc02395192092f6039d341f34416 DebugRelease.bat
 8adc11f6d670156c7c570581ec139bfb Deploy.bat
 d45f7078b44622a543c7bec1653c44ba doc\Config.conf
 7f0cfc79746e6fc7569427be9477d4f7 doc\Properties.dat
-2be29cf17c07d57893569906abadd3cc doc\ƒ}ƒjƒ…ƒAƒ‹.txt
+2be29cf17c07d57893569906abadd3cc doc\ãƒãƒ‹ãƒ¥ã‚¢ãƒ«.txt
 70f5fc115a21c0cbf160a3e4fee712f3 Elsa20200001\Elsa20200001.sln
 9ae54abdbd8bb28cac23998ced61faa9 Elsa20200001\Elsa20200001\Common.cs
 e85e6462992d3c57fdfa792d1926e032 Elsa20200001\Elsa20200001\Commons\ArgsReader.cs
@@ -115,10 +115,10 @@ f0dba5b5558000f71e1423bd56b247c6 Elsa20200001\Elsa20200001\Games\Surfaces\Surfac
 c1762dbb11de4c71585a934ee303d26d Elsa20200001\Elsa20200001\Games\Surfaces\Surface_Select.cs
 00c96103a0675139afe2b92f0f91136b Elsa20200001\Elsa20200001\Games\Surfaces\Surface_System.cs
 d7bf7b3b3ccc1bb4b7f272ed062919b9 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_SystemButtons.cs
-436d4de4b04c87f2a3a5a54da49c4f0a Elsa20200001\Elsa20200001\Games\Surfaces\Surface_ƒLƒƒƒ‰ƒNƒ^.cs
-513cd995a11dec3384e84a28847f4256 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_ƒXƒNƒŠ[ƒ“.cs
-4efba51751702ba89abd26e2563c9b57 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_‰¹Šy.cs
-d0246c8c62eea1c95b0011bfa817e1f0 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_Œø‰Ê‰¹.cs
+436d4de4b04c87f2a3a5a54da49c4f0a Elsa20200001\Elsa20200001\Games\Surfaces\Surface_ã‚­ãƒ£ãƒ©ã‚¯ã‚¿.cs
+513cd995a11dec3384e84a28847f4256 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_ã‚¹ã‚¯ãƒªãƒ¼ãƒ³.cs
+4efba51751702ba89abd26e2563c9b57 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_éŸ³æ¥½.cs
+d0246c8c62eea1c95b0011bfa817e1f0 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_åŠ¹æœéŸ³.cs
 624e61f7bad46796510c64bbb0d65369 Elsa20200001\Elsa20200001\Games\Surfaces\SurfaceCreator.cs
 7825224a0adf3c99f109dc34efd97eb6 Elsa20200001\Elsa20200001\Games\TitleMenu.cs
 89a8e09809c9ab65e57c564111e6831e Elsa20200001\Elsa20200001\Ground.cs
@@ -141,14 +141,14 @@ c05400edb0a86a652f1b476711e70170 Elsa20200001\Elsa20200001\Tests\Games\TitleMenu
 7be01a0fd742bdeaac6e5009ad2e0b38 Elsa20200001\Elsa20200001\Tests\Test0001.cs
 077398c6ca492812c289cd750077663e Release.bat
 07f375ac41328f71554b9ebbe2188f54 res\e20200001_res\DatStrings.txt
-240e462dd44cb3f8d60e4b7d541ead91 res\e20200001_res\Scenario\_‹Œƒf[ƒ^\001_ƒ_ƒ~[ƒVƒiƒŠƒI.txt
-ec895a75dbb22a8888253205f6e608ff res\e20200001_res\Scenario\_‹Œƒf[ƒ^\101_ƒXƒ^[ƒgƒVƒiƒŠƒI.txt
-b47ddb47bb614579fd2ce38b6c23ec4f res\e20200001_res\Scenario\_‹Œƒf[ƒ^\_memo.txt
-58a340b4410fa865675ccc986d98be72 res\e20200001_res\Scenario\_‹Œƒf[ƒ^\_ƒLƒƒƒ‰ƒNƒ^ƒT[ƒtƒFƒCƒXà–¾‘.txt
-8a732f3d665d330905e72952d176c541 res\e20200001_res\Scenario\_‹Œƒf[ƒ^\ƒeƒXƒg0001-End.txt
-5854d00fe22effb9b4855e2baa0a834b res\e20200001_res\Scenario\_‹Œƒf[ƒ^\ƒeƒXƒg0001.txt
-bc504228b2ed6c669d4683851b99e615 res\e20200001_res\Scenario\_‹Œƒf[ƒ^\ƒeƒXƒg0002.txt
-221cf752c3d947aa74dcfa223e0520b8 res\e20200001_res\Scenario\_ó—Ìƒf[ƒ^\ƒƒCƒ“ƒVƒiƒŠƒI_0001.txt
-3316b09c905bf15b16d4c0b06e2d9980 res\e20200001_res\Scenario\ƒ_ƒ~[ƒVƒiƒŠƒI.txt
-221cf752c3d947aa74dcfa223e0520b8 res\e20200001_res\Scenario\ƒƒCƒ“ƒVƒiƒŠƒI_0001.txt
+240e462dd44cb3f8d60e4b7d541ead91 res\e20200001_res\Scenario\_æ—§ãƒ‡ãƒ¼ã‚¿\001_ãƒ€ãƒŸãƒ¼ã‚·ãƒŠãƒªã‚ª.txt
+ec895a75dbb22a8888253205f6e608ff res\e20200001_res\Scenario\_æ—§ãƒ‡ãƒ¼ã‚¿\101_ã‚¹ã‚¿ãƒ¼ãƒˆã‚·ãƒŠãƒªã‚ª.txt
+b47ddb47bb614579fd2ce38b6c23ec4f res\e20200001_res\Scenario\_æ—§ãƒ‡ãƒ¼ã‚¿\_memo.txt
+58a340b4410fa865675ccc986d98be72 res\e20200001_res\Scenario\_æ—§ãƒ‡ãƒ¼ã‚¿\_ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ã‚µãƒ¼ãƒ•ã‚§ã‚¤ã‚¹èª¬æ˜æ›¸.txt
+8a732f3d665d330905e72952d176c541 res\e20200001_res\Scenario\_æ—§ãƒ‡ãƒ¼ã‚¿\ãƒ†ã‚¹ãƒˆ0001-End.txt
+5854d00fe22effb9b4855e2baa0a834b res\e20200001_res\Scenario\_æ—§ãƒ‡ãƒ¼ã‚¿\ãƒ†ã‚¹ãƒˆ0001.txt
+bc504228b2ed6c669d4683851b99e615 res\e20200001_res\Scenario\_æ—§ãƒ‡ãƒ¼ã‚¿\ãƒ†ã‚¹ãƒˆ0002.txt
+221cf752c3d947aa74dcfa223e0520b8 res\e20200001_res\Scenario\_å—é ˜ãƒ‡ãƒ¼ã‚¿\ãƒ¡ã‚¤ãƒ³ã‚·ãƒŠãƒªã‚ª_0001.txt
+3316b09c905bf15b16d4c0b06e2d9980 res\e20200001_res\Scenario\ãƒ€ãƒŸãƒ¼ã‚·ãƒŠãƒªã‚ª.txt
+221cf752c3d947aa74dcfa223e0520b8 res\e20200001_res\Scenario\ãƒ¡ã‚¤ãƒ³ã‚·ãƒŠãƒªã‚ª_0001.txt
 5b4caa58ba5ce6827ae50b71123aa8e1 Tools\MaskGZData.c

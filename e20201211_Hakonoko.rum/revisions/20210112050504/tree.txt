@@ -6,10 +6,10 @@ dat\e20200003_dat\Logo
 dat\e20200003_dat\Novel
 dat\e20200003_dat\Novel\Font
 dat\e20200003_dat\Novel\Font\K Gothic
-dat\e20200003_dat\Novel\ƒtƒLƒ_ƒVƒfƒUƒCƒ“
+dat\e20200003_dat\Novel\ãƒ•ã‚­ãƒ€ã‚·ãƒ‡ã‚¶ã‚¤ãƒ³
 dat\e20200003_dat\WallPicture
-dat\e20200003_dat\ƒeƒXƒg—p
-dat\e20200003_dat\” ‚©‚ço‚é
+dat\e20200003_dat\ãƒ†ã‚¹ãƒˆç”¨
+dat\e20200003_dat\ç®±ã‹ã‚‰å‡ºã‚‹
 doc
 Elsa20200001
 Elsa20200001\Elsa20200001

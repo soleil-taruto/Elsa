@@ -1,40 +1,40 @@
 ===============================================================================
 
-@Dungeon / version $version$
-@@@@@@@@@@@@@@@@@@@@@@@@@@(C) 202x cerulean.charlotte
+ã€€Dungeon / version $version$
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€(C) 202x cerulean.charlotte
 
 ===============================================================================
 
 
-¡‹N“®•û–@
+â– èµ·å‹•æ–¹æ³•
 
-@Elsa20200001.exe ‚ðŽÀs‚µ‚Ä‰º‚³‚¢B
-
-
-¡‘€ì•û–@
-
-@ƒJ[ƒ\ƒ‹
-
-@Z@@Œˆ’è
-@X@@ƒLƒƒƒ“ƒZƒ‹
-
-@SPACE@@ƒ|[ƒY / ƒ|[ƒY‰ðœ@(–À˜H_I—¹)
-
-@ƒGƒXƒP[ƒvƒL[‚ð‰Ÿ‚·‚ÆA‚¢‚Â‚Å‚àI—¹‚Å‚«‚Ü‚·B
+ã€€Elsa20200001.exe ã‚’å®Ÿè¡Œã—ã¦ä¸‹ã•ã„ã€‚
 
 
-@šƒQ[ƒ€ƒpƒbƒh‚ÌŽg—p‚ð‘z’è‚µ‚Ä‚¢‚Ü‚·B
+â– æ“ä½œæ–¹æ³•
+
+ã€€ã‚«ãƒ¼ã‚½ãƒ«
+
+ã€€Zã€€ã€€æ±ºå®š
+ã€€Xã€€ã€€ã‚­ãƒ£ãƒ³ã‚»ãƒ«
+
+ã€€SPACEã€€ã€€ãƒãƒ¼ã‚º / ãƒãƒ¼ã‚ºè§£é™¤ã€€(è¿·è·¯_çµ‚äº†)
+
+ã€€ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—ã‚­ãƒ¼ã‚’æŠ¼ã™ã¨ã€ã„ã¤ã§ã‚‚çµ‚äº†ã§ãã¾ã™ã€‚
 
 
-¡‘fÞiŒhÌ—ªj
+ã€€â˜…ã‚²ãƒ¼ãƒ ãƒ‘ãƒƒãƒ‰ã®ä½¿ç”¨ã‚’æƒ³å®šã—ã¦ã„ã¾ã™ã€‚
 
-@œ‰¹Šy
 
-@@ƒ†[ƒtƒ‹ƒJ
-@@https://wingless-seraph.net/
+â– ç´ æï¼ˆæ•¬ç§°ç•¥ï¼‰
 
-@œŒø‰Ê‰¹
+ã€€â—éŸ³æ¥½
 
-@@¬X•½
-@@http://taira-komori.jpn.org/
+ã€€ã€€ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«
+ã€€ã€€https://wingless-seraph.net/
+
+ã€€â—åŠ¹æžœéŸ³
+
+ã€€ã€€å°æ£®å¹³
+ã€€ã€€http://taira-komori.jpn.org/
 

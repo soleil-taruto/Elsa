@@ -1,14 +1,14 @@
 ----
-ƒL[Š„‚è“–‚Ä
+ã‚­ãƒ¼å‰²ã‚Šå½“ã¦
 
-Œˆ’è
+æ±ºå®š
 	Pad A
-	ƒ}ƒEƒX¶ƒNƒŠƒbƒN
+	ãƒžã‚¦ã‚¹å·¦ã‚¯ãƒªãƒƒã‚¯
 	SPACE
 	RETURN
 
-ƒLƒƒƒ“ƒZƒ‹
+ã‚­ãƒ£ãƒ³ã‚»ãƒ«
 	Pad B
-	ƒ}ƒEƒX‰EƒNƒŠƒbƒN
+	ãƒžã‚¦ã‚¹å³ã‚¯ãƒªãƒƒã‚¯
 	BS
 	DELETE

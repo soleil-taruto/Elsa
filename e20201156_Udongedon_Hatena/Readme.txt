@@ -1,30 +1,30 @@
 Udongedon
 =========
 
-“Œ•û‚Á‚Û‚¢cƒXƒNƒ[ƒ‹ƒVƒ…[ƒeƒBƒ“ƒO‚ÌŽŽì”Å‚Å‚·B
+æ±æ–¹ã£ã½ã„ç¸¦ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«ã‚·ãƒ¥ãƒ¼ãƒ†ã‚£ãƒ³ã‚°ã®è©¦ä½œç‰ˆã§ã™ã€‚
 
 
-ŠJ”­ŠÂ‹«
+é–‹ç™ºç’°å¢ƒ
 --------
 
 Windows 10 Pro
 Visual C# 2010 Express
 
-‚¿‚á‚ñ‚ÆŠm”F‚µ‚Ä‚¢‚Ü‚¹‚ñ‚ª Windows 10 Home, Visual Studio Community 2019 ‚Å‚à–â‘è–³‚³‚»‚¤‚Å‚·B
+ã¡ã‚ƒã‚“ã¨ç¢ºèªã—ã¦ã„ã¾ã›ã‚“ãŒ Windows 10 Home, Visual Studio Community 2019 ã§ã‚‚å•é¡Œç„¡ã•ãã†ã§ã™ã€‚
 
 
-ƒrƒ‹ƒhÏ‚Ý”z•z•¨
+ãƒ“ãƒ«ãƒ‰æ¸ˆã¿é…å¸ƒç‰©
 ----------------
 
 http://ornithopter.myhome.cx:58946/anemoscope/Elsa/d20201224_Udongedon
 
 
-Ž¿–â‚È‚Ç
+è³ªå•ãªã©
 --------
 
-•s–¾“_E‹Zp“I‚ÈŽ¿–â“™‚ ‚è‚Ü‚µ‚½‚çˆÈ‰º‚Ìƒ[ƒ‹ƒAƒhƒŒƒX‚Ü‚Å‹CŒy‚É‚²‘Š’k‰º‚³‚¢B
-‚È‚¨A’¸‚¢‚½ƒ[ƒ‹‚Í—\‚È‚­ŒöŠJ‚·‚éê‡‚ª‚ ‚é‚±‚Æ‚ð‚²³’m‰º‚³‚¢B
+ä¸æ˜Žç‚¹ãƒ»æŠ€è¡“çš„ãªè³ªå•ç­‰ã‚ã‚Šã¾ã—ãŸã‚‰ä»¥ä¸‹ã®ãƒ¡ãƒ¼ãƒ«ã‚¢ãƒ‰ãƒ¬ã‚¹ã¾ã§æ°—è»½ã«ã”ç›¸è«‡ä¸‹ã•ã„ã€‚
+ãªãŠã€é ‚ã„ãŸãƒ¡ãƒ¼ãƒ«ã¯äºˆå‘Šãªãå…¬é–‹ã™ã‚‹å ´åˆãŒã‚ã‚‹ã“ã¨ã‚’ã”æ‰¿çŸ¥ä¸‹ã•ã„ã€‚
 
-ƒ[ƒ‹ƒAƒhƒŒƒXF
+ãƒ¡ãƒ¼ãƒ«ã‚¢ãƒ‰ãƒ¬ã‚¹ï¼š
 cerulean.charlottes@gmail.com
 

@@ -22,57 +22,57 @@ a66480da9cb31200194da99a4e2a49cb dat\e20200003_dat\hmix\n70.mp3
 049a2c1a6845299127ca21dea93479c8 dat\e20200003_dat\Logo\Copyright.png
 5c8044dfe49667916311571f45aab7c9 dat\e20200003_dat\Novel\Font\K Gothic\_source.txt
 3f537e1030a4e641ea5b12d21a0f5b41 dat\e20200003_dat\Novel\Font\K Gothic\K Gothic.ttf
-c4491ae086652760fbed7b571c49acbc dat\e20200003_dat\Novel\Font\K Gothic\‚Í‚¶‚ß‚É‚¨“Ç‚İ‚­‚¾‚³‚¢.txt
+c4491ae086652760fbed7b571c49acbc dat\e20200003_dat\Novel\Font\K Gothic\ã¯ã˜ã‚ã«ãŠèª­ã¿ãã ã•ã„.txt
 6852f0d8447d5b36c55a73cd92399dbf dat\e20200003_dat\Novel\Instagram\IMG_20160000_000040.jpg
-9a06bde705400b30e54e660fbe079365 dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\_source.txt
-9755df9380e4c418aa15ad8e82d51a80 dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•\maki01.png
-62971c34db9ff7e9f09318ab84e3f884 dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•\maki02.png
-77ab98c5af28c9ada5f3bee33a3774d3 dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•\yukari02.png
-f94375437d6ded94b6276dab83e95040 dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•\yukari03.png
-2b4a85555831f6a2a5237e56bd802e43 dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\_source.txt
-8d8a9a4925838c23d1aad527d13035b9 dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\01 message\message.png
-7862380af959a60073451b15cac7638d dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\02 button\button.png
-4b776b1b0e9a14dc72b5bd34cceb19a5 dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\02 button\button2.png
-377b0237bc582e8b04e639b8967d87df dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\02 button\button3.png
-6328577a9868e01e558cbbd9f72f863a dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\auto.png
-5237b67354e1e6af8ce2157d54f495a9 dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\auto2.png
-eba05009adfd19cf58906e7fadf0ed0d dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\load.png
-4b6130ac0eba87420d7e521a78870219 dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\load2.png
-8f7aca8485ae38736760619a2db9b3c9 dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\log.png
-6cfd169f9465d37e8f5c82d2d154e37b dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\log2.png
-9e939d60f1187034a7f9ba52e4bcbb69 dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\menu.png
-a97895b376e4b30062add5315f1cc5e1 dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\menu2.png
-da416990c6cb9d6248c3d5380b419e28 dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\save.png
-7229d66bf20215b1f12ccc00652edb69 dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\save2.png
-f57e5e0fc829e199d0191a66ff1aa809 dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\skip.png
-794e6fe3dc0610bf7ff9ecc8be29f8c2 dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\skip2.png
+9a06bde705400b30e54e660fbe079365 dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\_source.txt
+9755df9380e4c418aa15ad8e82d51a80 dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ\maki01.png
+62971c34db9ff7e9f09318ab84e3f884 dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ\maki02.png
+77ab98c5af28c9ada5f3bee33a3774d3 dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ\yukari02.png
+f94375437d6ded94b6276dab83e95040 dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ\yukari03.png
+2b4a85555831f6a2a5237e56bd802e43 dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\_source.txt
+8d8a9a4925838c23d1aad527d13035b9 dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\01 message\message.png
+7862380af959a60073451b15cac7638d dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\02 button\button.png
+4b776b1b0e9a14dc72b5bd34cceb19a5 dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\02 button\button2.png
+377b0237bc582e8b04e639b8967d87df dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\02 button\button3.png
+6328577a9868e01e558cbbd9f72f863a dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\auto.png
+5237b67354e1e6af8ce2157d54f495a9 dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\auto2.png
+eba05009adfd19cf58906e7fadf0ed0d dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\load.png
+4b6130ac0eba87420d7e521a78870219 dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\load2.png
+8f7aca8485ae38736760619a2db9b3c9 dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\log.png
+6cfd169f9465d37e8f5c82d2d154e37b dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\log2.png
+9e939d60f1187034a7f9ba52e4bcbb69 dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\menu.png
+a97895b376e4b30062add5315f1cc5e1 dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\menu2.png
+da416990c6cb9d6248c3d5380b419e28 dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\save.png
+7229d66bf20215b1f12ccc00652edb69 dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\save2.png
+f57e5e0fc829e199d0191a66ff1aa809 dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\skip.png
+794e6fe3dc0610bf7ff9ecc8be29f8c2 dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\skip2.png
 ae89f1b3c75df7bbb29250ce462763bd dat\e20200003_dat\Wall\Wall0001.png
 3361d6c39eeec5e5bc4b0ad9a3a18edc dat\e20200003_dat\Wall\Wall0002.png
 c9b21eea1ede049059d50d8e95737795 dat\e20200003_dat\Wall\Wall0003.png
-ded8f2eec14cab354a5a9c99e875d42e dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\_source.txt
-4cd72a7815684b30e8366100ca6453c5 dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-Conflict_loop\Assets_for_Unity\Battle-Conflict_intrto.ogg
-832efa83e457dad7299d4679bb0195d4 dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-Conflict_loop\Assets_for_Unity\Battle-Conflict_loop.ogg
-f4d69a2255b0f9fae6821f77de793fce dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-Conflict_loop\Assets_for_Unity\Read Me.txt
-574b2647ba3fefe9c382913989cb7a25 dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-Conflict_loop\Battle-Conflict_loop.m4a
-58e93b1d0daeccaeb40e223d39a4551f dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-Conflict_loop\Battle-Conflict_loop.ogg
-b9b222dffe27fdd8ef4a9a299a623f6e dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-Conflict_loop\Battle-Conflict_loop.txt
-243c56537d55872fc6c1457619480adf dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-rapier_loop\Assets_for_Unity\Battle-rapier_intro.ogg
-8facedb8b866a875566bf6de82891f49 dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-rapier_loop\Assets_for_Unity\Battle-rapier_loop.ogg
-f4d69a2255b0f9fae6821f77de793fce dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-rapier_loop\Assets_for_Unity\Read Me.txt
-4a8aaf6d6fb0699ee6eb439c1f4269f9 dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-rapier_loop\Battle-rapier_loop.m4a
-5a74ef96b1d1e143aeb6cb33ff9ba178 dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-rapier_loop\Battle-rapier_loop.ogg
-2be8b379ab0de243911f04a499c59d21 dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-rapier_loop\Battle-rapier_loop.txt
-61f05dfabc3b21cb46f7be568ae83e1d dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-Vampire_loop\Assets_for_Unity\Battle-Vampire_intro.ogg
-1c59b8a2f07811362480e9bd73c4334e dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-Vampire_loop\Assets_for_Unity\Battle-Vampire_loop.ogg
-f4d69a2255b0f9fae6821f77de793fce dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-Vampire_loop\Assets_for_Unity\Read Me.txt
-359433a96584db06841bad09bcd20884 dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-Vampire_loop\Battle-Vampire_loop.m4a
-a8576c27f5b0977c12e72ede45a6046b dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-Vampire_loop\Battle-Vampire_loop.ogg
-61e5f475f4290236de5342b8713ab9ae dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-Vampire_loop\Battle-Vampire_loop.txt
+ded8f2eec14cab354a5a9c99e875d42e dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\_source.txt
+4cd72a7815684b30e8366100ca6453c5 dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Conflict_loop\Assets_for_Unity\Battle-Conflict_intrto.ogg
+832efa83e457dad7299d4679bb0195d4 dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Conflict_loop\Assets_for_Unity\Battle-Conflict_loop.ogg
+f4d69a2255b0f9fae6821f77de793fce dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Conflict_loop\Assets_for_Unity\Read Me.txt
+574b2647ba3fefe9c382913989cb7a25 dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Conflict_loop\Battle-Conflict_loop.m4a
+58e93b1d0daeccaeb40e223d39a4551f dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Conflict_loop\Battle-Conflict_loop.ogg
+b9b222dffe27fdd8ef4a9a299a623f6e dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Conflict_loop\Battle-Conflict_loop.txt
+243c56537d55872fc6c1457619480adf dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-rapier_loop\Assets_for_Unity\Battle-rapier_intro.ogg
+8facedb8b866a875566bf6de82891f49 dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-rapier_loop\Assets_for_Unity\Battle-rapier_loop.ogg
+f4d69a2255b0f9fae6821f77de793fce dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-rapier_loop\Assets_for_Unity\Read Me.txt
+4a8aaf6d6fb0699ee6eb439c1f4269f9 dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-rapier_loop\Battle-rapier_loop.m4a
+5a74ef96b1d1e143aeb6cb33ff9ba178 dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-rapier_loop\Battle-rapier_loop.ogg
+2be8b379ab0de243911f04a499c59d21 dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-rapier_loop\Battle-rapier_loop.txt
+61f05dfabc3b21cb46f7be568ae83e1d dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Vampire_loop\Assets_for_Unity\Battle-Vampire_intro.ogg
+1c59b8a2f07811362480e9bd73c4334e dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Vampire_loop\Assets_for_Unity\Battle-Vampire_loop.ogg
+f4d69a2255b0f9fae6821f77de793fce dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Vampire_loop\Assets_for_Unity\Read Me.txt
+359433a96584db06841bad09bcd20884 dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Vampire_loop\Battle-Vampire_loop.m4a
+a8576c27f5b0977c12e72ede45a6046b dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Vampire_loop\Battle-Vampire_loop.ogg
+61e5f475f4290236de5342b8713ab9ae dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Vampire_loop\Battle-Vampire_loop.txt
 d6af4cad3edb8188feb25cba060c39d9 DebugRelease.bat
 ce88dda245b3feb72bd9ac3a8f62614a Deploy.bat
 09dbb4aea13406690778355199e9e262 doc\Config.conf
 7f0cfc79746e6fc7569427be9477d4f7 doc\Properties.dat
-01426e1ee0db106020bf6c0619c7b531 doc\ƒ}ƒjƒ…ƒAƒ‹.txt
+01426e1ee0db106020bf6c0619c7b531 doc\ãƒãƒ‹ãƒ¥ã‚¢ãƒ«.txt
 70f5fc115a21c0cbf160a3e4fee712f3 Elsa20200001\Elsa20200001.sln
 a367ddebb293f0fb73f7bafec210dccf Elsa20200001\Elsa20200001\Common.cs
 e85e6462992d3c57fdfa792d1926e032 Elsa20200001\Elsa20200001\Commons\ArgsReader.cs
@@ -158,9 +158,9 @@ bc61f069918fec9d1e23002455109511 Elsa20200001\Elsa20200001\GameCommons\Options\D
 92ffa3570653efca4c599e658c4b7f96 Elsa20200001\Elsa20200001\Games\Enemies\Enemy.cs
 1ba3a1e3fd561029e3c538ae7a954621 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_B0001.cs
 d1ec3060ea435cbcfb7eb56403d6b0e8 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_B0002.cs
-04670f4b0edaae04111f93100af81919 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_Bƒ{ƒX0001.cs
-d94a8374fdfc5c85fbc11cc839a46a54 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_Bƒ{ƒX0002.cs
-fae84880051c13325f2218f06c8c2ada Elsa20200001\Elsa20200001\Games\Enemies\Enemy_Bƒ{ƒX0003.cs
+04670f4b0edaae04111f93100af81919 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_Bãƒœã‚¹0001.cs
+d94a8374fdfc5c85fbc11cc839a46a54 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_Bãƒœã‚¹0002.cs
+fae84880051c13325f2218f06c8c2ada Elsa20200001\Elsa20200001\Games\Enemies\Enemy_Bãƒœã‚¹0003.cs
 bd5d00de57642c9c8ad065b69ba2ed02 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_Item.cs
 e2927dfa31a25bb27e57b16b8526b960 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_Tama0001.cs
 229e9adde76c89f4e9da251cb51bab0b Elsa20200001\Elsa20200001\Games\Game.cs
@@ -170,17 +170,17 @@ bddd38f673372189ea0b76acc81ab9b7 Elsa20200001\Elsa20200001\Games\GameStatus.cs
 bd56ad6aef32ee23c2766a4f66a4f8d3 Elsa20200001\Elsa20200001\Games\Logo.cs
 4f8e35016c2929917b7856d70ce1ab66 Elsa20200001\Elsa20200001\Games\Player.cs
 ffab2522827188de85177268885fe504 Elsa20200001\Elsa20200001\Games\Scripts\Script.cs
-3e894c251b68c49e91c562c0e0a0f2c4 Elsa20200001\Elsa20200001\Games\Scripts\Script_ƒXƒe[ƒW0001.cs
-ff3035a60fd16ddc155e1678bffba110 Elsa20200001\Elsa20200001\Games\Scripts\Script_ƒXƒe[ƒW0002.cs
-4570d76b9723a7b232a188072c3aed03 Elsa20200001\Elsa20200001\Games\Scripts\Script_ƒXƒe[ƒW0003.cs
+3e894c251b68c49e91c562c0e0a0f2c4 Elsa20200001\Elsa20200001\Games\Scripts\Script_ã‚¹ãƒ†ãƒ¼ã‚¸0001.cs
+ff3035a60fd16ddc155e1678bffba110 Elsa20200001\Elsa20200001\Games\Scripts\Script_ã‚¹ãƒ†ãƒ¼ã‚¸0002.cs
+4570d76b9723a7b232a188072c3aed03 Elsa20200001\Elsa20200001\Games\Scripts\Script_ã‚¹ãƒ†ãƒ¼ã‚¸0003.cs
 af310704ca60e44fb67ed8c4cb2d8bcf Elsa20200001\Elsa20200001\Games\Scripts\ScriptCommon.cs
-31e5e02a79b2fa15ef2265b26bd3e6a8 Elsa20200001\Elsa20200001\Games\Scripts\ƒ_ƒ~[s\Script_ƒ_ƒ~[0001.cs
-cbf6c68666e9dbce5b2600510bc1dfb4 Elsa20200001\Elsa20200001\Games\Scripts\ƒeƒXƒgs\Script_Bƒ{ƒX0001ƒeƒXƒg.cs
-71ec72debcddef4cf9012ed18f4a577c Elsa20200001\Elsa20200001\Games\Scripts\ƒeƒXƒgs\Script_ƒeƒXƒg0001.cs
-605e90e9bc3a6608f6694f1637d6dfee Elsa20200001\Elsa20200001\Games\Scripts\ƒeƒXƒgs\Script_ƒeƒXƒg0002.cs
-ffa9e661a07ef80c5d52ab7586345865 Elsa20200001\Elsa20200001\Games\Scripts\ƒeƒXƒgs\Script_ƒeƒXƒg0003.cs
-f9eac46ae2794ae9b75d2038c6e7507c Elsa20200001\Elsa20200001\Games\Scripts\ƒeƒXƒgs\Script_ƒeƒXƒg0004.cs
-aa570dea9567b5a6b7772f6e6f5b7ec5 Elsa20200001\Elsa20200001\Games\Scripts\ƒeƒXƒgs\Script_•Ç†ƒeƒXƒg0001.cs
+31e5e02a79b2fa15ef2265b26bd3e6a8 Elsa20200001\Elsa20200001\Games\Scripts\ãƒ€ãƒŸãƒ¼s\Script_ãƒ€ãƒŸãƒ¼0001.cs
+cbf6c68666e9dbce5b2600510bc1dfb4 Elsa20200001\Elsa20200001\Games\Scripts\ãƒ†ã‚¹ãƒˆs\Script_Bãƒœã‚¹0001ãƒ†ã‚¹ãƒˆ.cs
+71ec72debcddef4cf9012ed18f4a577c Elsa20200001\Elsa20200001\Games\Scripts\ãƒ†ã‚¹ãƒˆs\Script_ãƒ†ã‚¹ãƒˆ0001.cs
+605e90e9bc3a6608f6694f1637d6dfee Elsa20200001\Elsa20200001\Games\Scripts\ãƒ†ã‚¹ãƒˆs\Script_ãƒ†ã‚¹ãƒˆ0002.cs
+ffa9e661a07ef80c5d52ab7586345865 Elsa20200001\Elsa20200001\Games\Scripts\ãƒ†ã‚¹ãƒˆs\Script_ãƒ†ã‚¹ãƒˆ0003.cs
+f9eac46ae2794ae9b75d2038c6e7507c Elsa20200001\Elsa20200001\Games\Scripts\ãƒ†ã‚¹ãƒˆs\Script_ãƒ†ã‚¹ãƒˆ0004.cs
+aa570dea9567b5a6b7772f6e6f5b7ec5 Elsa20200001\Elsa20200001\Games\Scripts\ãƒ†ã‚¹ãƒˆs\Script_å£ç´™ãƒ†ã‚¹ãƒˆ0001.cs
 331a1ab7da1fd6aaef8b1e3546492427 Elsa20200001\Elsa20200001\Games\Shots\Shot.cs
 fdb27b7d4ed7f54765e94eb6e932f35f Elsa20200001\Elsa20200001\Games\Shots\Shot_B0001.cs
 7ee9bcd91410637de8a82a2e12109640 Elsa20200001\Elsa20200001\Games\TitleMenu.cs
@@ -208,10 +208,10 @@ d1de8daab47cdb9782c2a87f4e84ad97 Elsa20200001\Elsa20200001\Novels\Surfaces\Surfa
 b5067a24d8e191f107817d5991edda50 Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_Select.cs
 1b7bd4dd254174fe62cb61dd782deaf3 Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_System.cs
 02900e73ddfe0e49b664474670a5a79b Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_SystemButtons.cs
-3db2358d45a3d8644bcc2566139ba104 Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_ƒLƒƒƒ‰ƒNƒ^.cs
-fcc9cfa7c4aaeb5939599c0b21c1e769 Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_ƒXƒNƒŠ[ƒ“.cs
-d260d329d12d1cdd7e318f09950d966b Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_‰¹Šy.cs
-c380fb648478da13e5e46b16b9896cc5 Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_Œø‰Ê‰¹.cs
+3db2358d45a3d8644bcc2566139ba104 Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_ã‚­ãƒ£ãƒ©ã‚¯ã‚¿.cs
+fcc9cfa7c4aaeb5939599c0b21c1e769 Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_ã‚¹ã‚¯ãƒªãƒ¼ãƒ³.cs
+d260d329d12d1cdd7e318f09950d966b Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_éŸ³æ¥½.cs
+c380fb648478da13e5e46b16b9896cc5 Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_åŠ¹æœéŸ³.cs
 95917d1fa2c0b4dee8dadd93ca0554da Elsa20200001\Elsa20200001\Novels\Surfaces\SurfaceCreator.cs
 6edfb8063526316e86ce88987ac0ba6a Elsa20200001\Elsa20200001\Program.cs
 ec4f7b4f7bb763cdd5c8cea788897df2 Elsa20200001\Elsa20200001\Program2.cs
@@ -231,13 +231,13 @@ d9e288ad91371efc76e5c15a1f1847d6 Elsa20200001\Elsa20200001\Tests\Novels\NovelTes
 dc360e0e731fdc55bf731fb7af5a2222 Elsa20200001\Elsa20200001\Tests\Test0001.cs
 898477f0ecbbd6ee62ebbd9c13fcb76b Release.bat
 b9a40b4425193f3ba8d2d3954d264ab1 res\e20200001_res\DatStrings.txt
-744618ef48acfe4823a65236e3d19ae6 res\e20200001_res\Scenario\001_ƒ_ƒ~[ƒVƒiƒŠƒI.txt
+744618ef48acfe4823a65236e3d19ae6 res\e20200001_res\Scenario\001_ãƒ€ãƒŸãƒ¼ã‚·ãƒŠãƒªã‚ª.txt
 eff67f6448f898759935953f4484cb23 res\e20200001_res\Scenario\_memo.txt
 d2de09b16fbfb35412952cfdaff223e0 res\e20200001_res\Scenario\_memo_Include.txt
-58a340b4410fa865675ccc986d98be72 res\e20200001_res\Scenario\_ƒLƒƒƒ‰ƒNƒ^ƒT[ƒtƒFƒCƒXà–¾‘.txt
+58a340b4410fa865675ccc986d98be72 res\e20200001_res\Scenario\_ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ã‚µãƒ¼ãƒ•ã‚§ã‚¤ã‚¹èª¬æ˜æ›¸.txt
 c453fb694a20785e5561cfc3802d4617 res\e20200001_res\Scenario\Include\Common.txt
-4671834621038a50b64d971708d6e252 res\e20200001_res\Scenario\ƒCƒxƒ“ƒg0001.txt
-461813aafc13d01e0558b6dcbe46a4c0 res\e20200001_res\Scenario\ƒeƒXƒg0001.txt
-227ef2e1dd7a382984bc2f7991f94a06 res\e20200001_res\Scenario\ƒeƒXƒg0002.txt
-7124e144f0054739fc7b5cbb03234444 res\e20200001_res\Scenario\ƒeƒXƒg0003.txt
+4671834621038a50b64d971708d6e252 res\e20200001_res\Scenario\ã‚¤ãƒ™ãƒ³ãƒˆ0001.txt
+461813aafc13d01e0558b6dcbe46a4c0 res\e20200001_res\Scenario\ãƒ†ã‚¹ãƒˆ0001.txt
+227ef2e1dd7a382984bc2f7991f94a06 res\e20200001_res\Scenario\ãƒ†ã‚¹ãƒˆ0002.txt
+7124e144f0054739fc7b5cbb03234444 res\e20200001_res\Scenario\ãƒ†ã‚¹ãƒˆ0003.txt
 c7131729d5273be1f4cfaf1185d17772 Tools\MaskGZData.c

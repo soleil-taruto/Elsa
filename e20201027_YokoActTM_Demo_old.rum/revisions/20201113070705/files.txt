@@ -29,7 +29,7 @@ a91172900c49969a93c885f8d1e14cb1 dat\e20200003_dat\Wall\Wall_B0005.jpg
 96540c3dc895089eb85db0e8dc22ada3 Deploy.bat
 ad358914ef1a612864116ed5320e021b doc\Config.conf
 7f0cfc79746e6fc7569427be9477d4f7 doc\Properties.dat
-9e5f7e148e1d4a9d458ac2ee21547577 doc\ƒ}ƒjƒ…ƒAƒ‹.txt
+9e5f7e148e1d4a9d458ac2ee21547577 doc\ç¹æ§­ãƒ«ç¹ï½¥ç¹§ï½¢ç¹ï½«.txt
 70f5fc115a21c0cbf160a3e4fee712f3 Elsa20200001\Elsa20200001.sln
 fe2d7fdca6860ee76cb620bba7ed958c Elsa20200001\Elsa20200001\Common.cs
 e85e6462992d3c57fdfa792d1926e032 Elsa20200001\Elsa20200001\Commons\ArgsReader.cs
@@ -115,7 +115,7 @@ bc61f069918fec9d1e23002455109511 Elsa20200001\Elsa20200001\GameCommons\Options\D
 9a8a13a3bbe6d9ddf4252e84c9fb3128 Elsa20200001\Elsa20200001\Games\Enemies\Enemy.cs
 4bd4aa9834d9d0e78b6bdd98615fafc0 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_B0001.cs
 1b4ff033a21fc0df9365842ba3c3ea28 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_B0002.cs
-29ca4185d1c9a8d622ec99b122b7677c Elsa20200001\Elsa20200001\Games\Enemies\Enemy_ƒXƒ^[ƒg’n“_.cs
+29ca4185d1c9a8d622ec99b122b7677c Elsa20200001\Elsa20200001\Games\Enemies\Enemy_ç¹§ï½¹ç¹§ï½¿ç¹ï½¼ç¹äº¥æ…è½¤ï½¹.cs
 48f75573adc7d454c2900b4e555cb27c Elsa20200001\Elsa20200001\Games\Enemies\EnemyCatalog.cs
 6fdc9b445dc6ef51caff055e926cd0fc Elsa20200001\Elsa20200001\Games\Game.cs
 13078afeda5a3d255fc3e023036bfe24 Elsa20200001\Elsa20200001\Games\GameStatus.cs

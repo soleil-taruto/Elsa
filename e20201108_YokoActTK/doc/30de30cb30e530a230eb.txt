@@ -1,58 +1,58 @@
 ===============================================================================
 
-@YokoActTK / version $version$
-@@@@@@@@@@@@@@@@@@@@@@@@@@(C) 202x cerulean.charlotte
+ã€€YokoActTK / version $version$
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€(C) 202x cerulean.charlotte
 
 ===============================================================================
 
 
-¡‹N“®•û–@
+â– èµ·å‹•æ–¹æ³•
 
-@Elsa20200001.exe ‚ðŽÀs‚µ‚Ä‰º‚³‚¢B
-
-
-¡‘€ì•û–@
-
-@ƒJ[ƒ\ƒ‹
-
-@Z@@ƒWƒƒƒ“ƒv / Œˆ’è
-@X@@UŒ‚ / ƒLƒƒƒ“ƒZƒ‹
-@C@@“ÁŽêUŒ‚
-@D@@‰æ–ÊƒXƒ‰ƒCƒh
-@F@@’á‘¬ˆÚ“®
-
-@SPACE@@ƒ|[ƒY / ƒ|[ƒY‰ðœ
-
-@ƒGƒXƒP[ƒvƒL[‚ð‰Ÿ‚·‚ÆA‚¢‚Â‚Å‚àI—¹‚Å‚«‚Ü‚·B
+ã€€Elsa20200001.exe ã‚’å®Ÿè¡Œã—ã¦ä¸‹ã•ã„ã€‚
 
 
-@šƒQ[ƒ€ƒpƒbƒh‚ÌŽg—p‚ð‚¨‚·‚·‚ß‚µ‚Ü‚·B
+â– æ“ä½œæ–¹æ³•
+
+ã€€ã‚«ãƒ¼ã‚½ãƒ«
+
+ã€€Zã€€ã€€ã‚¸ãƒ£ãƒ³ãƒ— / æ±ºå®š
+ã€€Xã€€ã€€æ”»æ’ƒ / ã‚­ãƒ£ãƒ³ã‚»ãƒ«
+ã€€Cã€€ã€€ç‰¹æ®Šæ”»æ’ƒ
+ã€€Dã€€ã€€ç”»é¢ã‚¹ãƒ©ã‚¤ãƒ‰
+ã€€Fã€€ã€€ä½Žé€Ÿç§»å‹•
+
+ã€€SPACEã€€ã€€ãƒãƒ¼ã‚º / ãƒãƒ¼ã‚ºè§£é™¤
+
+ã€€ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—ã‚­ãƒ¼ã‚’æŠ¼ã™ã¨ã€ã„ã¤ã§ã‚‚çµ‚äº†ã§ãã¾ã™ã€‚
 
 
-¡ƒvƒŒƒCƒ„[ƒLƒƒƒ‰ƒNƒ^‚ÌØ‚è‘Ö‚¦
-
-@ƒ|[ƒY‰æ–Ê‚©‚ç‚Å‚«‚Ü‚·B
+ã€€â˜…ã‚²ãƒ¼ãƒ ãƒ‘ãƒƒãƒ‰ã®ä½¿ç”¨ã‚’ãŠã™ã™ã‚ã—ã¾ã™ã€‚
 
 
-¡‚Ù‚Þ‚ç‚Ì“ÁŽêUŒ‚‚É‚Â‚¢‚Ä
+â– ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ã®åˆ‡ã‚Šæ›¿ãˆ
 
-@TODO
-
-
-¡‘€ì•û–@(ŠJ”­—p)
-
-@E@@ƒGƒfƒBƒbƒgƒ‚[ƒh
+ã€€ãƒãƒ¼ã‚ºç”»é¢ã‹ã‚‰ã§ãã¾ã™ã€‚
 
 
-¡‘fÞiŒhÌ—ªj
+â– ã»ã‚€ã‚‰ã®ç‰¹æ®Šæ”»æ’ƒã«ã¤ã„ã¦
 
-@œƒvƒŒƒCƒ„[ƒLƒƒƒ‰ƒNƒ^
+ã€€TODO
 
-@@Konbe
-@@https://www.deviantart.com/konbe
 
-@œ”wŒi
+â– æ“ä½œæ–¹æ³•(é–‹ç™ºç”¨)
 
-@@run
-@@https://www.pixiv.net/users/1597341
+ã€€Eã€€ã€€ã‚¨ãƒ‡ã‚£ãƒƒãƒˆãƒ¢ãƒ¼ãƒ‰
+
+
+â– ç´ æï¼ˆæ•¬ç§°ç•¥ï¼‰
+
+ã€€â—ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã‚­ãƒ£ãƒ©ã‚¯ã‚¿
+
+ã€€ã€€Konbe
+ã€€ã€€https://www.deviantart.com/konbe
+
+ã€€â—èƒŒæ™¯
+
+ã€€ã€€run
+ã€€ã€€https://www.pixiv.net/users/1597341
 

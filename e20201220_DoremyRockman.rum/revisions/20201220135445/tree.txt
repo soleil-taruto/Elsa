@@ -5,32 +5,32 @@ dat\e20200003_dat
 dat\e20200003_dat\Game
 dat\e20200003_dat\Game\chara_a01
 dat\e20200003_dat\Game\Tile
-dat\e20200003_dat\Game\ƒ†[ƒtƒ‹ƒJ
-dat\e20200003_dat\Game\ƒ†[ƒtƒ‹ƒJ\The-sacred-place_loop
-dat\e20200003_dat\Game\ƒ†[ƒtƒ‹ƒJ\Voyage_loop
-dat\e20200003_dat\Game\¬X•½
-dat\e20200003_dat\Game\¬X•½\sfxrse
-dat\e20200003_dat\Game\¬X•½\sfxrse\01pickup
-dat\e20200003_dat\Game\¬X•½\sfxrse\02laser
-dat\e20200003_dat\Game\¬X•½\sfxrse\03explosion
-dat\e20200003_dat\Game\¬X•½\sfxrse\04powerup
-dat\e20200003_dat\Game\¬X•½\sfxrse\05hit
-dat\e20200003_dat\Game\¬X•½\sfxrse\06jump
-dat\e20200003_dat\Game\¬X•½\sfxrse\07blip
+dat\e20200003_dat\Game\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«
+dat\e20200003_dat\Game\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\The-sacred-place_loop
+dat\e20200003_dat\Game\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Voyage_loop
+dat\e20200003_dat\Game\å°æ£®å¹³
+dat\e20200003_dat\Game\å°æ£®å¹³\sfxrse
+dat\e20200003_dat\Game\å°æ£®å¹³\sfxrse\01pickup
+dat\e20200003_dat\Game\å°æ£®å¹³\sfxrse\02laser
+dat\e20200003_dat\Game\å°æ£®å¹³\sfxrse\03explosion
+dat\e20200003_dat\Game\å°æ£®å¹³\sfxrse\04powerup
+dat\e20200003_dat\Game\å°æ£®å¹³\sfxrse\05hit
+dat\e20200003_dat\Game\å°æ£®å¹³\sfxrse\06jump
+dat\e20200003_dat\Game\å°æ£®å¹³\sfxrse\07blip
 dat\e20200003_dat\Logo
 dat\e20200003_dat\Novel
 dat\e20200003_dat\Novel\Font
 dat\e20200003_dat\Novel\Font\K Gothic
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‚©‚ç‚¢
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\01 message
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\02 button
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button
-dat\e20200003_dat\ƒeƒXƒg—p
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\01 message
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\02 button
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button
+dat\e20200003_dat\ãƒ†ã‚¹ãƒˆç”¨
 doc
 Elsa20200001
 Elsa20200001\Elsa20200001

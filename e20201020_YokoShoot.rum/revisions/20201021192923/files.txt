@@ -3,7 +3,7 @@ aa15088b0dc08af63423a55a16929f82 Clean.bat
 d9140571c34dd6fdbb1ab56857446c64 DebugRelease.bat
 ad358914ef1a612864116ed5320e021b doc\Config.conf
 7f0cfc79746e6fc7569427be9477d4f7 doc\Properties.dat
-6e13b57c1b4d7c922a9e151cbb67478e doc\マニュアル.txt
+6e13b57c1b4d7c922a9e151cbb67478e doc\繝槭ル繝･繧｢繝ｫ.txt
 70f5fc115a21c0cbf160a3e4fee712f3 Elsa20200001\Elsa20200001.sln
 a367ddebb293f0fb73f7bafec210dccf Elsa20200001\Elsa20200001\Common.cs
 e85e6462992d3c57fdfa792d1926e032 Elsa20200001\Elsa20200001\Commons\ArgsReader.cs
@@ -91,7 +91,7 @@ f38a42f4d2c2fce192aba8d2904507c9 Elsa20200001\Elsa20200001\Games\Enemies\Enemy.c
 bd56ad6aef32ee23c2766a4f66a4f8d3 Elsa20200001\Elsa20200001\Games\Logo.cs
 0fd7db81f9f9c315661445de65060f17 Elsa20200001\Elsa20200001\Games\Player.cs
 434ac9db29d94a9e48bb9c2e70097f3d Elsa20200001\Elsa20200001\Games\Scripts\Script.cs
-e63d2208c2ecbda67feba0247b817faa Elsa20200001\Elsa20200001\Games\Scripts\Script_ダミー0001.cs
+e63d2208c2ecbda67feba0247b817faa Elsa20200001\Elsa20200001\Games\Scripts\Script_繝繝溘�ｼ0001.cs
 48ec68ec4ffa7d48c7ecbe51726992fe Elsa20200001\Elsa20200001\Games\Shots\Shot.cs
 75e635efeb4041eb70de1d5072dfa1a6 Elsa20200001\Elsa20200001\Games\TitleMenu.cs
 c6506d93650a11aa4d0ff5d6c585cacd Elsa20200001\Elsa20200001\Games\Walls\Wall.cs

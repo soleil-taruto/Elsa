@@ -5,7 +5,7 @@ dat\e20200003_dat
 dat\e20200003_dat\Font
 dat\e20200003_dat\Font\K Gothic
 dat\e20200003_dat\Logo
-dat\e20200003_dat\‰¼‚Ì‘fŞ
+dat\e20200003_dat\ä»®ã®ç´ æ
 doc
 Elsa20200001
 Elsa20200001\Elsa20200001
@@ -22,7 +22,7 @@ out
 res
 res\e20200001_res
 res\e20200001_res\Scenario
-res\e20200001_res\Scenario\_‹Œƒf[ƒ^
-res\e20200001_res\Scenario\_ó—Ìƒf[ƒ^
+res\e20200001_res\Scenario\_æ—§ãƒ‡ãƒ¼ã‚¿
+res\e20200001_res\Scenario\_å—é ˜ãƒ‡ãƒ¼ã‚¿
 tmp
 Tools

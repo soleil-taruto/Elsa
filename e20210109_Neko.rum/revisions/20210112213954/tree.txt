@@ -5,16 +5,16 @@ dat\e20200003_dat
 dat\e20200003_dat\Font
 dat\e20200003_dat\Font\K Gothic
 dat\e20200003_dat\Logo
-dat\e20200003_dat\‰¼‚Ì‘fŞ
-dat\e20200003_dat\‰¼‚Ì‘fŞ\¬X•½
-dat\e20200003_dat\‰¼‚Ì‘fŞ\¬X•½\sfxrse
-dat\e20200003_dat\‰¼‚Ì‘fŞ\¬X•½\sfxrse\01pickup
-dat\e20200003_dat\‹ó‘z‹Èü
-dat\e20200003_dat\‹ó‘z‹Èü\Messageframe_29
-dat\e20200003_dat\‹ó‘z‹Èü\Messageframe_29\material
-dat\e20200003_dat\‹ó‘z‹Èü\Messageframe_29\material\01 message
-dat\e20200003_dat\‹ó‘z‹Èü\Messageframe_29\material\02 button
-dat\e20200003_dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button
+dat\e20200003_dat\ä»®ã®ç´ æ
+dat\e20200003_dat\ä»®ã®ç´ æ\å°æ£®å¹³
+dat\e20200003_dat\ä»®ã®ç´ æ\å°æ£®å¹³\sfxrse
+dat\e20200003_dat\ä»®ã®ç´ æ\å°æ£®å¹³\sfxrse\01pickup
+dat\e20200003_dat\ç©ºæƒ³æ›²ç·š
+dat\e20200003_dat\ç©ºæƒ³æ›²ç·š\Messageframe_29
+dat\e20200003_dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material
+dat\e20200003_dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\01 message
+dat\e20200003_dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\02 button
+dat\e20200003_dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button
 doc
 Elsa20200001
 Elsa20200001\Elsa20200001
@@ -31,7 +31,7 @@ out
 res
 res\e20200001_res
 res\e20200001_res\Scenario
-res\e20200001_res\Scenario\_ó—Ìƒf[ƒ^
+res\e20200001_res\Scenario\_å—é ˜ãƒ‡ãƒ¼ã‚¿
 res\e20200001_res\Scenario\Include
 tmp
 Tools

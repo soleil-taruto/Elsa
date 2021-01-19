@@ -35,26 +35,26 @@ dat\dat\Novel
 dat\dat\Novel\Font
 dat\dat\Novel\Font\K Gothic
 dat\dat\Novel\Instagram
-dat\dat\Novel\ƒtƒŠ[‘fŞ
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‚©‚ç‚¢
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\01 message
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\02 button
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button
-dat\dat\‚«‚Â‚Ë‰¼
-dat\dat\‚İ‚é‚Ó‚¡
-dat\dat\¬X•½
-dat\dat\¬X•½\sfxrse
-dat\dat\¬X•½\sfxrse\01pickup
-dat\dat\¬X•½\sfxrse\02laser
-dat\dat\¬X•½\sfxrse\03explosion
-dat\dat\¬X•½\sfxrse\04powerup
-dat\dat\¬X•½\sfxrse\05hit
-dat\dat\¬X•½\sfxrse\06jump
-dat\dat\¬X•½\sfxrse\07blip
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\01 message
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\02 button
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button
+dat\dat\ãã¤ã­ä»®
+dat\dat\ã¿ã‚‹ãµãƒ
+dat\dat\å°æ£®å¹³
+dat\dat\å°æ£®å¹³\sfxrse
+dat\dat\å°æ£®å¹³\sfxrse\01pickup
+dat\dat\å°æ£®å¹³\sfxrse\02laser
+dat\dat\å°æ£®å¹³\sfxrse\03explosion
+dat\dat\å°æ£®å¹³\sfxrse\04powerup
+dat\dat\å°æ£®å¹³\sfxrse\05hit
+dat\dat\å°æ£®å¹³\sfxrse\06jump
+dat\dat\å°æ£®å¹³\sfxrse\07blip
 dat\res
 dat\res\Scenario
 dat\res\Scenario\Include
@@ -69,7 +69,7 @@ Elsa20200001\Elsa20200001\GameCommons\MaskGZDataUtils
 Elsa20200001\Elsa20200001\GameCommons\Options
 Elsa20200001\Elsa20200001\Games
 Elsa20200001\Elsa20200001\Games\Enemies
-Elsa20200001\Elsa20200001\Games\Enemies\_“Şqs
+Elsa20200001\Elsa20200001\Games\Enemies\ç¥å¥ˆå­s
 Elsa20200001\Elsa20200001\Games\Shots
 Elsa20200001\Elsa20200001\Games\Tiles
 Elsa20200001\Elsa20200001\Games\Walls

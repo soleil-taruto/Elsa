@@ -9,39 +9,39 @@ b5099a8d5b681001eb64d03f7e9ef2a4 Confuse.bat
 330daf06d89928912ee97240fe3c4646 dat\e20200002_General\General\WhiteCircle.png
 5c8044dfe49667916311571f45aab7c9 dat\e20200003_dat\Font\K Gothic\_source.txt
 3f537e1030a4e641ea5b12d21a0f5b41 dat\e20200003_dat\Font\K Gothic\K Gothic.ttf
-c4491ae086652760fbed7b571c49acbc dat\e20200003_dat\Font\K Gothic\‚Í‚¶‚ß‚É‚¨“Ç‚İ‚­‚¾‚³‚¢.txt
+c4491ae086652760fbed7b571c49acbc dat\e20200003_dat\Font\K Gothic\ã¯ã˜ã‚ã«ãŠèª­ã¿ãã ã•ã„.txt
 66b1854541fe2aaf990cdc3e30511d75 dat\e20200003_dat\Logo\Copyright.png
-db4609ff41bc3504965edad137d0e9e2 dat\e20200003_dat\‚±‚à‚à.png
-d1d01ba26877341f52e9691f71fddffa dat\e20200003_dat\ƒŠƒ‹.png
-b571c9bb64d7435d14b376b34a6bcfc7 dat\e20200003_dat\‰¼‚Ì‘fŞ\6602480~1000.png
-b4230c37b3fd7a883d626d8352108215 dat\e20200003_dat\‰¼‚Ì‘fŞ\81388090~1000.png
-181c26185cfcfab9dd00fdf55591ad8e dat\e20200003_dat\‰¼‚Ì‘fŞ\EEQYl74UEAYFpId~1000.png
-f82d83e016b2b031f58ed1de09512b28 dat\e20200003_dat\‰¼‚Ì‘fŞ\TitleMenuItem.png
-df756f499f7c9b304080301ecacdb4ae dat\e20200003_dat\‰¼‚Ì‘fŞ\¬X•½\_source.txt
-6a7fdf06f4d13e060ec4d9666b940bf7 dat\e20200003_dat\‰¼‚Ì‘fŞ\¬X•½\sfxrse\01pickup\poka01.mp3
-79ae197ccf952ea8cba9d5254520a72a dat\e20200003_dat\‰¼‚Ì‘fŞ\¬X•½\sfxrse\01pickup\poka02.mp3
-2b4a85555831f6a2a5237e56bd802e43 dat\e20200003_dat\‹ó‘z‹Èü\_source.txt
-8d8a9a4925838c23d1aad527d13035b9 dat\e20200003_dat\‹ó‘z‹Èü\Messageframe_29\material\01 message\message.png
-7862380af959a60073451b15cac7638d dat\e20200003_dat\‹ó‘z‹Èü\Messageframe_29\material\02 button\button.png
-4b776b1b0e9a14dc72b5bd34cceb19a5 dat\e20200003_dat\‹ó‘z‹Èü\Messageframe_29\material\02 button\button2.png
-377b0237bc582e8b04e639b8967d87df dat\e20200003_dat\‹ó‘z‹Èü\Messageframe_29\material\02 button\button3.png
-6328577a9868e01e558cbbd9f72f863a dat\e20200003_dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\auto.png
-5237b67354e1e6af8ce2157d54f495a9 dat\e20200003_dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\auto2.png
-eba05009adfd19cf58906e7fadf0ed0d dat\e20200003_dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\load.png
-4b6130ac0eba87420d7e521a78870219 dat\e20200003_dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\load2.png
-8f7aca8485ae38736760619a2db9b3c9 dat\e20200003_dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\log.png
-6cfd169f9465d37e8f5c82d2d154e37b dat\e20200003_dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\log2.png
-9e939d60f1187034a7f9ba52e4bcbb69 dat\e20200003_dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\menu.png
-a97895b376e4b30062add5315f1cc5e1 dat\e20200003_dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\menu2.png
-da416990c6cb9d6248c3d5380b419e28 dat\e20200003_dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\save.png
-7229d66bf20215b1f12ccc00652edb69 dat\e20200003_dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\save2.png
-f57e5e0fc829e199d0191a66ff1aa809 dat\e20200003_dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\skip.png
-794e6fe3dc0610bf7ff9ecc8be29f8c2 dat\e20200003_dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\skip2.png
+db4609ff41bc3504965edad137d0e9e2 dat\e20200003_dat\ã“ã‚‚ã‚‚.png
+d1d01ba26877341f52e9691f71fddffa dat\e20200003_dat\ãƒªãƒ«.png
+b571c9bb64d7435d14b376b34a6bcfc7 dat\e20200003_dat\ä»®ã®ç´ æ\6602480~1000.png
+b4230c37b3fd7a883d626d8352108215 dat\e20200003_dat\ä»®ã®ç´ æ\81388090~1000.png
+181c26185cfcfab9dd00fdf55591ad8e dat\e20200003_dat\ä»®ã®ç´ æ\EEQYl74UEAYFpId~1000.png
+f82d83e016b2b031f58ed1de09512b28 dat\e20200003_dat\ä»®ã®ç´ æ\TitleMenuItem.png
+df756f499f7c9b304080301ecacdb4ae dat\e20200003_dat\ä»®ã®ç´ æ\å°æ£®å¹³\_source.txt
+6a7fdf06f4d13e060ec4d9666b940bf7 dat\e20200003_dat\ä»®ã®ç´ æ\å°æ£®å¹³\sfxrse\01pickup\poka01.mp3
+79ae197ccf952ea8cba9d5254520a72a dat\e20200003_dat\ä»®ã®ç´ æ\å°æ£®å¹³\sfxrse\01pickup\poka02.mp3
+2b4a85555831f6a2a5237e56bd802e43 dat\e20200003_dat\ç©ºæƒ³æ›²ç·š\_source.txt
+8d8a9a4925838c23d1aad527d13035b9 dat\e20200003_dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\01 message\message.png
+7862380af959a60073451b15cac7638d dat\e20200003_dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\02 button\button.png
+4b776b1b0e9a14dc72b5bd34cceb19a5 dat\e20200003_dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\02 button\button2.png
+377b0237bc582e8b04e639b8967d87df dat\e20200003_dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\02 button\button3.png
+6328577a9868e01e558cbbd9f72f863a dat\e20200003_dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\auto.png
+5237b67354e1e6af8ce2157d54f495a9 dat\e20200003_dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\auto2.png
+eba05009adfd19cf58906e7fadf0ed0d dat\e20200003_dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\load.png
+4b6130ac0eba87420d7e521a78870219 dat\e20200003_dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\load2.png
+8f7aca8485ae38736760619a2db9b3c9 dat\e20200003_dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\log.png
+6cfd169f9465d37e8f5c82d2d154e37b dat\e20200003_dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\log2.png
+9e939d60f1187034a7f9ba52e4bcbb69 dat\e20200003_dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\menu.png
+a97895b376e4b30062add5315f1cc5e1 dat\e20200003_dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\menu2.png
+da416990c6cb9d6248c3d5380b419e28 dat\e20200003_dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\save.png
+7229d66bf20215b1f12ccc00652edb69 dat\e20200003_dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\save2.png
+f57e5e0fc829e199d0191a66ff1aa809 dat\e20200003_dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\skip.png
+794e6fe3dc0610bf7ff9ecc8be29f8c2 dat\e20200003_dat\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\skip2.png
 7228cc02395192092f6039d341f34416 DebugRelease.bat
 8adc11f6d670156c7c570581ec139bfb Deploy.bat
 d45f7078b44622a543c7bec1653c44ba doc\Config.conf
 7f0cfc79746e6fc7569427be9477d4f7 doc\Properties.dat
-2be29cf17c07d57893569906abadd3cc doc\ƒ}ƒjƒ…ƒAƒ‹.txt
+2be29cf17c07d57893569906abadd3cc doc\ãƒãƒ‹ãƒ¥ã‚¢ãƒ«.txt
 70f5fc115a21c0cbf160a3e4fee712f3 Elsa20200001\Elsa20200001.sln
 9ae54abdbd8bb28cac23998ced61faa9 Elsa20200001\Elsa20200001\Common.cs
 e85e6462992d3c57fdfa792d1926e032 Elsa20200001\Elsa20200001\Commons\ArgsReader.cs
@@ -137,13 +137,13 @@ f0dba5b5558000f71e1423bd56b247c6 Elsa20200001\Elsa20200001\Games\Surfaces\Surfac
 c1762dbb11de4c71585a934ee303d26d Elsa20200001\Elsa20200001\Games\Surfaces\Surface_Select.cs
 00c96103a0675139afe2b92f0f91136b Elsa20200001\Elsa20200001\Games\Surfaces\Surface_System.cs
 d7bf7b3b3ccc1bb4b7f272ed062919b9 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_SystemButtons.cs
-436d4de4b04c87f2a3a5a54da49c4f0a Elsa20200001\Elsa20200001\Games\Surfaces\Surface_ƒLƒƒƒ‰ƒNƒ^.cs
-513cd995a11dec3384e84a28847f4256 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_ƒXƒNƒŠ[ƒ“.cs
-4efba51751702ba89abd26e2563c9b57 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_‰¹Šy.cs
-d0246c8c62eea1c95b0011bfa817e1f0 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_Œø‰Ê‰¹.cs
+436d4de4b04c87f2a3a5a54da49c4f0a Elsa20200001\Elsa20200001\Games\Surfaces\Surface_ã‚­ãƒ£ãƒ©ã‚¯ã‚¿.cs
+513cd995a11dec3384e84a28847f4256 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_ã‚¹ã‚¯ãƒªãƒ¼ãƒ³.cs
+4efba51751702ba89abd26e2563c9b57 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_éŸ³æ¥½.cs
+d0246c8c62eea1c95b0011bfa817e1f0 Elsa20200001\Elsa20200001\Games\Surfaces\Surface_åŠ¹æœéŸ³.cs
 624e61f7bad46796510c64bbb0d65369 Elsa20200001\Elsa20200001\Games\Surfaces\SurfaceCreator.cs
 ba5b70831e07a61c2bca4450e67cebb6 Elsa20200001\Elsa20200001\Games\TitleMenu.cs
-fdb4009c308ed6c8b27d1faa4092a60c Elsa20200001\Elsa20200001\Games\‚Ú‚©‚µŒø‰Ê.cs
+fdb4009c308ed6c8b27d1faa4092a60c Elsa20200001\Elsa20200001\Games\ã¼ã‹ã—åŠ¹æœ.cs
 89a8e09809c9ab65e57c564111e6831e Elsa20200001\Elsa20200001\Ground.cs
 7b7231d021ecc67a04af539e98dde3f1 Elsa20200001\Elsa20200001\MainWin.cs
 832803ad2f3cd47988796b9a81b3c7c7 Elsa20200001\Elsa20200001\MainWin.Designer.cs
@@ -164,16 +164,16 @@ c05400edb0a86a652f1b476711e70170 Elsa20200001\Elsa20200001\Tests\Games\TitleMenu
 7be01a0fd742bdeaac6e5009ad2e0b38 Elsa20200001\Elsa20200001\Tests\Test0001.cs
 077398c6ca492812c289cd750077663e Release.bat
 07f375ac41328f71554b9ebbe2188f54 res\e20200001_res\DatStrings.txt
-240e462dd44cb3f8d60e4b7d541ead91 res\e20200001_res\Scenario\_‹Œƒf[ƒ^\001_ƒ_ƒ~[ƒVƒiƒŠƒI.txt
-ec895a75dbb22a8888253205f6e608ff res\e20200001_res\Scenario\_‹Œƒf[ƒ^\101_ƒXƒ^[ƒgƒVƒiƒŠƒI.txt
-b47ddb47bb614579fd2ce38b6c23ec4f res\e20200001_res\Scenario\_‹Œƒf[ƒ^\_memo.txt
-58a340b4410fa865675ccc986d98be72 res\e20200001_res\Scenario\_‹Œƒf[ƒ^\_ƒLƒƒƒ‰ƒNƒ^ƒT[ƒtƒFƒCƒXà–¾‘.txt
-8a732f3d665d330905e72952d176c541 res\e20200001_res\Scenario\_‹Œƒf[ƒ^\ƒeƒXƒg0001-End.txt
-5854d00fe22effb9b4855e2baa0a834b res\e20200001_res\Scenario\_‹Œƒf[ƒ^\ƒeƒXƒg0001.txt
-bc504228b2ed6c669d4683851b99e615 res\e20200001_res\Scenario\_‹Œƒf[ƒ^\ƒeƒXƒg0002.txt
-221cf752c3d947aa74dcfa223e0520b8 res\e20200001_res\Scenario\_ó—Ìƒf[ƒ^\ƒƒCƒ“ƒVƒiƒŠƒI_0001.txt
+240e462dd44cb3f8d60e4b7d541ead91 res\e20200001_res\Scenario\_æ—§ãƒ‡ãƒ¼ã‚¿\001_ãƒ€ãƒŸãƒ¼ã‚·ãƒŠãƒªã‚ª.txt
+ec895a75dbb22a8888253205f6e608ff res\e20200001_res\Scenario\_æ—§ãƒ‡ãƒ¼ã‚¿\101_ã‚¹ã‚¿ãƒ¼ãƒˆã‚·ãƒŠãƒªã‚ª.txt
+b47ddb47bb614579fd2ce38b6c23ec4f res\e20200001_res\Scenario\_æ—§ãƒ‡ãƒ¼ã‚¿\_memo.txt
+58a340b4410fa865675ccc986d98be72 res\e20200001_res\Scenario\_æ—§ãƒ‡ãƒ¼ã‚¿\_ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ã‚µãƒ¼ãƒ•ã‚§ã‚¤ã‚¹èª¬æ˜æ›¸.txt
+8a732f3d665d330905e72952d176c541 res\e20200001_res\Scenario\_æ—§ãƒ‡ãƒ¼ã‚¿\ãƒ†ã‚¹ãƒˆ0001-End.txt
+5854d00fe22effb9b4855e2baa0a834b res\e20200001_res\Scenario\_æ—§ãƒ‡ãƒ¼ã‚¿\ãƒ†ã‚¹ãƒˆ0001.txt
+bc504228b2ed6c669d4683851b99e615 res\e20200001_res\Scenario\_æ—§ãƒ‡ãƒ¼ã‚¿\ãƒ†ã‚¹ãƒˆ0002.txt
+221cf752c3d947aa74dcfa223e0520b8 res\e20200001_res\Scenario\_å—é ˜ãƒ‡ãƒ¼ã‚¿\ãƒ¡ã‚¤ãƒ³ã‚·ãƒŠãƒªã‚ª_0001.txt
 c453fb694a20785e5561cfc3802d4617 res\e20200001_res\Scenario\Include\Common.txt
-7bf468fb0378b3246c0407180b1f7b87 res\e20200001_res\Scenario\Include\”wŒi•ÏX.txt
-3316b09c905bf15b16d4c0b06e2d9980 res\e20200001_res\Scenario\ƒ_ƒ~[ƒVƒiƒŠƒI.txt
-bacc359808b1291c4e721410983721aa res\e20200001_res\Scenario\ƒƒCƒ“ƒVƒiƒŠƒI_0001.txt
+7bf468fb0378b3246c0407180b1f7b87 res\e20200001_res\Scenario\Include\èƒŒæ™¯å¤‰æ›´.txt
+3316b09c905bf15b16d4c0b06e2d9980 res\e20200001_res\Scenario\ãƒ€ãƒŸãƒ¼ã‚·ãƒŠãƒªã‚ª.txt
+bacc359808b1291c4e721410983721aa res\e20200001_res\Scenario\ãƒ¡ã‚¤ãƒ³ã‚·ãƒŠãƒªã‚ª_0001.txt
 5b4caa58ba5ce6827ae50b71123aa8e1 Tools\MaskGZData.c

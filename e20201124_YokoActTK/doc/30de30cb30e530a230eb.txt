@@ -1,70 +1,70 @@
 ===============================================================================
 
-@YokoActTK / version $version$
-@@@@@@@@@@@@@@@@@@@@@@@@@@(C) 202x cerulean.charlotte
+ã€€YokoActTK / version $version$
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€(C) 202x cerulean.charlotte
 
 ===============================================================================
 
 
-ššš ‚Ù‚Þ‚çƒV[ƒ‹ƒh”­“®Žž‚Éu”CˆÓ‚Ì’·‚³‚ÌvŽžŠÔ‚ðŠª‚«–ß‚· ver ššš
+â˜…â˜…â˜… ã»ã‚€ã‚‰ã‚·ãƒ¼ãƒ«ãƒ‰ç™ºå‹•æ™‚ã«ã€Œä»»æ„ã®é•·ã•ã®ã€æ™‚é–“ã‚’å·»ãæˆ»ã™ ver â˜…â˜…â˜…
 
 
-¡‹N“®•û–@
+â– èµ·å‹•æ–¹æ³•
 
-@Elsa20200001.exe ‚ðŽÀs‚µ‚Ä‰º‚³‚¢B
-
-
-¡‘€ì•û–@
-
-@ƒJ[ƒ\ƒ‹
-
-@Z@@ƒWƒƒƒ“ƒv / Œˆ’è
-@X@@UŒ‚ / ƒLƒƒƒ“ƒZƒ‹
-@C@@“ÁŽêUŒ‚
-@D@@‰æ–ÊƒXƒ‰ƒCƒh
-@F@@’á‘¬ˆÚ“®
-
-@SPACE@@ƒ|[ƒY / ƒ|[ƒY‰ðœ
-
-@ƒGƒXƒP[ƒvƒL[‚ð‰Ÿ‚·‚ÆA‚¢‚Â‚Å‚àI—¹‚Å‚«‚Ü‚·B
+ã€€Elsa20200001.exe ã‚’å®Ÿè¡Œã—ã¦ä¸‹ã•ã„ã€‚
 
 
-@šƒQ[ƒ€ƒpƒbƒh‚ÌŽg—p‚ð‚¨‚·‚·‚ß‚µ‚Ü‚·B
+â– æ“ä½œæ–¹æ³•
+
+ã€€ã‚«ãƒ¼ã‚½ãƒ«
+
+ã€€Zã€€ã€€ã‚¸ãƒ£ãƒ³ãƒ— / æ±ºå®š
+ã€€Xã€€ã€€æ”»æ’ƒ / ã‚­ãƒ£ãƒ³ã‚»ãƒ«
+ã€€Cã€€ã€€ç‰¹æ®Šæ”»æ’ƒ
+ã€€Dã€€ã€€ç”»é¢ã‚¹ãƒ©ã‚¤ãƒ‰
+ã€€Fã€€ã€€ä½Žé€Ÿç§»å‹•
+
+ã€€SPACEã€€ã€€ãƒãƒ¼ã‚º / ãƒãƒ¼ã‚ºè§£é™¤
+
+ã€€ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—ã‚­ãƒ¼ã‚’æŠ¼ã™ã¨ã€ã„ã¤ã§ã‚‚çµ‚äº†ã§ãã¾ã™ã€‚
 
 
-¡ƒvƒŒƒCƒ„[ƒLƒƒƒ‰ƒNƒ^‚ÌØ‚è‘Ö‚¦
-
-@ƒ|[ƒY‰æ–Ê‚©‚ç‚Å‚«‚Ü‚·B
+ã€€â˜…ã‚²ãƒ¼ãƒ ãƒ‘ãƒƒãƒ‰ã®ä½¿ç”¨ã‚’ãŠã™ã™ã‚ã—ã¾ã™ã€‚
 
 
-¡‚Ù‚Þ‚ç‚Ì“ÁŽêUŒ‚‚É‚Â‚¢‚Ä
+â– ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ã®åˆ‡ã‚Šæ›¿ãˆ
 
-@”­“®‚·‚é‚Æ‚R•b‘O‚É–ß‚è‚Ü‚·B
-@‚±‚Ì‚Æ‚«‰ß‹Ž‚R•bŠÔ‚Ìs“®‚ª‰e‚Æ‚È‚Á‚ÄÄ¶‚³‚ê‚Ü‚·B
-@‚±‚ê‚É‚æ‚è‚Ql“¯Žž‚És“®‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
-
-@‚±‚ê‚Í‰¼ŽÀ‘•”Å‚Å‚·B
+ã€€ãƒãƒ¼ã‚ºç”»é¢ã‹ã‚‰ã§ãã¾ã™ã€‚
 
 
-¡‘€ì•û–@(ŠJ”­—p)
+â– ã»ã‚€ã‚‰ã®ç‰¹æ®Šæ”»æ’ƒã«ã¤ã„ã¦
 
-@E@@ƒGƒfƒBƒbƒgƒ‚[ƒh
+ã€€ç™ºå‹•ã™ã‚‹ã¨ï¼“ç§’å‰ã«æˆ»ã‚Šã¾ã™ã€‚
+ã€€ã“ã®ã¨ãéŽåŽ»ï¼“ç§’é–“ã®è¡Œå‹•ãŒå½±ã¨ãªã£ã¦å†ç”Ÿã•ã‚Œã¾ã™ã€‚
+ã€€ã“ã‚Œã«ã‚ˆã‚Šï¼’äººåŒæ™‚ã«è¡Œå‹•ã™ã‚‹ã“ã¨ãŒã§ãã¾ã™ã€‚
+
+ã€€ã“ã‚Œã¯ä»®å®Ÿè£…ç‰ˆã§ã™ã€‚
 
 
-¡‘fÞiŒhÌ—ªj
+â– æ“ä½œæ–¹æ³•(é–‹ç™ºç”¨)
 
-@œƒvƒŒƒCƒ„[ƒLƒƒƒ‰ƒNƒ^
+ã€€Eã€€ã€€ã‚¨ãƒ‡ã‚£ãƒƒãƒˆãƒ¢ãƒ¼ãƒ‰
 
-@@Konbe
-@@https://www.deviantart.com/konbe
 
-@œ”wŒi
+â– ç´ æï¼ˆæ•¬ç§°ç•¥ï¼‰
 
-@@run
-@@https://www.pixiv.net/users/1597341
+ã€€â—ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã‚­ãƒ£ãƒ©ã‚¯ã‚¿
 
-@œ‰¹Šy
+ã€€ã€€Konbe
+ã€€ã€€https://www.deviantart.com/konbe
 
-@@ƒ†[ƒtƒ‹ƒJ
-@@https://wingless-seraph.net/
+ã€€â—èƒŒæ™¯
+
+ã€€ã€€run
+ã€€ã€€https://www.pixiv.net/users/1597341
+
+ã€€â—éŸ³æ¥½
+
+ã€€ã€€ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«
+ã€€ã€€https://wingless-seraph.net/
 

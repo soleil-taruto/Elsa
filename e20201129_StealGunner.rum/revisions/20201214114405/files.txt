@@ -23,30 +23,30 @@ a66480da9cb31200194da99a4e2a49cb dat\e20200003_dat\hmix\n70.mp3
 ae89f1b3c75df7bbb29250ce462763bd dat\e20200003_dat\Wall\Wall0001.png
 3361d6c39eeec5e5bc4b0ad9a3a18edc dat\e20200003_dat\Wall\Wall0002.png
 c9b21eea1ede049059d50d8e95737795 dat\e20200003_dat\Wall\Wall0003.png
-ded8f2eec14cab354a5a9c99e875d42e dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\_source.txt
-4cd72a7815684b30e8366100ca6453c5 dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-Conflict_loop\Assets_for_Unity\Battle-Conflict_intrto.ogg
-832efa83e457dad7299d4679bb0195d4 dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-Conflict_loop\Assets_for_Unity\Battle-Conflict_loop.ogg
-f4d69a2255b0f9fae6821f77de793fce dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-Conflict_loop\Assets_for_Unity\Read Me.txt
-574b2647ba3fefe9c382913989cb7a25 dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-Conflict_loop\Battle-Conflict_loop.m4a
-58e93b1d0daeccaeb40e223d39a4551f dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-Conflict_loop\Battle-Conflict_loop.ogg
-b9b222dffe27fdd8ef4a9a299a623f6e dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-Conflict_loop\Battle-Conflict_loop.txt
-243c56537d55872fc6c1457619480adf dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-rapier_loop\Assets_for_Unity\Battle-rapier_intro.ogg
-8facedb8b866a875566bf6de82891f49 dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-rapier_loop\Assets_for_Unity\Battle-rapier_loop.ogg
-f4d69a2255b0f9fae6821f77de793fce dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-rapier_loop\Assets_for_Unity\Read Me.txt
-4a8aaf6d6fb0699ee6eb439c1f4269f9 dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-rapier_loop\Battle-rapier_loop.m4a
-5a74ef96b1d1e143aeb6cb33ff9ba178 dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-rapier_loop\Battle-rapier_loop.ogg
-2be8b379ab0de243911f04a499c59d21 dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-rapier_loop\Battle-rapier_loop.txt
-61f05dfabc3b21cb46f7be568ae83e1d dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-Vampire_loop\Assets_for_Unity\Battle-Vampire_intro.ogg
-1c59b8a2f07811362480e9bd73c4334e dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-Vampire_loop\Assets_for_Unity\Battle-Vampire_loop.ogg
-f4d69a2255b0f9fae6821f77de793fce dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-Vampire_loop\Assets_for_Unity\Read Me.txt
-359433a96584db06841bad09bcd20884 dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-Vampire_loop\Battle-Vampire_loop.m4a
-a8576c27f5b0977c12e72ede45a6046b dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-Vampire_loop\Battle-Vampire_loop.ogg
-61e5f475f4290236de5342b8713ab9ae dat\e20200003_dat\ƒ†[ƒtƒ‹ƒJ\Battle-Vampire_loop\Battle-Vampire_loop.txt
+ded8f2eec14cab354a5a9c99e875d42e dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\_source.txt
+4cd72a7815684b30e8366100ca6453c5 dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Conflict_loop\Assets_for_Unity\Battle-Conflict_intrto.ogg
+832efa83e457dad7299d4679bb0195d4 dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Conflict_loop\Assets_for_Unity\Battle-Conflict_loop.ogg
+f4d69a2255b0f9fae6821f77de793fce dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Conflict_loop\Assets_for_Unity\Read Me.txt
+574b2647ba3fefe9c382913989cb7a25 dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Conflict_loop\Battle-Conflict_loop.m4a
+58e93b1d0daeccaeb40e223d39a4551f dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Conflict_loop\Battle-Conflict_loop.ogg
+b9b222dffe27fdd8ef4a9a299a623f6e dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Conflict_loop\Battle-Conflict_loop.txt
+243c56537d55872fc6c1457619480adf dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-rapier_loop\Assets_for_Unity\Battle-rapier_intro.ogg
+8facedb8b866a875566bf6de82891f49 dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-rapier_loop\Assets_for_Unity\Battle-rapier_loop.ogg
+f4d69a2255b0f9fae6821f77de793fce dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-rapier_loop\Assets_for_Unity\Read Me.txt
+4a8aaf6d6fb0699ee6eb439c1f4269f9 dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-rapier_loop\Battle-rapier_loop.m4a
+5a74ef96b1d1e143aeb6cb33ff9ba178 dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-rapier_loop\Battle-rapier_loop.ogg
+2be8b379ab0de243911f04a499c59d21 dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-rapier_loop\Battle-rapier_loop.txt
+61f05dfabc3b21cb46f7be568ae83e1d dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Vampire_loop\Assets_for_Unity\Battle-Vampire_intro.ogg
+1c59b8a2f07811362480e9bd73c4334e dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Vampire_loop\Assets_for_Unity\Battle-Vampire_loop.ogg
+f4d69a2255b0f9fae6821f77de793fce dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Vampire_loop\Assets_for_Unity\Read Me.txt
+359433a96584db06841bad09bcd20884 dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Vampire_loop\Battle-Vampire_loop.m4a
+a8576c27f5b0977c12e72ede45a6046b dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Vampire_loop\Battle-Vampire_loop.ogg
+61e5f475f4290236de5342b8713ab9ae dat\e20200003_dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Battle-Vampire_loop\Battle-Vampire_loop.txt
 65d9928bb9848db9dcf79fd6a9e2e28a DebugRelease.bat
-72099ff6a57d52df373dabb3ebb84d4a Deploy.bat_—}~’†.txt
+72099ff6a57d52df373dabb3ebb84d4a Deploy.bat_æŠ‘æ­¢ä¸­.txt
 ad358914ef1a612864116ed5320e021b doc\Config.conf
 7f0cfc79746e6fc7569427be9477d4f7 doc\Properties.dat
-65793fbc8b5009efa34e4f754917075c doc\ƒ}ƒjƒ…ƒAƒ‹.txt
+65793fbc8b5009efa34e4f754917075c doc\ãƒãƒ‹ãƒ¥ã‚¢ãƒ«.txt
 70f5fc115a21c0cbf160a3e4fee712f3 Elsa20200001\Elsa20200001.sln
 a367ddebb293f0fb73f7bafec210dccf Elsa20200001\Elsa20200001\Common.cs
 e85e6462992d3c57fdfa792d1926e032 Elsa20200001\Elsa20200001\Commons\ArgsReader.cs
@@ -131,9 +131,9 @@ bc61f069918fec9d1e23002455109511 Elsa20200001\Elsa20200001\GameCommons\Options\D
 5f145595a7e26d7f7bc368aaa76dcc41 Elsa20200001\Elsa20200001\Games\Enemies\Enemy.cs
 7e2c0360915d54b2952f48f45b5b74db Elsa20200001\Elsa20200001\Games\Enemies\Enemy_B0001.cs
 e7ee0b0fad63580d26cf1d0e2088e45f Elsa20200001\Elsa20200001\Games\Enemies\Enemy_B0002.cs
-cc612d6b72e1d26bfefb03605910b4c6 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_Bƒ{ƒX0001.cs
-3dc0adbb9abbb510b5c229f9106ec374 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_Bƒ{ƒX0002.cs
-c51a42241e569b01151d38fbf8611f68 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_Bƒ{ƒX0003.cs
+cc612d6b72e1d26bfefb03605910b4c6 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_Bãƒœã‚¹0001.cs
+3dc0adbb9abbb510b5c229f9106ec374 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_Bãƒœã‚¹0002.cs
+c51a42241e569b01151d38fbf8611f68 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_Bãƒœã‚¹0003.cs
 9c65fd8ee10b2e523c54e12f0a57e5b5 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_Item.cs
 0a5d2df1f068c42fd47ec1a8adab3c94 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_Tama0001.cs
 8303cc5106c043a8ac507976a387d93b Elsa20200001\Elsa20200001\Games\Game.cs
@@ -143,17 +143,17 @@ bddd38f673372189ea0b76acc81ab9b7 Elsa20200001\Elsa20200001\Games\GameStatus.cs
 bd56ad6aef32ee23c2766a4f66a4f8d3 Elsa20200001\Elsa20200001\Games\Logo.cs
 4f8e35016c2929917b7856d70ce1ab66 Elsa20200001\Elsa20200001\Games\Player.cs
 ffab2522827188de85177268885fe504 Elsa20200001\Elsa20200001\Games\Scripts\Script.cs
-3e894c251b68c49e91c562c0e0a0f2c4 Elsa20200001\Elsa20200001\Games\Scripts\Script_ƒXƒe[ƒW0001.cs
-ff3035a60fd16ddc155e1678bffba110 Elsa20200001\Elsa20200001\Games\Scripts\Script_ƒXƒe[ƒW0002.cs
-4570d76b9723a7b232a188072c3aed03 Elsa20200001\Elsa20200001\Games\Scripts\Script_ƒXƒe[ƒW0003.cs
+3e894c251b68c49e91c562c0e0a0f2c4 Elsa20200001\Elsa20200001\Games\Scripts\Script_ã‚¹ãƒ†ãƒ¼ã‚¸0001.cs
+ff3035a60fd16ddc155e1678bffba110 Elsa20200001\Elsa20200001\Games\Scripts\Script_ã‚¹ãƒ†ãƒ¼ã‚¸0002.cs
+4570d76b9723a7b232a188072c3aed03 Elsa20200001\Elsa20200001\Games\Scripts\Script_ã‚¹ãƒ†ãƒ¼ã‚¸0003.cs
 af310704ca60e44fb67ed8c4cb2d8bcf Elsa20200001\Elsa20200001\Games\Scripts\ScriptCommon.cs
-31e5e02a79b2fa15ef2265b26bd3e6a8 Elsa20200001\Elsa20200001\Games\Scripts\ƒ_ƒ~[s\Script_ƒ_ƒ~[0001.cs
-cbf6c68666e9dbce5b2600510bc1dfb4 Elsa20200001\Elsa20200001\Games\Scripts\ƒeƒXƒgs\Script_Bƒ{ƒX0001ƒeƒXƒg.cs
-71ec72debcddef4cf9012ed18f4a577c Elsa20200001\Elsa20200001\Games\Scripts\ƒeƒXƒgs\Script_ƒeƒXƒg0001.cs
-605e90e9bc3a6608f6694f1637d6dfee Elsa20200001\Elsa20200001\Games\Scripts\ƒeƒXƒgs\Script_ƒeƒXƒg0002.cs
-ffa9e661a07ef80c5d52ab7586345865 Elsa20200001\Elsa20200001\Games\Scripts\ƒeƒXƒgs\Script_ƒeƒXƒg0003.cs
-f9eac46ae2794ae9b75d2038c6e7507c Elsa20200001\Elsa20200001\Games\Scripts\ƒeƒXƒgs\Script_ƒeƒXƒg0004.cs
-aa570dea9567b5a6b7772f6e6f5b7ec5 Elsa20200001\Elsa20200001\Games\Scripts\ƒeƒXƒgs\Script_•Ç†ƒeƒXƒg0001.cs
+31e5e02a79b2fa15ef2265b26bd3e6a8 Elsa20200001\Elsa20200001\Games\Scripts\ãƒ€ãƒŸãƒ¼s\Script_ãƒ€ãƒŸãƒ¼0001.cs
+cbf6c68666e9dbce5b2600510bc1dfb4 Elsa20200001\Elsa20200001\Games\Scripts\ãƒ†ã‚¹ãƒˆs\Script_Bãƒœã‚¹0001ãƒ†ã‚¹ãƒˆ.cs
+71ec72debcddef4cf9012ed18f4a577c Elsa20200001\Elsa20200001\Games\Scripts\ãƒ†ã‚¹ãƒˆs\Script_ãƒ†ã‚¹ãƒˆ0001.cs
+605e90e9bc3a6608f6694f1637d6dfee Elsa20200001\Elsa20200001\Games\Scripts\ãƒ†ã‚¹ãƒˆs\Script_ãƒ†ã‚¹ãƒˆ0002.cs
+ffa9e661a07ef80c5d52ab7586345865 Elsa20200001\Elsa20200001\Games\Scripts\ãƒ†ã‚¹ãƒˆs\Script_ãƒ†ã‚¹ãƒˆ0003.cs
+f9eac46ae2794ae9b75d2038c6e7507c Elsa20200001\Elsa20200001\Games\Scripts\ãƒ†ã‚¹ãƒˆs\Script_ãƒ†ã‚¹ãƒˆ0004.cs
+aa570dea9567b5a6b7772f6e6f5b7ec5 Elsa20200001\Elsa20200001\Games\Scripts\ãƒ†ã‚¹ãƒˆs\Script_å£ç´™ãƒ†ã‚¹ãƒˆ0001.cs
 e855baadbafd3b88286aadcc7b55484c Elsa20200001\Elsa20200001\Games\Shots\Shot.cs
 0dad91d12a79ef648da9b24b034b438f Elsa20200001\Elsa20200001\Games\Shots\Shot_B0001.cs
 c8de590054a3736db8cbed1c5a3b7a07 Elsa20200001\Elsa20200001\Games\TitleMenu.cs

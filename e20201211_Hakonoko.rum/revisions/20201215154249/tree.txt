@@ -7,16 +7,16 @@ dat\e20200003_dat\Logo
 dat\e20200003_dat\Novel
 dat\e20200003_dat\Novel\Font
 dat\e20200003_dat\Novel\Font\K Gothic
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‚©‚ç‚¢
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\01 message
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\02 button
-dat\e20200003_dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button
-dat\e20200003_dat\ƒeƒXƒg—p
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\01 message
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\02 button
+dat\e20200003_dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button
+dat\e20200003_dat\ãƒ†ã‚¹ãƒˆç”¨
 doc
 Elsa20200001
 Elsa20200001\Elsa20200001

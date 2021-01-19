@@ -209,143 +209,143 @@ bb2597279c2cb0819c9ff7a5be415869 dat\dat\hmix\m2.mp3
 049a2c1a6845299127ca21dea93479c8 dat\dat\Logo\Copyright.png
 5c8044dfe49667916311571f45aab7c9 dat\dat\Novel\Font\K Gothic\_source.txt
 3f537e1030a4e641ea5b12d21a0f5b41 dat\dat\Novel\Font\K Gothic\K Gothic.ttf
-c4491ae086652760fbed7b571c49acbc dat\dat\Novel\Font\K Gothic\‚Í‚¶‚ß‚É‚¨“Ç‚İ‚­‚¾‚³‚¢.txt
+c4491ae086652760fbed7b571c49acbc dat\dat\Novel\Font\K Gothic\ã¯ã˜ã‚ã«ãŠèª­ã¿ãã ã•ã„.txt
 6852f0d8447d5b36c55a73cd92399dbf dat\dat\Novel\Instagram\IMG_20160000_000040.jpg
 d1ba2ad258ca3b0fcd5094ea49bc07cd dat\dat\Novel\Instagram\IMG_20160000_000106.jpg
-9a06bde705400b30e54e660fbe079365 dat\dat\Novel\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\_source.txt
-9755df9380e4c418aa15ad8e82d51a80 dat\dat\Novel\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•\maki01.png
-62971c34db9ff7e9f09318ab84e3f884 dat\dat\Novel\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•\maki02.png
-77ab98c5af28c9ada5f3bee33a3774d3 dat\dat\Novel\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•\yukari02.png
-f94375437d6ded94b6276dab83e95040 dat\dat\Novel\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•\yukari03.png
-2b4a85555831f6a2a5237e56bd802e43 dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\_source.txt
-8d8a9a4925838c23d1aad527d13035b9 dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\01 message\message.png
-7862380af959a60073451b15cac7638d dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\02 button\button.png
-4b776b1b0e9a14dc72b5bd34cceb19a5 dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\02 button\button2.png
-377b0237bc582e8b04e639b8967d87df dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\02 button\button3.png
-6328577a9868e01e558cbbd9f72f863a dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\auto.png
-5237b67354e1e6af8ce2157d54f495a9 dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\auto2.png
-eba05009adfd19cf58906e7fadf0ed0d dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\load.png
-4b6130ac0eba87420d7e521a78870219 dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\load2.png
-8f7aca8485ae38736760619a2db9b3c9 dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\log.png
-6cfd169f9465d37e8f5c82d2d154e37b dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\log2.png
-9e939d60f1187034a7f9ba52e4bcbb69 dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\menu.png
-a97895b376e4b30062add5315f1cc5e1 dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\menu2.png
-da416990c6cb9d6248c3d5380b419e28 dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\save.png
-7229d66bf20215b1f12ccc00652edb69 dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\save2.png
-f57e5e0fc829e199d0191a66ff1aa809 dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\skip.png
-794e6fe3dc0610bf7ff9ecc8be29f8c2 dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button\skip2.png
-30942a2b29811b6cbada4349465eb6bf dat\dat\‚«‚Â‚Ë‰¼\_source.txt
-236ed440c84b801a16cd746bd23b7cf2 dat\dat\‚«‚Â‚Ë‰¼\yukkuri-kanako.png
-df7dbb6cbbbfab20b435340742d648d5 dat\dat\‚İ‚é‚Ó‚¡\_source.txt
-7e9608a755e6fbf2e727e6fdc8058e4b dat\dat\‚İ‚é‚Ó‚¡\nc200903.mp3
-6919d51b6b6fd30dc63c88322a239d78 dat\dat\¬X•½\_source.txt
-6241202b85cd6a25f40a1d73ae00210f dat\dat\¬X•½\sfxrse\01pickup\coin01.mp3
-9b8e8705be259c38f9732010a1d0aba8 dat\dat\¬X•½\sfxrse\01pickup\coin02.mp3
-01845a8fb7a5925fd2ca9c7310f92d02 dat\dat\¬X•½\sfxrse\01pickup\coin03.mp3
-7b32fa16415f7b65a842ee5181a81cd1 dat\dat\¬X•½\sfxrse\01pickup\coin04.mp3
-b0e5726c80f0d063ba680c337a66b129 dat\dat\¬X•½\sfxrse\01pickup\coin05.mp3
-4ec608e6802285e45b0f8ae2029f343e dat\dat\¬X•½\sfxrse\01pickup\coin06.mp3
-7f3ef1c26d138c13a00a81b11e27ac7e dat\dat\¬X•½\sfxrse\01pickup\coin07.mp3
-a8383a9088fd73488d67e706e79f2f42 dat\dat\¬X•½\sfxrse\01pickup\coin08.mp3
-f7da53f1925823648c912afa4281f085 dat\dat\¬X•½\sfxrse\01pickup\pickup01.mp3
-faf43b2702505719909df38d3e217904 dat\dat\¬X•½\sfxrse\01pickup\pickup02.mp3
-b48ba0147e8840e18ca75f5cb5bdaf80 dat\dat\¬X•½\sfxrse\01pickup\pickup03.mp3
-546cfd23a512bea1154cf6f1d9a65f5b dat\dat\¬X•½\sfxrse\01pickup\pickup04.mp3
-6a7fdf06f4d13e060ec4d9666b940bf7 dat\dat\¬X•½\sfxrse\01pickup\poka01.mp3
-79ae197ccf952ea8cba9d5254520a72a dat\dat\¬X•½\sfxrse\01pickup\poka02.mp3
-b2394f702d40e37edd887a380cb29933 dat\dat\¬X•½\sfxrse\01pickup\poka03.mp3
-f5282fc4bb1129a01bc937469548d0af dat\dat\¬X•½\sfxrse\01pickup\sh_pickup01.mp3
-f8d93e604540d0b042ed35dead287d04 dat\dat\¬X•½\sfxrse\01pickup\sh_pickup02.mp3
-c3f23261bcdf7c54b531c4672c1bfe0f dat\dat\¬X•½\sfxrse\01pickup\sh_pickup03.mp3
-9ff274db17855bdfb7e71a7c1d2432b6 dat\dat\¬X•½\sfxrse\02laser\laser01.mp3
-c3ba92d0271985e994b1b31f9cfa7c67 dat\dat\¬X•½\sfxrse\02laser\laser02.mp3
-4f79e13b0c81414fea5682d03b8fc9e6 dat\dat\¬X•½\sfxrse\02laser\laser03.mp3
-25625f78845e8f31718337d7f4ec98af dat\dat\¬X•½\sfxrse\02laser\laser04.mp3
-0687ae56c84abce0f7e1c074fa378a63 dat\dat\¬X•½\sfxrse\02laser\laser05.mp3
-05a45e6c262817710a7785b89e83bcd7 dat\dat\¬X•½\sfxrse\02laser\laser06.mp3
-3c5fd793302bf30acf5d962eca10e9c0 dat\dat\¬X•½\sfxrse\02laser\laser07.mp3
-f657e86a7d693093fc55bd8b88ceda47 dat\dat\¬X•½\sfxrse\02laser\laser08.mp3
-58d67a4d0b058b743cbe861a3ca03080 dat\dat\¬X•½\sfxrse\02laser\shoot01.mp3
-9074462495778a2892e0aacfb7f1161e dat\dat\¬X•½\sfxrse\02laser\shoot02.mp3
-6713699413df5e80e3bbab67aaa55329 dat\dat\¬X•½\sfxrse\02laser\shoot03.mp3
-1ffa39a1cec804680f4f4f82aafdfc7e dat\dat\¬X•½\sfxrse\02laser\shoot04.mp3
-b4a0269504838b54d056283128ef4f5b dat\dat\¬X•½\sfxrse\02laser\shoot05.mp3
-eb6f3505a163994b9d7b5bcbbadb0f8d dat\dat\¬X•½\sfxrse\03explosion\attack01.mp3
-f4b8b79967d23b2a55938261f94e5762 dat\dat\¬X•½\sfxrse\03explosion\attack02.mp3
-55ee207b35eea4f03fce6b172c6bcf07 dat\dat\¬X•½\sfxrse\03explosion\attack03.mp3
-70aeb39169f285e59e04494046e50f02 dat\dat\¬X•½\sfxrse\03explosion\attack04.mp3
-765777689ab8652853376d596f210570 dat\dat\¬X•½\sfxrse\03explosion\explosion01.mp3
-8356aaab46da852571250bc0da9d86d4 dat\dat\¬X•½\sfxrse\03explosion\explosion02.mp3
-a0b7f4c6cf6eba7e62afa909d4305cc6 dat\dat\¬X•½\sfxrse\03explosion\explosion03.mp3
-4cca9e7a786a03504aa4982110e918af dat\dat\¬X•½\sfxrse\03explosion\explosion04.mp3
-ed5912903540ad3d4b98321778502374 dat\dat\¬X•½\sfxrse\03explosion\explosion05.mp3
-b30188034e3d0591314bf96b845830fe dat\dat\¬X•½\sfxrse\03explosion\explosion06.mp3
-31f5d62440bb325559afe6b5a15146a9 dat\dat\¬X•½\sfxrse\03explosion\explosion07.mp3
-7139e04491dcfe1773028a8e8d32398e dat\dat\¬X•½\sfxrse\03explosion\explosion08.mp3
-6398dbfbcada06d22fef970b40c8a05a dat\dat\¬X•½\sfxrse\03explosion\explosion09.mp3
-946c99b5e375e95206f70819b1bc8fcd dat\dat\¬X•½\sfxrse\04powerup\powerdown01.mp3
-813f0772bdf617821f0d1fe742894370 dat\dat\¬X•½\sfxrse\04powerup\powerdown02.mp3
-172923161c066fa8c6304dee87c72ddb dat\dat\¬X•½\sfxrse\04powerup\powerdown03.mp3
-3338db3aa96fa909a96894b8df614e29 dat\dat\¬X•½\sfxrse\04powerup\powerdown04.mp3
-cf43907e48d1e80ef990cac199b44b9e dat\dat\¬X•½\sfxrse\04powerup\powerdown05.mp3
-f3b7196c8817d3bb90348446b759f5a8 dat\dat\¬X•½\sfxrse\04powerup\powerdown06.mp3
-90f3d0d9088813795091230920ac729e dat\dat\¬X•½\sfxrse\04powerup\powerdown07.mp3
-2320e2c1d4c459f936aafd4448380d26 dat\dat\¬X•½\sfxrse\04powerup\powerup01.mp3
-cd65dc7f3e18be2ccc5b2cd010cd43f9 dat\dat\¬X•½\sfxrse\04powerup\powerup02.mp3
-f91d2511a7af85f4e2aad825300f03e8 dat\dat\¬X•½\sfxrse\04powerup\powerup03.mp3
-f605517618508c30a41c9010e0ddeb6b dat\dat\¬X•½\sfxrse\04powerup\powerup04.mp3
-dbb946b7b9bae05e4e40c1a1ce2143f5 dat\dat\¬X•½\sfxrse\04powerup\powerup05.mp3
-f8c6b17af2bd4f880d96006bdd729a7f dat\dat\¬X•½\sfxrse\04powerup\powerup06.mp3
-264f42b0ec7d91fcbc9fc3d3224faa09 dat\dat\¬X•½\sfxrse\04powerup\powerup07.mp3
-fafa0d9a0272bdd72bded0810365ee59 dat\dat\¬X•½\sfxrse\04powerup\powerup08.mp3
-666fb58d63a2fe9ab4eab62c5d13920f dat\dat\¬X•½\sfxrse\04powerup\powerup09.mp3
-0c36983705ffd5dcdd31e26989411e9b dat\dat\¬X•½\sfxrse\04powerup\powerup10.mp3
-685bf4a24ff2d83a8ff3722ce1203642 dat\dat\¬X•½\sfxrse\05hit\hit01.mp3
-ce3d73bfbb3662bc73afc4426e6a4930 dat\dat\¬X•½\sfxrse\05hit\hit02.mp3
-cb65225fa6d0172436308d18d2c973fc dat\dat\¬X•½\sfxrse\05hit\hit03.mp3
-b7a7ed4d668da1e980335f59e5743822 dat\dat\¬X•½\sfxrse\05hit\hit04.mp3
-d8d09dd3684ea1cc76219181a8229c16 dat\dat\¬X•½\sfxrse\05hit\hit05.mp3
-574890d5b801442f8bc4532a10aa6417 dat\dat\¬X•½\sfxrse\05hit\hit06.mp3
-81b0c32dc16f29f7be1d8659207d0842 dat\dat\¬X•½\sfxrse\05hit\hit07.mp3
-dae7c198a1df6619c5ac8637cf34c8d0 dat\dat\¬X•½\sfxrse\06jump\jump01.mp3
-d45c65465abdf11f0cbd3c0eb3d95683 dat\dat\¬X•½\sfxrse\06jump\jump02.mp3
-8798e90008dd53564649df8b5ab896ef dat\dat\¬X•½\sfxrse\06jump\jump03.mp3
-6507b4af5c7e6660dbd87e13d87a4853 dat\dat\¬X•½\sfxrse\06jump\jump04.mp3
-cd0158d00283887b9ae92958dc2bff2a dat\dat\¬X•½\sfxrse\06jump\jump05.mp3
-4005d93bdf8a4ce47da4faecdfe46ccf dat\dat\¬X•½\sfxrse\06jump\jump06.mp3
-b468f8a9079377219ef19fe39fa8f638 dat\dat\¬X•½\sfxrse\06jump\jump07.mp3
-3f6b18318c7ab4d8cfc609fb15bc82ab dat\dat\¬X•½\sfxrse\06jump\jump08.mp3
-451532fa1f346a530ff3ce544d483e16 dat\dat\¬X•½\sfxrse\06jump\jump09.mp3
-50d8f6e8d362b169e6b4aaab48912833 dat\dat\¬X•½\sfxrse\06jump\jump10.mp3
-0f31d12c7671773f2fe1d7f76f3a3bf0 dat\dat\¬X•½\sfxrse\06jump\jump11.mp3
-ab5161b2453263091514e38a6f2a210d dat\dat\¬X•½\sfxrse\06jump\jump12.mp3
-ffef03c67bbdd5ee639de3472b33f5ee dat\dat\¬X•½\sfxrse\06jump\jump13.mp3
-afb1822244a3342f94bab8b87eb7055a dat\dat\¬X•½\sfxrse\07blip\blip01.mp3
-8bf494ca8a911240f5f53e0f6534f8b0 dat\dat\¬X•½\sfxrse\07blip\blip02.mp3
-cb9c72684a95c66be3d29631996d9356 dat\dat\¬X•½\sfxrse\07blip\blip03.mp3
-c2eebdbffd1c1594f7ef888dd7e9d2d9 dat\dat\¬X•½\sfxrse\07blip\blip04.mp3
-b8ee25f119e0490f9ea3de0781acc56b dat\dat\¬X•½\sfxrse\07blip\select01.mp3
-9532caf30c50f9a36403c8fe2cb729a5 dat\dat\¬X•½\sfxrse\07blip\select02.mp3
-0efe3cc2bbcd5e7b3a31290774ad9a98 dat\dat\¬X•½\sfxrse\07blip\select03.mp3
-fcc7d41f23336dfb441ac1a8908560db dat\dat\¬X•½\sfxrse\07blip\select04.mp3
-514f35b88263a88bf6d2c3728a9e6f0c dat\dat\¬X•½\sfxrse\07blip\select05.mp3
-3d07fbbc9cbf1a65a598a79aa49c975d dat\dat\¬X•½\sfxrse\07blip\select06.mp3
-c527076378f6d84ca19fc2061fce62ba dat\dat\¬X•½\sfxrse\07blip\select07.mp3
-e57b7f06fd7700cc2e1cff791731354e dat\dat\¬X•½\sfxrse\07blip\select08.mp3
-8d694809794b8d4f9ff933565ecb8524 dat\dat\¬X•½\sfxrse\07blip\select09.mp3
-fc0edcc5ad03ed1944416de6f5e3f453 dat\dat\¬X•½\sfxrse\07blip\select10.mp3
+9a06bde705400b30e54e660fbe079365 dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\_source.txt
+9755df9380e4c418aa15ad8e82d51a80 dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ\maki01.png
+62971c34db9ff7e9f09318ab84e3f884 dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ\maki02.png
+77ab98c5af28c9ada5f3bee33a3774d3 dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ\yukari02.png
+f94375437d6ded94b6276dab83e95040 dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ\yukari03.png
+2b4a85555831f6a2a5237e56bd802e43 dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\_source.txt
+8d8a9a4925838c23d1aad527d13035b9 dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\01 message\message.png
+7862380af959a60073451b15cac7638d dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\02 button\button.png
+4b776b1b0e9a14dc72b5bd34cceb19a5 dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\02 button\button2.png
+377b0237bc582e8b04e639b8967d87df dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\02 button\button3.png
+6328577a9868e01e558cbbd9f72f863a dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\auto.png
+5237b67354e1e6af8ce2157d54f495a9 dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\auto2.png
+eba05009adfd19cf58906e7fadf0ed0d dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\load.png
+4b6130ac0eba87420d7e521a78870219 dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\load2.png
+8f7aca8485ae38736760619a2db9b3c9 dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\log.png
+6cfd169f9465d37e8f5c82d2d154e37b dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\log2.png
+9e939d60f1187034a7f9ba52e4bcbb69 dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\menu.png
+a97895b376e4b30062add5315f1cc5e1 dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\menu2.png
+da416990c6cb9d6248c3d5380b419e28 dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\save.png
+7229d66bf20215b1f12ccc00652edb69 dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\save2.png
+f57e5e0fc829e199d0191a66ff1aa809 dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\skip.png
+794e6fe3dc0610bf7ff9ecc8be29f8c2 dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button\skip2.png
+30942a2b29811b6cbada4349465eb6bf dat\dat\ãã¤ã­ä»®\_source.txt
+236ed440c84b801a16cd746bd23b7cf2 dat\dat\ãã¤ã­ä»®\yukkuri-kanako.png
+df7dbb6cbbbfab20b435340742d648d5 dat\dat\ã¿ã‚‹ãµãƒ\_source.txt
+7e9608a755e6fbf2e727e6fdc8058e4b dat\dat\ã¿ã‚‹ãµãƒ\nc200903.mp3
+6919d51b6b6fd30dc63c88322a239d78 dat\dat\å°æ£®å¹³\_source.txt
+6241202b85cd6a25f40a1d73ae00210f dat\dat\å°æ£®å¹³\sfxrse\01pickup\coin01.mp3
+9b8e8705be259c38f9732010a1d0aba8 dat\dat\å°æ£®å¹³\sfxrse\01pickup\coin02.mp3
+01845a8fb7a5925fd2ca9c7310f92d02 dat\dat\å°æ£®å¹³\sfxrse\01pickup\coin03.mp3
+7b32fa16415f7b65a842ee5181a81cd1 dat\dat\å°æ£®å¹³\sfxrse\01pickup\coin04.mp3
+b0e5726c80f0d063ba680c337a66b129 dat\dat\å°æ£®å¹³\sfxrse\01pickup\coin05.mp3
+4ec608e6802285e45b0f8ae2029f343e dat\dat\å°æ£®å¹³\sfxrse\01pickup\coin06.mp3
+7f3ef1c26d138c13a00a81b11e27ac7e dat\dat\å°æ£®å¹³\sfxrse\01pickup\coin07.mp3
+a8383a9088fd73488d67e706e79f2f42 dat\dat\å°æ£®å¹³\sfxrse\01pickup\coin08.mp3
+f7da53f1925823648c912afa4281f085 dat\dat\å°æ£®å¹³\sfxrse\01pickup\pickup01.mp3
+faf43b2702505719909df38d3e217904 dat\dat\å°æ£®å¹³\sfxrse\01pickup\pickup02.mp3
+b48ba0147e8840e18ca75f5cb5bdaf80 dat\dat\å°æ£®å¹³\sfxrse\01pickup\pickup03.mp3
+546cfd23a512bea1154cf6f1d9a65f5b dat\dat\å°æ£®å¹³\sfxrse\01pickup\pickup04.mp3
+6a7fdf06f4d13e060ec4d9666b940bf7 dat\dat\å°æ£®å¹³\sfxrse\01pickup\poka01.mp3
+79ae197ccf952ea8cba9d5254520a72a dat\dat\å°æ£®å¹³\sfxrse\01pickup\poka02.mp3
+b2394f702d40e37edd887a380cb29933 dat\dat\å°æ£®å¹³\sfxrse\01pickup\poka03.mp3
+f5282fc4bb1129a01bc937469548d0af dat\dat\å°æ£®å¹³\sfxrse\01pickup\sh_pickup01.mp3
+f8d93e604540d0b042ed35dead287d04 dat\dat\å°æ£®å¹³\sfxrse\01pickup\sh_pickup02.mp3
+c3f23261bcdf7c54b531c4672c1bfe0f dat\dat\å°æ£®å¹³\sfxrse\01pickup\sh_pickup03.mp3
+9ff274db17855bdfb7e71a7c1d2432b6 dat\dat\å°æ£®å¹³\sfxrse\02laser\laser01.mp3
+c3ba92d0271985e994b1b31f9cfa7c67 dat\dat\å°æ£®å¹³\sfxrse\02laser\laser02.mp3
+4f79e13b0c81414fea5682d03b8fc9e6 dat\dat\å°æ£®å¹³\sfxrse\02laser\laser03.mp3
+25625f78845e8f31718337d7f4ec98af dat\dat\å°æ£®å¹³\sfxrse\02laser\laser04.mp3
+0687ae56c84abce0f7e1c074fa378a63 dat\dat\å°æ£®å¹³\sfxrse\02laser\laser05.mp3
+05a45e6c262817710a7785b89e83bcd7 dat\dat\å°æ£®å¹³\sfxrse\02laser\laser06.mp3
+3c5fd793302bf30acf5d962eca10e9c0 dat\dat\å°æ£®å¹³\sfxrse\02laser\laser07.mp3
+f657e86a7d693093fc55bd8b88ceda47 dat\dat\å°æ£®å¹³\sfxrse\02laser\laser08.mp3
+58d67a4d0b058b743cbe861a3ca03080 dat\dat\å°æ£®å¹³\sfxrse\02laser\shoot01.mp3
+9074462495778a2892e0aacfb7f1161e dat\dat\å°æ£®å¹³\sfxrse\02laser\shoot02.mp3
+6713699413df5e80e3bbab67aaa55329 dat\dat\å°æ£®å¹³\sfxrse\02laser\shoot03.mp3
+1ffa39a1cec804680f4f4f82aafdfc7e dat\dat\å°æ£®å¹³\sfxrse\02laser\shoot04.mp3
+b4a0269504838b54d056283128ef4f5b dat\dat\å°æ£®å¹³\sfxrse\02laser\shoot05.mp3
+eb6f3505a163994b9d7b5bcbbadb0f8d dat\dat\å°æ£®å¹³\sfxrse\03explosion\attack01.mp3
+f4b8b79967d23b2a55938261f94e5762 dat\dat\å°æ£®å¹³\sfxrse\03explosion\attack02.mp3
+55ee207b35eea4f03fce6b172c6bcf07 dat\dat\å°æ£®å¹³\sfxrse\03explosion\attack03.mp3
+70aeb39169f285e59e04494046e50f02 dat\dat\å°æ£®å¹³\sfxrse\03explosion\attack04.mp3
+765777689ab8652853376d596f210570 dat\dat\å°æ£®å¹³\sfxrse\03explosion\explosion01.mp3
+8356aaab46da852571250bc0da9d86d4 dat\dat\å°æ£®å¹³\sfxrse\03explosion\explosion02.mp3
+a0b7f4c6cf6eba7e62afa909d4305cc6 dat\dat\å°æ£®å¹³\sfxrse\03explosion\explosion03.mp3
+4cca9e7a786a03504aa4982110e918af dat\dat\å°æ£®å¹³\sfxrse\03explosion\explosion04.mp3
+ed5912903540ad3d4b98321778502374 dat\dat\å°æ£®å¹³\sfxrse\03explosion\explosion05.mp3
+b30188034e3d0591314bf96b845830fe dat\dat\å°æ£®å¹³\sfxrse\03explosion\explosion06.mp3
+31f5d62440bb325559afe6b5a15146a9 dat\dat\å°æ£®å¹³\sfxrse\03explosion\explosion07.mp3
+7139e04491dcfe1773028a8e8d32398e dat\dat\å°æ£®å¹³\sfxrse\03explosion\explosion08.mp3
+6398dbfbcada06d22fef970b40c8a05a dat\dat\å°æ£®å¹³\sfxrse\03explosion\explosion09.mp3
+946c99b5e375e95206f70819b1bc8fcd dat\dat\å°æ£®å¹³\sfxrse\04powerup\powerdown01.mp3
+813f0772bdf617821f0d1fe742894370 dat\dat\å°æ£®å¹³\sfxrse\04powerup\powerdown02.mp3
+172923161c066fa8c6304dee87c72ddb dat\dat\å°æ£®å¹³\sfxrse\04powerup\powerdown03.mp3
+3338db3aa96fa909a96894b8df614e29 dat\dat\å°æ£®å¹³\sfxrse\04powerup\powerdown04.mp3
+cf43907e48d1e80ef990cac199b44b9e dat\dat\å°æ£®å¹³\sfxrse\04powerup\powerdown05.mp3
+f3b7196c8817d3bb90348446b759f5a8 dat\dat\å°æ£®å¹³\sfxrse\04powerup\powerdown06.mp3
+90f3d0d9088813795091230920ac729e dat\dat\å°æ£®å¹³\sfxrse\04powerup\powerdown07.mp3
+2320e2c1d4c459f936aafd4448380d26 dat\dat\å°æ£®å¹³\sfxrse\04powerup\powerup01.mp3
+cd65dc7f3e18be2ccc5b2cd010cd43f9 dat\dat\å°æ£®å¹³\sfxrse\04powerup\powerup02.mp3
+f91d2511a7af85f4e2aad825300f03e8 dat\dat\å°æ£®å¹³\sfxrse\04powerup\powerup03.mp3
+f605517618508c30a41c9010e0ddeb6b dat\dat\å°æ£®å¹³\sfxrse\04powerup\powerup04.mp3
+dbb946b7b9bae05e4e40c1a1ce2143f5 dat\dat\å°æ£®å¹³\sfxrse\04powerup\powerup05.mp3
+f8c6b17af2bd4f880d96006bdd729a7f dat\dat\å°æ£®å¹³\sfxrse\04powerup\powerup06.mp3
+264f42b0ec7d91fcbc9fc3d3224faa09 dat\dat\å°æ£®å¹³\sfxrse\04powerup\powerup07.mp3
+fafa0d9a0272bdd72bded0810365ee59 dat\dat\å°æ£®å¹³\sfxrse\04powerup\powerup08.mp3
+666fb58d63a2fe9ab4eab62c5d13920f dat\dat\å°æ£®å¹³\sfxrse\04powerup\powerup09.mp3
+0c36983705ffd5dcdd31e26989411e9b dat\dat\å°æ£®å¹³\sfxrse\04powerup\powerup10.mp3
+685bf4a24ff2d83a8ff3722ce1203642 dat\dat\å°æ£®å¹³\sfxrse\05hit\hit01.mp3
+ce3d73bfbb3662bc73afc4426e6a4930 dat\dat\å°æ£®å¹³\sfxrse\05hit\hit02.mp3
+cb65225fa6d0172436308d18d2c973fc dat\dat\å°æ£®å¹³\sfxrse\05hit\hit03.mp3
+b7a7ed4d668da1e980335f59e5743822 dat\dat\å°æ£®å¹³\sfxrse\05hit\hit04.mp3
+d8d09dd3684ea1cc76219181a8229c16 dat\dat\å°æ£®å¹³\sfxrse\05hit\hit05.mp3
+574890d5b801442f8bc4532a10aa6417 dat\dat\å°æ£®å¹³\sfxrse\05hit\hit06.mp3
+81b0c32dc16f29f7be1d8659207d0842 dat\dat\å°æ£®å¹³\sfxrse\05hit\hit07.mp3
+dae7c198a1df6619c5ac8637cf34c8d0 dat\dat\å°æ£®å¹³\sfxrse\06jump\jump01.mp3
+d45c65465abdf11f0cbd3c0eb3d95683 dat\dat\å°æ£®å¹³\sfxrse\06jump\jump02.mp3
+8798e90008dd53564649df8b5ab896ef dat\dat\å°æ£®å¹³\sfxrse\06jump\jump03.mp3
+6507b4af5c7e6660dbd87e13d87a4853 dat\dat\å°æ£®å¹³\sfxrse\06jump\jump04.mp3
+cd0158d00283887b9ae92958dc2bff2a dat\dat\å°æ£®å¹³\sfxrse\06jump\jump05.mp3
+4005d93bdf8a4ce47da4faecdfe46ccf dat\dat\å°æ£®å¹³\sfxrse\06jump\jump06.mp3
+b468f8a9079377219ef19fe39fa8f638 dat\dat\å°æ£®å¹³\sfxrse\06jump\jump07.mp3
+3f6b18318c7ab4d8cfc609fb15bc82ab dat\dat\å°æ£®å¹³\sfxrse\06jump\jump08.mp3
+451532fa1f346a530ff3ce544d483e16 dat\dat\å°æ£®å¹³\sfxrse\06jump\jump09.mp3
+50d8f6e8d362b169e6b4aaab48912833 dat\dat\å°æ£®å¹³\sfxrse\06jump\jump10.mp3
+0f31d12c7671773f2fe1d7f76f3a3bf0 dat\dat\å°æ£®å¹³\sfxrse\06jump\jump11.mp3
+ab5161b2453263091514e38a6f2a210d dat\dat\å°æ£®å¹³\sfxrse\06jump\jump12.mp3
+ffef03c67bbdd5ee639de3472b33f5ee dat\dat\å°æ£®å¹³\sfxrse\06jump\jump13.mp3
+afb1822244a3342f94bab8b87eb7055a dat\dat\å°æ£®å¹³\sfxrse\07blip\blip01.mp3
+8bf494ca8a911240f5f53e0f6534f8b0 dat\dat\å°æ£®å¹³\sfxrse\07blip\blip02.mp3
+cb9c72684a95c66be3d29631996d9356 dat\dat\å°æ£®å¹³\sfxrse\07blip\blip03.mp3
+c2eebdbffd1c1594f7ef888dd7e9d2d9 dat\dat\å°æ£®å¹³\sfxrse\07blip\blip04.mp3
+b8ee25f119e0490f9ea3de0781acc56b dat\dat\å°æ£®å¹³\sfxrse\07blip\select01.mp3
+9532caf30c50f9a36403c8fe2cb729a5 dat\dat\å°æ£®å¹³\sfxrse\07blip\select02.mp3
+0efe3cc2bbcd5e7b3a31290774ad9a98 dat\dat\å°æ£®å¹³\sfxrse\07blip\select03.mp3
+fcc7d41f23336dfb441ac1a8908560db dat\dat\å°æ£®å¹³\sfxrse\07blip\select04.mp3
+514f35b88263a88bf6d2c3728a9e6f0c dat\dat\å°æ£®å¹³\sfxrse\07blip\select05.mp3
+3d07fbbc9cbf1a65a598a79aa49c975d dat\dat\å°æ£®å¹³\sfxrse\07blip\select06.mp3
+c527076378f6d84ca19fc2061fce62ba dat\dat\å°æ£®å¹³\sfxrse\07blip\select07.mp3
+e57b7f06fd7700cc2e1cff791731354e dat\dat\å°æ£®å¹³\sfxrse\07blip\select08.mp3
+8d694809794b8d4f9ff933565ecb8524 dat\dat\å°æ£®å¹³\sfxrse\07blip\select09.mp3
+fc0edcc5ad03ed1944416de6f5e3f453 dat\dat\å°æ£®å¹³\sfxrse\07blip\select10.mp3
 c20634cf60f66885b3a8236c259ad5dc dat\res\DatStrings.txt
 34cb8d44d49e40b482143119af94976b dat\res\Scenario\_memo.txt
 32b85464712fce458d898af5baa75fd2 dat\res\Scenario\_memo_Define.txt
 fe46bebf1cbd265d149b0015e2bf972c dat\res\Scenario\_memo_Include.txt
 c453fb694a20785e5561cfc3802d4617 dat\res\Scenario\Include\Common.txt
 4d8ea2225ffb53d7d11c86d145e069ac dat\res\Scenario\Include\Define.txt
-87508462787ddaa0e0b39e041e0c45b0 dat\res\Scenario\Include\”wŒi•ÏX.txt
-4671834621038a50b64d971708d6e252 dat\res\Scenario\ƒCƒxƒ“ƒg0001.txt
-744618ef48acfe4823a65236e3d19ae6 dat\res\Scenario\ƒ_ƒ~[ƒVƒiƒŠƒI.txt
-683f817ea109eb18d2c54568e9758ce6 dat\res\Scenario\ƒeƒXƒg0001.txt
-227ef2e1dd7a382984bc2f7991f94a06 dat\res\Scenario\ƒeƒXƒg0002.txt
-7124e144f0054739fc7b5cbb03234444 dat\res\Scenario\ƒeƒXƒg0003.txt
+87508462787ddaa0e0b39e041e0c45b0 dat\res\Scenario\Include\èƒŒæ™¯å¤‰æ›´.txt
+4671834621038a50b64d971708d6e252 dat\res\Scenario\ã‚¤ãƒ™ãƒ³ãƒˆ0001.txt
+744618ef48acfe4823a65236e3d19ae6 dat\res\Scenario\ãƒ€ãƒŸãƒ¼ã‚·ãƒŠãƒªã‚ª.txt
+683f817ea109eb18d2c54568e9758ce6 dat\res\Scenario\ãƒ†ã‚¹ãƒˆ0001.txt
+227ef2e1dd7a382984bc2f7991f94a06 dat\res\Scenario\ãƒ†ã‚¹ãƒˆ0002.txt
+7124e144f0054739fc7b5cbb03234444 dat\res\Scenario\ãƒ†ã‚¹ãƒˆ0003.txt
 ee9b6e28332cbed7cbe44fe424129d8a dat\res\World\Map\_memo.txt
 16619089f6f0131c278b138f4fbf48a7 dat\res\World\Map\t0001.txt
 1cfaf8372b74071fb993cab0eff48d7b dat\res\World\Map\t0002.txt
@@ -356,7 +356,7 @@ cc635536c6c51d84f9909f2ab967da44 dat\res\World\Map\t0004.txt
 abb748388c0f2bb885a284072551ab07 Deploy.bat
 d45f7078b44622a543c7bec1653c44ba doc\Config.conf
 7f0cfc79746e6fc7569427be9477d4f7 doc\Properties.dat
-22421c618ebd97b5f6e2f3eb2136f56f doc\ƒ}ƒjƒ…ƒAƒ‹.txt
+22421c618ebd97b5f6e2f3eb2136f56f doc\ãƒãƒ‹ãƒ¥ã‚¢ãƒ«.txt
 70f5fc115a21c0cbf160a3e4fee712f3 Elsa20200001\Elsa20200001.sln
 0925601f36fcba46e45de92c620d4688 Elsa20200001\Elsa20200001\Common.cs
 e85e6462992d3c57fdfa792d1926e032 Elsa20200001\Elsa20200001\Commons\ArgsReader.cs
@@ -441,20 +441,20 @@ bc61f069918fec9d1e23002455109511 Elsa20200001\Elsa20200001\GameCommons\Options\D
 4721c161244e97a66939cc16a3dc12b0 Elsa20200001\Elsa20200001\Games\Around.cs
 512bbeb1b121798ed275bde5e3133189 Elsa20200001\Elsa20200001\Games\Effects.cs
 1b4cde032bbcd078a05f4f6b0a95555a Elsa20200001\Elsa20200001\Games\Enemies\Enemy.cs
-e5458d074b3c0c6253f3b7e063370269 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_ƒXƒ^[ƒg’n“_.cs
+e5458d074b3c0c6253f3b7e063370269 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_ã‚¹ã‚¿ãƒ¼ãƒˆåœ°ç‚¹.cs
 23c49782d989d56ed72c123557ec4214 Elsa20200001\Elsa20200001\Games\Enemies\EnemyCatalog.cs
 b636db036d02a067d33bd8e9317d68da Elsa20200001\Elsa20200001\Games\Enemies\Tests\Enemy_B0001.cs
 8cc90c8bd8d149d5f67a4f0105ee26fb Elsa20200001\Elsa20200001\Games\Enemies\Tests\Enemy_B0002.cs
-b343e5e8be1600513cf3b308a462f38f Elsa20200001\Elsa20200001\Games\Enemies\Tests\Enemy_BƒAƒCƒeƒ€.cs
-0ce9e6cb15679111a5e44278a9c12cd2 Elsa20200001\Elsa20200001\Games\Enemies\Tests\Enemy_BƒCƒxƒ“ƒg0001.cs
-6c349f9b7b3e89e50eba0b2aeb38b051 Elsa20200001\Elsa20200001\Games\Enemies\Tests\Enemy_BƒZ[ƒu’n“_.cs
-bf656458d85bf009d7635243b2a31e9e Elsa20200001\Elsa20200001\Games\Enemies\Tests\Enemy_BƒnƒbƒN0001.cs
-53458949f433d0a2b25d2761afba628d Elsa20200001\Elsa20200001\Games\Enemies\Tests\_“Şqs\Enemy_B_“Şq.cs
-252abf2bd7173583c1a5313fece8af07 Elsa20200001\Elsa20200001\Games\Enemies\Tests\_“Şqs\Enemy_B_“Şq0001.cs
-54180156ce06fb72488a21e450e76c99 Elsa20200001\Elsa20200001\Games\Enemies\Tests\_“Şqs\Enemy_B_“Şq9901.cs
-40087a9ff8400987ee5b8b5453195c80 Elsa20200001\Elsa20200001\Games\Enemies\Tests\_“Şqs\Enemy_B_“Şq9902.cs
-e6fce6efdf71ee4781b4a9fed9c949ec Elsa20200001\Elsa20200001\Games\Enemies\Tests\_“Şqs\Enemy_B_“Şq_Tama.cs
-6d941d97adfcc43c535a15688f2292fe Elsa20200001\Elsa20200001\Games\Enemies\Tests\_“Şqs\EnemyCommon_B_“Şq.cs
+b343e5e8be1600513cf3b308a462f38f Elsa20200001\Elsa20200001\Games\Enemies\Tests\Enemy_Bã‚¢ã‚¤ãƒ†ãƒ .cs
+0ce9e6cb15679111a5e44278a9c12cd2 Elsa20200001\Elsa20200001\Games\Enemies\Tests\Enemy_Bã‚¤ãƒ™ãƒ³ãƒˆ0001.cs
+6c349f9b7b3e89e50eba0b2aeb38b051 Elsa20200001\Elsa20200001\Games\Enemies\Tests\Enemy_Bã‚»ãƒ¼ãƒ–åœ°ç‚¹.cs
+bf656458d85bf009d7635243b2a31e9e Elsa20200001\Elsa20200001\Games\Enemies\Tests\Enemy_Bãƒãƒƒã‚¯0001.cs
+53458949f433d0a2b25d2761afba628d Elsa20200001\Elsa20200001\Games\Enemies\Tests\ç¥å¥ˆå­s\Enemy_Bç¥å¥ˆå­.cs
+252abf2bd7173583c1a5313fece8af07 Elsa20200001\Elsa20200001\Games\Enemies\Tests\ç¥å¥ˆå­s\Enemy_Bç¥å¥ˆå­0001.cs
+54180156ce06fb72488a21e450e76c99 Elsa20200001\Elsa20200001\Games\Enemies\Tests\ç¥å¥ˆå­s\Enemy_Bç¥å¥ˆå­9901.cs
+40087a9ff8400987ee5b8b5453195c80 Elsa20200001\Elsa20200001\Games\Enemies\Tests\ç¥å¥ˆå­s\Enemy_Bç¥å¥ˆå­9902.cs
+e6fce6efdf71ee4781b4a9fed9c949ec Elsa20200001\Elsa20200001\Games\Enemies\Tests\ç¥å¥ˆå­s\Enemy_Bç¥å¥ˆå­_Tama.cs
+6d941d97adfcc43c535a15688f2292fe Elsa20200001\Elsa20200001\Games\Enemies\Tests\ç¥å¥ˆå­s\EnemyCommon_Bç¥å¥ˆå­.cs
 187c647c0b709e8fd5ab19d076fd174e Elsa20200001\Elsa20200001\Games\Game.cs
 ffe527e39dbd9fa6289af4f615e9fd8a Elsa20200001\Elsa20200001\Games\GameCommon.cs
 a3228b3bf22feb908918a5017020544e Elsa20200001\Elsa20200001\Games\GameConsts.cs
@@ -470,16 +470,16 @@ fc7692ea748f22e76a94144090a3aed6 Elsa20200001\Elsa20200001\Games\Logo.cs
 0f58a85c97cb151ef6ec7dd16c90ab3e Elsa20200001\Elsa20200001\Games\Shots\Shot_Normal.cs
 cd134d74189512a84d60aa3c4d37a767 Elsa20200001\Elsa20200001\Games\Shots\Shot_Spread.cs
 dc172a06a7339e2fa17e2c03aab0f29a Elsa20200001\Elsa20200001\Games\Shots\Shot_Wave.cs
-ad7acf5b9ed063a4257e0dce1e567609 Elsa20200001\Elsa20200001\Games\Tiles\Tests\Tile_Bƒ{ƒX•”‰®Shutter.cs
+ad7acf5b9ed063a4257e0dce1e567609 Elsa20200001\Elsa20200001\Games\Tiles\Tests\Tile_Bãƒœã‚¹éƒ¨å±‹Shutter.cs
 56d2a8a51db6e8e769b9fe8bce0d2e9d Elsa20200001\Elsa20200001\Games\Tiles\Tile.cs
 cd26e78a308bd2d511fed336149dc329 Elsa20200001\Elsa20200001\Games\Tiles\Tile_None.cs
 c30dfe793c1e7cd7364a9a8823ce5688 Elsa20200001\Elsa20200001\Games\Tiles\Tile_River.cs
 b7792bebd65db831959e20921f5d88a2 Elsa20200001\Elsa20200001\Games\Tiles\Tile_Space.cs
 33d1e89474ba6649334629af91e5eb38 Elsa20200001\Elsa20200001\Games\Tiles\Tile_Wall.cs
-2d5b3938b45e6c190e42604202fd6eea Elsa20200001\Elsa20200001\Games\Tiles\Tile_X—Ñ.cs
-33747cb36f573ab47b45c06cfa671125 Elsa20200001\Elsa20200001\Games\Tiles\Tile_X—ÑŒn.cs
-235071cb4aace655c41a402cbb98c9bf Elsa20200001\Elsa20200001\Games\Tiles\Tile_…•Ó.cs
-42796fd4322593fc9a9d8f00e7e1bd61 Elsa20200001\Elsa20200001\Games\Tiles\Tile_…•ÓŒn.cs
+2d5b3938b45e6c190e42604202fd6eea Elsa20200001\Elsa20200001\Games\Tiles\Tile_æ£®æ—.cs
+33747cb36f573ab47b45c06cfa671125 Elsa20200001\Elsa20200001\Games\Tiles\Tile_æ£®æ—ç³».cs
+235071cb4aace655c41a402cbb98c9bf Elsa20200001\Elsa20200001\Games\Tiles\Tile_æ°´è¾º.cs
+42796fd4322593fc9a9d8f00e7e1bd61 Elsa20200001\Elsa20200001\Games\Tiles\Tile_æ°´è¾ºç³».cs
 cc39f8fd4b45c7a5249743116ff2d2eb Elsa20200001\Elsa20200001\Games\Tiles\TileCatalog.cs
 f8c1b316b70e964fb01dd00887542739 Elsa20200001\Elsa20200001\Games\TitleMenu.cs
 354d7f6a5caaca792572490e10ea5ed5 Elsa20200001\Elsa20200001\Games\Walls\Wall.cs
@@ -487,7 +487,7 @@ f8c1b316b70e964fb01dd00887542739 Elsa20200001\Elsa20200001\Games\TitleMenu.cs
 c231ae4d4a4c794382cae7c0c2aab90d Elsa20200001\Elsa20200001\Games\Walls\WallCreator.cs
 eae655fc0530cadc32ece07958499335 Elsa20200001\Elsa20200001\Games\World.cs
 334eee01d06949c8d47d1ad67a9ae89f Elsa20200001\Elsa20200001\Games\WorldGameMaster.cs
-6b07c39c24332dab888d9a97ff3ee04f Elsa20200001\Elsa20200001\Games\•ÇƒLƒƒƒ‰ˆ—.cs
+6b07c39c24332dab888d9a97ff3ee04f Elsa20200001\Elsa20200001\Games\å£ã‚­ãƒ£ãƒ©å‡¦ç†.cs
 17f8caf25c625a9215d7bdd095e76b31 Elsa20200001\Elsa20200001\Ground.cs
 f3a3b358417f5269b20fccf1fc42637d Elsa20200001\Elsa20200001\LevelEditors\LevelEditor.cs
 b7179f2852b3880f22ae7242e674528e Elsa20200001\Elsa20200001\LevelEditors\LevelEditorDlg.cs
@@ -509,10 +509,10 @@ cc284eb87e7b0f12d85cf632ecf2b9d2 Elsa20200001\Elsa20200001\Novels\ScenarioComman
 41d45dc0f928c9e8a6a9bf9c96e75495 Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_Select.cs
 d1d5387875604affed28730393b20a4a Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_System.cs
 211815626196da45de45f66a2bc72bd7 Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_SystemButtons.cs
-e562543b491c058f80e428322f287611 Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_ƒLƒƒƒ‰ƒNƒ^.cs
-efd7657b1795fbfab42b4357187a16ec Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_ƒXƒNƒŠ[ƒ“.cs
-724e9f630c29b601698176464ca2c891 Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_‰¹Šy.cs
-c380fb648478da13e5e46b16b9896cc5 Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_Œø‰Ê‰¹.cs
+e562543b491c058f80e428322f287611 Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_ã‚­ãƒ£ãƒ©ã‚¯ã‚¿.cs
+efd7657b1795fbfab42b4357187a16ec Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_ã‚¹ã‚¯ãƒªãƒ¼ãƒ³.cs
+724e9f630c29b601698176464ca2c891 Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_éŸ³æ¥½.cs
+c380fb648478da13e5e46b16b9896cc5 Elsa20200001\Elsa20200001\Novels\Surfaces\Surface_åŠ¹æœéŸ³.cs
 95917d1fa2c0b4dee8dadd93ca0554da Elsa20200001\Elsa20200001\Novels\Surfaces\SurfaceCreator.cs
 6edfb8063526316e86ce88987ac0ba6a Elsa20200001\Elsa20200001\Program.cs
 98f2f8f3225397a69818adae91737982 Elsa20200001\Elsa20200001\Program2.cs

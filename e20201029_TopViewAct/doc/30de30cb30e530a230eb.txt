@@ -1,62 +1,62 @@
 ===============================================================================
 
-@TopViewAct / version $version$
-@@@@@@@@@@@@@@@@@@@@@@@@@@(C) 202x cerulean.charlotte
+ã€€TopViewAct / version $version$
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€(C) 202x cerulean.charlotte
 
 ===============================================================================
 
 
-¡‹N“®•û–@
+â– èµ·å‹•æ–¹æ³•
 
-@Elsa20200001.exe ‚ðŽÀs‚µ‚Ä‰º‚³‚¢B
-
-
-¡‘€ì•û–@
-
-@ƒJ[ƒ\ƒ‹
-
-@Z@@•ûŒüƒƒbƒNE’á‘¬ˆÚ“® / Œˆ’è   
-@X@@UŒ‚ / ƒLƒƒƒ“ƒZƒ‹
-@C@@•ŠíØ‚è‘Ö‚¦
-@D@@‰æ–ÊƒXƒ‰ƒCƒh
-@F@@‚‘¬ˆÚ“®
-
-@SPACE@@ƒ|[ƒY / ƒ|[ƒY‰ðœ
-
-@ƒGƒXƒP[ƒvƒL[‚ð‰Ÿ‚·‚ÆA‚¢‚Â‚Å‚àI—¹‚Å‚«‚Ü‚·B
+ã€€Elsa20200001.exe ã‚’å®Ÿè¡Œã—ã¦ä¸‹ã•ã„ã€‚
 
 
-@šƒQ[ƒ€ƒpƒbƒh‚ÌŽg—p‚ð‚¨‚·‚·‚ß‚µ‚Ü‚·B
+â– æ“ä½œæ–¹æ³•
+
+ã€€ã‚«ãƒ¼ã‚½ãƒ«
+
+ã€€Zã€€ã€€æ–¹å‘ãƒ­ãƒƒã‚¯ãƒ»ä½Žé€Ÿç§»å‹• / æ±ºå®š   
+ã€€Xã€€ã€€æ”»æ’ƒ / ã‚­ãƒ£ãƒ³ã‚»ãƒ«
+ã€€Cã€€ã€€æ­¦å™¨åˆ‡ã‚Šæ›¿ãˆ
+ã€€Dã€€ã€€ç”»é¢ã‚¹ãƒ©ã‚¤ãƒ‰
+ã€€Fã€€ã€€é«˜é€Ÿç§»å‹•
+
+ã€€SPACEã€€ã€€ãƒãƒ¼ã‚º / ãƒãƒ¼ã‚ºè§£é™¤
+
+ã€€ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—ã‚­ãƒ¼ã‚’æŠ¼ã™ã¨ã€ã„ã¤ã§ã‚‚çµ‚äº†ã§ãã¾ã™ã€‚
 
 
-¡‘€ì•û–@(ŠJ”­—p)
-
-@E@@ƒGƒfƒBƒbƒgƒ‚[ƒh
+ã€€â˜…ã‚²ãƒ¼ãƒ ãƒ‘ãƒƒãƒ‰ã®ä½¿ç”¨ã‚’ãŠã™ã™ã‚ã—ã¾ã™ã€‚
 
 
-¡‘fÞiŒhÌ—ªj
+â– æ“ä½œæ–¹æ³•(é–‹ç™ºç”¨)
 
-@œ‰æ‘œ
+ã€€Eã€€ã€€ã‚¨ãƒ‡ã‚£ãƒƒãƒˆãƒ¢ãƒ¼ãƒ‰
 
-@@First Seed Material
-@@http://www.tekepon.net/fsm/
 
-@@‚«‚Ü‚®‚êƒAƒtƒ^[
-@@http://www5d.biglobe.ne.jp/~gakai/
+â– ç´ æï¼ˆæ•¬ç§°ç•¥ï¼‰
 
-@@‚Ò‚Û‚â
-@@http://piposozai.blog76.fc2.com/
+ã€€â—ç”»åƒ
 
-@@‰Pˆä‚Ì‰ï ‚q‚o‚fƒcƒN[ƒ‹‘fÞŽx•”
-@@http://usui.moo.jp/rpg_tukuru.html
+ã€€ã€€First Seed Material
+ã€€ã€€http://www.tekepon.net/fsm/
 
-@œ‚a‚f‚l
+ã€€ã€€ãã¾ãã‚Œã‚¢ãƒ•ã‚¿ãƒ¼
+ã€€ã€€http://www5d.biglobe.ne.jp/~gakai/
 
-@@ƒtƒŠ[‰¹Šy‘fÞ H/MIX GALLERY
-@@http://www.hmix.net/
+ã€€ã€€ã´ã½ã‚„
+ã€€ã€€http://piposozai.blog76.fc2.com/
 
-@œ‚r‚d
+ã€€ã€€è‡¼äº•ã®ä¼š ï¼²ï¼°ï¼§ãƒ„ã‚¯ãƒ¼ãƒ«ç´ ææ”¯éƒ¨
+ã€€ã€€http://usui.moo.jp/rpg_tukuru.html
 
-@@ƒtƒŠ[‰¹Šy‘fÞ Senses Circuit
-@@http://www.senses-circuit.com/
+ã€€â—ï¼¢ï¼§ï¼­
+
+ã€€ã€€ãƒ•ãƒªãƒ¼éŸ³æ¥½ç´ æ H/MIX GALLERY
+ã€€ã€€http://www.hmix.net/
+
+ã€€â—ï¼³ï¼¥
+
+ã€€ã€€ãƒ•ãƒªãƒ¼éŸ³æ¥½ç´ æ Senses Circuit
+ã€€ã€€http://www.senses-circuit.com/
 

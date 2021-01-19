@@ -6,50 +6,50 @@ dat\dat\Novel
 dat\dat\Novel\Font
 dat\dat\Novel\Font\K Gothic
 dat\dat\Novel\Instagram
-dat\dat\Novel\ƒtƒŠ[‘fŞ
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‚©‚ç‚¢
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‚©‚ç‚¢\‚ä‚©ƒ}ƒL§•
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\01 message
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\02 button
-dat\dat\Novel\ƒtƒŠ[‘fŞ\‹ó‘z‹Èü\Messageframe_29\material\03 system_button
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ã‹ã‚‰ã„\ã‚†ã‹ãƒã‚­åˆ¶æœ
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\01 message
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\02 button
+dat\dat\Novel\ãƒ•ãƒªãƒ¼ç´ æ\ç©ºæƒ³æ›²ç·š\Messageframe_29\material\03 system_button
 dat\dat\pata2-magic
 dat\dat\Tile
-dat\dat\‚«‚Â‚Ë‰¼
-dat\dat\‚Ò‚Û‚â‘qŒÉ
-dat\dat\‚Ò‚Û‚â‘qŒÉ\sentou-effect-anime1
-dat\dat\‚Ò‚Û‚â‘qŒÉ\sentou-effect-anime1\320x240
-dat\dat\‚Ò‚Û‚â‘qŒÉ\sentou-effect-anime1\640x480
-dat\dat\‚Ò‚Û‚â‘qŒÉ\sentou-effect-anime2
-dat\dat\‚Ò‚Û‚â‘qŒÉ\sentou-effect-anime2\320x240
-dat\dat\‚Ò‚Û‚â‘qŒÉ\sentou-effect-anime2\640x480
-dat\dat\‚Ò‚Û‚â‘qŒÉ\sentou-effect-anime4
-dat\dat\‚Ò‚Û‚â‘qŒÉ\sentou-effect-anime4\320x240
-dat\dat\‚Ò‚Û‚â‘qŒÉ\sentou-effect-anime4\640x480
-dat\dat\‚Ò‚Û‚â‘qŒÉ\sentou-effect-anime9
-dat\dat\‚Ò‚Û‚â‘qŒÉ\sentou-effect-anime9\320x240
-dat\dat\‚Ò‚Û‚â‘qŒÉ\sentou-effect-anime9\640x480
-dat\dat\‚Ò‚Û‚â‘qŒÉ\í“¬ƒGƒtƒFƒNƒgƒAƒjƒ24
-dat\dat\‚Ò‚Û‚â‘qŒÉ\í“¬ƒGƒtƒFƒNƒgƒAƒjƒ24\p120
-dat\dat\‚Ò‚Û‚â‘qŒÉ\í“¬ƒGƒtƒFƒNƒgƒAƒjƒ24\p192
-dat\dat\‚Ò‚Û‚â‘qŒÉ\í“¬ƒGƒtƒFƒNƒgƒAƒjƒ24\p240
-dat\dat\‚İ‚é‚Ó‚¡
-dat\dat\ƒ†[ƒtƒ‹ƒJ
-dat\dat\ƒ†[ƒtƒ‹ƒJ\Crazy-Halloween-Night_loop
-dat\dat\ƒ†[ƒtƒ‹ƒJ\Everlasting-Snow_loop
-dat\dat\ƒ†[ƒtƒ‹ƒJ\Silent-Avalon_loop
-dat\dat\¬X•½
-dat\dat\¬X•½\sfxrse
-dat\dat\¬X•½\sfxrse\01pickup
-dat\dat\¬X•½\sfxrse\02laser
-dat\dat\¬X•½\sfxrse\03explosion
-dat\dat\¬X•½\sfxrse\04powerup
-dat\dat\¬X•½\sfxrse\05hit
-dat\dat\¬X•½\sfxrse\06jump
-dat\dat\¬X•½\sfxrse\07blip
-dat\dat\‘fŞGood
+dat\dat\ãã¤ã­ä»®
+dat\dat\ã´ã½ã‚„å€‰åº«
+dat\dat\ã´ã½ã‚„å€‰åº«\sentou-effect-anime1
+dat\dat\ã´ã½ã‚„å€‰åº«\sentou-effect-anime1\320x240
+dat\dat\ã´ã½ã‚„å€‰åº«\sentou-effect-anime1\640x480
+dat\dat\ã´ã½ã‚„å€‰åº«\sentou-effect-anime2
+dat\dat\ã´ã½ã‚„å€‰åº«\sentou-effect-anime2\320x240
+dat\dat\ã´ã½ã‚„å€‰åº«\sentou-effect-anime2\640x480
+dat\dat\ã´ã½ã‚„å€‰åº«\sentou-effect-anime4
+dat\dat\ã´ã½ã‚„å€‰åº«\sentou-effect-anime4\320x240
+dat\dat\ã´ã½ã‚„å€‰åº«\sentou-effect-anime4\640x480
+dat\dat\ã´ã½ã‚„å€‰åº«\sentou-effect-anime9
+dat\dat\ã´ã½ã‚„å€‰åº«\sentou-effect-anime9\320x240
+dat\dat\ã´ã½ã‚„å€‰åº«\sentou-effect-anime9\640x480
+dat\dat\ã´ã½ã‚„å€‰åº«\æˆ¦é—˜ã‚¨ãƒ•ã‚§ã‚¯ãƒˆã‚¢ãƒ‹ãƒ¡24
+dat\dat\ã´ã½ã‚„å€‰åº«\æˆ¦é—˜ã‚¨ãƒ•ã‚§ã‚¯ãƒˆã‚¢ãƒ‹ãƒ¡24\p120
+dat\dat\ã´ã½ã‚„å€‰åº«\æˆ¦é—˜ã‚¨ãƒ•ã‚§ã‚¯ãƒˆã‚¢ãƒ‹ãƒ¡24\p192
+dat\dat\ã´ã½ã‚„å€‰åº«\æˆ¦é—˜ã‚¨ãƒ•ã‚§ã‚¯ãƒˆã‚¢ãƒ‹ãƒ¡24\p240
+dat\dat\ã¿ã‚‹ãµãƒ
+dat\dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«
+dat\dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Crazy-Halloween-Night_loop
+dat\dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Everlasting-Snow_loop
+dat\dat\ãƒ¦ãƒ¼ãƒ•ãƒ«ã‚«\Silent-Avalon_loop
+dat\dat\å°æ£®å¹³
+dat\dat\å°æ£®å¹³\sfxrse
+dat\dat\å°æ£®å¹³\sfxrse\01pickup
+dat\dat\å°æ£®å¹³\sfxrse\02laser
+dat\dat\å°æ£®å¹³\sfxrse\03explosion
+dat\dat\å°æ£®å¹³\sfxrse\04powerup
+dat\dat\å°æ£®å¹³\sfxrse\05hit
+dat\dat\å°æ£®å¹³\sfxrse\06jump
+dat\dat\å°æ£®å¹³\sfxrse\07blip
+dat\dat\ç´ æGood
 dat\res
 dat\res\Scenario
 dat\res\Scenario\Include
@@ -65,8 +65,8 @@ Elsa20200001\Elsa20200001\GameCommons\Options
 Elsa20200001\Elsa20200001\Games
 Elsa20200001\Elsa20200001\Games\Enemies
 Elsa20200001\Elsa20200001\Games\Enemies\Tests
-Elsa20200001\Elsa20200001\Games\Enemies\Tests\_“Şqs
-Elsa20200001\Elsa20200001\Games\Enemies\_“Şqs
+Elsa20200001\Elsa20200001\Games\Enemies\Tests\ç¥å¥ˆå­s
+Elsa20200001\Elsa20200001\Games\Enemies\ç¥å¥ˆå­s
 Elsa20200001\Elsa20200001\Games\Shots
 Elsa20200001\Elsa20200001\Games\Tiles
 Elsa20200001\Elsa20200001\Games\Tiles\Tests
