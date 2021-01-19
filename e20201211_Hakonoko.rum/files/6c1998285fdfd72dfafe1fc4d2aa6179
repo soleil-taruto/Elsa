@@ -1,0 +1,82 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.GameCommons;
+using Charlotte.Commons;
+
+namespace Charlotte.Games
+{
+	public static class レイヤ表示
+	{
+		/// <summary>
+		/// レイヤ表示を実行する。
+		/// ステージ番号：
+		/// -- 0 == テスト用ステージ
+		/// -- 1～9 == 各ステージ
+		/// </summary>
+		/// <param name="stageNo">ステージ番号</param>
+		public static void Perform(int stageNo)
+		{
+			int layerNo = 10 - stageNo;
+
+			DDCurtain.SetCurtain(0, -1.0);
+			DDCurtain.SetCurtain();
+
+			using (DDSubScreen tmpScreen = new DDSubScreen(400, 200))
+			{
+				foreach (DDScene scene in DDSceneUtils.Create(180))
+				{
+					if (scene.Numer + 30 == scene.Denom)
+						DDCurtain.SetCurtain(30, -1.0);
+
+					DDCurtain.DrawCurtain();
+
+					using (tmpScreen.Section())
+					{
+						DDPrint.SetColor(new I3Color(60, 60, 60));
+						DDPrint.SetBorder(new I3Color(255, 255, 255));
+						DDPrint.SetPrint(tmpScreen.GetSize().W / 2 - 32, tmpScreen.GetSize().H / 2 - 8);
+						DDPrint.Print("LAYER " + layerNo.ToString("D2"));
+						DDPrint.Reset();
+					}
+					int bure = (int)(scene.Rate * scene.Rate * 20);
+
+					DDDraw.SetMosaic();
+					DDDraw.DrawBegin(
+						tmpScreen.ToPicture(),
+						DDConsts.Screen_W / 2 + DDUtils.Random.GetRange(-bure, bure),
+						DDConsts.Screen_H / 2 + DDUtils.Random.GetRange(-bure, bure)
+						);
+					DDDraw.DrawZoom(4.0);
+					DDDraw.DrawEnd();
+					DDDraw.Reset();
+
+					if (0.5 < scene.Rate)
+					{
+						for (int c = (int)(scene.Rate * scene.Rate * 300); 0 < c; c--)
+						{
+							DDDraw.SetAlpha(scene.Rate * 0.5);
+							DDDraw.SetBright(new I3Color(c, c, c));
+							DDDraw.DrawBegin(
+								DDGround.GeneralResource.WhiteBox,
+								DDUtils.Random.GetInt(DDConsts.Screen_W),
+								DDUtils.Random.GetInt(DDConsts.Screen_H)
+								);
+							DDDraw.DrawSetSize(
+								DDUtils.Random.GetRange(40, (int)(400 * scene.Rate)),
+								DDUtils.Random.GetRange(20, (int)(200 * scene.Rate))
+								);
+							DDDraw.DrawEnd();
+							DDDraw.Reset();
+						}
+					}
+
+					DDEngine.EachFrame();
+				}
+			}
+
+			DDCurtain.SetCurtain(0);
+		}
+	}
+}

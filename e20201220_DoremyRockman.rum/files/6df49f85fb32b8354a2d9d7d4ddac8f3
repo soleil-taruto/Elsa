@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.Commons;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games.Tiles
+{
+	public class Tile_Ladder : Tile
+	{
+		public override Tile.Kind_e GetKind()
+		{
+			return Kind_e.LADDER;
+		}
+
+		public override void Draw(double x, double y)
+		{
+			DDDraw.DrawCenter(Ground.I.Picture.Stage02_Chip_d01, x, y);
+		}
+	}
+}

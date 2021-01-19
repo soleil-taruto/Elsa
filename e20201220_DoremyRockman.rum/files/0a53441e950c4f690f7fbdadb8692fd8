@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games.Walls
+{
+	public class Wall_東方風 : Wall
+	{
+		protected override IEnumerable<bool> E_Draw()
+		{
+			for (; ; )
+			{
+				DDDraw.DrawSimple(Ground.I.Picture.Stage01_Bg_a01, 0, 0);
+
+				yield return true;
+			}
+		}
+	}
+}

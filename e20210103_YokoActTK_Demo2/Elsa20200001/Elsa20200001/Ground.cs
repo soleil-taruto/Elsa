@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Charlotte.Commons;
 using Charlotte.Games;
 
 namespace Charlotte
@@ -19,10 +20,51 @@ namespace Charlotte
 
 		public class GameSaveDataInfo
 		{
+			public string TimeStamp;
 			public string MapName;
 			public GameStatus GameStatus;
+
+			#region Serialize / Deserialize
+
+			public string Serialize()
+			{
+				List<string> dest = new List<string>();
+
+				// ★★★ シリアライズ_ここから ★★★
+
+				dest.Add(this.TimeStamp);
+				dest.Add(this.MapName);
+				dest.Add(this.GameStatus.Serialize());
+
+				// ★★★ シリアライズ_ここまで ★★★
+
+				return AttachString.I.Untokenize(dest);
+			}
+
+			private void S_Deserialize(string value)
+			{
+				string[] lines = AttachString.I.Tokenize(value);
+				int c = 0;
+
+				// ★★★ デシリアライズ_ここから ★★★
+
+				this.TimeStamp = lines[c++];
+				this.MapName = lines[c++];
+				this.GameStatus = GameStatus.Deserialize(lines[c++]);
+
+				// ★★★ デシリアライズ_ここまで ★★★
+			}
+
+			public static GameSaveDataInfo Deserialize(string value)
+			{
+				GameSaveDataInfo gameSaveData = new GameSaveDataInfo();
+				gameSaveData.S_Deserialize(value);
+				return gameSaveData;
+			}
+
+			#endregion
 		}
 
-		public GameSaveDataInfo GameSaveData = null; // null == セーブデータ無し
+		public GameSaveDataInfo[] GameSaveDataSlots = new GameSaveDataInfo[Consts.GAME_SAVE_DATA_SLOT_NUM]; // null 要素 == セーブデータ無し
 	}
 }

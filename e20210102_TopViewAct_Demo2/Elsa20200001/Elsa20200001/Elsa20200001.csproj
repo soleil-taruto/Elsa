@@ -91,16 +91,16 @@
     <Compile Include="Commons\WorkingDir.cs" />
     <Compile Include="Consts.cs" />
     <Compile Include="GameCommons\DDTouch.cs" />
-    <Compile Include="Games\Enemies\Enemy_Item.cs" />
-    <Compile Include="Games\Enemies\Enemy_イベント0001.cs" />
-    <Compile Include="Games\Enemies\Enemy_セーブ地点.cs" />
-    <Compile Include="Games\Enemies\Enemy_ハック0001.cs" />
-    <Compile Include="Games\Enemies\神奈子s\EnemyCommon_神奈子.cs" />
-    <Compile Include="Games\Enemies\神奈子s\Enemy_神奈子.cs" />
-    <Compile Include="Games\Enemies\神奈子s\Enemy_神奈子0001.cs" />
-    <Compile Include="Games\Enemies\神奈子s\Enemy_神奈子9901.cs" />
-    <Compile Include="Games\Enemies\神奈子s\Enemy_神奈子9902.cs" />
-    <Compile Include="Games\Enemies\神奈子s\Enemy_神奈子_Tama.cs" />
+    <Compile Include="Games\Enemies\Tests\Enemy_Bアイテム.cs" />
+    <Compile Include="Games\Enemies\Tests\Enemy_Bイベント0001.cs" />
+    <Compile Include="Games\Enemies\Tests\Enemy_Bセーブ地点.cs" />
+    <Compile Include="Games\Enemies\Tests\Enemy_Bハック0001.cs" />
+    <Compile Include="Games\Enemies\Tests\神奈子s\EnemyCommon_B神奈子.cs" />
+    <Compile Include="Games\Enemies\Tests\神奈子s\Enemy_B神奈子.cs" />
+    <Compile Include="Games\Enemies\Tests\神奈子s\Enemy_B神奈子0001.cs" />
+    <Compile Include="Games\Enemies\Tests\神奈子s\Enemy_B神奈子9901.cs" />
+    <Compile Include="Games\Enemies\Tests\神奈子s\Enemy_B神奈子9902.cs" />
+    <Compile Include="Games\Enemies\Tests\神奈子s\Enemy_B神奈子_Tama.cs" />
     <Compile Include="Games\GameCommon.cs" />
     <Compile Include="Games\GameConsts.cs" />
     <Compile Include="GameCommons\DDCoffeeBreak.cs" />
@@ -116,7 +116,6 @@
     <Compile Include="GameCommons\DDFont.cs" />
     <Compile Include="GameCommons\DDFontRegister.cs" />
     <Compile Include="GameCommons\DDFontUtils.cs" />
-    <Compile Include="GameCommons\DDGeneralResource.cs" />
     <Compile Include="GameCommons\DDGround.cs" />
     <Compile Include="GameCommons\DDInput.cs" />
     <Compile Include="GameCommons\DDJammer.cs" />
@@ -164,8 +163,8 @@
     <Compile Include="Games\Effects.cs" />
     <Compile Include="Games\Enemies\Enemy.cs" />
     <Compile Include="Games\Enemies\EnemyCatalog.cs" />
-    <Compile Include="Games\Enemies\Enemy_B0001.cs" />
-    <Compile Include="Games\Enemies\Enemy_B0002.cs" />
+    <Compile Include="Games\Enemies\Tests\Enemy_B0001.cs" />
+    <Compile Include="Games\Enemies\Tests\Enemy_B0002.cs" />
     <Compile Include="Games\Enemies\Enemy_スタート地点.cs" />
     <Compile Include="Games\Game.cs" />
     <Compile Include="Games\GameStatus.cs" />
@@ -180,7 +179,7 @@
     <Compile Include="Games\Tiles\Tile_None.cs" />
     <Compile Include="Games\Tiles\Tile_River.cs" />
     <Compile Include="Games\Tiles\Tile_Space.cs" />
-    <Compile Include="Games\Tiles\Tile_ボス部屋Shutter.cs" />
+    <Compile Include="Games\Tiles\Tests\Tile_Bボス部屋Shutter.cs" />
     <Compile Include="Games\Tiles\Tile_森林.cs" />
     <Compile Include="Games\Tiles\Tile_森林系.cs" />
     <Compile Include="Games\Tiles\Tile_水辺.cs" />
@@ -240,6 +239,7 @@
     <Compile Include="Tests\Games\GameTest.cs" />
     <Compile Include="Tests\Games\TitleMenuTest.cs" />
     <Compile Include="Tests\Games\WorldGameMasterTest.cs" />
+    <Compile Include="Tests\Novels\NovelTest.cs" />
     <Compile Include="Tests\Test0001.cs" />
     <EmbeddedResource Include="LevelEditors\LevelEditorDlg.resx">
       <DependentUpon>LevelEditorDlg.cs</DependentUpon>

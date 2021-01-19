@@ -141,6 +141,7 @@ namespace Charlotte.GameCommons
 
 					DDMain.SetFullScreen();
 				}
+				DDEngine.FreezeInput(30); // エンターキー押下がゲームに影響しないように
 			}
 		}
 

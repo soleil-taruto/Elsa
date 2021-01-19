@@ -14,6 +14,8 @@ namespace Charlotte.Novels.Surfaces
 	/// </summary>
 	public class Surface_Select : Surface
 	{
+		public static bool Hide = false; // Novel から制御される。
+
 		public Surface_Select(string typeName, string instanceName)
 			: base(typeName, instanceName)
 		{
@@ -101,52 +103,60 @@ namespace Charlotte.Novels.Surfaces
 
 				// ---- ここから描画
 
-				for (int index = 0; index < NovelConsts.SELECT_FRAME_NUM; index++)
+				if (!Hide)
 				{
-					DDPicture picture = Ground.I.Picture.MessageFrame_Button;
-
-					if (index < this.Options.Count)
+					for (int index = 0; index < NovelConsts.SELECT_FRAME_NUM; index++)
 					{
-						picture = Ground.I.Picture.MessageFrame_Button2;
+						DDPicture picture = Ground.I.Picture.MessageFrame_Button;
 
-						if (this.Options[index].MouseFocused)
-							picture = Ground.I.Picture.MessageFrame_Button3;
-					}
-
-					DDDraw.DrawBeginRect(
-						picture,
-						NovelConsts.SELECT_FRAME_L,
-						NovelConsts.SELECT_FRAME_T + NovelConsts.SELECT_FRAME_T_STEP * index,
-						picture.Get_W(),
-						picture.Get_H()
-						);
-					DDCrash drawedCrash = DDDraw.DrawGetCrash();
-					DDDraw.DrawEnd();
-
-					// フォーカスしている選択項目を再設定
-					{
 						if (index < this.Options.Count)
 						{
-							bool mouseIn = drawedCrash.IsCrashed(DDCrashUtils.Point(new D2Point(DDMouse.X, DDMouse.Y)));
+							picture = Ground.I.Picture.MessageFrame_Button2;
 
-							this.Options[index].MouseFocused = mouseIn;
+							if (this.Options[index].MouseFocused)
+								picture = Ground.I.Picture.MessageFrame_Button3;
+						}
+
+						DDDraw.DrawBeginRect(
+							picture,
+							NovelConsts.SELECT_FRAME_L,
+							NovelConsts.SELECT_FRAME_T + NovelConsts.SELECT_FRAME_T_STEP * index,
+							picture.Get_W(),
+							picture.Get_H()
+							);
+						DDCrash drawedCrash = DDDraw.DrawGetCrash();
+						DDDraw.DrawEnd();
+
+						// フォーカスしている選択項目を再設定
+						{
+							if (index < this.Options.Count)
+							{
+								bool mouseIn = drawedCrash.IsCrashed(DDCrashUtils.Point(new D2Point(DDMouse.X, DDMouse.Y)));
+
+								this.Options[index].MouseFocused = mouseIn;
+							}
 						}
 					}
-				}
-				for (int index = 0; index < this.Options.Count; index++)
-				{
-					const int title_x = 80;
-					const int title_y = 28;
+					for (int index = 0; index < this.Options.Count; index++)
+					{
+						const int title_x = 80;
+						const int title_y = 28;
 
-					DDFontUtils.DrawString(
-						 NovelConsts.SELECT_FRAME_L + title_x,
-						 NovelConsts.SELECT_FRAME_T + NovelConsts.SELECT_FRAME_T_STEP * index + title_y,
-						 this.Options[index].Title,
-						 DDFontUtils.GetFont("Kゴシック", 16),
-						 false,
-						 new I3Color(110, 100, 90)
-						 );
+						DDFontUtils.DrawString(
+							 NovelConsts.SELECT_FRAME_L + title_x,
+							 NovelConsts.SELECT_FRAME_T + NovelConsts.SELECT_FRAME_T_STEP * index + title_y,
+							 this.Options[index].Title,
+							 DDFontUtils.GetFont("Kゴシック", 16),
+							 false,
+							 new I3Color(110, 100, 90)
+							 );
+					}
 				}
+
+				// 隠しているなら選択出来ない。
+				if (Hide)
+					foreach (OptionInfo option in this.Options)
+						option.MouseFocused = false;
 
 				yield return true;
 			}
@@ -156,14 +166,14 @@ namespace Charlotte.Novels.Surfaces
 		{
 			//int c = 0;
 
-			if (command == "選択肢")
+			if (command == "選択肢") // 即時
 			{
 				this.Options.Add(new OptionInfo()
 				{
 					Title = arguments[0],
 				});
 			}
-			else if (command == "分岐先")
+			else if (command == "分岐先") // 即時
 			{
 				this.Options[this.Options.Count - 1].ScenarioName = arguments[0];
 			}

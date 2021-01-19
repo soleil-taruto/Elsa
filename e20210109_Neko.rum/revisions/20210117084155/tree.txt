@@ -1,0 +1,35 @@
+dat
+dat\dat
+dat\dat\Font
+dat\dat\Font\K Gothic
+dat\dat\General
+dat\dat\Logo
+dat\dat\‰¼‚Ì‘fŞ
+dat\dat\‰¼‚Ì‘fŞ\¬X•½
+dat\dat\‰¼‚Ì‘fŞ\¬X•½\sfxrse
+dat\dat\‰¼‚Ì‘fŞ\¬X•½\sfxrse\01pickup
+dat\dat\‹ó‘z‹Èü
+dat\dat\‹ó‘z‹Èü\Messageframe_29
+dat\dat\‹ó‘z‹Èü\Messageframe_29\material
+dat\dat\‹ó‘z‹Èü\Messageframe_29\material\01 message
+dat\dat\‹ó‘z‹Èü\Messageframe_29\material\02 button
+dat\dat\‹ó‘z‹Èü\Messageframe_29\material\03 system_button
+dat\res
+dat\res\Scenario
+dat\res\Scenario\_ó—Ìƒf[ƒ^
+dat\res\Scenario\Include
+doc
+Elsa20200001
+Elsa20200001\Elsa20200001
+Elsa20200001\Elsa20200001\Commons
+Elsa20200001\Elsa20200001\GameCommons
+Elsa20200001\Elsa20200001\GameCommons\MaskGZDataUtils
+Elsa20200001\Elsa20200001\GameCommons\Options
+Elsa20200001\Elsa20200001\Games
+Elsa20200001\Elsa20200001\Games\Surfaces
+Elsa20200001\Elsa20200001\Properties
+Elsa20200001\Elsa20200001\Tests
+Elsa20200001\Elsa20200001\Tests\Games
+out
+tmp
+Tools

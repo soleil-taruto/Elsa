@@ -80,14 +80,13 @@ namespace Charlotte.GameCommons
 				//lines.Add("Donut3-SaveData"); // Dummy
 				//lines.Add("Donut3-SaveData"); // Dummy
 
-				// Ground.I.GameSaveData
+				foreach (Ground.GameSaveDataInfo gameSaveData in Ground.I.GameSaveDataSlots)
 				{
-					lines.Add("" + (Ground.I.GameSaveData != null ? 1 : 0));
+					lines.Add("" + (gameSaveData != null ? 1 : 0));
 
-					if (Ground.I.GameSaveData != null)
+					if (gameSaveData != null)
 					{
-						lines.Add(Ground.I.GameSaveData.MapName);
-						lines.Add(Ground.I.GameSaveData.GameStatus.Serialize());
+						lines.Add(gameSaveData.Serialize());
 					}
 				}
 
@@ -186,16 +185,16 @@ namespace Charlotte.GameCommons
 					//DDUtils.Noop(lines[c++]); // Dummy
 					//DDUtils.Noop(lines[c++]); // Dummy
 
-					// Ground.I.GameSaveData
+					for (int index = 0; index < Consts.GAME_SAVE_DATA_SLOT_NUM; index++)
 					{
+						Ground.GameSaveDataInfo gameSaveData;
+
 						if (int.Parse(lines[c++]) != 0)
-						{
-							Ground.I.GameSaveData = new Ground.GameSaveDataInfo();
-							Ground.I.GameSaveData.MapName = lines[c++];
-							Ground.I.GameSaveData.GameStatus = GameStatus.Deserialize(lines[c++]);
-						}
+							gameSaveData = Ground.GameSaveDataInfo.Deserialize(lines[c++]);
 						else
-							Ground.I.GameSaveData = null;
+							gameSaveData = null;
+
+						Ground.I.GameSaveDataSlots[index] = gameSaveData;
 					}
 
 					// 新しい項目をここへ追加...

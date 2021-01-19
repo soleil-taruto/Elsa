@@ -31,13 +31,19 @@ namespace Charlotte.Novels.Surfaces
 
 			if (command == "再生")
 			{
-				this.MusicFile = arguments[c++];
-				this.MusicFileChanged();
+				this.Act.AddOnce(() =>
+				{
+					this.MusicFile = arguments[c++];
+					this.MusicFileChanged();
+				});
 			}
 			else if (command == "停止")
 			{
-				this.MusicFile = null;
-				this.MusicFileChanged();
+				this.Act.AddOnce(() =>
+				{
+					this.MusicFile = null;
+					this.MusicFileChanged();
+				});
 			}
 			else
 			{

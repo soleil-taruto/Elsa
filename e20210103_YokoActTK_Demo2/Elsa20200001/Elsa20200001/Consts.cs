@@ -7,6 +7,6 @@ namespace Charlotte
 {
 	public static class Consts
 	{
-		// none
+		public const int GAME_SAVE_DATA_SLOT_NUM = 12;
 	}
 }

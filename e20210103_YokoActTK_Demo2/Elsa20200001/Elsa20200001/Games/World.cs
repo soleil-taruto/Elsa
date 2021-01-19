@@ -22,7 +22,7 @@ namespace Charlotte.Games
 			{
 				string file = wd.MakePath();
 
-				File.WriteAllBytes(file, DDResource.Load(@"e20200001_res\World\World.csv"));
+				File.WriteAllBytes(file, DDResource.Load(@"res\World\World.csv"));
 
 				using (CsvFileReader reader = new CsvFileReader(file))
 				{

@@ -7,9 +7,6 @@ namespace Charlotte.Novels
 {
 	public class NovelConsts
 	{
-		public const string SERIALIZED_NULL = "<SZ-NULL>";
-		public const string SERIALIZED_NOT_NULL_PREFIX = "<SZ-NOT-NULL>:";
-
 		// ---- 主要な待ち時間 ----
 
 		/// <summary>
@@ -36,7 +33,7 @@ namespace Charlotte.Novels
 
 		// ----
 
-		public const string DUMMY_SCENARIO_NAME = "001_ダミーシナリオ";
+		public const string DUMMY_SCENARIO_NAME = "ダミーシナリオ";
 
 		public const int MESSAGE_SPEED_MIN = 1; // 遅い
 		public const int MESSAGE_SPEED_DEF = 3;

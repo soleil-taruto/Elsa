@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.Games;
+
+namespace Charlotte
+{
+	public class Ground
+	{
+		public static Ground I;
+
+		public ResourceMusic Music = new ResourceMusic();
+		public ResourcePicture Picture = new ResourcePicture();
+		public ResourceSE SE = new ResourceSE();
+
+		// DDSaveData.Save/Load でセーブ・ロードする情報はここに保持する。
+
+		public int MessageSpeed = GameConsts.MESSAGE_SPEED_DEF;
+		public string[] SaveDataSlots = Enumerable.Range(0, GameConsts.SAVE_DATA_SLOT_NUM).Select(v => (string)null).ToArray(); // { null == セーブデータ無し }
+	}
+}

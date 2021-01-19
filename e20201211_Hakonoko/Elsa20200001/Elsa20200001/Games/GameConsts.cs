@@ -12,10 +12,5 @@ namespace Charlotte.Games
 
 		public const int PLAYER_DEAD_FRAME_MAX = 40;
 		public const int PLAYER_REBORN_FRAME_MAX = 30;
-
-		/// <summary>
-		/// 残りリスポーン地点設置回数_初期値
-		/// </summary>
-		public const int SNAPSHOT_COUNT_MAX = 3;
 	}
 }

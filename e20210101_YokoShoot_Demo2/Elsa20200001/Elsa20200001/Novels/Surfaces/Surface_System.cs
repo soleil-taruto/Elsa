@@ -30,7 +30,7 @@ namespace Charlotte.Novels.Surfaces
 		{
 			int c = 0;
 
-			if (command == "Swap")
+			if (command == "Swap") // 即時
 			{
 				string name1 = arguments[c++];
 				string name2 = arguments[c++];
@@ -43,7 +43,7 @@ namespace Charlotte.Novels.Surfaces
 						surface.InstanceName = name1;
 				}
 			}
-			else if (command == "WhileAct")
+			else if (command == "WhileAct") // 即時
 			{
 				while (Novel.I.Status.Surfaces.Any(v => v.Act.Count != 0))
 				{
@@ -52,7 +52,7 @@ namespace Charlotte.Novels.Surfaces
 				}
 				DDEngine.FreezeInput(NovelConsts.SHORT_INPUT_SLEEP);
 			}
-			else if (command == "WhileActOrInput")
+			else if (command == "WhileActOrInput") // 即時
 			{
 				while (Novel.I.Status.Surfaces.Any(v => v.Act.Count != 0))
 				{
@@ -68,18 +68,6 @@ namespace Charlotte.Novels.Surfaces
 					DDEngine.EachFrame();
 				}
 				DDEngine.FreezeInput(NovelConsts.SHORT_INPUT_SLEEP);
-			}
-			else if (command == "NextPage")
-			{
-				Novel.I.ForceNextPage = true;
-			}
-			else if (command == "A_NextPage")
-			{
-				this.Act.Add(() =>
-				{
-					Novel.I.ForceNextPage = true;
-					return false;
-				});
 			}
 			else
 			{

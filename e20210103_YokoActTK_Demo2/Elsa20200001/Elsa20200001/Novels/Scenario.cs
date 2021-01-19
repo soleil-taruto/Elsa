@@ -10,7 +10,7 @@ namespace Charlotte.Novels
 {
 	public class Scenario
 	{
-		public const string SCENARIO_FILE_PREFIX = "e20200001_res\\Scenario\\";
+		public const string SCENARIO_FILE_PREFIX = "res\\Scenario\\";
 		public const string SCENARIO_FILE_SUFFIX = ".txt";
 
 		public string Name;
@@ -26,6 +26,8 @@ namespace Charlotte.Novels
 
 			string[] lines = ReadScenarioLines(name);
 			ScenarioPage page = null;
+
+			// memo: lines タブスペース除去済み
 
 			for (int index = 0; index < lines.Length; index++)
 			{
@@ -46,10 +48,43 @@ namespace Charlotte.Novels
 					subLines = SolveArguments(subLines, ParseArguments(arguments));
 
 					lines = lines.Take(index).Concat(subLines).Concat(lines.Skip(index + 1)).ToArray();
-
-					// HACK: このへん要調整, 問題ないか要チェック
 				}
 			}
+
+			{
+				Dictionary<string, string> def_dic = SCommon.CreateDictionary<string>();
+
+				for (int index = 0; index < lines.Length; index++)
+				{
+					string line = lines[index].Trim();
+
+					if (line == "")
+						continue;
+
+					if (line[0] == '^') // ? 定義
+					{
+						line = line.Substring(1); // ^ 除去
+
+						string[] tokens = SCommon.Tokenize(line, " ", false, true, 2);
+						string def_name = tokens[0];
+						string def_value = tokens[1];
+
+						def_dic.Add(def_name, def_value);
+
+						lines[index] = "";
+					}
+				}
+				for (int index = 0; index < lines.Length; index++)
+				{
+					string line = lines[index];
+
+					foreach (KeyValuePair<string, string> pair in def_dic)
+						line = line.Replace(pair.Key, pair.Value);
+
+					lines[index] = line;
+				}
+			}
+
 			foreach (string f_line in lines)
 			{
 				string line = f_line.Trim();
@@ -126,7 +161,7 @@ namespace Charlotte.Novels
 
 			foreach (string argument in arguments)
 			{
-				string[] tokens = SCommon.Tokenize(argument, " ", false, true, 2);
+				string[] tokens = SCommon.Tokenize(argument, "=", false, true, 2);
 				string key = tokens[0];
 				string value = tokens[1];
 

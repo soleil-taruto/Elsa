@@ -25,22 +25,20 @@ namespace Charlotte.Novels.Surfaces
 		/// <para>アクションのリスト</para>
 		/// <para>Act.Draw が false を返したとき this.Draw を実行しなければならない。</para>
 		/// <para>セーブ・ロード時にこのフィールドは保存・再現されない。</para>
-		/// <para>アクションは途中で破棄されても良いように実装すること。</para>
-		/// <para>-- スキップモード等で Act.Clear が実行されるかもしれない。</para>
+		/// <para>-- セーブ前に Flush しなければならない。</para>
 		/// </summary>
 		public NovelAct Act = new NovelAct();
 
-		public int X = DEFAULT_X;
-		public int Y = DEFAULT_Y;
-		public int Z = DEFAULT_Z;
-
-		public const int DEFAULT_X = DDConsts.Screen_W / 2;
-		public const int DEFAULT_Y = DDConsts.Screen_H / 2;
-		public const int DEFAULT_Z = 0;
+		public double X = DDConsts.Screen_W / 2;
+		public double Y = DDConsts.Screen_H / 2;
+		public int Z = 0;
 
 		/// <summary>
 		/// <para>コマンドを実行する。</para>
 		/// <para>ここでは共通のコマンドを処理し、個別のコマンドを処理するために Invoke_02 を呼び出す。</para>
+		/// <para>★コマンドの処理は原則的に Act へ追加すること。</para>
+		/// <para>-- Act へ追加しない場合は if 行に「即時」とコメントする。</para>
+		/// <para>-- 非即時コマンド名と区別するために、接頭辞 I- を付ける。(Immediate)</para>
 		/// </summary>
 		/// <param name="command">コマンド名</param>
 		/// <param name="arguments">コマンド引数列</param>
@@ -52,14 +50,20 @@ namespace Charlotte.Novels.Surfaces
 			{
 				if (arguments.Length == 3)
 				{
-					this.X = int.Parse(arguments[c++]);
-					this.Y = int.Parse(arguments[c++]);
-					this.Z = int.Parse(arguments[c++]);
+					this.Act.AddOnce(() =>
+					{
+						this.X = double.Parse(arguments[c++]);
+						this.Y = double.Parse(arguments[c++]);
+						this.Z = int.Parse(arguments[c++]);
+					});
 				}
 				else if (arguments.Length == 2)
 				{
-					this.X = int.Parse(arguments[c++]);
-					this.Y = int.Parse(arguments[c++]);
+					this.Act.AddOnce(() =>
+					{
+						this.X = double.Parse(arguments[c++]);
+						this.Y = double.Parse(arguments[c++]);
+					});
 				}
 				else
 				{
@@ -68,23 +72,23 @@ namespace Charlotte.Novels.Surfaces
 			}
 			else if (command == "X")
 			{
-				this.X = int.Parse(arguments[c++]);
+				this.Act.AddOnce(() => this.X = double.Parse(arguments[c++]));
 			}
 			else if (command == "Y")
 			{
-				this.Y = int.Parse(arguments[c++]);
+				this.Act.AddOnce(() => this.Y = double.Parse(arguments[c++]));
 			}
 			else if (command == "Z")
 			{
-				this.Z = int.Parse(arguments[c++]);
+				this.Act.AddOnce(() => this.Z = int.Parse(arguments[c++]));
 			}
 			else if (command == "End")
 			{
-				Novel.I.Status.Surfaces.RemoveAll(v => v == this); // HACK: 多くとも1つしか無いはず。
+				this.Act.AddOnce(() => Novel.I.Status.Surfaces.RemoveAll(v => v == this)); // Remove Me
 			}
-			else if (command == "EffOff") // Effect Off
+			else if (command == "Flush") // 即時
 			{
-				this.Act.Clear();
+				this.Act.Flush();
 			}
 			else if (command == "Sleep") // 描画せずに待つ
 			{
@@ -93,7 +97,9 @@ namespace Charlotte.Novels.Surfaces
 				if (frame < 1)
 					throw new DDError("Bad (sleeping) frame: " + frame);
 
-				this.Act.Add(SCommon.Supplier(Enumerable.Range(0, frame).Select(v => true)));
+				int endFrame = DDEngine.ProcFrame + frame;
+
+				this.Act.Add(() => DDEngine.ProcFrame < endFrame && !NovelAct.IsFlush);
 			}
 			else if (command == "Keep") // 描画しながら待つ
 			{
@@ -102,12 +108,13 @@ namespace Charlotte.Novels.Surfaces
 				if (frame < 1)
 					throw new DDError("Bad (keeping) frame: " + frame);
 
-				this.Act.Add(SCommon.Supplier(Enumerable.Range(0, frame).Select(v =>
+				int endFrame = DDEngine.ProcFrame + frame;
+
+				this.Act.Add(() =>
 				{
 					this.Draw();
-					return true;
-				}
-				)));
+					return DDEngine.ProcFrame < endFrame && !NovelAct.IsFlush;
+				});
 			}
 			else
 			{
@@ -123,7 +130,7 @@ namespace Charlotte.Novels.Surfaces
 				_draw = SCommon.Supplier(this.E_Draw());
 
 			if (!_draw())
-				Novel.I.Status.Surfaces.RemoveAll(v => v == this);
+				Novel.I.Status.Surfaces.RemoveAll(v => v == this); // Remove Me
 		}
 
 		/// <summary>
@@ -134,6 +141,9 @@ namespace Charlotte.Novels.Surfaces
 
 		/// <summary>
 		/// 固有のコマンドを実行する。
+		/// ★コマンドの処理は原則的に Act へ追加すること。
+		/// -- Act へ追加しない場合は if 行に「即時」とコメントする。
+		/// -- 非即時コマンド名と区別するために、接頭辞 I- を付ける。(Immediate)
 		/// </summary>
 		/// <param name="command">コマンド名</param>
 		/// <param name="arguments">コマンド引数列</param>

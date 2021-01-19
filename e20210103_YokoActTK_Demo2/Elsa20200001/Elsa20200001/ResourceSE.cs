@@ -8,18 +8,18 @@ namespace Charlotte
 {
 	public class ResourceSE
 	{
-		//public DDSE Dummy = new DDSE("Dummy.mp3");
+		public DDSE Dummy = new DDSE(@"dat\General\muon.wav");
 
 		public DDSE[] テスト用s = new DDSE[]
 		{
-			new DDSE(@"e20200003_dat\小森平\sfxrse\01pickup\coin01.mp3"),
-			new DDSE(@"e20200003_dat\小森平\sfxrse\01pickup\coin02.mp3"),
-			new DDSE(@"e20200003_dat\小森平\sfxrse\01pickup\coin04.mp3"),
+			new DDSE(@"dat\小森平\sfxrse\01pickup\coin01.mp3"),
+			new DDSE(@"dat\小森平\sfxrse\01pickup\coin02.mp3"),
+			new DDSE(@"dat\小森平\sfxrse\01pickup\coin04.mp3"),
 		};
 
 		public ResourceSE()
 		{
-			//this.Dummy.Volume = 0.1;
+			//this.Dummy.Volume = 0.1; // 非推奨
 		}
 	}
 }

@@ -61,7 +61,7 @@ namespace Charlotte.LevelEditors
 						DDDraw.SetAlpha(0.3);
 						DDDraw.SetBright(new I3Color(0, 128, 255));
 						DDDraw.DrawRect(
-							DDGround.GeneralResource.WhiteBox,
+							Ground.I.Picture.WhiteBox,
 							tileL - cam_l,
 							tileT - cam_t,
 							GameConsts.TILE_W,

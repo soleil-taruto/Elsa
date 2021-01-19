@@ -144,7 +144,7 @@ namespace Charlotte.Novels
 					// スキップモード時はページを進める毎にエフェクトを強制終了する。
 					if (this.SkipMode)
 						foreach (Surface surface in this.Status.Surfaces)
-							surface.Act.Clear();
+							surface.Act.Flush();
 
 					this.Status.CurrPageIndex++;
 
@@ -363,6 +363,7 @@ namespace Charlotte.Novels
 		{
 			Surface_MessageWindow.Hide = true;
 			Surface_SystemButtons.Hide = true;
+			Surface_Select.Hide = true;
 
 			DDEngine.FreezeInput(NovelConsts.SHORT_INPUT_SLEEP);
 
@@ -385,6 +386,7 @@ namespace Charlotte.Novels
 
 			Surface_MessageWindow.Hide = false; // restore
 			Surface_SystemButtons.Hide = false; // restore
+			Surface_Select.Hide = false; // restore
 		}
 
 		private bool SystemMenu_ReturnToTitleMenu = false;

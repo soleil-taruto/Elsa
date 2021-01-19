@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Charlotte.GameCommons;
 
 namespace Charlotte.Novels
 {
@@ -20,9 +21,23 @@ namespace Charlotte.Novels
 			this.InnerActs.Add(innerAct);
 		}
 
-		public void Clear()
+		public void AddOnce(Action innerAct)
 		{
-			this.InnerActs.Clear();
+			this.Add(() =>
+			{
+				innerAct();
+				return false;
+			});
+		}
+
+		public void Flush()
+		{
+			IsFlush = true;
+			bool ret = this.Draw();
+			IsFlush = false; // restore
+
+			if (ret)
+				throw new DDError();
 		}
 
 		public int Count
@@ -34,7 +49,14 @@ namespace Charlotte.Novels
 		}
 
 		/// <summary>
+		/// アクション即完了フラグ
+		/// </summary>
+		public static bool IsFlush = false;
+
+		/// <summary>
 		/// <para>このアクションを描画する。</para>
+		/// <para>Flush == ture の場合、アクションは即完了しなければならない。</para>
+		/// <para>戻り値：</para>
 		/// <para>真を返したとき == アクションを描画し、継続する可能性がある。</para>
 		/// <para>偽を返したとき == 全てのアクションは終了しているため描画しなかった。本来の描画を実行する必要がある。</para>
 		/// </summary>

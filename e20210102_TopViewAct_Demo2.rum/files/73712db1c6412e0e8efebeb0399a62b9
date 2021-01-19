@@ -1,0 +1,132 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.Commons;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games.Enemies
+{
+	public class Enemy_セーブ地点 : Enemy
+	{
+		public Enemy_セーブ地点(double x, double y)
+			: base(x, y, 0, 0, false)
+		{ }
+
+		protected override IEnumerable<bool> E_Draw()
+		{
+			for (; ; )
+			{
+				if (DDUtils.GetDistance(new D2Point(Game.I.Player.X, Game.I.Player.Y), new D2Point(this.X, this.Y)) < 30.0)
+				{
+					// セーブ
+					// -- GameCommon あたりに移動した方が良いか...
+					{
+						GameStatus gameStatus = Game.I.Status.GetClone();
+
+						// ★★★★★
+						// プレイヤー・ステータス反映(セーブ時)
+						// その他の反映箇所：
+						// -- マップ入場時
+						// -- マップ退場時
+						{
+							gameStatus.StartHP = Game.I.Player.HP;
+							gameStatus.StartFaceDirection = Game.I.Player.FaceDirection;
+							gameStatus.Start選択武器 = Game.I.Player.選択武器;
+						}
+
+						Ground.GameSaveDataInfo gameSaveData = new Ground.GameSaveDataInfo()
+						{
+							TimeStamp = "" + DateTime.Now,
+							MapName = GameCommon.GetMapName(Game.I.Map.MapFile, "t0001"),
+							GameStatus = gameStatus,
+						};
+
+						SaveGame(gameSaveData);
+					}
+
+					break;
+				}
+
+				if (!DDUtils.IsOutOfCamera(new D2Point(this.X, this.Y), 50.0))
+				{
+					DDDraw.DrawBegin(Ground.I.Picture.Dummy, this.X - DDGround.ICamera.X, this.Y - DDGround.ICamera.Y);
+					DDDraw.DrawRotate(DDEngine.ProcFrame / 30.0);
+					DDDraw.DrawEnd();
+
+					DDPrint.SetPrint((int)this.X - DDGround.ICamera.X, (int)this.Y - DDGround.ICamera.Y);
+					DDPrint.SetBorder(new I3Color(0, 0, 0));
+					DDPrint.PrintLine("セーブ地点");
+					DDPrint.Reset();
+
+					// 当たり判定無し
+				}
+				yield return true;
+			}
+		}
+
+		private static void SaveGame(Ground.GameSaveDataInfo gameSaveData)
+		{
+			SaveGame_幕間();
+
+			DDEngine.FreezeInput();
+
+			DDCurtain.SetCurtain();
+			DDEngine.FreezeInput();
+
+			DDSimpleMenu simpleMenu = new DDSimpleMenu();
+
+			simpleMenu.BorderColor = new I3Color(0, 128, 0);
+			simpleMenu.WallColor = new I3Color(128, 64, 0);
+
+			string[] items = Ground.I.GameSaveDataSlots.Select(v => v == null ? "[データ無し]" : v.TimeStamp).Concat(new string[] { "戻る" }).ToArray();
+
+			int selectIndex = 0;
+
+			for (; ; )
+			{
+				selectIndex = simpleMenu.Perform("セーブ画面", items, selectIndex);
+
+				if (selectIndex < Consts.GAME_SAVE_DATA_SLOT_NUM)
+				{
+					Ground.I.GameSaveDataSlots[selectIndex] = gameSaveData;
+					break;
+				}
+				else // [戻る]
+				{
+					break;
+				}
+				//DDEngine.EachFrame(); // 不要
+			}
+
+			SaveGame_幕間();
+
+			DDEngine.FreezeInput();
+		}
+
+		private static void SaveGame_幕間()
+		{
+			const int METER_W = DDConsts.Screen_W - 100;
+			const int METER_H = 10;
+			const int METER_L = (DDConsts.Screen_W - METER_W) / 2;
+			const int METER_T = (DDConsts.Screen_H - METER_H) / 2;
+
+			foreach (DDScene scene in DDSceneUtils.Create(30))
+			{
+				DDDraw.SetBright(new I3Color(64, 32, 0));
+				DDDraw.DrawRect(Ground.I.Picture.WhiteBox, 0, 0, DDConsts.Screen_W, DDConsts.Screen_H);
+				DDDraw.Reset();
+
+				DDDraw.SetBright(new I3Color(0, 0, 0));
+				DDDraw.DrawRect(Ground.I.Picture.WhiteBox, METER_L, METER_T, METER_W, METER_H);
+				DDDraw.Reset();
+
+				DDDraw.SetBright(new I3Color(255, 255, 255));
+				DDDraw.DrawRect(Ground.I.Picture.WhiteBox, METER_L, METER_T, Math.Max(METER_W * scene.Rate, 1), METER_H);
+				DDDraw.Reset();
+
+				DDEngine.EachFrame();
+			}
+		}
+	}
+}

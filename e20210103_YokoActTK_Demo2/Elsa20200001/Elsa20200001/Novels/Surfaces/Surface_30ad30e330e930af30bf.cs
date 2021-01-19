@@ -49,32 +49,6 @@ namespace Charlotte.Novels.Surfaces
 		public double Zoom = 1.0;
 		public bool Mirrored = false;
 
-		private struct StatusInfo
-		{
-			public double X;
-			public double Y;
-			//public int Z; // Z-オーダーは制御出来ない。
-			public int Chara;
-			public int Mode;
-			public double A;
-			public double Zoom;
-			public bool Mirrored;
-		}
-
-		private StatusInfo GetStatus()
-		{
-			return new StatusInfo()
-			{
-				X = this.X,
-				Y = this.Y,
-				Chara = this.Chara,
-				Mode = this.Mode,
-				A = this.A,
-				Zoom = this.Zoom,
-				Mirrored = this.Mirrored,
-			};
-		}
-
 		public Surface_キャラクタ(string typeName, string instanceName)
 			: base(typeName, instanceName)
 		{
@@ -85,19 +59,19 @@ namespace Charlotte.Novels.Surfaces
 		{
 			for (; ; )
 			{
-				this.Draw(this.GetStatus());
+				this.P_Draw();
 
 				yield return true;
 			}
 		}
 
-		private void Draw(StatusInfo status)
+		private void P_Draw()
 		{
 			const double BASIC_ZOOM = 0.5;
 
-			DDDraw.SetAlpha(status.A);
-			DDDraw.DrawBegin(this.ImageTable[(int)status.Chara][status.Mode].Image, status.X, status.Y + Math.Sin(DDEngine.ProcFrame / 67.0 + this.Draw_Rnd) * 2.0);
-			DDDraw.DrawZoom(BASIC_ZOOM * status.Zoom);
+			DDDraw.SetAlpha(this.A);
+			DDDraw.DrawBegin(this.ImageTable[(int)this.Chara][this.Mode].Image, this.X, this.Y + Math.Sin(DDEngine.ProcFrame / 67.0 + this.Draw_Rnd) * 2.0);
+			DDDraw.DrawZoom(BASIC_ZOOM * this.Zoom);
 			DDDraw.DrawZoom_X(this.Mirrored ? -1 : 1);
 			DDDraw.DrawEnd();
 			DDDraw.Reset();
@@ -109,173 +83,184 @@ namespace Charlotte.Novels.Surfaces
 
 			if (command == "Chara")
 			{
-				string charaName = arguments[c++];
-				int chara = SCommon.IndexOf(CHARA_NAMES, charaName);
+				this.Act.AddOnce(() =>
+				{
+					string charaName = arguments[c++];
+					int chara = SCommon.IndexOf(CHARA_NAMES, charaName);
 
-				if (chara == -1)
-					throw new DDError("Bad chara: " + charaName);
+					if (chara == -1)
+						throw new DDError("Bad chara: " + charaName);
 
-				this.Chara = chara;
+					this.Chara = chara;
+				});
 			}
 			else if (command == "Mode")
 			{
-				string modeName = arguments[c++];
-				int mode = SCommon.IndexOf(this.ImageTable[this.Chara], v => v.Name == modeName);
+				this.Act.AddOnce(() =>
+				{
+					string modeName = arguments[c++];
+					int mode = SCommon.IndexOf(this.ImageTable[this.Chara], v => v.Name == modeName);
 
-				if (mode == -1)
-					throw new DDError("Bad mode: " + mode);
+					if (mode == -1)
+						throw new DDError("Bad mode: " + mode);
 
-				this.Mode = mode;
+					this.Mode = mode;
+				});
 			}
 			else if (command == "A")
 			{
-				this.A = double.Parse(arguments[c++]);
+				this.Act.AddOnce(() => this.A = double.Parse(arguments[c++]));
 			}
 			else if (command == "Zoom")
 			{
-				this.Zoom = double.Parse(arguments[c++]);
+				this.Act.AddOnce(() => this.Zoom = double.Parse(arguments[c++]));
+			}
+			else if (command == "Mirror")
+			{
+				this.Act.AddOnce(() => this.Mirrored = int.Parse(arguments[c++]) != 0);
 			}
 			else if (command == "待ち")
 			{
-				int frame = int.Parse(arguments[c++]);
-
-				this.Act.Add(SCommon.Supplier(this.待ち(this.GetStatus(), frame)));
+				this.Act.Add(SCommon.Supplier(this.待ち(int.Parse(arguments[c++]))));
 			}
 			else if (command == "フェードイン")
 			{
-				this.Act.Add(SCommon.Supplier(this.フェードイン(this.GetStatus())));
-				this.A = 1.0;
+				this.Act.Add(SCommon.Supplier(this.フェードイン()));
 			}
 			else if (command == "フェードアウト")
 			{
-				this.Act.Add(SCommon.Supplier(this.フェードアウト(this.GetStatus())));
-				this.A = 0.0;
+				this.Act.Add(SCommon.Supplier(this.フェードアウト()));
 			}
 			else if (command == "モード変更")
 			{
+				this.Act.Add(SCommon.Supplier(this.モード変更(arguments[c++])));
+			}
+			else if (command == "モード変更_Mirror")
+			{
 				string modeName = arguments[c++];
-				int mode = SCommon.IndexOf(this.ImageTable[this.Chara], v => v.Name == modeName);
+				bool mirrored = int.Parse(arguments[c++]) != 0;
 
-				if (mode == -1)
-					throw new DDError("Bad mode: " + mode);
-
-				this.Act.Add(SCommon.Supplier(this.モード変更(this.GetStatus(), mode)));
-				this.Mode = mode;
+				this.Act.Add(SCommon.Supplier(this.モード変更(modeName, mirrored)));
 			}
 			else if (command == "スライド")
 			{
 				double x = double.Parse(arguments[c++]);
 				double y = double.Parse(arguments[c++]);
 
-				this.Act.Add(SCommon.Supplier(this.スライド(this.GetStatus(), x, y)));
-
-				this.X = SCommon.ToInt(x);
-				this.Y = SCommon.ToInt(y);
-			}
-			else if (command == "Mirror")
-			{
-				this.Mirrored = int.Parse(arguments[c++]) != 0;
-			}
-			else if (command == "A_Mirror")
-			{
-				this.Act.Add(() =>
-				{
-					this.Mirrored = int.Parse(arguments[c++]) != 0;
-					return false;
-				});
-			}
-			else if (command == "モード変更_Mirror")
-			{
-				string modeName = arguments[c++];
-				int mode = SCommon.IndexOf(this.ImageTable[this.Chara], v => v.Name == modeName);
-
-				if (mode == -1)
-					throw new DDError("Bad mode: " + mode);
-
-				bool mirrored = int.Parse(arguments[c++]) != 0;
-
-				StatusInfo currStatus = this.GetStatus();
-				StatusInfo destStatus = currStatus;
-
-				destStatus.Mode = mode;
-				destStatus.Mirrored = mirrored;
-
-				this.Act.Add(SCommon.Supplier(this.モード変更(currStatus, destStatus)));
-
-				this.Mode = mode;
-				this.Mirrored = mirrored;
+				this.Act.Add(SCommon.Supplier(this.スライド(x, y)));
 			}
 			else
 			{
-				ProcMain.WriteLog(command);
+				ProcMain.WriteLog("不明なコマンド：" + command);
 				throw new DDError();
 			}
 		}
 
-		private IEnumerable<bool> 待ち(StatusInfo status, int frame)
+		private IEnumerable<bool> 待ち(int frame)
 		{
 			foreach (DDScene scene in DDSceneUtils.Create(frame))
 			{
-				this.Draw(status);
+				if (NovelAct.IsFlush)
+					yield break;
+
+				this.P_Draw();
 				yield return true;
 			}
 		}
 
-		private IEnumerable<bool> フェードイン(StatusInfo status)
+		private IEnumerable<bool> フェードイン()
 		{
 			foreach (DDScene scene in DDSceneUtils.Create(10))
 			{
-				status.A = scene.Rate;
+				if (NovelAct.IsFlush)
+				{
+					this.A = 1.0;
+					yield break;
+				}
+				this.A = scene.Rate;
+				this.P_Draw();
 
-				this.Draw(status);
 				yield return true;
 			}
 		}
 
-		private IEnumerable<bool> フェードアウト(StatusInfo status)
+		private IEnumerable<bool> フェードアウト()
 		{
 			foreach (DDScene scene in DDSceneUtils.Create(10))
 			{
-				status.A = 1.0 - scene.Rate;
+				if (NovelAct.IsFlush)
+				{
+					this.A = 0.0;
+					yield break;
+				}
+				this.A = 1.0 - scene.Rate;
+				this.P_Draw();
 
-				this.Draw(status);
 				yield return true;
 			}
 		}
 
-		private IEnumerable<bool> モード変更(StatusInfo status, int destMode)
+		private IEnumerable<bool> モード変更(string modeName)
 		{
-			StatusInfo currStatus = status;
-			StatusInfo destStatus = status;
-
-			destStatus.Mode = destMode;
-
-			return this.モード変更(currStatus, destStatus);
+			return this.モード変更(modeName, this.Mirrored);
 		}
 
-		private IEnumerable<bool> モード変更(StatusInfo currStatus, StatusInfo destStatus)
+		private IEnumerable<bool> モード変更(string modeName, bool mirrored)
 		{
+			int mode = SCommon.IndexOf(this.ImageTable[this.Chara], v => v.Name == modeName);
+
+			if (mode == -1)
+				throw new DDError("Bad mode: " + mode);
+
+			int currMode = this.Mode;
+			int destMode = mode;
+			bool currMirrored = this.Mirrored;
+			bool destMirrored = mirrored;
+
 			foreach (DDScene scene in DDSceneUtils.Create(30))
 			{
-				currStatus.A = DDUtils.Parabola(scene.Rate * 0.5 + 0.5);
-				destStatus.A = DDUtils.Parabola(scene.Rate * 0.5 + 0.0);
+				if (NovelAct.IsFlush)
+				{
+					this.A = 1.0;
+					this.Mode = destMode;
+					this.Mirrored = destMirrored;
 
-				this.Draw(currStatus);
-				this.Draw(destStatus);
+					yield break;
+				}
+				this.A = DDUtils.Parabola(scene.Rate * 0.5 + 0.5);
+				this.Mode = currMode;
+				this.Mirrored = currMirrored;
+				this.P_Draw();
+
+				this.A = DDUtils.Parabola(scene.Rate * 0.5 + 0.0);
+				this.Mode = destMode;
+				this.Mirrored = destMirrored;
+				this.P_Draw();
+
 				yield return true;
 			}
 		}
 
-		private IEnumerable<bool> スライド(StatusInfo status, double x, double y)
+		private IEnumerable<bool> スライド(double x, double y)
 		{
-			StatusInfo currStatus = status;
+			double currX = this.X;
+			double destX = x;
+			double currY = this.Y;
+			double destY = y;
 
 			foreach (DDScene scene in DDSceneUtils.Create(30))
 			{
-				currStatus.X = DDUtils.AToBRate(status.X, x, DDUtils.SCurve(scene.Rate));
-				currStatus.Y = DDUtils.AToBRate(status.Y, y, DDUtils.SCurve(scene.Rate));
+				if (NovelAct.IsFlush)
+				{
+					this.X = destX;
+					this.Y = destY;
 
-				this.Draw(currStatus);
+					yield break;
+				}
+				this.X = DDUtils.AToBRate(currX, destX, DDUtils.SCurve(scene.Rate));
+				this.Y = DDUtils.AToBRate(currY, destY, DDUtils.SCurve(scene.Rate));
+				this.P_Draw();
+
 				yield return true;
 			}
 		}

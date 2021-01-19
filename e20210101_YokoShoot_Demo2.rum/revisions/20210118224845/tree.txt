@@ -1,0 +1,56 @@
+dat
+dat\dat
+dat\dat\Game
+dat\dat\General
+dat\dat\hmix
+dat\dat\Logo
+dat\dat\Novel
+dat\dat\Novel\Font
+dat\dat\Novel\Font\K Gothic
+dat\dat\Novel\Instagram
+dat\dat\Novel\フリー素材
+dat\dat\Novel\フリー素材\からい
+dat\dat\Novel\フリー素材\からい\ゆかマキ制服
+dat\dat\Novel\フリー素材\空想曲線
+dat\dat\Novel\フリー素材\空想曲線\Messageframe_29
+dat\dat\Novel\フリー素材\空想曲線\Messageframe_29\material
+dat\dat\Novel\フリー素材\空想曲線\Messageframe_29\material\01 message
+dat\dat\Novel\フリー素材\空想曲線\Messageframe_29\material\02 button
+dat\dat\Novel\フリー素材\空想曲線\Messageframe_29\material\03 system_button
+dat\dat\Wall
+dat\dat\ユーフルカ
+dat\dat\ユーフルカ\Battle-Conflict_loop
+dat\dat\ユーフルカ\Battle-Conflict_loop\Assets_for_Unity
+dat\dat\ユーフルカ\Battle-rapier_loop
+dat\dat\ユーフルカ\Battle-rapier_loop\Assets_for_Unity
+dat\dat\ユーフルカ\Battle-Vampire_loop
+dat\dat\ユーフルカ\Battle-Vampire_loop\Assets_for_Unity
+dat\res
+dat\res\Scenario
+dat\res\Scenario\Include
+doc
+Elsa20200001
+Elsa20200001\Elsa20200001
+Elsa20200001\Elsa20200001\Commons
+Elsa20200001\Elsa20200001\GameCommons
+Elsa20200001\Elsa20200001\GameCommons\MaskGZDataUtils
+Elsa20200001\Elsa20200001\GameCommons\Options
+Elsa20200001\Elsa20200001\Games
+Elsa20200001\Elsa20200001\Games\Enemies
+Elsa20200001\Elsa20200001\Games\Enemies\Tests
+Elsa20200001\Elsa20200001\Games\Scripts
+Elsa20200001\Elsa20200001\Games\Scripts\Tests
+Elsa20200001\Elsa20200001\Games\Shots
+Elsa20200001\Elsa20200001\Games\Shots\Tests
+Elsa20200001\Elsa20200001\Games\Walls
+Elsa20200001\Elsa20200001\Games\Walls\Tests
+Elsa20200001\Elsa20200001\Novels
+Elsa20200001\Elsa20200001\Novels\Surfaces
+Elsa20200001\Elsa20200001\Properties
+Elsa20200001\Elsa20200001\Tests
+Elsa20200001\Elsa20200001\Tests\GameCommons
+Elsa20200001\Elsa20200001\Tests\Games
+Elsa20200001\Elsa20200001\Tests\Novels
+out
+tmp
+Tools

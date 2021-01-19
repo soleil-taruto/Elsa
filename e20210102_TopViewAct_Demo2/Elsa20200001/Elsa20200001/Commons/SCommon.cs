@@ -571,6 +571,17 @@ namespace Charlotte.Commons
 			return 0;
 		}
 
+		public static int Comp(double a, double b)
+		{
+			if (a < b)
+				return -1;
+
+			if (a > b)
+				return 1;
+
+			return 0;
+		}
+
 		public static int ToRange(int value, int minval, int maxval)
 		{
 			return Math.Max(minval, Math.Min(maxval, value));

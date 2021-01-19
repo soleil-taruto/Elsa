@@ -1,0 +1,89 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.GameCommons;
+
+namespace Charlotte.Games.Walls
+{
+	public class Wall_東方風 : Wall
+	{
+		protected override IEnumerable<bool> E_Draw()
+		{
+			for (; ; )
+			{
+				double map_w = Game.I.Map.W * GameConsts.TILE_W;
+				double map_h = Game.I.Map.H * GameConsts.TILE_H;
+				double camXMax = map_w - DDConsts.Screen_W;
+				double camYMax = map_h - DDConsts.Screen_H;
+
+				// 最背面
+				{
+					double xRate = DDGround.Camera.X / camXMax;
+					double yRate = DDGround.Camera.Y / camYMax;
+
+					DDDraw.DrawSimple(
+						Ground.I.Picture.Stage01_Bg_a01,
+						-(Ground.I.Picture.Stage01_Bg_a01.Get_W() - DDConsts.Screen_W) * xRate,
+						-(Ground.I.Picture.Stage01_Bg_a01.Get_H() - DDConsts.Screen_H) * yRate
+						);
+				}
+
+				// 山
+				{
+					DDPicture picture = Ground.I.Picture.Stage01_Bg_a02;
+					double xSlideRate = 0.1;
+					double ySlideRate = 0.1;
+					double x = -DDGround.Camera.X * xSlideRate;
+					double y = (map_h - 500.0) - DDGround.Camera.Y - (camYMax - DDGround.Camera.Y) * ySlideRate;
+					int ix = (int)x;
+
+					ix %= picture.Get_W();
+
+					for (int cx = ix; cx < DDConsts.Screen_W; cx += picture.Get_W())
+					{
+						DDDraw.DrawSimple(picture, cx, y);
+					}
+				}
+
+				// 森
+				{
+					DDPicture picture = Ground.I.Picture.Stage01_Bg_a03;
+					double xSlideRate = 0.2;
+					double x = -DDGround.Camera.X * xSlideRate;
+					double y = (map_h - 416.0) - DDGround.Camera.Y;
+					int ix = (int)x;
+
+					ix %= picture.Get_W();
+
+					for (int cx = ix; cx < DDConsts.Screen_W; cx += picture.Get_W())
+					{
+						DDDraw.DrawSimple(picture, cx, y);
+					}
+				}
+
+				// 木
+				{
+					DDPicture picture_01 = Ground.I.Picture.Stage01_Bg_Item01;
+					DDPicture picture_02 = Ground.I.Picture.Stage01_Bg_Item02;
+
+					const int CYCLE_SPAN = 1000;
+
+					int x = -DDGround.ICamera.X;
+					int y = (int)(map_h - 96) - DDGround.ICamera.Y;
+
+					x %= CYCLE_SPAN;
+					x -= CYCLE_SPAN;
+
+					for (int cx = x; cx < DDConsts.Screen_W; cx += CYCLE_SPAN)
+					{
+						DDDraw.DrawSimple(picture_01, cx + 200, y - picture_01.Get_H());
+						DDDraw.DrawSimple(picture_02, cx + 700, y - picture_02.Get_H());
+					}
+				}
+
+				yield return true;
+			}
+		}
+	}
+}
