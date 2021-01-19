@@ -1,4 +1,4 @@
-dat
+﻿dat
 dat\e20200002_General
 dat\e20200002_General\General
 dat\e20201022_YokoShoot
@@ -6,13 +6,13 @@ dat\e20201022_YokoShoot\Game
 dat\e20201022_YokoShoot\hmix
 dat\e20201022_YokoShoot\Logo
 dat\e20201022_YokoShoot\Wall
-dat\e20201022_YokoShoot\繝ｦ繝ｼ繝輔Ν繧ｫ
-dat\e20201022_YokoShoot\繝ｦ繝ｼ繝輔Ν繧ｫ\Battle-Conflict_loop
-dat\e20201022_YokoShoot\繝ｦ繝ｼ繝輔Ν繧ｫ\Battle-Conflict_loop\Assets_for_Unity
-dat\e20201022_YokoShoot\繝ｦ繝ｼ繝輔Ν繧ｫ\Battle-rapier_loop
-dat\e20201022_YokoShoot\繝ｦ繝ｼ繝輔Ν繧ｫ\Battle-rapier_loop\Assets_for_Unity
-dat\e20201022_YokoShoot\繝ｦ繝ｼ繝輔Ν繧ｫ\Battle-Vampire_loop
-dat\e20201022_YokoShoot\繝ｦ繝ｼ繝輔Ν繧ｫ\Battle-Vampire_loop\Assets_for_Unity
+dat\e20201022_YokoShoot\ユーフルカ
+dat\e20201022_YokoShoot\ユーフルカ\Battle-Conflict_loop
+dat\e20201022_YokoShoot\ユーフルカ\Battle-Conflict_loop\Assets_for_Unity
+dat\e20201022_YokoShoot\ユーフルカ\Battle-rapier_loop
+dat\e20201022_YokoShoot\ユーフルカ\Battle-rapier_loop\Assets_for_Unity
+dat\e20201022_YokoShoot\ユーフルカ\Battle-Vampire_loop
+dat\e20201022_YokoShoot\ユーフルカ\Battle-Vampire_loop\Assets_for_Unity
 doc
 Elsa20200001
 Elsa20200001\Elsa20200001

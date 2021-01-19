@@ -1,4 +1,4 @@
-7992a8c8bb1fe9c863b827335778b5a1 AUTHORS
+﻿7992a8c8bb1fe9c863b827335778b5a1 AUTHORS
 c1d5f48d6d01b4e98f4d428c732cdb50 Clean.bat
 b5099a8d5b681001eb64d03f7e9ef2a4 Confuse.bat
 6f07a1a5aa73b75b42d4b6f067a40071 dat\dat\General\Dummy.png

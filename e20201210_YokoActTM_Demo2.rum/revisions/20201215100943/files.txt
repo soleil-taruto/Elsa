@@ -1,4 +1,4 @@
-d41d8cd98f00b204e9800998ecf8427e #### Demo + 神奈子, セーブ地点 etc
+﻿d41d8cd98f00b204e9800998ecf8427e #### Demo + 神奈子, セーブ地点 etc
 7992a8c8bb1fe9c863b827335778b5a1 AUTHORS
 c1d5f48d6d01b4e98f4d428c732cdb50 Clean.bat
 b5099a8d5b681001eb64d03f7e9ef2a4 Confuse.bat

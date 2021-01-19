@@ -1,4 +1,4 @@
-dat
+﻿dat
 dat\e20200002_General
 dat\e20200002_General\General
 dat\e20200003_dat
@@ -6,13 +6,13 @@ dat\e20200003_dat\Game
 dat\e20200003_dat\hmix
 dat\e20200003_dat\Logo
 dat\e20200003_dat\Wall
-dat\e20200003_dat\繝ｦ繝ｼ繝輔Ν繧ｫ
-dat\e20200003_dat\繝ｦ繝ｼ繝輔Ν繧ｫ\Battle-Conflict_loop
-dat\e20200003_dat\繝ｦ繝ｼ繝輔Ν繧ｫ\Battle-Conflict_loop\Assets_for_Unity
-dat\e20200003_dat\繝ｦ繝ｼ繝輔Ν繧ｫ\Battle-rapier_loop
-dat\e20200003_dat\繝ｦ繝ｼ繝輔Ν繧ｫ\Battle-rapier_loop\Assets_for_Unity
-dat\e20200003_dat\繝ｦ繝ｼ繝輔Ν繧ｫ\Battle-Vampire_loop
-dat\e20200003_dat\繝ｦ繝ｼ繝輔Ν繧ｫ\Battle-Vampire_loop\Assets_for_Unity
+dat\e20200003_dat\ユーフルカ
+dat\e20200003_dat\ユーフルカ\Battle-Conflict_loop
+dat\e20200003_dat\ユーフルカ\Battle-Conflict_loop\Assets_for_Unity
+dat\e20200003_dat\ユーフルカ\Battle-rapier_loop
+dat\e20200003_dat\ユーフルカ\Battle-rapier_loop\Assets_for_Unity
+dat\e20200003_dat\ユーフルカ\Battle-Vampire_loop
+dat\e20200003_dat\ユーフルカ\Battle-Vampire_loop\Assets_for_Unity
 doc
 Elsa20200001
 Elsa20200001\Elsa20200001

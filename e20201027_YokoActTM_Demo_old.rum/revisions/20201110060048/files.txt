@@ -1,4 +1,4 @@
-7992a8c8bb1fe9c863b827335778b5a1 AUTHORS
+﻿7992a8c8bb1fe9c863b827335778b5a1 AUTHORS
 aa15088b0dc08af63423a55a16929f82 Clean.bat
 6f07a1a5aa73b75b42d4b6f067a40071 dat\e20200002_General\General\Dummy.png
 2724eafa0b42c1c35c811fd67fe94759 dat\e20200002_General\General\game_app.ico
@@ -28,7 +28,7 @@ a6f33d65abd1c618cbc33fe186c66554 DebugRelease.bat
 96540c3dc895089eb85db0e8dc22ada3 Deploy.bat
 ad358914ef1a612864116ed5320e021b doc\Config.conf
 7f0cfc79746e6fc7569427be9477d4f7 doc\Properties.dat
-9e5f7e148e1d4a9d458ac2ee21547577 doc\繝槭ル繝･繧｢繝ｫ.txt
+9e5f7e148e1d4a9d458ac2ee21547577 doc\マニュアル.txt
 70f5fc115a21c0cbf160a3e4fee712f3 Elsa20200001\Elsa20200001.sln
 fe2d7fdca6860ee76cb620bba7ed958c Elsa20200001\Elsa20200001\Common.cs
 e85e6462992d3c57fdfa792d1926e032 Elsa20200001\Elsa20200001\Commons\ArgsReader.cs
@@ -114,7 +114,7 @@ bc61f069918fec9d1e23002455109511 Elsa20200001\Elsa20200001\GameCommons\Options\D
 9a8a13a3bbe6d9ddf4252e84c9fb3128 Elsa20200001\Elsa20200001\Games\Enemies\Enemy.cs
 4bd4aa9834d9d0e78b6bdd98615fafc0 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_B0001.cs
 1b4ff033a21fc0df9365842ba3c3ea28 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_B0002.cs
-29ca4185d1c9a8d622ec99b122b7677c Elsa20200001\Elsa20200001\Games\Enemies\Enemy_繧ｹ繧ｿ繝ｼ繝亥慍轤ｹ.cs
+29ca4185d1c9a8d622ec99b122b7677c Elsa20200001\Elsa20200001\Games\Enemies\Enemy_スタート地点.cs
 48f75573adc7d454c2900b4e555cb27c Elsa20200001\Elsa20200001\Games\Enemies\EnemyCatalog.cs
 6fdc9b445dc6ef51caff055e926cd0fc Elsa20200001\Elsa20200001\Games\Game.cs
 13078afeda5a3d255fc3e023036bfe24 Elsa20200001\Elsa20200001\Games\GameStatus.cs

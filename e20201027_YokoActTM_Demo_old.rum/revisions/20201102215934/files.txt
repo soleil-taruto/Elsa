@@ -1,4 +1,4 @@
-d41d8cd98f00b204e9800998ecf8427e #### 2020-10-29 の時点で e20201025_YokoActTM との差異はほぼ無いはず。
+﻿d41d8cd98f00b204e9800998ecf8427e #### 2020-10-29 の時点で e20201025_YokoActTM との差異はほぼ無いはず。
 7992a8c8bb1fe9c863b827335778b5a1 AUTHORS
 aa15088b0dc08af63423a55a16929f82 Clean.bat
 6f07a1a5aa73b75b42d4b6f067a40071 dat\e20200002_General\General\Dummy.png

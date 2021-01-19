@@ -1,4 +1,4 @@
-doc
+﻿doc
 Elsa20200001
 Elsa20200001\Elsa20200001
 Elsa20200001\Elsa20200001\Commons
@@ -7,7 +7,7 @@ Elsa20200001\Elsa20200001\GameCommons\MaskGZDataUtils
 Elsa20200001\Elsa20200001\GameCommons\Options
 Elsa20200001\Elsa20200001\Games
 Elsa20200001\Elsa20200001\Games\Enemies
-Elsa20200001\Elsa20200001\Games\Enemies\骰ｵ螻ｱ髮孕
+Elsa20200001\Elsa20200001\Games\Enemies\鍵山雛s
 Elsa20200001\Elsa20200001\Games\Scripts
 Elsa20200001\Elsa20200001\Games\Shots
 Elsa20200001\Elsa20200001\Games\Surfaces

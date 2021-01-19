@@ -1,4 +1,4 @@
-7992a8c8bb1fe9c863b827335778b5a1 AUTHORS
+﻿7992a8c8bb1fe9c863b827335778b5a1 AUTHORS
 c1d5f48d6d01b4e98f4d428c732cdb50 Clean.bat
 b5099a8d5b681001eb64d03f7e9ef2a4 Confuse.bat
 6f07a1a5aa73b75b42d4b6f067a40071 dat\e20200002_General\General\Dummy.png
@@ -8,10 +8,10 @@ b5099a8d5b681001eb64d03f7e9ef2a4 Confuse.bat
 330daf06d89928912ee97240fe3c4646 dat\e20200002_General\General\WhiteCircle.png
 049a2c1a6845299127ca21dea93479c8 dat\e20200003_dat\Logo\Copyright.png
 ed99f9d0430fe2abd1f923e7eb2940a5 DebugRelease.bat
-39c9cf153ec6481ecb04602cd342ff59 Deploy.bat_謚第ｭ｢荳ｭ.txt
+39c9cf153ec6481ecb04602cd342ff59 Deploy.bat_抑止中.txt
 ad358914ef1a612864116ed5320e021b doc\Config.conf
 7f0cfc79746e6fc7569427be9477d4f7 doc\Properties.dat
-69e33816a9fea39603751ca512430c92 doc\繝槭ル繝･繧｢繝ｫ.txt
+69e33816a9fea39603751ca512430c92 doc\マニュアル.txt
 70f5fc115a21c0cbf160a3e4fee712f3 Elsa20200001\Elsa20200001.sln
 7b54e9aed206cb8367fd914e839b95dc Elsa20200001\Elsa20200001\Common.cs
 e85e6462992d3c57fdfa792d1926e032 Elsa20200001\Elsa20200001\Commons\ArgsReader.cs
@@ -99,7 +99,7 @@ bc61f069918fec9d1e23002455109511 Elsa20200001\Elsa20200001\GameCommons\Options\D
 faebc68c79a8c3f06293d05ee94bf798 Elsa20200001\Elsa20200001\Games\Enemies\Enemy.cs
 acf4a893d5b638d381e06971af8afa15 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_Arkanoid.cs
 1b4ff033a21fc0df9365842ba3c3ea28 Elsa20200001\Elsa20200001\Games\Enemies\Enemy_B0002.cs
-29ca4185d1c9a8d622ec99b122b7677c Elsa20200001\Elsa20200001\Games\Enemies\Enemy_繧ｹ繧ｿ繝ｼ繝亥慍轤ｹ.cs
+29ca4185d1c9a8d622ec99b122b7677c Elsa20200001\Elsa20200001\Games\Enemies\Enemy_スタート地点.cs
 1b45536b1155402138294234cafe3c37 Elsa20200001\Elsa20200001\Games\Enemies\EnemyCatalog.cs
 381862c65471ac524edf6efffdadd2ee Elsa20200001\Elsa20200001\Games\Game.cs
 4b60f081ca2ac5e60bc2aefec7ee78b8 Elsa20200001\Elsa20200001\Games\GameMaster.cs

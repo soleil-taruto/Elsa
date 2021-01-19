@@ -1,4 +1,4 @@
-dat
+﻿dat
 dat\e20200002_General
 dat\e20200002_General\General
 dat\e20201018_TateShoot
@@ -50,8 +50,8 @@ dat\e20201018_TateShoot\Shoot_old_Resource\th_fuuchi-sozai
 dat\e20201018_TateShoot\Shoot_old_Resource\th_fuuchi-sozai\effect
 dat\e20201018_TateShoot\Shoot_old_Resource\th_fuuchi-sozai\img
 dat\e20201018_TateShoot\Shoot_old_Resource\th_fuuchi-sozai\stgframe
-dat\e20201018_TateShoot\闖ｯ髻ｳ3R
-dat\e20201018_TateShoot\蟆乗｣ｮ蟷ｳ
+dat\e20201018_TateShoot\華音3R
+dat\e20201018_TateShoot\小森平
 doc
 Elsa20200001
 Elsa20200001\Elsa20200001
@@ -61,7 +61,7 @@ Elsa20200001\Elsa20200001\GameCommons\MaskGZDataUtils
 Elsa20200001\Elsa20200001\GameCommons\Options
 Elsa20200001\Elsa20200001\Games
 Elsa20200001\Elsa20200001\Games\Enemies
-Elsa20200001\Elsa20200001\Games\Enemies\骰ｵ螻ｱ髮孕
+Elsa20200001\Elsa20200001\Games\Enemies\鍵山雛s
 Elsa20200001\Elsa20200001\Games\Scripts
 Elsa20200001\Elsa20200001\Games\Shots
 Elsa20200001\Elsa20200001\Games\Surfaces
@@ -72,5 +72,5 @@ Elsa20200001\Elsa20200001\Tests\Games
 out
 res
 res\e20200001_res
-res\e20200001_res\謗帙￠蜷医＞繧ｷ繝翫Μ繧ｪ
+res\e20200001_res\掛け合いシナリオ
 Tools

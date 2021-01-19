@@ -1,4 +1,4 @@
-7730a02e2474878707b877fab0611b4c __run_me_first.bat_
+﻿7730a02e2474878707b877fab0611b4c __run_me_first.bat_
 7992a8c8bb1fe9c863b827335778b5a1 AUTHORS
 5d0624e0e079cbbb64c276d311730f4f AutoRelease.bat
 aa15088b0dc08af63423a55a16929f82 Clean.bat

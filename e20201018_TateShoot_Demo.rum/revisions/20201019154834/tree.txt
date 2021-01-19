@@ -1,4 +1,4 @@
-doc
+﻿doc
 Elsa20200001
 Elsa20200001\Elsa20200001
 Elsa20200001\Elsa20200001\Commons
@@ -17,5 +17,5 @@ Elsa20200001\Elsa20200001\Tests\Games
 out
 res
 res\e20200001_res
-res\e20200001_res\謗帙￠蜷医＞繧ｷ繝翫Μ繧ｪ
+res\e20200001_res\掛け合いシナリオ
 Tools

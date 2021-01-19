@@ -1,1 +1,1 @@
-Config.conf 戻した。
+﻿Config.conf 戻した。

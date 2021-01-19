@@ -1,1 +1,1 @@
--= UseVirtualSubScreenSize やり残し
+﻿-= UseVirtualSubScreenSize やり残し

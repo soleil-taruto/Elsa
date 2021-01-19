@@ -1,1 +1,1 @@
--= UseVirtualSubScreenSize 但し、取り外しただけ。タイトル画面とかおかしいまま
+﻿-= UseVirtualSubScreenSize 但し、取り外しただけ。タイトル画面とかおかしいまま

@@ -1,4 +1,4 @@
-d41d8cd98f00b204e9800998ecf8427e #### このプロジェクトは e20201006_NovelAdv + リソース開示 ver です。
+﻿d41d8cd98f00b204e9800998ecf8427e #### このプロジェクトは e20201006_NovelAdv + リソース開示 ver です。
 7992a8c8bb1fe9c863b827335778b5a1 AUTHORS
 aa15088b0dc08af63423a55a16929f82 Clean.bat
 ad358914ef1a612864116ed5320e021b doc\Config.conf

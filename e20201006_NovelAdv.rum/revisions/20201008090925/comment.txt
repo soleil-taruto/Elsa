@@ -1,1 +1,1 @@
-+= UseVirtualSubScreenSize 作業中, vFontSize 等 失敗
+﻿+= UseVirtualSubScreenSize 作業中, vFontSize 等 失敗

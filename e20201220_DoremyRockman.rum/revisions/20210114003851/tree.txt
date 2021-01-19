@@ -1,4 +1,4 @@
-dat
+﻿dat
 dat\dat
 dat\dat\Game
 dat\dat\Game\chara_a01

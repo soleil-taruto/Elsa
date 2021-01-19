@@ -1,1 +1,1 @@
-DDGround.MainScreen を常に使用するようにした。
+﻿DDGround.MainScreen を常に使用するようにした。

@@ -1,11 +1,11 @@
-d41d8cd98f00b204e9800998ecf8427e #### discontinued
+﻿d41d8cd98f00b204e9800998ecf8427e #### discontinued
 873527f664faf30f915ebfaa3f56d2b5 _memo.txt
 7992a8c8bb1fe9c863b827335778b5a1 AUTHORS
 aa15088b0dc08af63423a55a16929f82 Clean.bat
 0b17a79e0d540856f4eee9d57ae12440 DebugRelease.bat
 ad358914ef1a612864116ed5320e021b doc\Config.conf
 7f0cfc79746e6fc7569427be9477d4f7 doc\Properties.dat
-a3539d169a1f5be4bd93f4d81ebce3ab doc\繝槭ル繝･繧｢繝ｫ.txt
+a3539d169a1f5be4bd93f4d81ebce3ab doc\マニュアル.txt
 70f5fc115a21c0cbf160a3e4fee712f3 Elsa20200001\Elsa20200001.sln
 15450bfab7352f7abeb1d8fbb46000d5 Elsa20200001\Elsa20200001\Common.cs
 e85e6462992d3c57fdfa792d1926e032 Elsa20200001\Elsa20200001\Commons\ArgsReader.cs
