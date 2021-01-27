@@ -105,9 +105,9 @@ namespace Charlotte
 			//new TitleMenuTest().Test01();
 			//new GameTest().Test01();
 			//new GameTest().Test02();
-			//new GameTest().Test03(); // スクリプトを選択
+			new GameTest().Test03(); // スクリプトを選択
 			//new NovelTest().Test01();
-			new NovelTest().Test02();
+			//new NovelTest().Test02();
 
 			// ----
 		}

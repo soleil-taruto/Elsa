@@ -9,7 +9,7 @@ namespace Charlotte.Novels.Surfaces
 {
 	public class Surface_キャラクタ : Surface
 	{
-		public double Draw_Rnd = DDUtils.Random.Real2() * Math.PI * 2.0;
+		public double Draw_Rnd = DDUtils.Random.Real() * Math.PI * 2.0;
 
 		public static string[] CHARA_NAMES = new string[]
 		{
