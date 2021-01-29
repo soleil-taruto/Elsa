@@ -1,7 +1,7 @@
 ﻿===============================================================================
 
 　Hakonoko / version $version$
-　　　　　　　　　　　　　　　　　　　　　　　　　　(C) 202x cerulean.charlotte
+　　　　　　　　　　　　　　　　　　　　　　　　　　(C) 2021 cerulean.charlotte
 
 ===============================================================================
 
@@ -48,6 +48,9 @@
 
 　　フキダシデザイン
 　　https://fukidesign.com/e0165/
+
+　　ICOON MONO
+　　https://icooon-mono.com/
 
 　●効果音
 

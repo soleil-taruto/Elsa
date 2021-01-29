@@ -155,7 +155,7 @@ namespace Charlotte.Games
 					if (
 						this.Player.DeadFrame == 0 && // ? プレイヤー死亡中ではない。
 						this.Player.RebornFrame == 0 && // ? プレイヤー登場中ではない。
-						(DDUtils.CountDown(ref this.SnapshotCount) || DDConfig.LOG_ENABLED) // デバッグ中は無制限
+						(DDConfig.LOG_ENABLED || DDUtils.CountDown(ref this.SnapshotCount)) // デバッグ中は無制限
 						)
 					{
 						this.Snapshot = new Snapshot();
