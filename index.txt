@@ -2,7 +2,6 @@
 ベース・プロジェクト
 
 e20201210_YokoActTM_Demo2
-e20201249_NovelAdv_Base2
 e20210101_YokoShoot_Demo2
 e20210102_TopViewAct_Demo2
 e20210103_YokoActTK_Demo2
@@ -15,6 +14,3 @@ e20201211_Hakonoko
 
 e20201220_DoremyRockman
 	ドレミー・ロックマン 開発中
-
-e20210109_Neko
-	名称未定ノベルゲー 開発中

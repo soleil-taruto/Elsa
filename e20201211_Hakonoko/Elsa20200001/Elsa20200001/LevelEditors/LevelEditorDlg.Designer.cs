@@ -29,22 +29,23 @@
 		private void InitializeComponent()
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LevelEditorDlg));
-			this.groupBox1 = new System.Windows.Forms.GroupBox();
+			this.タイルGroup = new System.Windows.Forms.GroupBox();
 			this.Kind = new System.Windows.Forms.ComboBox();
-			this.groupBox1.SuspendLayout();
+			this.タイルGroup.SuspendLayout();
 			this.SuspendLayout();
 			// 
-			// groupBox1
+			// タイルGroup
 			// 
-			this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+			this.タイルGroup.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.groupBox1.Controls.Add(this.Kind);
-			this.groupBox1.Location = new System.Drawing.Point(12, 12);
-			this.groupBox1.Name = "groupBox1";
-			this.groupBox1.Size = new System.Drawing.Size(360, 80);
-			this.groupBox1.TabIndex = 0;
-			this.groupBox1.TabStop = false;
-			this.groupBox1.Text = "タイル";
+			this.タイルGroup.Controls.Add(this.Kind);
+			this.タイルGroup.Location = new System.Drawing.Point(12, 12);
+			this.タイルGroup.Name = "タイルGroup";
+			this.タイルGroup.Size = new System.Drawing.Size(360, 80);
+			this.タイルGroup.TabIndex = 0;
+			this.タイルGroup.TabStop = false;
+			this.タイルGroup.Text = "タイル";
+			this.タイルGroup.Enter += new System.EventHandler(this.タイルGroup_Enter);
 			// 
 			// Kind
 			// 
@@ -56,13 +57,14 @@
 			this.Kind.Name = "Kind";
 			this.Kind.Size = new System.Drawing.Size(348, 28);
 			this.Kind.TabIndex = 0;
+			this.Kind.SelectedIndexChanged += new System.EventHandler(this.Kind_SelectedIndexChanged);
 			// 
 			// LevelEditorDlg
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(384, 121);
-			this.Controls.Add(this.groupBox1);
+			this.Controls.Add(this.タイルGroup);
 			this.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -75,14 +77,14 @@
 			this.TopMost = true;
 			this.Load += new System.EventHandler(this.LevelEditorDlg_Load);
 			this.Shown += new System.EventHandler(this.LevelEditorDlg_Shown);
-			this.groupBox1.ResumeLayout(false);
+			this.タイルGroup.ResumeLayout(false);
 			this.ResumeLayout(false);
 
 		}
 
 		#endregion
 
-		private System.Windows.Forms.GroupBox groupBox1;
+		private System.Windows.Forms.GroupBox タイルGroup;
 		private System.Windows.Forms.ComboBox Kind;
 	}
 }

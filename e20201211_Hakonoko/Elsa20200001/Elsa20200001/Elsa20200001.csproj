@@ -94,6 +94,10 @@
     <Compile Include="Games\Designs\Design_0001.cs" />
     <Compile Include="Games\Enemies\EnemyCommon.cs" />
     <Compile Include="Games\Enemies\EnemyConsts.cs" />
+    <Compile Include="Games\Enemies\Enemy_Meteor.cs" />
+    <Compile Include="Games\Enemies\Enemy_MeteorLoader.cs" />
+    <Compile Include="Games\Enemies\Events\Enemy_Event9001.cs" />
+    <Compile Include="Games\Enemies\Events\Enemy_Event9002.cs" />
     <Compile Include="Games\GameCommon.cs" />
     <Compile Include="Games\GameConsts.cs" />
     <Compile Include="GameCommons\DDCoffeeBreak.cs" />
