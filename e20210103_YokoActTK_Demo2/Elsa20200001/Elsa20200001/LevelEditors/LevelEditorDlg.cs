@@ -129,5 +129,35 @@ namespace Charlotte.LevelEditors
 		{
 			this.TileEnemySw.Text = TEXT_MODE_ENEMY;
 		}
+
+		private void タイルGroup_Enter(object sender, EventArgs e)
+		{
+			// noop
+		}
+
+		private void Tile_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			// noop
+		}
+
+		private void 敵Group_Enter(object sender, EventArgs e)
+		{
+			// noop
+		}
+
+		private void Enemy_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			// noop
+		}
+
+		private void ShowTile_CheckedChanged(object sender, EventArgs e)
+		{
+			// noop
+		}
+
+		private void ShowEnemy_CheckedChanged(object sender, EventArgs e)
+		{
+			// noop
+		}
 	}
 }

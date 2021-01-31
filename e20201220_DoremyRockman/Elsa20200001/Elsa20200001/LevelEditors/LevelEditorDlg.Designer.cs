@@ -55,6 +55,7 @@
 			this.GroupTile.TabIndex = 2;
 			this.GroupTile.TabStop = false;
 			this.GroupTile.Text = "タイル (左ボタン / 右ボタン)";
+			this.GroupTile.Enter += new System.EventHandler(this.GroupTile_Enter);
 			// 
 			// Tile_R
 			// 
@@ -66,6 +67,7 @@
 			this.Tile_R.Name = "Tile_R";
 			this.Tile_R.Size = new System.Drawing.Size(348, 28);
 			this.Tile_R.TabIndex = 1;
+			this.Tile_R.SelectedIndexChanged += new System.EventHandler(this.Tile_R_SelectedIndexChanged);
 			this.Tile_R.Click += new System.EventHandler(this.Tile_R_Click);
 			// 
 			// Tile_L
@@ -78,6 +80,7 @@
 			this.Tile_L.Name = "Tile_L";
 			this.Tile_L.Size = new System.Drawing.Size(348, 28);
 			this.Tile_L.TabIndex = 0;
+			this.Tile_L.SelectedIndexChanged += new System.EventHandler(this.Tile_L_SelectedIndexChanged);
 			this.Tile_L.Click += new System.EventHandler(this.Tile_L_Click);
 			// 
 			// GroupEnemy
@@ -91,6 +94,7 @@
 			this.GroupEnemy.TabIndex = 3;
 			this.GroupEnemy.TabStop = false;
 			this.GroupEnemy.Text = "敵 / イベントオブジェクト";
+			this.GroupEnemy.Enter += new System.EventHandler(this.GroupEnemy_Enter);
 			// 
 			// Enemy
 			// 
@@ -102,6 +106,7 @@
 			this.Enemy.Name = "Enemy";
 			this.Enemy.Size = new System.Drawing.Size(348, 28);
 			this.Enemy.TabIndex = 0;
+			this.Enemy.SelectedIndexChanged += new System.EventHandler(this.Enemy_SelectedIndexChanged);
 			this.Enemy.Click += new System.EventHandler(this.Enemy_Click);
 			// 
 			// ShowTile
@@ -115,6 +120,7 @@
 			this.ShowTile.TabIndex = 4;
 			this.ShowTile.Text = "タイルを表示する";
 			this.ShowTile.UseVisualStyleBackColor = true;
+			this.ShowTile.CheckedChanged += new System.EventHandler(this.ShowTile_CheckedChanged);
 			// 
 			// ShowEnemy
 			// 
@@ -127,6 +133,7 @@
 			this.ShowEnemy.TabIndex = 5;
 			this.ShowEnemy.Text = "敵 / イベントオブジェクトを表示する";
 			this.ShowEnemy.UseVisualStyleBackColor = true;
+			this.ShowEnemy.CheckedChanged += new System.EventHandler(this.ShowEnemy_CheckedChanged);
 			// 
 			// TileEnemySw
 			// 
