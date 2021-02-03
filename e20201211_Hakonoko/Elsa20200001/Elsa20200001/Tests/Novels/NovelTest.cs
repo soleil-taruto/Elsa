@@ -35,7 +35,7 @@ namespace Charlotte.Tests.Novels
 			//name = "テスト1002";
 			//name = "テスト1003";
 			//name = "テスト1004";
-			name = "ステージ0001";
+			//name = "ステージ0001";
 			//name = "ステージ0002";
 			//name = "ステージ0003";
 			//name = "ステージ0004";
@@ -43,7 +43,7 @@ namespace Charlotte.Tests.Novels
 			//name = "ステージ0006";
 			//name = "ステージ0007";
 			//name = "ステージ0008";
-			//name = "ステージ0009";
+			name = "ステージ0009";
 
 			// ----
 

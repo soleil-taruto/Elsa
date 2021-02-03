@@ -103,10 +103,7 @@ namespace Charlotte.Games.Enemies
 
 			Game.I.タイル接近_敵描画_Points.Add(new D2Point(this.X, this.Y));
 
-			if (
-				Game.I.Player.DeadFrame == 0 && // ? プレイヤー生存
-				DDUtils.IsOutOfCamera(new D2Point(this.X, this.Y), 50.0)
-				)
+			if (DDUtils.IsOutOfCamera(new D2Point(this.X, this.Y), 50.0))
 				this.DeadFlag = true;
 		}
 

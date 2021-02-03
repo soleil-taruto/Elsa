@@ -1,0 +1,38 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Charlotte.Commons;
+using Charlotte.GameCommons;
+using Charlotte.Games.Designs;
+
+namespace Charlotte.Games.Enemies.Events
+{
+	public class Enemy_Event9003 : Enemy
+	{
+		public Enemy_Event9003(D2Point pos)
+			: base(pos)
+		{ }
+
+		public override void Draw()
+		{
+			if (DDUtils.GetDistance(new D2Point(this.X, this.Y), new D2Point(Game.I.Player.X, Game.I.Player.Y)) < 50.0)
+			{
+				if (Game.I.FZPhase == 1)
+				{
+					Game.I.FZPhase = 2;
+
+					foreach (Enemy enemy in Game.I.Enemies.Iterate())
+						enemy.DeadFlag = true;
+
+					Game.I.Map.Design = new Design_0002();
+				}
+			}
+		}
+
+		public override Enemy GetClone()
+		{
+			return new Enemy_Event9003(new D2Point(this.X, this.Y));
+		}
+	}
+}

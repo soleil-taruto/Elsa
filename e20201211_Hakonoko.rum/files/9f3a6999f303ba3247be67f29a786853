@@ -85,10 +85,7 @@ namespace Charlotte.Games
 		public bool FinalZone = false;
 
 		public double FZRate = 0.0;
-		public bool FZEvent9003_Actived = false;
-		public bool FZEvent9003B_Actived = false;
-		public bool FZEvent9004_Actived = false;
-		public bool FZEnding_復讐_突入 = false;
+		public int FZPhase = 1; // { 1, 2 }
 
 		public void Perform()
 		{
@@ -143,14 +140,7 @@ namespace Charlotte.Games
 					this.カメラ位置調整(false);
 
 				if (this.FinalZone)
-					//DDUtils.Approach(ref this.FZRate, 1.0, 0.99);
-					DDUtils.Approach(ref this.FZRate, 1.0, 0.997);
-
-				if (this.FZEnding_復讐_突入)
-				{
-					this.EndStatus = EndStatus_e.復讐エンド;
-					break;
-				}
+					DDUtils.Approach(ref this.FZRate, 1.0, 0.99);
 
 				if (DDConfig.LOG_ENABLED && DDKey.GetInput(DX.KEY_INPUT_E) == 1) // エディットモード(デバッグ用)
 				{
@@ -1272,9 +1262,6 @@ namespace Charlotte.Games
 						case MapCell.Kind_e.EVENT_9002_6: this.Enemies.Add(new Enemy_Event9002(pos, 6)); break;
 						case MapCell.Kind_e.EVENT_9002_8: this.Enemies.Add(new Enemy_Event9002(pos, 8)); break;
 						case MapCell.Kind_e.EVENT_9003: this.Enemies.Add(new Enemy_Event9003(pos)); break;
-						case MapCell.Kind_e.EVENT_9003B: this.Enemies.Add(new Enemy_Event9003B(pos)); break;
-						case MapCell.Kind_e.EVENT_9004: this.Enemies.Add(new Enemy_Event9004(pos)); break;
-						case MapCell.Kind_e.EVENT_9005: this.Enemies.Add(new Enemy_Event9005(pos)); break;
 
 						default:
 							break;

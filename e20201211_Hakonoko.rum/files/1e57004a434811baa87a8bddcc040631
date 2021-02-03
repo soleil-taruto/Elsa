@@ -69,9 +69,6 @@ namespace Charlotte.Games
 			EVENT_9002_6,
 			EVENT_9002_8,
 			EVENT_9003,
-			EVENT_9003B,
-			EVENT_9004,
-			EVENT_9005,
 		}
 
 		public static string[] Kine_e_Names = new string[]
@@ -117,9 +114,6 @@ namespace Charlotte.Games
 			"EVENT_9002_6",
 			"EVENT_9002_8",
 			"EVENT_9003",
-			"EVENT_9003B",
-			"EVENT_9004",
-			"EVENT_9005",
 		};
 
 		public static I3Color[] Kind_e_Colors = new I3Color[]
@@ -165,9 +159,6 @@ namespace Charlotte.Games
 			new I3Color(   0,   0,   4 ), // EVENT_9002_6
 			new I3Color(   0,   0,   5 ), // EVENT_9002_8
 			new I3Color(   0,   0,   6 ), // EVENT_9003
-			new I3Color(   0,   1,   6 ), // EVENT_9003B
-			new I3Color(   0,   0,   7 ), // EVENT_9004
-			new I3Color(   0,   0,   8 ), // EVENT_9005
 		};
 
 		public Kind_e Kind;
