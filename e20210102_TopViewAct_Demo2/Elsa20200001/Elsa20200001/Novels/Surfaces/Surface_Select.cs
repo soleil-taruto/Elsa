@@ -49,8 +49,6 @@ namespace Charlotte.Novels.Surfaces
 
 			for (; ; )
 			{
-				//Game.I.SkipMode = false; // moved -- 選択肢表示中ずっとやる必要は無いんじゃないかと
-
 				if (
 					this.Options.Count < NovelConsts.SELECT_OPTION_MIN ||
 					this.Options.Count > NovelConsts.SELECT_OPTION_MAX
@@ -59,6 +57,7 @@ namespace Charlotte.Novels.Surfaces
 
 				// ---- 入力ここから
 
+				if (!Novel.I.BacklogMode)
 				{
 					int moving = 0;
 

@@ -20,7 +20,7 @@ namespace Charlotte.Novels.Surfaces
 		}
 
 		private double A = 1.0;
-		private bool LControlSkipMode = false;
+		private bool ControlSkipMode = false;
 
 		public override IEnumerable<bool> E_Draw()
 		{
@@ -28,8 +28,6 @@ namespace Charlotte.Novels.Surfaces
 			{
 				// 入力：スキップモード・オートモード_解除
 				if (
-					//DDKey.GetInput(DX.KEY_INPUT_SPACE) == 1 ||
-					//DDKey.GetInput(DX.KEY_INPUT_RETURN) == 1 ||
 					DDMouse.Rot != 0 ||
 					DDMouse.L.GetInput() == -1 && Novel.I.SelectedSystemButtonIndex == -1 || // システムボタン以外を左クリック
 					DDMouse.R.GetInput() == -1 ||
@@ -38,20 +36,17 @@ namespace Charlotte.Novels.Surfaces
 					Novel.I.CancelSkipAutoMode();
 
 				// 入力：スキップモード
-				if (
-					//1 <= DDKey.GetInput(DX.KEY_INPUT_LCONTROL) ||
-					1 <= DDInput.L.GetInput()
-					)
+				if (1 <= DDInput.L.GetInput())
 				{
 					Novel.I.SkipMode = true;
-					this.LControlSkipMode = true;
+					this.ControlSkipMode = true;
 				}
 				else
 				{
-					if (this.LControlSkipMode)
+					if (this.ControlSkipMode)
 					{
 						Novel.I.SkipMode = false;
-						this.LControlSkipMode = false;
+						this.ControlSkipMode = false;
 					}
 				}
 

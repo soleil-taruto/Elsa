@@ -1,7 +1,8 @@
 ﻿----
 ベース・プロジェクト
 
-e20201210_YokoActTM_Demo2
+e20201265_NovelAdv_Base2
+e20201266_YokoActTM_Demo2
 e20210101_YokoShoot_Demo2
 e20210102_TopViewAct_Demo2
 e20210103_YokoActTK_Demo2
