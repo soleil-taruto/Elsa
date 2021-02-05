@@ -8,10 +8,8 @@ e20210102_TopViewAct_Demo2
 e20210103_YokoActTK_Demo2
 
 ----
-メインストリーム
+開発中
 
 e20201211_Hakonoko
-	ハコノコ 開発中
-
 e20201220_DoremyRockman
-	ドレミー・ロックマン 開発中
+e20210205_Nekomimi
