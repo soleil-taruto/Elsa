@@ -40,6 +40,8 @@ namespace Charlotte.Games
 		public const int MESSAGE_SPEED_DEF = 3;
 		public const int MESSAGE_SPEED_MAX = 5; // 速い
 
+		public const int MESSAGE_WINDOW_A_PCT_DEF = 90;
+
 		public const double SYSTEM_BUTTON_X = 1060.0;
 		public const double SYSTEM_BUTTON_Y = 824.0;
 		public const double SYSTEM_BUTTON_X_STEP = 156.0;

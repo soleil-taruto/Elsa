@@ -71,7 +71,7 @@ namespace Charlotte.Games.Surfaces
 				{
 					bool focused = index == Game.I.SelectedSystemButtonIndex;
 
-					DDDraw.SetAlpha(this.A * (focused ? 1.0 : 0.8));
+					DDDraw.SetAlpha(this.A * (focused ? 1.0 : Ground.I.MessageWindow_A_Pct / 100.0));
 					DDDraw.DrawBegin(
 						focused || buttons[index].oh ? buttons[index].fp : buttons[index].p,
 						GameConsts.SYSTEM_BUTTON_X + index * GameConsts.SYSTEM_BUTTON_X_STEP,

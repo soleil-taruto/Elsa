@@ -80,6 +80,7 @@ namespace Charlotte.GameCommons
 				//lines.Add("Donut3-SaveData"); // Dummy
 
 				lines.Add("" + Ground.I.MessageSpeed);
+				lines.Add("" + Ground.I.MessageWindow_A_Pct);
 
 				foreach (string savedData in Ground.I.GameSaveDataSlots)
 				{
@@ -182,6 +183,7 @@ namespace Charlotte.GameCommons
 					//DDUtils.Noop(lines[c++]); // Dummy
 
 					Ground.I.MessageSpeed = int.Parse(lines[c++]);
+					Ground.I.MessageWindow_A_Pct = int.Parse(lines[c++]);
 
 					for (int index = 0; index < Consts.GAME_SAVE_DATA_SLOT_NUM; index++)
 					{

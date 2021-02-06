@@ -167,6 +167,7 @@
     <Compile Include="Games\Surfaces\Surface_効果音.cs" />
     <Compile Include="Games\Surfaces\Surface_音楽.cs" />
     <Compile Include="Games\TitleMenu.cs" />
+    <Compile Include="Games\ぼかし効果.cs" />
     <Compile Include="Ground.cs" />
     <Compile Include="MainWin.cs">
       <SubType>Form</SubType>

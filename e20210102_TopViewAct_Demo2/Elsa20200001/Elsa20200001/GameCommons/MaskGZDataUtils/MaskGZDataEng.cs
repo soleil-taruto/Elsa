@@ -14,6 +14,11 @@ namespace Charlotte.GameCommons.MaskGZDataUtils
 
 		private uint X;
 
+		private void AvoidXIsZero()
+		{
+			this.X = this.X % 0xffffffffu + 1u;
+		}
+
 		private uint Rand()
 		{
 			// Xorshift-32
@@ -68,6 +73,7 @@ namespace Charlotte.GameCommons.MaskGZDataUtils
 			this.X = (uint)data.Length;
 			this.Rand();
 			this.X ^= uint.Parse(seed);
+			this.AvoidXIsZero();
 			this.Shuffle(swapIdxLst);
 
 			this.Mask(data);

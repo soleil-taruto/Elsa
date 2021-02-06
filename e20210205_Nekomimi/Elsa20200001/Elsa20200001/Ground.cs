@@ -18,6 +18,7 @@ namespace Charlotte
 		// DDSaveData.Save/Load でセーブ・ロードする情報はここに保持する。
 
 		public int MessageSpeed = GameConsts.MESSAGE_SPEED_DEF;
+		public int MessageWindow_A_Pct = GameConsts.MESSAGE_WINDOW_A_PCT_DEF;
 		public string[] GameSaveDataSlots = Enumerable.Range(0, Consts.GAME_SAVE_DATA_SLOT_NUM).Select(v => (string)null).ToArray(); // null 要素 == セーブデータ無し
 	}
 }

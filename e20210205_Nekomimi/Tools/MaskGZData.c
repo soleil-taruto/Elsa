@@ -9,6 +9,10 @@ static uint MGZE_GetSize(uint size)
 
 static uint MGZE_X;
 
+static void MGZE_AvoidXIsZero(void)
+{
+	MGZE_X = MGZE_X % UINTMAX + 1;
+}
 static uint MGZE_Rand(void)
 {
 	// Xorshift-32
@@ -55,6 +59,7 @@ static void MGZE_Transpose_seed(autoBlock_t *data, uint seed)
 	MGZE_X = getSize(data);
 	MGZE_Rand();
 	MGZE_X ^= seed;
+	MGZE_AvoidXIsZero();
 	MGZE_Shuffle(swapIdxLst);
 
 	MGZE_Mask(data);
