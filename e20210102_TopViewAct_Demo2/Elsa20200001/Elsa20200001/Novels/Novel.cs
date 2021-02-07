@@ -441,7 +441,7 @@ namespace Charlotte.Novels
 			for (; ; )
 			{
 				selectIndex = simpleMenu.Perform(
-					"システムメニュー(仮)",
+					"システムメニュー",
 					new string[]
 					{
 						"タイトルに戻る",
