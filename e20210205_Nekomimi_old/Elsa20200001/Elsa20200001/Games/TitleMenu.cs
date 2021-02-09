@@ -73,7 +73,7 @@ namespace Charlotte.Games
 			private const double ITEM_Y = 550;
 			private const double ITEM_Y_STEP = 90;
 			private const double ITEM_A = 0.5;
-			private const double ITEM_W = 400;
+			private const double ITEM_W = 440;
 			private const double ITEM_H = 80;
 
 			private const double ITEM_SEL_X = 240.0;
@@ -102,12 +102,12 @@ namespace Charlotte.Games
 				{
 					DDPicture picture = new DDPicture[]
 					{
-						Ground.I.Picture.TitleMenuItem_はじめから[1],
-						Ground.I.Picture.TitleMenuItem_つづきから[1],
-						Ground.I.Picture.TitleMenuItem_コンフィグ[1],
-						Ground.I.Picture.TitleMenuItem_CGモード[1],
-						Ground.I.Picture.TitleMenuItem_回想モード[1],
-						Ground.I.Picture.TitleMenuItem_終了[1],
+						Ground.I.Picture.TitleMenuItem_はじめから,
+						Ground.I.Picture.TitleMenuItem_つづきから,
+						Ground.I.Picture.TitleMenuItem_コンフィグ,
+						Ground.I.Picture.TitleMenuItem_CGモード,
+						Ground.I.Picture.TitleMenuItem_回想モード,
+						Ground.I.Picture.TitleMenuItem_END,
 					}
 					[this.SelfIndex];
 
