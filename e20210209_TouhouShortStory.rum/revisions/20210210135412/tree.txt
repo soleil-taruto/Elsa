@@ -1,0 +1,74 @@
+﻿dat
+dat\dat
+dat\dat\Font
+dat\dat\Font\K Gothic
+dat\dat\General
+dat\dat\Logo
+dat\dat\タイトル設定ボタン
+dat\dat\タイトル設定枠
+dat\dat\フリー素材
+dat\dat\フリー素材\かんなにらせ
+dat\dat\フリー素材\空想曲線
+dat\dat\フリー素材\空想曲線\Messageframe_18
+dat\dat\フリー素材\空想曲線\Messageframe_18\01 紅梅
+dat\dat\フリー素材\空想曲線\Messageframe_18\01 紅梅\01 メッセージウィンドウ
+dat\dat\フリー素材\空想曲線\Messageframe_18\01 紅梅\02 ネームウィンドウ
+dat\dat\フリー素材\空想曲線\Messageframe_18\01 紅梅\03 選択肢ボタン
+dat\dat\フリー素材\空想曲線\Messageframe_18\01 紅梅\04 システムボタン
+dat\dat\フリー素材\空想曲線\Messageframe_18\02 梔子
+dat\dat\フリー素材\空想曲線\Messageframe_18\02 梔子\01 メッセージウィンドウ
+dat\dat\フリー素材\空想曲線\Messageframe_18\02 梔子\02 ネームウィンドウ
+dat\dat\フリー素材\空想曲線\Messageframe_18\02 梔子\03 選択肢ボタン
+dat\dat\フリー素材\空想曲線\Messageframe_18\02 梔子\04 システムボタン
+dat\dat\フリー素材\空想曲線\Messageframe_18\03 勿忘草
+dat\dat\フリー素材\空想曲線\Messageframe_18\03 勿忘草\01 メッセージウィンドウ
+dat\dat\フリー素材\空想曲線\Messageframe_18\03 勿忘草\02 ネームウィンドウ
+dat\dat\フリー素材\空想曲線\Messageframe_18\03 勿忘草\03 選択肢ボタン
+dat\dat\フリー素材\空想曲線\Messageframe_18\03 勿忘草\04 システムボタン
+dat\dat\フリー素材\空想曲線\Messageframe_18\04 淡萌黄
+dat\dat\フリー素材\空想曲線\Messageframe_18\04 淡萌黄\01 メッセージウィンドウ
+dat\dat\フリー素材\空想曲線\Messageframe_18\04 淡萌黄\02 ネームウィンドウ
+dat\dat\フリー素材\空想曲線\Messageframe_18\04 淡萌黄\03 選択肢ボタン
+dat\dat\フリー素材\空想曲線\Messageframe_18\04 淡萌黄\04 システムボタン
+dat\dat\フリー素材\空想曲線\Messageframe_18\05 桔梗
+dat\dat\フリー素材\空想曲線\Messageframe_18\05 桔梗\01 メッセージウィンドウ
+dat\dat\フリー素材\空想曲線\Messageframe_18\05 桔梗\02 ネームウィンドウ
+dat\dat\フリー素材\空想曲線\Messageframe_18\05 桔梗\03 選択肢ボタン
+dat\dat\フリー素材\空想曲線\Messageframe_18\05 桔梗\04 システムボタン
+dat\dat\フリー素材\空想曲線\Messageframe_29
+dat\dat\フリー素材\空想曲線\Messageframe_29\material
+dat\dat\フリー素材\空想曲線\Messageframe_29\material\01 message
+dat\dat\フリー素材\空想曲線\Messageframe_29\material\02 button
+dat\dat\フリー素材\空想曲線\Messageframe_29\material\03 system_button
+dat\dat\フリー素材\空想曲線\Messageframe_33
+dat\dat\フリー素材\空想曲線\Messageframe_33\material
+dat\dat\フリー素材\空想曲線\Messageframe_33\material\01 メッセージウィンドウ
+dat\dat\フリー素材\空想曲線\Messageframe_33\material\01 メッセージウィンドウ\1280
+dat\dat\フリー素材\空想曲線\Messageframe_33\material\02 クリック待ちグリフ
+dat\dat\フリー素材\空想曲線\Messageframe_39
+dat\dat\フリー素材\空想曲線\Messageframe_39\material
+dat\dat\フリー素材\結月ゆかりステッカー
+dat\dat\フリー素材\小森平
+dat\dat\フリー素材\小森平\sfxrse
+dat\dat\フリー素材\小森平\sfxrse\01pickup
+dat\dat\フリー素材\星屑物語
+dat\dat\フリー素材\魔王魂
+dat\dat\フリー素材\魔王魂\bgm_maoudamashii_piano
+dat\res
+dat\res\Scenario
+dat\res\Scenario\Include
+doc
+Elsa20200001
+Elsa20200001\Elsa20200001
+Elsa20200001\Elsa20200001\Commons
+Elsa20200001\Elsa20200001\GameCommons
+Elsa20200001\Elsa20200001\GameCommons\MaskGZDataUtils
+Elsa20200001\Elsa20200001\GameCommons\Options
+Elsa20200001\Elsa20200001\Games
+Elsa20200001\Elsa20200001\Games\Surfaces
+Elsa20200001\Elsa20200001\Properties
+Elsa20200001\Elsa20200001\Tests
+Elsa20200001\Elsa20200001\Tests\Games
+out
+tmp
+Tools

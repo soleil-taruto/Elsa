@@ -34,15 +34,25 @@ namespace Charlotte.Games
 
 			public override IEnumerable<bool> E_Task()
 			{
+				DDPicture picture = Ground.I.Picture.Title;
+
+				double slideRate = 0.0;
 				double leaveRate = 0.0;
 				double z = 1.0;
 
 				for (; ; )
 				{
+					DDUtils.Approach(ref slideRate, 1.0, 0.9999);
 					DDUtils.Approach(ref leaveRate, this.TopMenuLeaved ? 1.0 : 0.0, 0.95);
 					DDUtils.Approach(ref z, this.TopMenuLeaved ? 1.02 : 1.0, 0.9);
 
-					DDDraw.DrawBegin(Ground.I.Picture.Title, DDConsts.Screen_W / 2, DDConsts.Screen_H / 2);
+					D4Rect drawRect = DDUtils.AdjustRectExterior(
+						picture.GetSize().ToD2Size(),
+						new D4Rect(0, 0, DDConsts.Screen_W, DDConsts.Screen_H),
+						slideRate
+						);
+
+					DDDraw.DrawBeginRect(Ground.I.Picture.Title, drawRect.L, drawRect.T, drawRect.W, drawRect.H);
 					DDDraw.DrawZoom(z);
 					DDDraw.DrawEnd();
 
@@ -64,13 +74,13 @@ namespace Charlotte.Games
 
 		private class TopMenuTask : DDTask
 		{
-			public const int ITEM_NUM = 6;
+			public const int ITEM_NUM = 4;
 			public int SelectIndex = -1; // -1 == 未選択
 
 			public List<ItemTask> Items = new List<ItemTask>();
 
 			private const double ITEM_X = 220;
-			private const double ITEM_Y = 550;
+			private const double ITEM_Y = 720;
 			private const double ITEM_Y_STEP = 90;
 			private const double ITEM_A = 0.5;
 			private const double ITEM_W = 440;
@@ -104,10 +114,8 @@ namespace Charlotte.Games
 					{
 						Ground.I.Picture.TitleMenuItem_はじめから,
 						Ground.I.Picture.TitleMenuItem_つづきから,
-						Ground.I.Picture.TitleMenuItem_コンフィグ,
-						Ground.I.Picture.TitleMenuItem_回想モード,
-						Ground.I.Picture.TitleMenuItem_CGモード,
-						Ground.I.Picture.TitleMenuItem_END,
+						Ground.I.Picture.TitleMenuItem_設定,
+						Ground.I.Picture.TitleMenuItem_終了,
 					}
 					[this.SelfIndex];
 
@@ -261,14 +269,6 @@ namespace Charlotte.Games
 							break;
 
 						case 3:
-							// 回想モード
-							break;
-
-						case 4:
-							// CGモード
-							break;
-
-						case 5:
 							goto endMenu;
 
 						default:

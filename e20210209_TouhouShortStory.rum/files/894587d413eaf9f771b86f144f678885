@@ -105,8 +105,8 @@ namespace Charlotte.Games
 						Ground.I.Picture.TitleMenuItem_はじめから,
 						Ground.I.Picture.TitleMenuItem_つづきから,
 						Ground.I.Picture.TitleMenuItem_コンフィグ,
-						Ground.I.Picture.TitleMenuItem_回想モード,
 						Ground.I.Picture.TitleMenuItem_CGモード,
+						Ground.I.Picture.TitleMenuItem_回想モード,
 						Ground.I.Picture.TitleMenuItem_END,
 					}
 					[this.SelfIndex];
@@ -261,11 +261,11 @@ namespace Charlotte.Games
 							break;
 
 						case 3:
-							// 回想モード
+							// TODO: CGモード
 							break;
 
 						case 4:
-							// CGモード
+							// TODO: 回想モード
 							break;
 
 						case 5:
