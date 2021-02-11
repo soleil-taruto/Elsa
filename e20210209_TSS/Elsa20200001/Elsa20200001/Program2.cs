@@ -8,7 +8,7 @@ using Charlotte.GameCommons;
 using Charlotte.Games;
 using Charlotte.Tests;
 using Charlotte.Tests.Games;
-using Charlotte.Tests.Novels;
+using System.IO;
 
 namespace Charlotte
 {
@@ -72,9 +72,7 @@ namespace Charlotte
 
 					DDPrint.Print(string.Join(" ",
 						DDEngine.FrameProcessingMillis,
-						DDEngine.FrameProcessingMillis_Worst,
-
-						Game.I == null ? "-" : "" + Game.I.Player.HP
+						DDEngine.FrameProcessingMillis_Worst
 
 						// デバッグ表示する情報をここへ追加..
 						));
@@ -86,6 +84,23 @@ namespace Charlotte
 			if (ProcMain.ArgsReader.ArgIs("//D")) // 引数は適当な文字列
 			{
 				Main4_Debug();
+			}
+			else if (ProcMain.ArgsReader.HasArgs()) // シナリオファイルを指定して実行
+			{
+				string name = ProcMain.ArgsReader.NextArg();
+				string scenarioRootDir = Path.Combine(ProcMain.SelfDir, DDConsts.ResourceDir_InternalRelease, Scenario.SCENARIO_FILE_PREFIX);
+
+				scenarioRootDir = SCommon.MakeFullPath(scenarioRootDir);
+
+				name = SCommon.MakeFullPath(name);
+				name = SCommon.ChangeRoot(name, scenarioRootDir);
+				name = Path.Combine(Path.GetDirectoryName(name), Path.GetFileNameWithoutExtension(name)); // remove extention
+
+				using (new Game())
+				{
+					Game.I.Status.Scenario = new Scenario(name);
+					Game.I.Perform();
+				}
 			}
 			else
 			{
@@ -99,16 +114,12 @@ namespace Charlotte
 
 			//Main4_Release();
 			//new Test0001().Test01();
-			//new DDRandomTest().Test01();
+			//new Test0001().Test02();
 			//new TitleMenuTest().Test01();
+			new SettingMenuTest().Test01();
 			//new GameTest().Test01();
 			//new GameTest().Test02();
-			//new GameTest().Test03(); // 開始マップ名を選択
-			//new WorldGameMasterTest().Test01();
-			//new WorldGameMasterTest().Test02();
-			new WorldGameMasterTest().Test03(); // 開始マップ名を選択
-			//new NovelTest().Test01();
-			//new NovelTest().Test02(); // テスト0001
+			//new GameTest().Test03(); // シナリオ
 
 			// ----
 		}

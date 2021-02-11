@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Charlotte.Commons;
-using Charlotte.Games.Surfaces;
 using Charlotte.GameCommons;
+using Charlotte.Games.Surfaces;
 
 namespace Charlotte.Games
 {
