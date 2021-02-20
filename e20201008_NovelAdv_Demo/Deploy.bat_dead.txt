@@ -4,5 +4,5 @@ cx **
 rem	CALL DebugRelease.bat /B
 	CALL Release.bat /B
 
-C:\Factory\Petra\UpdatingCopy.exe out C:\be\Web\DocRoot\Elsa\d20201103_TopViewAct
+C:\Factory\Petra\UpdatingCopy.exe out C:\be\Web\DocRoot\Elsa\d20201008_NovelAdv
 C:\Factory\Petra\RunOnBatch.exe C:\be\Web Deploy.bat

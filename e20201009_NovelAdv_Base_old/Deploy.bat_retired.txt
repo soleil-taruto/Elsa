@@ -3,5 +3,5 @@ cx **
 
 CALL DebugRelease.bat /B
 
-C:\Factory\Elsa\UpdatingCopy.exe out C:\be\Web\DocRoot\Elsa\e20201009_NovelAdv
-C:\Factory\Elsa\RunOnBatch.exe C:\be\Web Deploy.bat
+C:\Factory\Petra\UpdatingCopy.exe out C:\be\Web\DocRoot\Elsa\e20201009_NovelAdv
+C:\Factory\Petra\RunOnBatch.exe C:\be\Web Deploy.bat

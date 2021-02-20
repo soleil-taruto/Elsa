@@ -3,7 +3,6 @@ cx **
 
 	CALL DebugRelease.bat /B
 rem	CALL Release.bat /B
-rem	CALL Release.bat /V 001
 
-C:\Factory\Petra\UpdatingCopy.exe out C:\be\Web\DocRoot\Elsa\d20210109_Nekomimi
+C:\Factory\Petra\UpdatingCopy.exe out C:\be\Web\DocRoot\Elsa\d20201017_NovelAdv
 C:\Factory\Petra\RunOnBatch.exe C:\be\Web Deploy.bat

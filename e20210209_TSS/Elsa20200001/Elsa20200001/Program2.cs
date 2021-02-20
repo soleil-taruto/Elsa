@@ -55,9 +55,9 @@ namespace Charlotte
 			//DDTouch.Add(Ground.I.SE.XXX);
 
 			// 全部設定
-			//DDTouch.AddAllPicture();
-			//DDTouch.AddAllMusic();
-			//DDTouch.AddAllSE();
+			DDTouch.AddAllPicture();
+			DDTouch.AddAllMusic();
+			DDTouch.AddAllSE();
 
 			#endregion
 
@@ -112,11 +112,11 @@ namespace Charlotte
 		{
 			// ---- choose one ----
 
-			//Main4_Release();
+			Main4_Release();
 			//new Test0001().Test01();
 			//new Test0001().Test02();
 			//new TitleMenuTest().Test01();
-			new SettingMenuTest().Test01();
+			//new SettingMenuTest().Test01();
 			//new GameTest().Test01();
 			//new GameTest().Test02();
 			//new GameTest().Test03(); // シナリオ
